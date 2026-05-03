@@ -19,8 +19,7 @@ export default function GrammarFillBlanks({
   const [correctQuestions, setCorrectQuestions] = useState(0);
 
   const [gameOver, setGameOver] = useState(false);
-  console.log("LEVEL:", level);
-console.log("SELECTED:", selectedGrammar);
+  const [showHint, setShowHint] = useState(false);
   
 
   /* EFFECTS */
@@ -112,6 +111,7 @@ console.log("SELECTED:", selectedGrammar);
 
     setSelectedChoice(null);
     setShowExplanation(false);
+    setShowHint(false);
   };
 
   const handleAnswer = (choice) => {
@@ -195,6 +195,15 @@ console.log("SELECTED:", selectedGrammar);
                 __html: currentQuestion.question,
               }}
             />
+          </div>
+          <div className="hint-section">
+            <button
+              className="btn"
+              onClick={() => setShowHint((prev) => !prev)}
+            >
+              {showHint ? "Hide Translation" : "Show Translation"}
+            </button>
+            {showHint && currentQuestion.translation && (currentQuestion.translation)}
           </div>
 
           <div className="answers">

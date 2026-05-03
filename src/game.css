@@ -557,7 +557,7 @@
 
 .grammar-question {
   font-size: 4rem;
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 .grammar-choices {
@@ -592,4 +592,12 @@
   flex-direction: column;
   gap: 10px;
   align-items: center;
+}
+
+.hint-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  font-size: 3rem;
 }
