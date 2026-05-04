@@ -79,6 +79,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .choice-container {
@@ -346,6 +347,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .conjugation-wheel h1 {
@@ -538,10 +540,6 @@
   gap: 1rem;
 }
 
-.grammar-game-buttons {
-  height: 80px;
-}
-
 .grammar-game {
   gap: 1rem;
 }
@@ -600,4 +598,88 @@
   align-items: center;
   justify-content: left;
   font-size: 3rem;
+}
+
+/* GRAMMAR ORDER */
+
+.sentence-preview {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.8;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  width: 100%;
+}
+
+.inline-slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 70px;
+  min-height: 42px;
+
+  margin: 0 6px;
+  padding: 4px 10px;
+
+  border: 2px dashed #888;
+  border-radius: 8px;
+
+  background: rgba(255,255,255,0.05);
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.inline-slot:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.slot-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+}
+
+.choice-button {
+  min-width: 100px;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.choice-button:hover {
+  transform: translateY(-2px);
+}
+
+.choice-button:active {
+  transform: scale(0.96);
+}
+
+.grammar-result {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .sentence-preview {
+    font-size: 1.5rem;
+  }
+
+  .answer-slot {
+    min-width: 80px;
+    min-height: 55px;
+    font-size: 1.2rem;
+  }
+
+  .choice-button {
+    font-size: 1.1rem;
+  }
 }

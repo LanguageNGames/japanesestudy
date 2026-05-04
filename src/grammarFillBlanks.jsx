@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 
 export default function GrammarFillBlanks({
-  selectedGrammar,
+  BASE_PATH,
   level,
+  selectedGrammar,
   onExit,
 }) {
   const [questionPool, setQuestionPool] = useState([]);

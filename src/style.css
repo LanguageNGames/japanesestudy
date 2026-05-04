@@ -187,6 +187,7 @@ a{
     border: .1rem solid #56a5eb;
     margin-bottom: 1rem;
     text-decoration: none;
+    border-radius: 12px;
     color: #56a5eb;
     background: white;
 }
@@ -206,9 +207,6 @@ a{
     transform: none;
 }
 
-.back-btn {
-    margin-top: 2rem;
-}
 
 .config-section {
     display: grid;

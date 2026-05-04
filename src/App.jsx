@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "./Header";
 import "./style.css";
 import "./game.css";
@@ -11,6 +11,8 @@ import ConjugationGame from "./conjugationGame.jsx";
 import ConjugationWheel from "./conjugationWheel.jsx";
 import GrammarSelect from "./grammarSelect.jsx";
 import GrammarFillBlanks from "./grammarFillBlanks.jsx";
+import GrammarOrder from "./grammarOrder.jsx";
+
 
 export default function App() {
   const [view, setView] = useState({screen: "home"});
@@ -19,7 +21,7 @@ export default function App() {
   const [gameMode, setGameMode] = useState(null);
   const [kanaPool, setKanaPool] = useState([]);
   const [conjugationPool, setConjugationPool] = useState([]);
-  const [grammarConfig, setGrammarConfig] = useState({level: null,grammar: [],});
+  const [grammarConfig, setGrammarConfig] = useState({level: null, difficulty: null, grammar: null,});
 
   // New state for Kanji Game configuration
   const [questionType, setQuestionType] = useState("kanji");
@@ -320,8 +322,29 @@ export default function App() {
             <GrammarFillBlanks
               BASE_PATH={BASE_PATH}
               level={grammarConfig.level}
+              difficulty={grammarConfig.difficulty}
               selectedGrammar={grammarConfig.grammar}
-              onExit={() => setView({screen: "grammar", level: grammarConfig.level,})}
+              onExit={() =>
+                setView({
+                  screen: "grammar",
+                  level: grammarConfig.level,
+                })
+              }
+            />
+          )}
+
+          {view.screen === "grammarOrder" && (
+            <GrammarOrder
+              BASE_PATH={BASE_PATH}
+              level={grammarConfig.level}
+              difficulty={grammarConfig.difficulty}
+              selectedGrammar={grammarConfig.grammar}
+              onExit={() =>
+                setView({
+                  screen: "grammar",
+                  level: grammarConfig.level,
+                })
+              }
             />
           )}
 

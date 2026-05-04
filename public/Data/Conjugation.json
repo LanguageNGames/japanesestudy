@@ -28631,6 +28631,248 @@
         "polite": { "root": "<ruby>省<rt>はぶ</rt></ruby>", "middle": "か", "ending": "せられませんでした", "full": "省かせられませんでした", "kana": "はぶかせられませんでした", "full_furigana": "<ruby>省<rt>はぶ</rt></ruby>かせられませんでした", "translation": "was not made to omit" }
       }
     }
-}
+  },
+  {
+    "id": "tsukamimasu",
+    "verb": "掴みます",
+    "verb_kana": "つかみます",
+    "verb_furigana": "<ruby>掴<rt>つか</rt></ruby>みます",
+    "translation": "to grasp / to seize / to catch",
+    "group": 1,
+    "display": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "み" },
+    "forms": {
+      "te": { "label": "-te Form", "order": 1, "grammar": "te-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "", "ending": "んで", "full": "掴んで", "kana": "つかんで", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>んで" }
+      },
+      "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "", "ending": "む", "full": "掴む", "kana": "つかむ", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>む" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "み", "ending": "ます", "full": "掴みます", "kana": "つかみます", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>みます", "translation": "grasp / to grasp" }
+      },
+      "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "ない", "full": "掴まない", "kana": "つかまない", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まない" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "み", "ending": "ません", "full": "掴みません", "kana": "つかみません", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>みません", "translation": "do not grasp" }
+      },
+      "past": { "label": "Past", "order": 2, "grammar": "ta-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "", "ending": "んだ", "full": "掴んだ", "kana": "つかんだ", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>んだ" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "み", "ending": "ました", "full": "掴みました", "kana": "つかみました", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>みました", "translation": "grasped" }
+      },
+      "past_negative": { "label": "Past Negative", "order": 4, "grammar": "nakatta-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "なかった", "full": "掴まなかった", "kana": "つかまなかった", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まなかった" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "み", "ending": "ませんでした", "full": "掴みませんでした", "kana": "つかみませんでした", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>みませんでした", "translation": "did not grasp" }
+      },
+      "potential": { "label": "Potential", "order": 5, "grammar": "potential-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "め", "ending": "る", "full": "掴める", "kana": "つかめる", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>める" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "め", "ending": "ます", "full": "掴めます", "kana": "つかめます", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>めます", "translation": "can grasp" }
+      },
+      "potential_negative": { "label": "Potential Negative", "order": 6, "grammar": "potential-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "め", "ending": "ない", "full": "掴めない", "kana": "つかめない", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>めない" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "め", "ending": "ません", "full": "掴めません", "kana": "つかめません", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>めません", "translation": "cannot grasp" }
+      },
+      "potential_past": { "label": "Potential Past", "order": 7, "grammar": "potential-past",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "め", "ending": "た", "full": "掴めた", "kana": "つかめた", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>めた" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "め", "ending": "ました", "full": "掴めました", "kana": "つかめました", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>めました", "translation": "could grasp" }
+      },
+      "potential_past_negative": { "label": "Potential Past Negative", "order": 8, "grammar": "potential-past-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "め", "ending": "なかった", "full": "掴めなかった", "kana": "つかめなかった", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>めなかった" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "め", "ending": "ませんでした", "full": "掴めませんでした", "kana": "つかめませんでした", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>めませんでした", "translation": "could not grasp" }
+      },
+      "volitional": { "label": "Volitional", "order": 9, "grammar": "volitional-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "も", "ending": "う", "full": "掴もう", "kana": "つかもう", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>もう" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "み", "ending": "ましょう", "full": "掴みましょう", "kana": "つかみましょう", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>みましょう", "translation": "let's grasp" }
+      },
+      "volitional_negative": { "label": "Volitional Negative", "order": 10, "grammar": "volitional-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "む", "ending": "まい", "full": "掴むまい", "kana": "つかむまい", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>むまい" }
+      },
+      "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "", "ending": "め", "full": "掴め", "kana": "つかめ", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>め" }
+      },
+      "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "む", "ending": "な", "full": "掴むな", "kana": "つかむな", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>むな" }
+      },
+      "passive": { "label": "Passive", "order": 13, "grammar": "passive-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "れる", "full": "掴まれる", "kana": "つかまれる", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まれる" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "れます", "full": "掴まれます", "kana": "つかまれます", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まれます", "translation": "be grasped" }
+      },
+      "passive_negative": { "label": "Passive Negative", "order": 14, "grammar": "passive-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "れない", "full": "掴まれない", "kana": "つかまれない", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まれない" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "れません", "full": "掴まれません", "kana": "つかまれません", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まれません", "translation": "not be grasped" }
+      },
+      "passive_past": { "label": "Passive Past", "order": 15, "grammar": "passive-past",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "れた", "full": "掴まれた", "kana": "つかまれた", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まれた" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "れました", "full": "掴まれました", "kana": "つかまれました", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まれました", "translation": "was grasped" }
+      },
+      "passive_past_negative": { "label": "Passive Past Negative", "order": 16, "grammar": "passive-past-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "れなかった", "full": "掴まれなかった", "kana": "つかまれなかった", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まれなかった" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "れませんでした", "full": "掴まれませんでした", "kana": "つかまれませんでした", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まれませんでした", "translation": "was not grasped" }
+      },
+      "ba": { "label": "Ba Form (Conditional)", "order": 17, "grammar": "ba-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "め", "ending": "ば", "full": "掴めば", "kana": "つかめば", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>めば" }
+      },
+      "ba_negative": { "label": "Ba Negative", "order": 18, "grammar": "ba-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "なければ", "full": "掴まなければ", "kana": "つかまなければ", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>まなければ" }
+      },
+      "causative": {
+        "label": "Causative", "order": 19, "grammar": "causative-form",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せる", "full": "掴ませる", "kana": "つかませる", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませる" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せます", "full": "掴ませます", "kana": "つかませます", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませます", "translation": "make/let grasp" }
+      },
+      "causative_negative": {
+        "label": "Causative Negative", "order": 20, "grammar": "causative-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せない", "full": "掴ませない", "kana": "つかませない", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませない" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せません", "full": "掴ませません", "kana": "つかませません", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませません", "translation": "do not make/let grasp" }
+      },
+      "causative_past": {
+        "label": "Causative Past", "order": 21, "grammar": "causative-past",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せた", "full": "掴ませた", "kana": "つかませた", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませた" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せました", "full": "掴ませました", "kana": "つかませました", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませました", "translation": "made/let grasp" }
+      },
+      "causative_past_negative": {
+        "label": "Causative Past Negative", "order": 22, "grammar": "causative-past-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せなかった", "full": "掴ませなかった", "kana": "つかませなかった", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませなかった" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せませんでした", "full": "掴ませませんでした", "kana": "つかませませんでした", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませませんでした", "translation": "did not make/let grasp" }
+      },
+      "passive_causative": {
+        "label": "Causative Passive", "order": 23, "grammar": "causative-passive",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せられる", "full": "掴ませられる", "kana": "つかませられる", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませられる" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せられます", "full": "掴ませられます", "kana": "つかませられます", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませられます", "translation": "be made to grasp" }
+      },
+      "passive_causative_negative": {
+        "label": "Causative Passive Negative", "order": 24, "grammar": "causative-passive-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せられない", "full": "掴ませられない", "kana": "つかませられない", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませられない" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せられません", "full": "掴ませられません", "kana": "つかませられません", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませられません", "translation": "not be made to grasp" }
+      },
+      "passive_causative_past": {
+        "label": "Causative Passive Past", "order": 25, "grammar": "causative-passive-past",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せられた", "full": "掴ませられた", "kana": "つかませられた", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませられた" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せられました", "full": "掴ませられました", "kana": "つかませられました", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませられました", "translation": "was made to grasp" }
+      },
+      "passive_causative_past_negative": {
+        "label": "Causative Passive Past Negative", "order": 26, "grammar": "causative-passive-past-negative",
+        "plain": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せられなかった", "full": "掴ませられなかった", "kana": "つかませられなかった", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませられなかった" },
+        "polite": { "root": "<ruby>掴<rt>つか</rt></ruby>", "middle": "ま", "ending": "せられませんでした", "full": "掴ませられませんでした", "kana": "つかませられませんでした", "full_furigana": "<ruby>掴<rt>つか</rt></ruby>ませられませんでした", "translation": "was not made to grasp" }
+      }
+    }
+  },
+  {
+    "id": "motomemasu",
+    "verb": "求めます",
+    "verb_kana": "もとめます",
+    "verb_furigana": "<ruby>求<rt>もと</rt></ruby>めます",
+    "translation": "to seek / to request / to demand",
+    "group": 2,
+    "display": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "め" },
+    "forms": {
+      "te": { "label": "-te Form", "order": 1, "grammar": "te-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "て", "full": "求めて", "kana": "もとめて", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めて" }
+      },
+      "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "める", "full": "求める", "kana": "もとめる", "full_furigana": "<ruby>求<rt>もと</rt></ruby>める" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "め", "ending": "ます", "full": "求めます", "kana": "もとめます", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めます", "translation": "seek / to seek" }
+      },
+      "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "ない", "full": "求めない", "kana": "もとめない", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めない" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "め", "ending": "ません", "full": "求めません", "kana": "もとめません", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めません", "translation": "do not seek" }
+      },
+      "past": { "label": "Past", "order": 2, "grammar": "ta-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "た", "full": "求めた", "kana": "もとめた", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めた" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "め", "ending": "ました", "full": "求めました", "kana": "もとめました", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めました", "translation": "sought" }
+      },
+      "past_negative": { "label": "Past Negative", "order": 4, "grammar": "nakatta-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "なかった", "full": "求めなかった", "kana": "もとめなかった", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めなかった" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "め", "ending": "ませんでした", "full": "求めませんでした", "kana": "もとめませんでした", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めませんでした", "translation": "did not seek" }
+      },
+      "potential": { "label": "Potential", "order": 5, "grammar": "potential-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られる", "full": "求められる", "kana": "もとめられる", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められる" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られます", "full": "求められます", "kana": "もとめられます", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められます", "translation": "can seek" }
+      },
+      "potential_negative": { "label": "Potential Negative", "order": 6, "grammar": "potential-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られない", "full": "求められない", "kana": "もとめられない", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められない" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られません", "full": "求められません", "kana": "もとめられません", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められません", "translation": "cannot seek" }
+      },
+      "potential_past": { "label": "Potential Past", "order": 7, "grammar": "potential-past",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られた", "full": "求められた", "kana": "もとめられた", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められた" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られました", "full": "求められました", "kana": "もとめられました", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められました", "translation": "could seek" }
+      },
+      "potential_past_negative": { "label": "Potential Past Negative", "order": 8, "grammar": "potential-past-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られなかった", "full": "求められなかった", "kana": "もとめられなかった", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められなかった" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られませんでした", "full": "求められませんでした", "kana": "もとめられませんでした", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められませんでした", "translation": "could not seek" }
+      },
+      "volitional": { "label": "Volitional", "order": 9, "grammar": "volitional-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "よう", "full": "求めよう", "kana": "もとめよう", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めよう" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "め", "ending": "ましょう", "full": "求めましょう", "kana": "もとめましょう", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めましょう", "translation": "let's seek" }
+      },
+      "volitional_negative": { "label": "Volitional Negative", "order": 10, "grammar": "volitional-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "める", "ending": "まい", "full": "求めるまい", "kana": "もとめるまい", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めるまい" }
+      },
+      "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "ろ", "full": "求めろ", "kana": "もとめろ", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めろ" }
+      },
+      "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "める", "ending": "な", "full": "求めるな", "kana": "もとめるな", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めるな" }
+      },
+      "passive": { "label": "Passive", "order": 13, "grammar": "passive-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られる", "full": "求められる", "kana": "もとめられる", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められる" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られます", "full": "求められます", "kana": "もとめられます", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められます", "translation": "be sought" }
+      },
+      "passive_negative": { "label": "Passive Negative", "order": 14, "grammar": "passive-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られない", "full": "求められない", "kana": "もとめられない", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められない" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られません", "full": "求められません", "kana": "もとめられません", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められません", "translation": "not be sought" }
+      },
+      "passive_past": { "label": "Passive Past", "order": 15, "grammar": "passive-past",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られた", "full": "求められた", "kana": "もとめられた", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められた" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られました", "full": "求められました", "kana": "もとめられました", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められました", "translation": "was sought" }
+      },
+      "passive_past_negative": { "label": "Passive Past Negative", "order": 16, "grammar": "passive-past-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られなかった", "full": "求められなかった", "kana": "もとめられなかった", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められなかった" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "られませんでした", "full": "求められませんでした", "kana": "もとめられませんでした", "full_furigana": "<ruby>求<rt>もと</rt></ruby>められませんでした", "translation": "was not sought" }
+      },
+      "ba": { "label": "Ba Form (Conditional)", "order": 17, "grammar": "ba-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "れば", "full": "求めれば", "kana": "もとめれば", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めれば" }
+      },
+      "ba_negative": { "label": "Ba Negative", "order": 18, "grammar": "ba-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "なければ", "full": "求めなければ", "kana": "もとめなければ", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めなければ" }
+      },
+      "causative": {
+        "label": "Causative", "order": 19, "grammar": "causative-form",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させる", "full": "求めさせる", "kana": "もとめさせる", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせる" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させます", "full": "求めさせます", "kana": "もとめさせます", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせます", "translation": "make/let seek" }
+      },
+      "causative_negative": {
+        "label": "Causative Negative", "order": 20, "grammar": "causative-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させない", "full": "求めさせない", "kana": "もとめさせない", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせない" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させません", "full": "求めさせません", "kana": "もとめさせません", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせません", "translation": "do not make/let seek" }
+      },
+      "causative_past": {
+        "label": "Causative Past", "order": 21, "grammar": "causative-past",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させた", "full": "求めさせた", "kana": "もとめさせた", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせた" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させました", "full": "求めさせました", "kana": "もとめさせました", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせました", "translation": "made/let seek" }
+      },
+      "causative_past_negative": {
+        "label": "Causative Past Negative", "order": 22, "grammar": "causative-past-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させなかった", "full": "求めさせなかった", "kana": "もとめさせなかった", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせなかった" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させませんでした", "full": "求めさせませんでした", "kana": "もとめさせませんでした", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせませんでした", "translation": "did not make/let seek" }
+      },
+      "passive_causative": {
+        "label": "Causative Passive", "order": 23, "grammar": "causative-passive",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させられる", "full": "求めさせられる", "kana": "もとめさせられる", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせられる" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させられます", "full": "求めさせられます", "kana": "もとめさせられます", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせられます", "translation": "be made to seek" }
+      },
+      "passive_causative_negative": {
+        "label": "Causative Passive Negative", "order": 24, "grammar": "causative-passive-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させられない", "full": "求めさせられない", "kana": "もとめさせられない", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせられない" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させられません", "full": "求めさせられません", "kana": "もとめさせられません", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせられません", "translation": "not be made to seek" }
+      },
+      "passive_causative_past": {
+        "label": "Causative Passive Past", "order": 25, "grammar": "causative-passive-past",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させられた", "full": "求めさせられた", "kana": "もとめさせられた", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせられた" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させられました", "full": "求めさせられました", "kana": "もとめさせられました", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせられました", "translation": "was made to seek" }
+      },
+      "passive_causative_past_negative": {
+        "label": "Causative Passive Past Negative", "order": 26, "grammar": "causative-passive-past-negative",
+        "plain": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させられなかった", "full": "求めさせられなかった", "kana": "もとめさせられなかった", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせられなかった" },
+        "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させられませんでした", "full": "求めさせられませんでした", "kana": "もとめさせられませんでした", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせられませんでした", "translation": "was not made to seek" }
+      }
+    }
+  }
 ]
 
