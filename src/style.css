@@ -127,6 +127,14 @@ a{
     justify-content: flex-start;
 }
 
+.main-grid{
+    padding-top: 2rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
 .flex-center input {
     margin: 0;
     width: auto;

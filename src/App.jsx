@@ -72,7 +72,7 @@ export default function App() {
         {view.screen === "home" && (
           <div className="flex-center flex-column">
             <h1>Japanese Quiz</h1>
-
+          <div className="main-grid">
             <div className="btn" onClick={() => setView({ screen: "kana" })}>
               Hiragana & Katakana
             </div>
@@ -96,11 +96,11 @@ export default function App() {
             <div className="btn" onClick={() => setView({ screen: "conjugationWheel"})}>
               Conjugation Wheel
             </div>
-
-            <a className="btn" href="#">
-              High Scores
-            </a>
           </div>
+           {/* <a className="btn" href="#">
+              High Scores
+            </a> */}
+        </div>
         )}
 
         {/* KANA */}
