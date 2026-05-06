@@ -74,6 +74,13 @@ export default function VocabGame({ setView, BASE_PATH }) {
     };
   }, [BASE_PATH]);
 
+  function speak(text) {
+    const clean = text.replace(/\|/g, "");
+    const utter = new SpeechSynthesisUtterance(clean);
+    utter.lang = "ja-JP";
+    speechSynthesis.speak(utter);
+  }
+
   // KEYBOARD HANDLER (stabilized with useCallback)
   const handleKeyDown = useCallback(
     (e) => {
@@ -134,6 +141,17 @@ export default function VocabGame({ setView, BASE_PATH }) {
   };
 
   // HANDLE ANSWER
+  const getReading = (str) => {
+    return str
+      // Replace ruby with its reading
+      .replace(/<ruby>(.*?)<rt>(.*?)<\/rt><\/ruby>/g, "$2")
+      // Remove any leftover HTML
+      .replace(/<[^>]+>/g, "")
+      // Remove romaji
+      .replace(/\(.*?\)/g, "")
+      .trim();
+  };
+
   const handleAnswer = (choice) => {
     if (showAnswer || !currentVocab) return;
 
@@ -144,6 +162,9 @@ export default function VocabGame({ setView, BASE_PATH }) {
     const newQuestionCounter = questionCounter + 1;
 
     if (isCorrect && correctAudio.current) {
+      setTimeout(() => {
+        speak(getReading(currentVocab.japanese));  
+      }, 300);
       correctAudio.current.pause();
       correctAudio.current.currentTime = 0;
       correctAudio.current.play().catch(() => {}); // ignore autoplay issues

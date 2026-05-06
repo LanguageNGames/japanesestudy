@@ -190,21 +190,34 @@ a{
     background: white;
 }
 
+.btn:focus {
+  outline: none;
+}
 
-.btn:hover, .back-btn {
+.audio-btn{
+    font-size: 1.8rem;
+    width: 40px;
+    height: 40px;
+    margin: 0 1rem;
+    text-align: center;
+    border: .1rem solid #56a5eb;
+    border-radius: 50%;
+    color: #56a5eb;
+    background: white;
+}
+
+.btn:hover, .back-btn, .audio-btn {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
     transform: translateY(-0.2rem) translateX(-0.2rem);
     transition: transform 300ms;    
 }
 
-
 .btn[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
 }
-
 
 .config-section {
     display: grid;
@@ -256,9 +269,9 @@ ruby rt {
     justify-content: space-between;
 }
 
-.onyomi-remove{
+.onyomi, .kunyomi{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .skip-btn {

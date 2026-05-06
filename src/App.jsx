@@ -13,7 +13,7 @@ import GrammarSelect from "./grammarSelect.jsx";
 import GrammarFillBlanks from "./grammarFillBlanks.jsx";
 import GrammarOrder from "./grammarOrder.jsx";
 import KanjiLearn from "./kanjiLearn.jsx";
-import NumberGame from "./numberGame.jsx";
+import NumberGame from "./numberGame2.jsx";
 
 export default function App() {
   const [view, setView] = useState({screen: "home"});

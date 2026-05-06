@@ -71,6 +71,13 @@ export default function KanjiGame({ setView, BASE_PATH }) {
     };
   }, [BASE_PATH]);
 
+  function speak(text) {
+    const clean = text.replace(/\|/g, "");
+    const utter = new SpeechSynthesisUtterance(clean);
+    utter.lang = "ja-JP";
+    speechSynthesis.speak(utter);
+  }
+
   const shuffle = (array) => [...array].sort(() => Math.random() - 0.5);
 
   // Helper: Get the display value for a given type
@@ -132,6 +139,14 @@ export default function KanjiGame({ setView, BASE_PATH }) {
     const newQuestionCounter = questionCounter + 1;
 
     if (isCorrect && correctAudio.current) {
+      setTimeout(() => {
+        if(currentKanji.kunyomi){
+          speak(currentKanji.kunyomi[0]);
+        }
+        if(currentKanji.onyomi){
+          speak(currentKanji.onyomi[0])
+        }
+      }, 500);
       correctAudio.current.pause();
       correctAudio.current.currentTime = 0;
       correctAudio.current.play().catch(() => {});

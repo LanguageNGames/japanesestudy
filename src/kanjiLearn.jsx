@@ -87,6 +87,13 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     );
   };
 
+  function speak(text) {
+    const clean = text.replace(/\|/g, "");
+    const utter = new SpeechSynthesisUtterance(clean);
+    utter.lang = "ja-JP";
+    speechSynthesis.speak(utter);
+  }
+
   const generateChoices = useCallback((correctKanji) => {
     const answers = [
       {
@@ -192,6 +199,15 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     if (isCorrect && correctAudio.current) {
       correctAudio.current.currentTime = 0;
       correctAudio.current.play().catch(() => {});
+      setTimeout(() => {
+        if(currentKanji.kunyomi){
+          speak(currentKanji.kunyomi[0]);
+        }
+        if(currentKanji.onyomi){
+          speak(currentKanji.onyomi[0])
+        }
+      }, 500);
+      
     }
 
     const key = currentKanji.kanji;
@@ -272,12 +288,32 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
             →
           </button>
         </div>
-        <div className="onyomi-remove">
-          <h2>Japanese reading: {currentIntroKanji.kunyomi.join(", ")}</h2>
+        <div className="kunyomi">
+          <h2>Japanese reading: </h2>
+          {currentIntroKanji.kunyomi?.length > 0 && (
+          currentIntroKanji.kunyomi.map(i => {
+            return (
+              <>
+              <h2>{i + " "}</h2>
+              <button className="audio-btn" onClick={() => speak(i)}>🔊</button>
+              </>
+            )
+          }))}
         </div>
-        <h2 className="chinese-reading">
-          Chinese reading: {currentIntroKanji.onyomi.join(", ")}
-        </h2>
+        
+        <div className="onyomi">
+          <h2>Chinese reading: </h2>
+          {currentIntroKanji.onyomi?.length > 0 && (
+            currentIntroKanji.onyomi.map(i => {
+            return (
+              <>
+              <h2>{i + " "}</h2>
+              <button className="audio-btn" onClick={() => speak(i)}>🔊</button>
+              </>
+            )
+          }))}
+        </div>
+
         <h2 className="translation">
           English: {currentIntroKanji.translation.join(", ")}
         </h2>
