@@ -126,7 +126,7 @@ export default function App() {
             </div>
 
             <div className="btn" onClick={() => setView({ screen: "vocab"})}>
-              Vocabulary
+              Practice Vocabulary
             </div>
 
             <div className="btn" onClick={() => setView({ screen: "grammar"})}>
