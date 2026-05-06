@@ -153,10 +153,168 @@ export default function GrammarSelect({
       },
     },
     N3: {
+      beginner: {
+        title: "Beginner N3",
+        points: [
+          { "key": "te_kamaemasenka_itadakemasenka_moraenai", "label": "てかまえませんか/いただけませんか/もらえないでしょうか/いただけないでしょうか" },
+          { "key": "you_ni_you_na_you_da", "label": "ように、ような、ようだ" },
+          { "key": "koto_wa_ga_wo", "label": "～ことは/が/を" },
+          { "key": "wo_to_iu", "label": "～を～と言う" },
+          { "key": "to_iu_noun", "label": "～と言う～" },
+          { "key": "question_te_mo", "label": "いつ/どこ/何/だれ/どんなに～ても" },
+          { "key": "janakute", "label": "じゃなくて、～" },
+          { "key": "no_da", "label": "のだ/のではない" },
+          { "key": "nan_nin_mo", "label": "何人も/何回もetc" },
+          { "key": "tara_ta", "label": "たら～た" },
+          { "key": "to_iu_no_wa", "label": "～というのは～のことだ/ということだ" },
+          { "key": "you_ni_iu", "label": "ように言う/注意する/伝える/頼む" },
+          { "key": "mitai", "label": "～みたいに/みたいな/みたいだ" },
+          { "key": "shieki_moraemasenka", "label": "使役刑もらえませんか/いただけませんか" },
+          { "key": "koto_ni_suru", "label": "～ことにする/している" },
+          { "key": "koto_ni_naru", "label": "～ことになる/なっている" },
+          { "key": "te_naide_hoshii", "label": "～て/ないでほしい" },
+          { "key": "sou_na_sou_ni", "label": "～そうな/そうに" },
+          { "key": "na_sou_da", "label": "～なさそうだ" },
+          { "key": "ta_ato_de", "label": "～たあと(で)" },
+          { "key": "dake_shika", "label": "だけしか" },
+          { "key": "sae", "label": "さえ" },
+          { "key": "koso", "label": "こそ" },
+          { "key": "to_iu_koto_da", "label": "～ということだ" },
+          { "key": "chau_toku_teru", "label": "ちゃう/とく/てる" },
+          { "key": "shieki_ukemi", "label": "使役受け身" },
+          { "key": "de_aru", "label": "(の)である" },
+          { "key": "renyou_chuushi", "label": "連用中止刑" },
+          { "key": "tagaru", "label": "～(た)がる/がっている" },
+          { "key": "mashite_mashitara", "label": "まして/ましたら" },
+          { "key": "ni_kanshite", "label": "に関して(は/も)" },
+          { "key": "ni_tsuite", "label": "について(の/は/も)" },
+          { "key": "ni_yoreba", "label": "によれば/よると" },
+          { "key": "ni_yotte", "label": "によって/より/よる" },
+          { "key": "koto_wa_nai", "label": "ことはない" },
+        ]
+      },
+      intermediate:{
+        title: "Intermediate N3",
+        points: [
+          { "key": "toiu_koto_da_typo", "label": "とうことだ" },
+          { "key": "koto_da", "label": "ことだ" },
+          { "key": "donnani_koto_ka", "label": "どんなに～ことか" },
+          { "key": "njanai", "label": "んじゃない？" },
+          { "key": "ta_tokoro", "label": "～たところに/で/を" },
+          { "key": "you_to_suru", "label": "～ようとする/しない" },
+          { "key": "futsuu_no_darouka", "label": "普通刑のだろうか" },
+          { "key": "no_particles", "label": "との/での/からの/までの/への" },
+          { "key": "darou", "label": "～だろう/だろうとおもう" },
+          { "key": "verb_noun", "label": "～が/の動詞+名詞" },
+          { "key": "beki", "label": "～べきだ" },
+          { "key": "furi", "label": "～ふりをする" },
+          { "key": "tte", "label": "て/って(replaceと/は/という)" },
+          { "key": "tsumori", "label": "つもりだった/たつもり/ているつもり" },
+          { "key": "bakari", "label": "Nばかり/てばかり(で/の/いる)" },
+          { "key": "toka", "label": "とか" },
+          { "key": "te_kuru_iku", "label": "て来る/て行く" },
+          { "key": "tsuide", "label": "ついでに" },
+          { "key": "tabi_ni", "label": "度に" },
+          { "key": "tatotan", "label": "たとたん" },
+          { "key": "saichuu", "label": "最中に" },
+          { "key": "nakutewa", "label": "なくてはならない/いけない" },
+          { "key": "nakutemo", "label": "なくてもかまわない" },
+          { "key": "dake_de", "label": "普通刑だけ(でいい)" },
+          { "key": "kana", "label": "かな" },
+          { "key": "nanka_nante", "label": "なんか/なんて" },
+          { "key": "nara", "label": "普通刑なら" },
+          { "key": "ni_totte", "label": "にとって" },
+          { "key": "warini", "label": "わりに(は)" },
+          { "key": "kuseni", "label": "くせに" },
+          { "key": "okage_sei", "label": "おかげで/せいで" },
+          { "key": "kawari_ni", "label": "かわりに/にかわって" },
+          { "key": "ni_shitara", "label": "にしたら/としたら" },
+          { "key": "to_shitemo", "label": "としても/～を～として" },
+          { "key": "aida", "label": "あいだ/あいだに" },
+          { "key": "made", "label": "まで/までに" },
+        ]
+      },
+      advanced:{
+        title: "Advanced N3",
+        points: [
+          { "key": "ta_noun", "label": "た(=ている)+名詞" },
+          { "key": "mama", "label": "たまま/のまま" },
+          { "key": "meishi_wo_shiteiru", "label": "名詞をしている" },
+          { "key": "nazenara", "label": "なぜなら" },
+          { "key": "o_desu", "label": "お～です" },
+          { "key": "temo_kamawanai", "label": "てもかまわない" },
+          { "key": "hodo_nai", "label": "ほど～ない/ほどではない" },
+          { "key": "hodo_wa_nai", "label": "ほど～はない/いない" },
+          { "key": "tame", "label": "ため(に)/ためだ(N3)" },
+          { "key": "tara_ba_ta", "label": "たら/ば～た" },
+          { "key": "wa_mochiron", "label": "1はもちろん2(も)" },
+          { "key": "bakari_ka", "label": "ばかりか" },
+          { "key": "ni_kurabete", "label": "にくらべて" },
+          { "key": "ni_taishite", "label": "にたいして" },
+          { "key": "hazu", "label": "普通刑はずだ/はずがない" },
+          { "key": "hazu_datta", "label": "はずだった" },
+          { "key": "koto_ga_aru", "label": "ことが/もある" },
+          { "key": "kekka", "label": "た/の結果" },
+          { "key": "verb_dasu", "label": "動詞+出す" },
+          { "key": "verb_hajimaru", "label": "動詞+始まる/終わる/続ける" },
+          { "key": "verb_aux", "label": "動詞+忘れる/会う/換える" },
+          { "key": "verb_ageru", "label": "動詞+上げる/切れない/かけ/たて" },
+          { "key": "yori_hou", "label": "普通刑より普通刑ほうが" },
+          { "key": "rashii_ppoi", "label": "らしい/っぽい" },
+          { "key": "zu_ni", "label": "ず(に)" },
+          { "key": "ta_tokoro_n3", "label": "たところ(N3)" },
+          { "key": "jisho_tokoro_datta", "label": "辞書形ところだった" },
+          { "key": "te_hajimete", "label": "て初めて" },
+          { "key": "uchi_ni", "label": "うちに" },
+          { "key": "mono_mon_dakara", "label": "もの/もんだから" },
+          { "key": "rareru_kansetsu", "label": "(ら)れる(間接受身形)" },
+          { "key": "tari_n3", "label": "たり～たり(N3)" },
+          { "key": "ppanashi", "label": "っぱなし" },
+          { "key": "dochira_ka_to_ieba", "label": "どちらかと言えば、～ほうだ" },
+          { "key": "masu_youni", "label": "ます/ませんように" },
+          { "key": "zenzen_nai", "label": "決して/まったく/めったに/すこしも～ない" }
+        ]
+      }
     },
     N2: {
+      beginner:{
+        title: "Beginner N2",
+        points: [
+
+        ]
+      },
+      intermediate:{
+        title: "Intermediate N3",
+        points: [
+
+        ]
+      },
+      advanced:{
+        title: "Advanced N3",
+        points: [
+          
+        ]
+      }
     },
     N1: {
+      beginner:{
+        title: "Beginner N2",
+        points: [
+
+        ]
+      },
+      intermediate:{
+        title: "Intermediate N3",
+        points: [
+
+        ]
+      },
+      advanced:{
+        title: "Advanced N3",
+        points: [
+          
+        ]
+      }
     },
   };
 

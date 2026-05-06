@@ -908,97 +908,6 @@
         "grammar": "Adjective conjugation",
         "type": "fill-gap",
         "question": "この<ruby>公園<rt>こうえん</rt></ruby>はとても___。",
-        "choices": ["しずかです", "しずかでした", "しずかじゃありません", "しずかかったです"],
-        "answer": "しずかです",
-        "explanation": "For Na-adjectives in the present affirmative, simply add 'desu'.",
-        "question_romaji": "Kono kouen wa totemo ___.",
-        "choices_romaji": ["shizuka desu", "shizuka deshita", "shizuka janai desu", "shizukakatta desu"],
-        "answer_romaji": "shizuka desu",
-        "translation": "This park is very quiet."
-      },
-      {
-        "key": "mou_mada",
-        "grammar": "もう、まだ",
-        "type": "fill-gap",
-        "question": "___レポートを<ruby>書<rt>か</rt></ruby>きましたか。･･･はい、もう<ruby>書<rt>か</rt></ruby>きました。",
-        "choices": ["まだ", "もう", "から", "まで"],
-        "answer": "もう",
-        "explanation": "もう is used in questions to ask if an action has already been completed.",
-        "question_romaji": "___ repo-to o kakimashita ka. ...Hai, mou kakimashita.",
-        "choices_romaji": ["mada", "mou", "kara", "made"],
-        "answer_romaji": "mou",
-        "translation": "Have you already written the report? ...Yes, I have already written it."
-      },
-      {
-        "key": "giving_receiving",
-        "grammar": "giving/receiving",
-        "type": "fill-gap",
-        "question": "わたしは<ruby>母<rt>はは</rt></ruby>にプレゼントを___。",
-        "choices": ["あげました", "もらいました", "かりました", "ならいました"],
-        "answer": "あげました",
-        "explanation": "あげます is used when the speaker gives something to someone else.",
-        "question_romaji": "Watashi wa haha ni purezento o ___.",
-        "choices_romaji": ["agemashita", "moraimashita", "karimashita", "naraimashita"],
-        "answer_romaji": "agemashita",
-        "translation": "I gave a present to my mother."
-      },
-      {
-        "key": "mou_mada",
-        "grammar": "もう、まだ",
-        "type": "fill-gap",
-        "question": "もう<ruby>昼<rt>ひる</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べましたか。･･･いいえ、___です。",
-        "choices": ["もう", "まだ", "まで", "から"],
-        "answer": "まだ",
-        "explanation": "まだ is used with 'desu' or a negative verb to mean 'not yet'.",
-        "question_romaji": "Mou hirugohan o tabemashita ka. ...Iie, ___ desu.",
-        "choices_romaji": ["mou", "mada", "made", "kara"],
-        "answer_romaji": "mada",
-        "translation": "Have you eaten lunch already? ...No, not yet."
-      },
-      {
-        "key": "adj_conjugation",
-        "grammar": "Adjective conjugation",
-        "type": "fill-gap",
-        "question": "きのうの<ruby>試験<rt>しけん</rt></ruby>はあまり___。",
-        "choices": ["むずかしいです", "むずかしくないです", "むずかしくなかったです", "むずかしかったです"],
-        "answer": "むずかしくなかったです",
-        "explanation": "For negative past tense of I-adjectives, change the final ~i to ~kunakatta desu.",
-        "question_romaji": "Kinou no shiken wa amari ___.",
-        "choices_romaji": ["muzukashii desu", "muzukashiku nai desu", "muzukashiku nakatta desu", "muzukashikatta desu"],
-        "answer_romaji": "muzukashiku nakatta desu",
-        "translation": "Yesterday's exam wasn't very difficult."
-      },
-      {
-        "key": "giving_receiving",
-        "grammar": "giving/receiving",
-        "type": "fill-gap",
-        "question": "わたしは<ruby>田中<rt>たなか</rt></ruby>さんにレポートを___。",
-        "choices": ["ならいました", "おしえました", "もらいました", "あげました"],
-        "answer": "おしえました",
-        "explanation": "おしえます is used when you teach/inform someone of something.",
-        "question_romaji": "Watashi wa Tanaka-san ni repo-to o ___.",
-        "choices_romaji": ["naraimashita", "oshiemashita", "moraimashita", "agemashita"],
-        "answer_romaji": "oshiemashita",
-        "translation": "I explained (taught) the report to Mr. Tanaka."
-      },
-      {
-        "key": "giving_receiving",
-        "grammar": "giving/receiving",
-        "type": "fill-gap",
-        "question": "<ruby>友達<rt>ともだち</rt></ruby>に<ruby>傘<rt>かさ</rt></ruby>を___。",
-        "choices": ["かりました", "かしました", "おしえました", "ならいました"],
-        "answer": "かりました",
-        "explanation": "かりました (borrowed) indicates you received the item for temporary use from someone else.",
-        "question_romaji": "Tomodachi ni kasa o ___.",
-        "choices_romaji": ["karimashita", "kashimashita", "oshiemashita", "naraimashita"],
-        "answer_romaji": "karimashita",
-        "translation": "I borrowed an umbrella from a friend."
-      },
-      {
-        "key": "adj_conjugation",
-        "grammar": "Adjective conjugation",
-        "type": "fill-gap",
-        "question": "この<ruby>公園<rt>こうえん</rt></ruby>はとても___。",
         "choices": ["しずかです", "しずかでした", "しずかじゃないです", "しずかかったです"],
         "answer": "しずかです",
         "explanation": "For Na-adjectives in the present affirmative, simply add 'desu'.",
@@ -1908,7 +1817,7 @@
         "key": "te_form_ongoing",
         "grammar": "ています/もいい/はいけません",
         "type": "fill-gap",
-        "question": "今、リーさんはテレビを___います。",
+        "question": "<ruby>今<rt>いま</rt></ruby>、リーさんはテレビを___います。",
         "choices": ["みて", "みる", "みます", "みた"],
         "answer": "みて",
         "explanation": "The TE-form + imasu indicates an action that is happening right now.",
@@ -3052,8 +2961,8 @@
         "grammar": "ながら",
         "type": "fill-gap",
         "question": "いつも<ruby>音楽<rt>おんがく</rt></ruby>を___ながら、<ruby>勉強<rt>べんきょう</rt></ruby>します。",
-        "choices": ["聞き", "聞いて", "聞く", "聞か"],
-        "answer": "聞き",
+        "choices": ["<ruby>聞<rt>き</rt></ruby>き", "<ruby>聞<rt>き</rt></ruby>いて", "<ruby>聞<rt>き</rt></ruby>く", "<ruby>聞<rt>き</rt></ruby>か"],
+        "answer": "<ruby>聞<rt>き</rt></ruby>き",
         "explanation": "To use 〜ながら, you must attach it to the Masu-stem (pre-masu form) of the verb. 'Kikimasu' becomes 'Kiki'.",
         "translation": "I always study while listening to music."
       },
@@ -3062,8 +2971,8 @@
         "grammar": "ながら",
         "type": "fill-gap",
         "question": "___ながら<ruby>運転<rt>うんてん</rt></ruby>するのは<ruby>危<rt>あぶ</rt></ruby>ないですよ。",
-        "choices": ["食べ", "食べて", "食べる", "食べな"],
-        "answer": "食べ",
+        "choices": ["<ruby>食<rt>た</rt></ruby>べ", "<ruby>食<rt>た</rt></ruby>べて", "<ruby>食<rt>た</rt></ruby>べる", "<ruby>食<rt>た</rt></ruby>べな"],
+        "answer": "<ruby>食<rt>た</rt></ruby>べ",
         "explanation": "The secondary action (eating) is in the Masu-stem form before 〜ながら, while the main action (driving) follows it.",
         "translation": "It is dangerous to drive while eating, you know."
       },
@@ -3071,7 +2980,7 @@
         "key": "nagara",
         "grammar": "ながら",
         "type": "fill-gap",
-        "question": "<ruby>働き<rt>はたらき</rt></ruby>___<ruby>大学<rt>だいがく</rt></ruby>___<ruby>行<rt>い</rt></ruby>っています。",
+        "question": "<ruby>働<rt>はたら</rt></ruby>き___<ruby>大学<rt>だいがく</rt></ruby>___<ruby>行<rt>い</rt></ruby>っています。",
         "choices": [
           ["ながら", "に"],
           ["ながら", "を"],
@@ -3088,12 +2997,12 @@
         "type": "fill-gap",
         "question": "<ruby>テレビ<rt>てれび</rt></ruby>を___ ___、ごはんを<ruby>食<rt>た</rt></ruby>べます。",
         "choices": [
-          ["見", "ながら"],
-          ["見て", "ながら"],
-          ["見", "てから"],
-          ["見", "たり"]
+          ["<ruby>見<rt>み</rt></ruby>", "ながら"],
+          ["<ruby>見<rt>み</rt></ruby>て", "ながら"],
+          ["<ruby>見<rt>み</rt></ruby>", "てから"],
+          ["<ruby>見<rt>み</rt></ruby>", "たり"]
         ],
-        "answer": ["見", "ながら"],
+        "answer": ["<ruby>見<rt>み</rt></ruby>", "ながら"],
         "explanation": "The pattern is 'Verb (Masu-stem) + nagara'. 'Mimasu' (to watch) becomes 'Mi'.",
         "translation": "I eat my meal while watching TV."
       },
@@ -3112,8 +3021,8 @@
         "grammar": "ながら",
         "type": "fill-gap",
         "question": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>涙<rt>なみだ</rt></ruby>を___ながら、<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きました。",
-        "choices": ["拭き", "拭いて", "拭く", "拭か"],
-        "answer": "拭き",
+        "choices": ["<ruby>拭<rt>ぬぐ</rt></ruby>き", "<ruby>拭<rt>ぬぐ</rt></ruby>いて", "<ruby>拭<rt>ぬぐ</rt></ruby>く", "<ruby>拭<rt>ぬぐ</rt></ruby>か"],
+        "answer": "<ruby>拭<rt>ぬぐ</rt></ruby>き",
         "explanation": "Even if the main verb at the end is in the past tense ('kakimashita'), the verb before 'nagara' must always be in its Masu-stem form.",
         "translation": "Yesterday, I wrote a letter while wiping away tears."
       },
@@ -3123,12 +3032,12 @@
         "type": "fill-gap",
         "question": "<ruby>彼<rt>かれ</rt></ruby>は___ながら、いつも<ruby>難<rt>むずか</rt></ruby>しい<ruby>顔<rt>かお</rt></ruby>を___。",
         "choices": [
-          ["考え", "しています"],
-          ["考えて", "しています"],
-          ["考え", "なっています"],
-          ["考えて", "なっています"]
+          ["<ruby>考<rt>かんが</rt></ruby>え", "<ruby>しています<rt>しています</rt></ruby>"],
+          ["<ruby>考<rt>かんが</rt></ruby>えて", "<ruby>しています<rt>しています</rt></ruby>"],
+          ["<ruby>考<rt>かんが</rt></ruby>え", "<ruby>なっています<rt>なっています</rt></ruby>"],
+          ["<ruby>考<rt>かんが</rt></ruby>えて", "<ruby>なっています<rt>なっています</rt></ruby>"]
         ],
-        "answer": ["考え", "しています"],
+        "answer": ["<ruby>考<rt>かんが</rt></ruby>え", "<ruby>しています<rt>しています</rt></ruby>"],
         "explanation": "For Group 2 verbs like 'kangaeru', the Masu-stem is 'kanga-e'. 'Shite imasu' describes his ongoing state while thinking.",
         "translation": "While thinking, he always has a serious look on his face."
       },
@@ -3138,12 +3047,12 @@
         "type": "fill-gap",
         "question": "<ruby>雑誌<rt>ざっし</rt></ruby>を___ ___、コーヒーを<ruby>飲<rt>の</rt></ruby>むのが<ruby>好<rt>す</rt></ruby>きです。",
         "choices": [
-          ["読み", "ながら"],
-          ["読んで", "ながら"],
-          ["読む", "ながら"],
-          ["読み", "てから"]
+          ["<ruby>読<rt>よ</rt></ruby>み", "ながら"],
+          ["<ruby>読<rt>よ</rt></ruby>んで", "ながら"],
+          ["<ruby>読<rt>よ</rt></ruby>む", "ながら"],
+          ["<ruby>読<rt>よ</rt></ruby>み", "てから"]
         ],
-        "answer": ["読み", "ながら"],
+        "answer": ["<ruby>読<rt>よ</rt></ruby>み", "ながら"],
         "explanation": "The Masu-stem of 'yomu' is 'yomi'. This is combined with 'nagara' to show the simultaneous action of reading and drinking coffee.",
         "translation": "I like drinking coffee while reading a magazine."
       },
@@ -3256,14 +3165,14 @@
         "key": "shi_shi",
         "grammar": "し～し",
         "type": "fill-gap",
-        "question": "<ruby>物価<rt>ぶっか</rt></ruby>も___し、人も___し、この<ruby>町<rt>まち</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。",
+        "question": "<ruby>物価<rt>ぶっか</rt></ruby>も___し、<ruby>人<rt>ひと</rt></ruby>も___し、この<ruby>町<rt>まち</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。",
         "choices": [
-          ["安い", "親切だ"],
-          ["安くて", "親切で"],
-          ["安いだ", "親切い"],
-          ["安かった", "親切だった"]
+          ["<ruby>安<rt>やす</rt></ruby>い", "<ruby>親切<rt>しんせつ</rt></ruby>だ"],
+          ["<ruby>安<rt>やす</rt></ruby>くて", "<ruby>親切<rt>しんせつ</rt></ruby>で"],
+          ["<ruby>安<rt>やす</rt></ruby>いだ", "<ruby>親切<rt>しんせつ</rt></ruby>い"],
+          ["<ruby>安<rt>やす</rt></ruby>かった", "<ruby>親切<rt>しんせつ</rt></ruby>だった"]
         ],
-        "answer": ["安い", "親切だ"],
+        "answer": ["<ruby>安<rt>やす</rt></ruby>い", "<ruby>親切<rt>しんせつ</rt></ruby>だ"],
         "explanation": "To list reasons in the present tense, use the plain form: dictionary form for i-adjectives and '~da' for na-adjectives.",
         "translation": "Prices are cheap and the people are kind, so I like this town."
       },
@@ -3272,8 +3181,8 @@
         "grammar": "自動詞ています / 他動詞てあります",
         "type": "fill-gap",
         "question": "<ruby>窓<rt>まど</rt></ruby>が___ています。",
-        "choices": ["開い", "開け", "閉め", "つけ"],
-        "answer": "開い",
+        "choices": ["<ruby>開<rt>あ</rt></ruby>い", "<ruby>開<rt>あ</rt></ruby>け", "<ruby>閉<rt>し</rt></ruby>め", "つけ"],
+        "answer": "<ruby>開<rt>あ</rt></ruby>い",
         "explanation": "With the particle 'ga' and 'te imasu' to describe a state, the intransitive verb 'aku' (to open) is used. 'Akete' would require 'te arimasu' or a person as the subject.",
         "translation": "The window is open."
       },
@@ -3282,8 +3191,8 @@
         "grammar": "自動詞ています / 他動詞てあります",
         "type": "fill-gap",
         "question": "<ruby>壁<rt>かべ</rt></ruby>にカレンダーが___あります。",
-        "choices": ["掛けて", "掛かって", "掛き", "掛く"],
-        "answer": "掛けて",
+        "choices": ["<ruby>掛<rt>か</rt></ruby>けて", "<ruby>掛<rt>か</rt></ruby>かって", "<ruby>掛<rt>か</rt></ruby>き", "<ruby>掛<rt>か</rt></ruby>く"],
+        "answer": "<ruby>掛<rt>か</rt></ruby>けて",
         "explanation": "The structure 'ga + te arimasu' indicates that someone purposefully did an action. Therefore, the transitive verb 'kakeru' (to hang something) is used.",
         "translation": "A calendar has been hung on the wall."
       },
@@ -3293,12 +3202,12 @@
         "type": "fill-gap",
         "question": "<ruby>電気<rt>でんき</rt></ruby>___ ___ています。",
         "choices": [
-          ["が", "消え"],
-          ["を", "消し"],
-          ["が", "消し"],
-          ["を", "消え"]
+          ["が", "<ruby>消<rt>き</rt></ruby>え"],
+          ["を", "<ruby>消<rt>け</rt></ruby>し"],
+          ["が", "<ruby>消<rt>け</rt></ruby>し"],
+          ["を", "<ruby>消<rt>き</rt></ruby>え"]
         ],
-        "answer": ["が", "消え"],
+        "answer": ["が", "<ruby>消<rt>き</rt></ruby>え"],
         "explanation": "To describe the state of the light being off without focusing on who did it, use the particle 'ga' and the intransitive verb 'kieru' (to go out/be extinguished).",
         "translation": "The light is off."
       },
@@ -3308,12 +3217,12 @@
         "type": "fill-gap",
         "question": "パーティーの<ruby>時間<rt>じかん</rt></ruby>はもうみんなに___ ___。",
         "choices": [
-          ["知らせて", "あります"],
-          ["知らせて", "います"],
-          ["知れて", "あります"],
-          ["知れて", "います"]
+          ["<ruby>知<rt>し</rt></ruby>らせて", "あります"],
+          ["<ruby>知<rt>し</rt></ruby>らせて", "います"],
+          ["<ruby>知<rt>し</rt></ruby>れて", "あります"],
+          ["<ruby>知<rt>し</rt></ruby>れて", "います"]
         ],
-        "answer": ["知らせて", "あります"],
+        "answer": ["<ruby>知<rt>し</rt></ruby>らせて", "あります"],
         "explanation": "To express that a preparation has been completed for a future purpose (like a party), use the transitive verb 'shiraseru' (to inform) + 'te arimasu'.",
         "translation": "The time of the party has already been told to everyone (as a preparation)."
       },
@@ -3322,8 +3231,8 @@
         "grammar": "自動詞ています / 他動詞てあります",
         "type": "fill-gap",
         "question": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>花瓶<rt>かびん</rt></ruby>が___あります。",
-        "choices": ["置いて", "置いてい", "置まって", "置まってお"],
-        "answer": "置いて",
+        "choices": ["<ruby>置<rt>お</rt></ruby>いて", "<ruby>置<rt>お</rt></ruby>いてい", "<ruby>置<rt>お</rt></ruby>まって", "<ruby>置<rt>お</rt></ruby>まってお"],
+        "answer": "<ruby>置<rt>お</rt></ruby>いて",
         "explanation": "With 'ga ... te arimasu', we use the transitive verb 'oku' (to place) to show that someone placed the vase there for a reason.",
         "translation": "A vase has been placed on the desk."
       },
@@ -3332,8 +3241,8 @@
         "grammar": "自動詞ています / 他動詞てあります",
         "type": "fill-gap",
         "question": "あ、ボタンが___ていますよ。",
-        "choices": ["外れ", "外し", "落ちて", "落とし"],
-        "answer": "外れ",
+        "choices": ["<ruby>外<rt>はず</rt></ruby>れ", "<ruby>外<rt>はず</rt></ruby>し", "<ruby>落<rt>お</rt></ruby>ちて", "<ruby>落<rt>お</rt></ruby>とし"],
+        "answer": "<ruby>外<rt>はず</rt></ruby>れ",
         "explanation": "To describe a state that happened (a button came off), we use the intransitive verb 'hazureru' with 'te imasu'. 'Hazushi' is the transitive 'to remove'.",
         "translation": "Oh, your button is coming off/is undone."
       },
@@ -3343,12 +3252,12 @@
         "type": "fill-gap",
         "question": "お<ruby>皿<rt>さら</rt></ruby>___ ___ています。",
         "choices": [
-          ["が", "割れ"],
-          ["を", "割り"],
-          ["が", "割り"],
-          ["を", "割れ"]
+          ["が", "<ruby>割<rt>わ</rt></ruby>れ"],
+          ["を", "<ruby>割<rt>わ</rt></ruby>り"],
+          ["が", "<ruby>割<rt>わ</rt></ruby>り"],
+          ["を", "<ruby>割<rt>わ</rt></ruby>れ"]
         ],
-        "answer": ["が", "割れ"],
+        "answer": ["が", "<ruby>割<rt>わ</rt></ruby>れ"],
         "explanation": "When describing the state of a broken object, use the particle 'ga' and the intransitive verb 'wareru'.",
         "translation": "The plate is broken."
       },
@@ -3358,12 +3267,12 @@
         "type": "fill-gap",
         "question": "<ruby>箱<rt>はこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>手紙<rt>てがみ</rt></ruby>が___ ___。",
         "choices": [
-          ["入れて", "あります"],
-          ["入って", "あります"],
-          ["入れて", "います"],
-          ["入って", "います"]
+          ["<ruby>入<rt>い</rt></ruby>れて", "あります"],
+          ["<ruby>入<rt>はい</rt></ruby>って", "あります"],
+          ["<ruby>入<rt>い</rt></ruby>れて", "います"],
+          ["<ruby>入<rt>はい</rt></ruby>って", "います"]
         ],
-        "answer": ["入れて", "あります"],
+        "answer": ["<ruby>入<rt>い</rt></ruby>れて", "あります"],
         "explanation": "Using 'irete' (transitive) + 'arimasu' implies someone purposefully put the letter in the box. 'Haitte imasu' would simply mean 'a letter is inside'.",
         "translation": "A letter has been put inside the box (for a purpose)."
       },
@@ -3372,8 +3281,8 @@
         "grammar": "自動詞ています / 他動詞てあります",
         "type": "fill-gap",
         "question": "あそこに<ruby>車<rt>くるま</rt></ruby>が___ています。",
-        "choices": ["止まって", "止めて", "止まり", "止め"],
-        "answer": "止まって",
+        "choices": ["<ruby>止<rt>と</rt></ruby>まって", "<ruby>止<rt>と</rt></ruby>めて", "<ruby>止<rt>と</rt></ruby>まり", "<ruby>止<rt>と</rt></ruby>め"],
+        "answer": "<ruby>止<rt>と</rt></ruby>まって",
         "explanation": "To describe the state of a car being stopped/parked without focusing on the person who did it, use the intransitive verb 'tomaru' + 'te imasu'.",
         "translation": "A car is stopped over there."
       },
@@ -3382,8 +3291,8 @@
         "grammar": "自動詞ています / 他動詞てあります",
         "type": "fill-gap",
         "question": "レポートはもう___ありますか。",
-        "choices": ["まとめて", "まとまって", "まとめ", "まとまり"],
-        "answer": "まとめて",
+        "choices": ["<ruby>まと<rt>まと</rt></ruby>めて", "<ruby>まと<rt>まと</rt></ruby>まって", "<ruby>まと<rt>まと</rt></ruby>め", "<ruby>まと<rt>まと</rt></ruby>まり"],
+        "answer": "<ruby>まと<rt>まと</rt></ruby>めて",
         "explanation": "With 'te arimasu', we use the transitive verb 'matomeru' (to compile/summarize) to indicate that the preparation or task has been completed.",
         "translation": "Has the report already been summarized/compiled?"
       },
@@ -3393,12 +3302,12 @@
         "type": "fill-gap",
         "question": "<ruby>予定<rt>よてい</rt></ruby>___カレンダーに___あります。",
         "choices": [
-          ["が", "書いて"],
-          ["を", "書いて"],
-          ["が", "書いてい"],
-          ["を", "書かれて"]
+          ["が", "<ruby>書<rt>か</rt></ruby>いて"],
+          ["を", "<ruby>書<rt>か</rt></ruby>いて"],
+          ["が", "<ruby>書<rt>か</rt></ruby>いてい"],
+          ["を", "<ruby>書<rt>か</rt></ruby>かれて"]
         ],
-        "answer": ["が", "書いて"],
+        "answer": ["が", "<ruby>書<rt>か</rt></ruby>いて"],
         "explanation": "In the 'te arimasu' structure, the object of the transitive action (yotei) is marked with 'ga' to show the current state of preparation.",
         "translation": "The schedule has been written on the calendar."
       },
@@ -3408,12 +3317,12 @@
         "type": "fill-gap",
         "question": "<ruby>鍵<rt>かぎ</rt></ruby>___ ___ていますよ。",
         "choices": [
-          ["が", "掛かって"],
-          ["を", "掛けて"],
-          ["が", "掛けて"],
-          ["を", "掛かって"]
+          ["が", "<ruby>掛<rt>か</rt></ruby>かって"],
+          ["を", "<ruby>掛<rt>か</rt></ruby>けて"],
+          ["が", "<ruby>掛<rt>か</rt></ruby>けて"],
+          ["を", "<ruby>掛<rt>か</rt></ruby>かって"]
         ],
-        "answer": ["が", "掛かって"],
+        "answer": ["が", "<ruby>掛<rt>か</rt></ruby>かって"],
         "explanation": "To state the fact that the door/lock is currently locked, use the intransitive verb 'kakaru' with the particle 'ga' and 'te imasu'.",
         "translation": "The key is locked (the door is locked), you know."
       },
@@ -3422,8 +3331,8 @@
         "grammar": "てしまいます",
         "type": "fill-gap",
         "question": "この<ruby>本<rt>ほん</rt></ruby>はとても<ruby>面白<rt>おもしろ</rt></ruby>かったので、１<ruby>日<rt>にち</rt></ruby>で___しまいました。",
-        "choices": ["読んで", "読み", "読まないで", "読む"],
-        "answer": "読んで",
+        "choices": ["<ruby>読<rt>よ</rt></ruby>んで", "<ruby>読<rt>よ</rt></ruby>み", "<ruby>読<rt>よ</rt></ruby>まないで", "<ruby>読<rt>よ</rt></ruby>む"],
+        "answer": "<ruby>読<rt>よ</rt></ruby>んで",
         "explanation": "El uso de 〜てしまいました aquí indica que la acción de leer se completó totalmente (terminar el libro).",
         "translation": "This book was so interesting that I finished reading it in one day."
       },
@@ -3432,8 +3341,8 @@
         "grammar": "てしまいます",
         "type": "fill-gap",
         "question": "あ、バスの中に<ruby>傘<rt>かさ</rt></ruby>を___しまいました。",
-        "choices": ["忘れて", "忘れ", "忘れなくて", "忘れる"],
-        "answer": "忘れて",
+        "choices": ["<ruby>忘<rt>わす</rt></ruby>れて", "<ruby>忘<rt>わす</rt></ruby>れ", "<ruby>忘<rt>わす</rt></ruby>れなくて", "<ruby>忘<rt>わす</rt></ruby>れる"],
+        "answer": "<ruby>忘<rt>わす</rt></ruby>れて",
         "explanation": "Se utiliza 〜てしまいました para expresar arrepentimiento o lástima por una acción accidental, como olvidar algo.",
         "translation": "Oh no, I accidentally left my umbrella on the bus."
       },
@@ -3441,14 +3350,14 @@
         "key": "teshimaimasu",
         "grammar": "てしまいます",
         "type": "fill-gap",
-        "question": "<ruby>宿題<rt>しゅくだい</rt></ruby>を___ ___から、遊びに行きましょう。",
+        "question": "<ruby>宿題<rt>しゅくだい</rt></ruby>を___ ___から、<ruby>遊<rt>あそ</rt></ruby>びに行きましょう。",
         "choices": [
-          ["やって", "しまった"],
-          ["やり", "しまった"],
-          ["やって", "おいた"],
-          ["やり", "おいた"]
+          ["<ruby>や<rt>や</rt></ruby>って", "しまった"],
+          ["<ruby>や<rt>や</rt></ruby>り", "しまった"],
+          ["<ruby>や<rt>や</rt></ruby>って", "おいた"],
+          ["<ruby>や<rt>や</rt></ruby>り", "おいた"]
         ],
-        "answer": ["やって", "しまった"],
+        "answer": ["<ruby>や<rt>や</rt></ruby>って", "しまった"],
         "explanation": "En este contexto, indica que la tarea se ha terminado por completo antes de realizar la siguiente acción.",
         "translation": "I've finished all my homework, so let's go out and play."
       },
@@ -3458,12 +3367,12 @@
         "type": "fill-gap",
         "question": "<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>書類<rt>しょるい</rt></ruby>___ ___しまいました。",
         "choices": [
-          ["を", "なくして"],
-          ["に", "なくして"],
-          ["を", "なくし"],
-          ["に", "なくし"]
+          ["を", "<ruby>なく<rt>なく</rt></ruby>して"],
+          ["に", "<ruby>なく<rt>なく</rt></ruby>して"],
+          ["を", "<ruby>なく<rt>なく</rt></ruby>し"],
+          ["に", "<ruby>なく<rt>なく</rt></ruby>し"]
         ],
-        "answer": ["を", "なくして"],
+        "answer": ["を", "<ruby>なく<rt>なく</rt></ruby>して"],
         "explanation": "Indica el sentimiento de pesar por haber perdido un documento importante. El objeto se marca con la partícula 'o'.",
         "translation": "I ended up losing an important document (and I regret it)."
       },
@@ -3472,8 +3381,8 @@
         "grammar": "てしまいます",
         "type": "fill-gap",
         "question": "おなかがすいていたので、ケーキを<ruby>全部<rt>ぜんぶ</rt></ruby>___しまいました。",
-        "choices": ["食べて", "食べ", "食べなくて", "食べる"],
-        "answer": "食べて",
+        "choices": ["<ruby>食<rt>た</rt></ruby>べて", "<ruby>食<rt>た</rt></ruby>べ", "<ruby>食<rt>た</rt></ruby>べなくて", "<ruby>食<rt>た</rt></ruby>べる"],
+        "answer": "<ruby>食<rt>た</rt></ruby>べて",
         "explanation": "When used with 'zenbu' (all/completely), 〜てしまいました emphasizes that the action was finished to the very end.",
         "translation": "I was hungry, so I ate the whole cake."
       },
@@ -3482,8 +3391,8 @@
         "grammar": "てしまいます",
         "type": "fill-gap",
         "question": "ごめんなさい、<ruby>約束<rt>やくそく</rt></ruby>を___しまいました。",
-        "choices": ["忘れて", "忘れ", "忘れなくて", "忘れる"],
-        "answer": "忘れて",
+        "choices": ["<ruby>忘<rt>わす</rt></ruby>れて", "<ruby>忘<rt>わす</rt></ruby>れ", "<ruby>忘<rt>わす</rt></ruby>れなくて", "<ruby>忘<rt>わす</rt></ruby>れる"],
+        "answer": "<ruby>忘<rt>わす</rt></ruby>れて",
         "explanation": "This grammar point is frequently used to express regret or an apology for an accidental mistake.",
         "translation": "I'm sorry, I completely forgot our appointment."
       },
@@ -3493,12 +3402,12 @@
         "type": "fill-gap",
         "question": "お<ruby>金<rt>かね</rt></ruby>___ ___しまいました。どうしましょう。",
         "choices": [
-          ["を", "なくして"],
-          ["が", "なくして"],
-          ["を", "なくなって"],
-          ["が", "なくなって"]
+          ["を", "<ruby>なく<rt>なく</rt></ruby>して"],
+          ["が", "<ruby>なく<rt>なく</rt></ruby>して"],
+          ["を", "<ruby>なくな<rt>なくな</rt></ruby>って"],
+          ["が", "<ruby>なくな<rt>なくな</rt></ruby>って"]
         ],
-        "answer": ["を", "なくして"],
+        "answer": ["を", "<ruby>なく<rt>なく</rt></ruby>して"],
         "explanation": "The transitive verb 'nakusu' (to lose something) is used here with the object particle 'o' to express the regrettable action of losing money.",
         "translation": "I lost my money. What should I do?"
       },
@@ -3508,12 +3417,12 @@
         "type": "fill-gap",
         "question": "<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>宿題<rt>しゅくだい</rt></ruby>___ ___しまいました。",
         "choices": [
-          ["を", "書いて"],
-          ["に", "書いて"],
-          ["を", "書かれて"],
-          ["に", "書かれて"]
+          ["を", "<ruby>書<rt>か</rt></ruby>いて"],
+          ["に", "<ruby>書<rt>か</rt></ruby>いて"],
+          ["を", "<ruby>書<rt>か</rt></ruby>かれて"],
+          ["に", "<ruby>書<rt>か</rt></ruby>かれて"]
         ],
-        "answer": ["を", "書いて"],
+        "answer": ["を", "<ruby>書<rt>か</rt></ruby>いて"],
         "explanation": "This indicates that the person has finished writing the Kanji homework completely.",
         "translation": "I finished writing my Kanji homework."
       },
@@ -3521,9 +3430,9 @@
         "key": "teshimaimasu",
         "grammar": "てしまいます",
         "type": "fill-gap",
-        "question": "ワインを<ruby>一本<rt>いっぽん</rt></ruby>全部___しまいました。",
-        "choices": ["飲んで", "飲み", "飲まないで", "飲む"],
-        "answer": "飲んで",
+        "question": "ワインを<ruby>一本<rt>いっぽん</rt></ruby><ruby>全部<rt>ぜんぶ</rt></ruby>___しまいました。",
+        "choices": ["<ruby>飲<rt>の</rt></ruby>んで", "<ruby>飲<rt>の</rt></ruby>み", "<ruby>飲<rt>の</rt></ruby>まないで", "<ruby>飲<rt>の</rt></ruby>む"],
+        "answer": "<ruby>飲<rt>の</rt></ruby>んで",
         "explanation": "〜てしまいました is used with 'zenbu' to emphasize that the entire bottle was finished.",
         "translation": "I ended up drinking a whole bottle of wine."
       },
@@ -3532,8 +3441,8 @@
         "grammar": "てしまいます",
         "type": "fill-gap",
         "question": "あ、パソコンが___しまいました。",
-        "choices": ["壊れて", "壊して", "壊れ", "壊し"],
-        "answer": "壊れて",
+        "choices": ["<ruby>壊<rt>こわ</rt></ruby>れて", "<ruby>壊<rt>こわ</rt></ruby>して", "<ruby>壊<rt>こわ</rt></ruby>れ", "<ruby>壊<rt>こわ</rt></ruby>し"],
+        "answer": "<ruby>壊<rt>こわ</rt></ruby>れて",
         "explanation": "When something breaks unexpectedly, the intransitive verb 'kowareru' is used with 'te shimau' to express the unfortunate event.",
         "translation": "Oh no, my computer has broken down."
       },
@@ -3543,12 +3452,12 @@
         "type": "fill-gap",
         "question": "<ruby>財布<rt>さいふ</rt></ruby>をどこかに___ ___、とても<ruby>困<rt>こま</rt></ruby>っています。",
         "choices": [
-          ["落として", "しまって"],
-          ["落ちて", "しまって"],
-          ["落として", "おいて"],
-          ["落ちて", "おいて"]
+          ["<ruby>落<rt>お</rt></ruby>として", "しまって"],
+          ["<ruby>落<rt>お</rt></ruby>ちて", "しまって"],
+          ["<ruby>落<rt>お</rt></ruby>として", "おいて"],
+          ["<ruby>落<rt>お</rt></ruby>ちて", "おいて"]
         ],
-        "answer": ["落として", "しまって"],
+        "answer": ["<ruby>落<rt>お</rt></ruby>として", "しまって"],
         "explanation": "The transitive verb 'otosu' (to drop/lose) combined with 'shimau' expresses the regret of losing a wallet.",
         "translation": "I dropped my wallet somewhere, and I'm in big trouble."
       },
@@ -3558,12 +3467,12 @@
         "type": "fill-gap",
         "question": "あまりに<ruby>疲<rt>つか</rt></ruby>れていたので、<ruby>電車<rt>でんしゃ</rt></ruby>で___ ___。",
         "choices": [
-          ["寝て", "しまいました"],
-          ["寝て", "おきました"],
-          ["寝", "ました"],
-          ["寝", "てありました"]
+          ["<ruby>寝<rt>ね</rt></ruby>て", "しまいました"],
+          ["<ruby>寝<rt>ね</rt></ruby>て", "おきました"],
+          ["<ruby>寝<rt>ね</rt></ruby>", "ました"],
+          ["<ruby>寝<rt>ね</rt></ruby>", "てありました"]
         ],
-        "answer": ["寝て", "しまいました"],
+        "answer": ["<ruby>寝<rt>ね</rt></ruby>て", "しまいました"],
         "explanation": "This expresses an unintentional or accidental action (falling asleep) caused by being overly tired.",
         "translation": "I was so tired that I ended up falling asleep on the train."
       },
@@ -3571,7 +3480,7 @@
         "key": "teokimasu",
         "grammar": "ておきます",
         "type": "fill-gap",
-        "question": "パーティーの<ruby>前<rt>まえ</rt></ruby>に、飲み物を<ruby>買<rt>か</rt></ruby>って___。",
+        "question": "パーティーの<ruby>前<rt>まえ</rt></ruby>に、<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>買<rt>か</rt></ruby>って___。",
         "choices": ["おきます", "あります", "しまいます", "います"],
         "answer": "おきます",
         "explanation": "〜ておきます indicates doing something in advance as preparation for a future event (the party).",
@@ -3582,8 +3491,8 @@
         "grammar": "ておきます",
         "type": "fill-gap",
         "question": "<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に、ホテルを___おきました。",
-        "choices": ["予約して", "予約し", "予約する", "予約した"],
-        "answer": "予約して",
+        "choices": ["<ruby>予約<rt>よやく</rt></ruby>して", "<ruby>予約<rt>よやく</rt></ruby>し", "<ruby>予約<rt>よやく</rt></ruby>する", "<ruby>予約<rt>よやく</rt></ruby>した"],
+        "answer": "<ruby>予約<rt>よやく</rt></ruby>して",
         "explanation": "The grammar point requires the Te-form of the verb (yoyaku suru -> yoyaku shite) followed by okimasu.",
         "translation": "I booked a hotel in advance before the trip."
       },
@@ -3593,12 +3502,12 @@
         "type": "fill-gap",
         "question": "<ruby>使<rt>つか</rt></ruby>った<ruby>後<rt>あと</rt></ruby>で、ハサミを___ ___ください。",
         "choices": [
-          ["戻して", "おいて"],
-          ["戻って", "おいて"],
-          ["戻して", "しまって"],
-          ["戻って", "しまって"]
+          ["<ruby>戻<rt>もど</rt></ruby>して", "おいて"],
+          ["<ruby>戻<rt>もど</rt></ruby>って", "おいて"],
+          ["<ruby>戻<rt>もど</rt></ruby>して", "しまって"],
+          ["<ruby>戻<rt>もど</rt></ruby>って", "しまって"]
         ],
-        "answer": ["戻して", "おいて"],
+        "answer": ["<ruby>戻<rt>もど</rt></ruby>して", "おいて"],
         "explanation": "〜ておいてください is used to ask someone to leave something in a certain state or return it to its original place for future use.",
         "translation": "Please put the scissors back (where they belong) after using them."
       },
@@ -3622,8 +3531,8 @@
         "grammar": "ておきます",
         "type": "fill-gap",
         "question": "テストが<ruby>始<rt>はじ</rt></ruby>まるから、スマホを<ruby>鞄<rt>かばん</rt></ruby>に___おいてください。",
-        "choices": ["入れて", "入って", "入れ", "入り"],
-        "answer": "入れて",
+        "choices": ["<ruby>入<rt>い</rt></ruby>れて", "<ruby>入<rt>はい</rt></ruby>って", "<ruby>入<rt>い</rt></ruby>れ", "<ruby>入<rt>はい</rt></ruby>り"],
+        "answer": "<ruby>入<rt>い</rt></ruby>れて",
         "explanation": "To put something away in preparation for an event (the test), use the transitive verb 'ireru' in its Te-form followed by okimasu.",
         "translation": "The test is starting, so please put your smartphone in your bag (in advance)."
       },
@@ -3632,8 +3541,8 @@
         "grammar": "ておきます",
         "type": "fill-gap",
         "question": "あしたの<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>資料<rt>しりょう</rt></ruby>を___おきました。",
-        "choices": ["コピーして", "コピーし", "コピーする", "コピーした"],
-        "answer": "コピーして",
+        "choices": ["<ruby>コピー<rt>こぴー</rt></ruby>して", "<ruby>コピー<rt>こぴー</rt></ruby>し", "<ruby>コピー<rt>こぴー</rt></ruby>する", "<ruby>コピー<rt>こぴー</rt></ruby>した"],
+        "answer": "<ruby>コピー<rt>こぴー</rt></ruby>して",
         "explanation": "This shows the completion of a preparatory action (copying documents) for a scheduled future event (tomorrow's meeting).",
         "translation": "I have copied the documents for tomorrow's meeting in advance."
       },
@@ -3643,12 +3552,12 @@
         "type": "fill-gap",
         "question": "<ruby>暑<rt>あつ</rt></ruby>いから、<ruby>窓<rt>まど</rt></ruby>を___ ___。",
         "choices": [
-          ["開けて", "おきます"],
-          ["開いて", "おきます"],
-          ["開けて", "あります"],
-          ["開いて", "あります"]
+          ["<ruby>開<rt>あ</rt></ruby>けて", "おきます"],
+          ["<ruby>開<rt>あ</rt></ruby>いて", "おきます"],
+          ["<ruby>開<rt>あ</rt></ruby>けて", "あります"],
+          ["<ruby>開<rt>あ</rt></ruby>いて", "あります"]
         ],
-        "answer": ["開けて", "おきます"],
+        "answer": ["<ruby>開<rt>あ</rt></ruby>けて", "おきます"],
         "explanation": "〜ておきます is also used to mean 'leaving a state as it is' for a reason. 'Akete' (transitive) is used because the action is purposeful.",
         "translation": "It's hot, so I'll leave the window open."
       },
@@ -3658,12 +3567,12 @@
         "type": "fill-gap",
         "question": "<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る___、<ruby>材料<rt>ざいりょう</rt></ruby>を___おきます。",
         "choices": [
-          ["前に", "買って"],
-          ["後に", "買って"],
-          ["前に", "買い"],
-          ["から", "買って"]
+          ["<ruby>前<rt>まえ</rt></ruby>に", "<ruby>買<rt>か</rt></ruby>って"],
+          ["<ruby>後<rt>あと</rt></ruby>に", "<ruby>買<rt>か</rt></ruby>って"],
+          ["<ruby>前<rt>まえ</rt></ruby>に", "<ruby>買<rt>か</rt></ruby>い"],
+          ["から", "<ruby>買<rt>か</rt></ruby>って"]
         ],
-        "answer": ["前に", "買って"],
+        "answer": ["<ruby>前<rt>まえ</rt></ruby>に", "<ruby>買<rt>か</rt></ruby>って"],
         "explanation": "'Mae ni' (before) indicates the timing, and 'katte oki-masu' indicates buying the ingredients as preparation.",
         "translation": "Before cooking, I will buy the ingredients in advance."
       },
@@ -3672,8 +3581,8 @@
         "grammar": "ておきます",
         "type": "fill-gap",
         "question": "<ruby>明日<rt>あした</rt></ruby>は<ruby>早<rt>はや</rt></ruby>いですから、もう___おきます。",
-        "choices": ["寝て", "寝", "寝る", "寝ないで"],
-        "answer": "寝て",
+        "choices": ["<ruby>寝<rt>ね</rt></ruby>て", "<ruby>寝<rt>ね</rt></ruby>", "<ruby>寝<rt>ね</rt></ruby>る", "<ruby>寝<rt>ね</rt></ruby>ないで"],
+        "answer": "<ruby>寝<rt>ね</rt></ruby>て",
         "explanation": "Using '~te okimasu' with sleeping implies doing it now to be ready for an early start tomorrow.",
         "translation": "Since I have an early start tomorrow, I'll go to bed now (in preparation)."
       },
@@ -3681,9 +3590,9 @@
         "key": "teokimasu",
         "grammar": "ておきます",
         "type": "fill-gap",
-        "question": "お<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ったので、テーブルの上に___おきました。",
-        "choices": ["置いて", "置く", "置いてい", "置き"],
-        "answer": "置いて",
+        "question": "お<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ったので、テーブルの<ruby>上<rt>うえ</rt></ruby>に___おきました。",
+        "choices": ["<ruby>置<rt>お</rt></ruby>いて", "<ruby>置<rt>お</rt></ruby>く", "<ruby>置<rt>お</rt></ruby>いてい", "<ruby>置<rt>お</rt></ruby>き"],
+        "answer": "<ruby>置<rt>お</rt></ruby>いて",
         "explanation": "This describes leaving the lunch box in a specific place so it's ready to be taken later.",
         "translation": "I made a lunch box, so I left it on the table (for later)."
       },
@@ -3708,12 +3617,12 @@
         "type": "fill-gap",
         "question": "まだ<ruby>使<rt>つか</rt></ruby>っていますから、<ruby>電気<rt>でんき</rt></ruby>を___ ___おいてください。",
         "choices": [
-          ["消さないで", "おいて"],
-          ["消して", "おいて"],
-          ["消さないで", "しまって"],
-          ["消して", "しまって"]
+          ["<ruby>消<rt>け</rt></ruby>さないで", "おいて"],
+          ["<ruby>消<rt>け</rt></ruby>して", "おいて"],
+          ["<ruby>消<rt>け</rt></ruby>さないで", "しまって"],
+          ["<ruby>消<rt>け</rt></ruby>して", "しまって"]
         ],
-        "answer": ["消さないで", "おいて"],
+        "answer": ["<ruby>消<rt>け</rt></ruby>さないで", "おいて"],
         "explanation": "To leave a state as it is (not turning off the lights), use the negative Te-form 'nai-de' followed by 'oite kudasai'.",
         "translation": "I'm still using them, so please leave the lights on (don't turn them off)."
       },
@@ -4218,12 +4127,12 @@
         "type": "fill-gap",
         "question": "<ruby>彼<rt>かれ</rt></ruby>は___でしょう。<ruby>合格<rt>ごうかく</rt></ruby>するはずです。",
         "choices": [
-          ["大丈夫", "だ"],
-          ["大丈夫", ""],
-          ["大丈夫", "な"],
-          ["大丈夫", "に"]
+          ["大丈夫だ"],
+          ["大丈夫"],
+          ["大丈夫な"],
+          ["大丈夫に"]
         ],
-        "answer": ["大丈夫", ""],
+        "answer": ["大丈夫"],
         "explanation": "With na-adjectives and nouns, ～でしょう follows the word directly without 'da' or 'na'.",
         "translation": "He will probably be fine. He is expected to pass."
       },
@@ -4266,14 +4175,14 @@
         "key": "deshou",
         "grammar": "でしょう",
         "type": "fill-gap",
-        "question": "<ruby>昨日<rt>きのう</rt></ruby>のパーティーは___ ___でしょう。",
+        "question": "<ruby>昨日<rt>きのう</rt></ruby>のパーティーは___でしょう。",
         "choices": [
-          ["賑やかだった", ""],
-          ["賑やか", "だ"],
-          ["賑やか", "な"],
-          ["賑やか", "に"]
+          ["賑やかだった"],
+          ["賑やかだ"],
+          ["賑やかな"],
+          ["賑やかでした"]
         ],
-        "answer": ["賑やかだった", ""],
+        "answer": ["賑やかだった"],
         "explanation": "For past conjectures with na-adjectives, use the past plain form (datta) before deshou.",
         "translation": "Yesterday's party was probably lively."
       },
@@ -4316,14 +4225,14 @@
         "key": "kamoshiremasen",
         "grammar": "かもしれません",
         "type": "fill-gap",
-        "question": "<ruby>明日<rt>あした</rt></ruby>は___ ___かもしれません。",
+        "question": "<ruby>明日<rt>あした</rt></ruby>は___かもしれません。",
         "choices": [
-          ["雨", "だ"],
-          ["雨", ""],
-          ["雨", "な"],
-          ["雨", "の"]
+          ["雨だ"],
+          ["雨"],
+          ["雨な"],
+          ["雨の"]
         ],
-        "answer": ["雨", ""],
+        "answer": ["雨"],
         "explanation": "Similar to 'deshou', when using kamoshiremasen with nouns, you attach it directly without 'da'.",
         "translation": "It might rain tomorrow."
       },
@@ -4331,14 +4240,14 @@
         "key": "kamoshiremasen",
         "grammar": "かもしれません",
         "type": "fill-gap",
-        "question": "あの<ruby>店<rt>みせ</rt></ruby>は___ ___かもしれません。",
+        "question": "あの<ruby>店<rt>みせ</rt></ruby>は___かもしれません。",
         "choices": [
-          ["有名", ""],
-          ["有名", "だ"],
+          ["有名"],
+          ["有名だ"],
           ["有名", "な"],
           ["有名", "に"]
         ],
-        "answer": ["有名", ""],
+        "answer": ["有名"],
         "explanation": "For na-adjectives, remove the 'na' and do not add 'da' before kamoshiremasen.",
         "translation": "That shop might be famous."
       },
@@ -4366,14 +4275,14 @@
         "key": "kamoshiremasen",
         "grammar": "かもしれません",
         "type": "fill-gap",
-        "question": "あしたは___ ___かもしれません。",
+        "question": "あしたは___かもしれません。",
         "choices": [
-          ["寒くない", ""],
-          ["寒くない", "だ"],
-          ["寒い", "ない"],
-          ["寒く", "ないだ"]
+          ["寒くない"],
+          ["寒くないだ"],
+          ["寒いない"],
+          ["寒く"]
         ],
-        "answer": ["寒くない", ""],
+        "answer": ["寒くない"],
         "explanation": "Para adjetivos-i en negativo, se usa la forma corta negativa (samukunai) directamente.",
         "translation": "It might not be cold tomorrow."
       },
@@ -4731,7 +4640,7 @@
         "key": "to_itteimashita",
         "grammar": "と言っていました",
         "type": "fill-gap",
-        "question": "<ruby>医者<rt>いしゃ</rt></ruby>は「しばらく<ruby>運動<rt>うんどう</rt></ruby>___ ___」___言っていました。",
+        "question": "<ruby>医者<rt>いしゃ</rt></ruby>は「しばらく<ruby>運動<rt>うんどう</rt></ruby>___」___言っていました。",
         "choices": [
           ["するな", "と"],
           ["する", "を"],
@@ -4746,14 +4655,14 @@
         "key": "to_itteimashita",
         "grammar": "と言っていました",
         "type": "fill-gap",
-        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは、あしたは___ ___と言っていました。",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは、あしたは___と言っていました。",
         "choices": [
-          ["休みだ", "と"],
-          ["休み", "を"],
-          ["休みだ", "が"],
-          ["休みで", "と"]
+          ["休みだと"],
+          ["休みを"],
+          ["休みだが"],
+          ["休みでと"]
         ],
-        "answer": ["休みだ", "と"],
+        "answer": ["休みだと"],
         "explanation": "Al reportar que mañana es feriado/descanso (sustantivo), se debe incluir 'da' antes de la partícula de cita 'to'.",
         "translation": "Mr. Tanaka was saying that tomorrow is a holiday."
       },
@@ -4781,14 +4690,14 @@
         "key": "to_tsutaete_itadakemasenka",
         "grammar": "と伝えていただけませんか",
         "type": "fill-gap",
-        "question": "山田さんに、すぐ<ruby>電話<rt>でんわ</rt></ruby>を___ ___と<ruby>伝<rt>つた</rt></ruby>えていただけませんか。",
+        "question": "山田さんに、すぐ<ruby>電話<rt>でんわ</rt></ruby>を___と<ruby>伝<rt>つた</rt></ruby>えていただけませんか。",
         "choices": [
-          ["くれるよう", "に"],
-          ["くれる", "と"],
-          ["くれた", "を"],
-          ["くれ", "と"]
+          ["くれるように"],
+          ["くれると"],
+          ["くれたを"],
+          ["くれと"]
         ],
-        "answer": ["くれるよう", "に"],
+        "answer": ["くれるように"],
         "explanation": "When asking someone to convey a request (to ask someone to do something), the pattern '~you ni' is often used before the main verb.",
         "translation": "Could you please tell Mr. Yamada to call me right away?"
       },
@@ -4863,7 +4772,7 @@
         "key": "to_kaitearimasu",
         "grammar": "と書いてあります / と読みます",
         "type": "fill-gap",
-        "question": "この<ruby>文字<rt>もじ</rt></ruby>は「<ruby>禁煙<rt>きんえん</rt></ruby>」___ ___。",
+        "question": "この<ruby>文字<rt>もじ</rt></ruby>は「<ruby>禁煙<rt>きんえん</rt></ruby>」___。",
         "choices": ["と読みます", "を読みます", "と書きます", "を書いてあります"],
         "answer": "と読みます",
         "explanation": "Para indicar cómo se pronuncia o se lee un conjunto de caracteres, se utiliza la partícula de cita 'to' seguida de 'yomimasu'.",
@@ -4873,7 +4782,7 @@
         "key": "to_kaitearimasu",
         "grammar": "と書いてあります / と読みます",
         "type": "fill-gap",
-        "question": "あの<ruby>掲示板<rt>けいじばん</rt></ruby>に「<ruby>本日休業<rt>ほんじつきゅうぎょう</rt></ruby>」___ ___。",
+        "question": "あの<ruby>掲示板<rt>けいじばん</rt></ruby>に「<ruby>本日休業<rt>ほんじつきゅうぎょう</rt></ruby>」___。",
         "choices": ["と書いてあります", "と読みます", "が書いてあります", "を書いてあります"],
         "answer": "と書いてあります",
         "explanation": "'To kaite arimasu' se utiliza para reportar el estado de un mensaje escrito en un lugar público como un tablero de anuncios (keijiban).",
@@ -4883,7 +4792,7 @@
         "key": "to_kaitearimasu",
         "grammar": "と書いてあります / と読みます",
         "type": "fill-gap",
-        "question": "あそこの<ruby>非常口<rt>ひじょうぐち</rt></ruby>に「___」___ ___あります。",
+        "question": "あそこの<ruby>非常口<rt>ひじょうぐち</rt></ruby>に「___」___あります。",
         "choices": [
           ["出口", "と書いて"],
           ["入口", "と書いて"],
@@ -4891,14 +4800,14 @@
           ["入口", "を書いて"]
         ],
         "answer": ["出口", "と書いて"],
-        "explanation": "En un contexto de salida de emergencia (hijouguchi), es lógico que esté escrito 'Deguchi' (Salida). La estructura requiere 'to kaite'.",
+        "explanation": "In the context of an emergency exit (hijouguchi), it is logical for 'Deguchi' (Exit) to be written there. the structure requires the quotation particle 'to' followed by 'kaite'.",
         "translation": "It is written 'Exit' at that emergency exit over there."
       },
       {
         "key": "to_kaitearimasu",
         "grammar": "と書いてあります / と読みます",
         "type": "fill-gap",
-        "question": "「<ruby>駐車禁止<rt>ちゅうしゃきんし</rt></ruby>」は「ここに<ruby>車<rt>くるま</rt></ruby>を___な」___ ___あります。",
+        "question": "「<ruby>駐車禁止<rt>ちゅうしゃきんし</rt></ruby>」は「ここに<ruby>車<rt>くるま</rt></ruby>を___な」___あります。",
         "choices": [
           ["止める", "と書いて"],
           ["止める", "を書いて"],
@@ -4906,34 +4815,34 @@
           ["止まれ", "を書いて"]
         ],
         "answer": ["止める", "と書いて"],
-        "explanation": "El letrero 'No Estacionar' (Chuushakinshi) suele interpretarse como 'No estaciones el auto aquí' (tomeru-na). Se usa 'to kaite' para citar el contenido.",
+        "explanation": "The sign 'No Parking' (Chuushakinshi) is interpreted as 'Don't park your car here' (tomeru-na). 'To kaite' is used to quote the written content.",
         "translation": "'No Parking' is written as (means) 'Don't park your car here'."
       },
       {
         "key": "to_kaitearimasu",
         "grammar": "と読みます",
         "type": "fill-gap",
-        "question": "この<ruby>地名<rt>ちめい</rt></ruby>は「<ruby>浅草<rt>あさくさ</rt></ruby>」___ ___。",
+        "question": "この<ruby>地名<rt>ちめい</rt></ruby>は「<ruby>浅草<rt>あさくさ</rt></ruby>」___。",
         "choices": ["と読みます", "を読みます", "と書きます", "を読みます"],
         "answer": "と読みます",
-        "explanation": "Para indicar la lectura correcta de un nombre de lugar (topónimo), se usa la partícula de cita 'to' con el verbo 'yomimasu'.",
-        "translation": "Este nombre de lugar se lee 'Asakusa'."
+        "explanation": "To indicate the correct reading of a place name (toponym), use the quotation particle 'to' with the verb 'yomimasu' (to read).",
+        "translation": "This place name is read as 'Asakusa'."
       },
       {
         "key": "to_kaitearimasu",
         "grammar": "と読みます",
         "type": "fill-gap",
-        "question": "「<ruby>月曜日<rt>げつようび</rt></ruby>」は「げつようび」___ ___。",
+        "question": "「<ruby>月曜日<rt>げつようび</rt></ruby>」は「げつようび」___。",
         "choices": ["と読みます", "を読みます", "と書いてあります", "が読みます"],
         "answer": "と読みます",
-        "explanation": "Incluso si los kanjis son conocidos, para confirmar su pronunciación se utiliza la estructura 'lectura + to yomimasu'.",
-        "translation": "'月曜日' se lee 'getsuyoubi'."
+        "explanation": "Even for common Kanji, the structure 'reading + to yomimasu' is used to confirm or define the pronunciation.",
+        "translation": "'月曜日' is read as 'getsuyoubi'."
       },
       {
         "key": "to_kaitearimasu",
         "grammar": "と読みます",
         "type": "fill-gap",
-        "question": "あそこに「<ruby>入口<rt>いりぐち</rt></ruby>」___ ___あります。これは「いりぐち」___ ___。",
+        "question": "あそこに「<ruby>入口<rt>いりぐち</rt></ruby>」___あります。これは「いりぐち」___。",
         "choices": [
           ["と書いて", "と読みます"],
           ["を書いて", "を読みます"],
@@ -4941,8 +4850,8 @@
           ["を書いて", "と読みます"]
         ],
         "answer": ["と書いて", "と読みます"],
-        "explanation": "La primera parte describe lo que está escrito (kaite arimasu) y la segunda cómo se lee (to yomimasu).",
-        "translation": "Allí está escrito 'Entrada'. Esto se lee 'iriguchi'."
+        "explanation": "The first part describes what is physically written (kaite arimasu), and the second part describes how it is read (to yomimasu).",
+        "translation": "It says 'Entrance' over there. This is read as 'iriguchi'."
       },
       {
         "key": "toiu_imi",
@@ -4968,7 +4877,7 @@
         "key": "toiu_imi",
         "grammar": "という意味 / どういう意味",
         "type": "fill-gap",
-        "question": "あそこに「<ruby>準備中<rt>じゅんびちゅう</rt></ruby>」___ ___ありますが、それは___ ___ ___ですか。",
+        "question": "あそこに「<ruby>準備中<rt>じゅんびちゅう</rt></ruby>」___ ありますが、それは ___ ですか。",
         "choices": [
           ["と書いて", "どういう意味"],
           ["を書いて", "どんな意味"],
@@ -5088,14 +4997,14 @@
         "key": "toori_ni",
         "grammar": "とおりに",
         "type": "fill-gap",
-        "question": "見た___ ___、<ruby>話<rt>はな</rt></ruby>してください。",
+        "question": "見た___、<ruby>話<rt>はな</rt></ruby>してください。",
         "choices": [
-          ["とおり", "に"],
-          ["の", "に"],
-          ["よう", "に"],
-          ["まま", "に"]
+          ["とおりに"],
+          ["のに"],
+          ["ように"],
+          ["ままに"]
         ],
-        "answer": ["とおり", "に"],
+        "answer": ["とおりに"],
         "explanation": "The plain past form of a verb ('mita') connects directly to 'toori ni' to mean 'exactly as you saw'.",
         "translation": "Please tell me exactly as you saw it."
       },
@@ -5138,14 +5047,14 @@
         "key": "toori_ni",
         "grammar": "とおりに",
         "type": "fill-gap",
-        "question": "自分の<ruby>想<rt>おも</rt></ruby>い___ ___、___ほうがいいですよ。",
+        "question": "自分の<ruby>想<rt>おも</rt></ruby>い___、___ほうがいいですよ。",
         "choices": [
-          ["どおり", "に", "生きた"],
-          ["のどおり", "に", "生きる"],
-          ["とおり", "に", "生きた"],
-          ["のとおり", "に", "生きる"]
+          ["どおりに", "生きた"],
+          ["のどおりに", "生きる"],
+          ["とおりに", "生きた"],
+          ["のとおりに", "生きる"]
         ],
-        "answer": ["どおり", "に", "生きた"],
+        "answer": ["どおりに", "生きた"],
         "explanation": "When 'toori' attaches directly to certain nouns like 'omoi', it often becomes voiced as 'doori'. Combined with 'hou ga ii', the past 'ikita' gives advice.",
         "translation": "You should live your life exactly as you feel (according to your thoughts)."
       },
@@ -5273,7 +5182,7 @@
         "key": "te_naide",
         "grammar": "て / ないで",
         "type": "fill-gap",
-        "question": "砂糖を___ ___、コーヒーを___。",
+        "question": "砂糖を___、コーヒーを___。",
         "choices": [
           ["入れないで", "飲みます"],
           ["入れて", "飲みます"],
@@ -5323,7 +5232,7 @@
         "key": "te_naide",
         "grammar": "て / ないで",
         "type": "fill-gap",
-        "question": "エレベーターを___ ___、<ruby>階段<rt>かいだん</rt></ruby>を___。",
+        "question": "エレベーターを___、<ruby>階段<rt>かいだん</rt></ruby>を___。",
         "choices": [
           ["使わないで", "使いました"],
           ["使って", "使いました"],
@@ -5338,7 +5247,7 @@
         "key": "te_naide",
         "grammar": "て / ないで",
         "type": "fill-gap",
-        "question": "誰にも___ ___、一人で___と決めています。",
+        "question": "誰にも___、一人で___と決めています。",
         "choices": [
           ["相談しないで", "やる"],
           ["相談して", "やる"],
@@ -5356,7 +5265,7 @@
         "question": "安ければ、新しいパソコンを___。",
         "choices": ["買います", "買った", "買うなら", "買って"],
         "answer": "買います",
-        "explanation": "La forma condicional 'ba' (yasukereba) se usa para indicar que si se cumple la condición de ser barato, se realizará la acción de comprar.",
+        "explanation": "The conditional form '-ba' (yasukereba) is used to indicate that if the condition of being cheap is met, the action of buying will be performed.",
         "translation": "If it's cheap, I will buy a new computer."
       },
       {
@@ -5366,7 +5275,7 @@
         "question": "日本料理が___なら、いいレストランを知っていますよ。",
         "choices": ["好き", "好きだ", "好きな", "好きで"],
         "answer": "好き",
-        "explanation": "Con adjetivos-na como 'suki', se usa la raíz directamente antes de 'nara' para establecer el contexto o condición.",
+        "explanation": "With na-adjectives like 'suki', the root is used directly before 'nara' to establish the context or condition.",
         "translation": "If you like Japanese food, I know a good restaurant."
       },
       {
@@ -5376,14 +5285,14 @@
         "question": "どこでカメラを買え___いいですか。",
         "choices": ["ば", "たら", "れば", "なら"],
         "answer": "ば",
-        "explanation": "La estructura '[Verbo potencial en forma -eba] + ii desu ka' se utiliza para pedir consejos o sugerencias.",
-        "translation": "Where should I buy a camera? (Where would it be good to be able to buy...)"
+        "explanation": "The structure '[Potential verb in -eba form] + ii desu ka' is used to ask for advice or suggestions.",
+        "translation": "Where should I buy a camera?"
       },
       {
         "key": "ba_nara_baiidesu",
         "grammar": "ば / なら / ばいいです",
         "type": "fill-gap",
-        "question": "時間___ ___、あした___ ___。",
+        "question": "時間___、あした___。",
         "choices": [
           ["があれば", "来てください"],
           ["があったら", "来てください"],
@@ -5391,7 +5300,7 @@
           ["があれば", "来るな"]
         ],
         "answer": ["があれば", "来てください"],
-        "explanation": "Se usa 'areba' (si hay) para la condición y una petición cortés para el resultado.",
+        "explanation": "'Areba' (if there is) is used for the condition, followed by a polite request for the result.",
         "translation": "If you have time, please come tomorrow."
       },
       {
@@ -5401,7 +5310,7 @@
         "question": "お<ruby>金<rt>かね</rt></ruby>を<ruby>下<rt>お</rt></ruby>ろしたいんですが、どこへ___いいですか。",
         "choices": ["行けば", "行ったら", "行くなら", "行きれば"],
         "answer": "行けば",
-        "explanation": "Para pedir consejo (¿A dónde debería ir?), se usa la forma condicional del verbo. Para 'iku' (Grupo 1), se cambia 'ku' por 'ke' + 'ba'.",
+        "explanation": "To ask for advice (Where should I go?), the conditional form of the verb is used. For 'iku' (Group 1), 'ku' changes to 'ke' + 'ba'.",
         "translation": "I want to withdraw money; where should I go?"
       },
       {
@@ -5411,7 +5320,7 @@
         "question": "テレビの<ruby>音<rt>おと</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きければ、___ください。",
         "choices": ["小さくして", "小さくした", "小さくすれば", "小さいして"],
         "answer": "小さくして",
-        "explanation": "Si se cumple la condición (si está fuerte/ookikereba), se pide una acción. 'Ooki-i' se convierte en 'ooki-kereba' en condicional.",
+        "explanation": "If the condition is met (if it is loud / ookikereba), an action is requested. 'Ooki-i' becomes 'ooki-kereba' in the conditional.",
         "translation": "If the TV is too loud, please turn it down."
       },
       {
@@ -5421,14 +5330,14 @@
         "question": "あした___なら、ピクニックに<ruby>行<rt>い</rt></ruby>きませんか。",
         "choices": ["いい天気", "いい天気だ", "いい天気な", "いい天気の"],
         "answer": "いい天気",
-        "explanation": "Con sustantivos, se usa 'Sustantivo + nara' para establecer una condición basada en lo que se acaba de mencionar.",
-        "translation": "If it's good weather tomorrow, why don't we go on a picnic?"
+        "explanation": "With nouns, 'Noun + nara' is used to set a condition based on the topic being discussed.",
+        "translation": "If the weather is good tomorrow, why don't we go on a picnic?"
       },
       {
         "key": "ba_nara_baiidesu",
         "grammar": "ば / なら / ばいいです",
         "type": "fill-gap",
-        "question": "パソコンが___ ___、<ruby>田中<rt>たなか</rt></ruby>さんに___ ___ですよ。",
+        "question": "パソコンが___、<ruby>田中<rt>たなか</rt></ruby>さんに___ですよ。",
         "choices": [
           ["故障なら", "聞けばいい"],
           ["故障れば", "聞けばいい"],
@@ -5436,7 +5345,7 @@
           ["故障すれば", "聞くなら"]
         ],
         "answer": ["故障なら", "聞けばいい"],
-        "explanation": "'Koshou' (avería) es un sustantivo, por lo que usa 'nara'. El consejo se da con la forma -eba de 'kiku' (kikeba) + 'ii desu'.",
+        "explanation": "'Koshou' (breakdown) is a noun, so it uses 'nara'. Advice is given using the -eba form of 'kiku' (kikeba) + 'ii desu'.",
         "translation": "If it's a breakdown, you should ask Mr. Tanaka."
       },
       {
@@ -5446,17 +5355,17 @@
         "question": "<ruby>忘<rt>わす</rt></ruby>れない___、メモを<ruby>書<rt>か</rt></ruby>いておきます。",
         "choices": ["ように", "ために", "ことに", "ので"],
         "answer": "ように",
-        "explanation": "Para expresar un objetivo con un verbo en forma negativa (no olvidar), se utiliza 'youni'. 'Tame ni' se suele usar con verbos de voluntad en forma afirmativa.",
+        "explanation": "To express a goal with a verb in negative form (not to forget), 'youni' is used. 'Tame ni' is typically used with volitional verbs in affirmative form.",
         "translation": "I will write a memo so that I don't forget."
       },
       {
         "key": "youni",
         "grammar": "１ように２",
         "type": "fill-gap",
-        "question": "<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きられる___、<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>ます。",
+        "question": "<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きられる___、<ruby>早<rt>早</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>ます。",
         "choices": ["ように", "ために", "までに", "から"],
         "answer": "ように",
-        "explanation": "Con verbos en forma potencial (puedo levantarme), se usa siempre 'youni' para expresar el propósito.",
+        "explanation": "With verbs in the potential form (can wake up), 'youni' is always used to express purpose.",
         "translation": "I go to bed early so that I can wake up early."
       },
       {
@@ -5471,7 +5380,7 @@
           ["読む", "ように", "勉強"]
         ],
         "answer": ["読める", "ように", "勉強"],
-        "explanation": "Se usa la forma potencial 'yomeru' con 'youni' para indicar el objetivo de poder leer. 'Benkyou shimasu' es la acción para lograrlo.",
+        "explanation": "The potential form 'yomeru' is used with 'youni' to indicate the goal of being able to read. 'Benkyou shimasu' is the action taken to achieve it.",
         "translation": "I study Kanji so that I'll be able to read Japanese newspapers."
       },
       {
@@ -5486,7 +5395,7 @@
           ["聞こえる", "ように", "話した"]
         ],
         "answer": ["聞こえる", "ように", "話して"],
-        "explanation": "'Kikoeru' (poder oírse) es un verbo intransitivo/estado que requiere 'youni' para expresar el fin de que los de atrás escuchen.",
+        "explanation": "'Kikoeru' (to be audible) is an intransitive/stative verb that requires 'youni' to express the purpose of making sure people in the back can hear.",
         "translation": "Please speak in a loud voice so that the people in the back can hear you."
       },
       {
@@ -5496,7 +5405,7 @@
         "question": "<ruby>風邪<rt>かぜ</rt></ruby>を___ように、<ruby>温<rt>あたた</rt></ruby>かい<ruby>服<rt>ふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>てください。",
         "choices": ["ひかない", "ひく", "ひいた", "ひいて"],
         "answer": "ひかない",
-        "explanation": "To express a purpose with a negative outcome (so that you DON'T...), use the Nai-form before 'youni'.",
+        "explanation": "To express a purpose with a negative outcome (so that you DON'T...), use the nai-form before 'youni'.",
         "translation": "Please wear warm clothes so that you don't catch a cold."
       },
       {
@@ -5528,14 +5437,14 @@
         "key": "youni",
         "grammar": "１ように２",
         "type": "fill-gap",
-        "question": "<ruby>日本<rt>にほん</rt></ruby>で___ ___、<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby>___しています。",
+        "question": "<ruby>日本<rt>にほん</rt></ruby>で___、<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby>___しています。",
         "choices": [
-          ["働ける", "ように", "勉強"],
-          ["働く", "ために", "勉強"],
-          ["働ける", "ために", "勉強"],
-          ["働く", "ように", "勉強"]
+          ["働けるように", "勉強"],
+          ["働くために", "勉強"],
+          ["働けるために", "勉強"],
+          ["働くように", "勉強"]
         ],
-        "answer": ["働ける", "ように", "勉強"],
+        "answer": ["働けるように", "勉強"],
         "explanation": "Use the potential form 'hatarakeru' with 'youni' to express the objective of becoming able to work in Japan.",
         "translation": "I am studying hard so that I can work in Japan."
       },
@@ -5546,7 +5455,7 @@
         "question": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>したので、５０メートル___ようになりました。",
         "choices": ["泳げる", "泳ぐ", "泳いで", "泳げ"],
         "answer": "泳げる",
-        "explanation": "Se usa la forma potencial ('oyogeru') con 'you ni narimashita' para indicar que ahora eres capaz de hacer algo que antes no podías.",
+        "explanation": "The potential form ('oyogeru') is used with 'you ni narimashita' to indicate that you have become able to do something you couldn't do before.",
         "translation": "Because I practiced every day, I became able to swim 50 meters."
       },
       {
@@ -5556,37 +5465,37 @@
         "question": "やっと<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>が___ようになりました。",
         "choices": ["言える", "言う", "言って", "言った"],
         "answer": "言える",
-        "explanation": "Al alcanzar la capacidad de expresarse, se usa el potencial del verbo ('ieru') seguido de 'you ni narimashita'.",
+        "explanation": "When indicating the acquisition of the ability to do something, the potential form of the verb ('ieru') is used followed by 'you ni narimashita'.",
         "translation": "I have finally become able to say my own opinions in Japanese."
       },
       {
         "key": "youninarimasu",
         "grammar": "ようになります",
         "type": "fill-gap",
-        "question": "<ruby>日本<rt>にほん</rt></ruby>へ<ruby>来<rt>き</rt></ruby>てから、<ruby>刺身<rt>さしみ</rt></ruby>を___ ___。",
+        "question": "<ruby>日本<rt>にほん</rt></ruby>へ<ruby>来<rt>き</rt></ruby>てから、<ruby>刺身<rt>さしみ</rt></ruby>を___。",
         "choices": [
-          ["食べる", "ようになりました"],
-          ["食べて", "なりました"],
-          ["食べる", "ことにしました"],
-          ["食べて", "いました"]
+          ["食べるようになりました"],
+          ["食べてなりました"],
+          ["食べることにしました"],
+          ["食べていました"]
         ],
-        "answer": ["食べる", "ようになりました"],
-        "explanation": "Para cambios en hábitos (empezar a comer algo que antes no se comía), se usa el verbo en forma diccionario + 'you ni narimashita'.",
+        "answer": ["食べるようになりました"],
+        "explanation": "For changes in habits (starting to do something you didn't do before), use the dictionary form of the verb + 'you ni narimashita'.",
         "translation": "Since coming to Japan, I have started eating sashimi."
       },
       {
         "key": "youninarimasu",
         "grammar": "ようになります",
         "type": "fill-gap",
-        "question": "バイクを<ruby>修理<rt>しゅうり</rt></ruby>しましたから、___ ___。",
+        "question": "バイクを<ruby>修理<rt>しゅうり</rt></ruby>しましたから、___。",
         "choices": [
-          ["動く", "ようになりました"],
-          ["動いて", "なりました"],
-          ["動ける", "ようになりました"],
-          ["動く", "ことにしました"]
+          ["動くようになりました"],
+          ["動いてなりました"],
+          ["動けるようになりました"],
+          ["動くことにしました"]
         ],
-        "answer": ["動く", "ようになりました"],
-        "explanation": "Con verbos que no expresan voluntad (como 'ugoku', funcionar/moverse), se usa la forma diccionario para indicar que el objeto ha vuelto a funcionar.",
+        "answer": ["動くようになりました"],
+        "explanation": "With non-volitional verbs (such as 'ugoku' = to move/function), the dictionary form is used to indicate that the object has started working again.",
         "translation": "I repaired the motorcycle, so it has started working (moving) again."
       },
       {
@@ -5596,8 +5505,8 @@
         "question": "日本に来て１年経って、日本のニュースがかなり___ようになりました。",
         "choices": ["わかる", "わかって", "わかった", "わかれば"],
         "answer": "わかる",
-        "explanation": "Con verbos que ya indican capacidad o estado como 'wakaru', se usa la forma diccionario + 'you ni narimashita' para expresar el cambio.",
-        "translation": "A year has passed since I came to Japan, and I've become able to understand the Japanese news quite a bit."
+        "explanation": "With verbs that already indicate understanding or a state like 'wakaru', the dictionary form + 'you ni narimashita' is used to express the change.",
+        "translation": "A year has passed since I came to Japan, and I've become able to understand Japanese news quite well."
       },
       {
         "key": "youninarimasu",
@@ -5606,7 +5515,7 @@
         "question": "眼鏡をかければ、小さい文字も___ようになりますよ。",
         "choices": ["読める", "読む", "読んで", "読めた"],
         "answer": "読める",
-        "explanation": "Para expresar que alguien adquiere la capacidad de hacer algo mediante una condición, se usa la forma potencial ('yomeru') + 'you ni narimasu'.",
+        "explanation": "To express that someone acquires the ability to do something under a certain condition, use the potential form ('yomeru') + 'you ni narimasu'.",
         "translation": "If you wear glasses, you will become able to read even small characters."
       },
       {
@@ -5621,7 +5530,7 @@
           ["歩く", "ように"]
         ],
         "answer": ["歩ける", "ように"],
-        "explanation": "Indica el cambio hacia una nueva capacidad física (poder caminar) tras una lesión o proceso, usando la forma potencial.",
+        "explanation": "It indicates a change toward a new physical ability (being able to walk) after an injury or process, using the potential form.",
         "translation": "Recently, I have finally become able to walk."
       },
       {
@@ -5728,7 +5637,7 @@
         "key": "younishimasu",
         "grammar": "ようにします",
         "type": "fill-gap",
-        "question": "エレベーターを___、なるべく___ ___ ___しています。",
+        "question": "エレベーターを___、なるべく___ ___しています。",
         "choices": [
           ["使わないで", "階段を", "使うように"],
           ["使って", "階段を", "使わないように"],
@@ -5763,7 +5672,7 @@
         "key": "ukemikei",
         "grammar": "受身形",
         "type": "fill-gap",
-        "question": "<ruby>弟<rt>おとうと</rt></ruby>___私のケーキを___ ___。",
+        "question": "<ruby>弟<rt>おとうと</rt></ruby>___私のケーキを ___。",
         "choices": [
           ["に", "食べられました"],
           ["を", "食べられました"],
@@ -5813,22 +5722,7 @@
         "key": "ukemikei",
         "grammar": "受身形",
         "type": "fill-gap",
-        "question": "この<ruby>美術館<rt>びじゅつかん</rt></ruby>は２０<ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>に___ ___。",
-        "choices": [
-          ["建てられました", ""],
-          ["建てました", ""],
-          ["建ててありました", ""],
-          ["建てさせられました", ""]
-        ],
-        "answer": ["建てられました", ""],
-        "explanation": "Para edificios o inventos donde el autor no es el foco, se usa la forma pasiva. 'Tateru' (Grupo 2) se convierte en 'taterareru'.",
-        "translation": "This art museum was built 20 years ago."
-      },
-      {
-        "key": "ukemikei",
-        "grammar": "受身形",
-        "type": "fill-gap",
-        "question": "犬___手を___ ___。",
+        "question": "犬___手を ___。",
         "choices": [
           ["に", "かまれました"],
           ["を", "かまれました"],
@@ -6198,14 +6092,14 @@
         "key": "action_reaction",
         "grammar": "actionてreaction",
         "type": "fill-gap",
-        "question": "<ruby>話<rt>はなし</rt></ruby>が___ ___、さっぱり<ruby>分<rt>わ</rt></ruby>かりませんでした。",
+        "question": "<ruby>話<rt>はなし</rt></ruby>が___、さっぱり<ruby>分<rt>わ</rt></ruby>かりませんでした。",
         "choices": [
-          ["複雑で", ""],
-          ["複雑だ", "で"],
-          ["複雑に", ""],
-          ["複雑な", ""]
+          ["複雑で"],
+          ["複雑で"],
+          ["複雑に"],
+          ["複雑な"]
         ],
-        "answer": ["複雑で", ""],
+        "answer": ["複雑で"],
         "explanation": "The complexity of the story (na-adjective + de) is the cause of not understanding anything.",
         "translation": "The story was complicated, so I didn't understand it at all."
       },
@@ -6213,14 +6107,14 @@
         "key": "action_reaction",
         "grammar": "actionてreaction",
         "type": "fill-gap",
-        "question": "<ruby>財布<rt>さいふ</rt></ruby>を___ ___、<ruby>悲<rt>かな</rt></ruby>しいです。",
+        "question": "<ruby>財布<rt>さいふ</rt></ruby>を___、<ruby>悲<rt>かな</rt></ruby>しいです。",
         "choices": [
-          ["なくして", ""],
-          ["なくした", "ので"],
-          ["なくし", "て"],
-          ["なくて", ""]
+          ["なくして"],
+          ["なくしたので"],
+          ["なくして"],
+          ["なくても"]
         ],
-        "answer": ["なくして", ""],
+        "answer": ["なくして"],
         "explanation": "The act of losing one's wallet causes the emotional reaction of sadness.",
         "translation": "I'm sad because I lost my wallet."
       },
@@ -6278,14 +6172,14 @@
         "key": "node",
         "grammar": "AのでB",
         "type": "fill-gap",
-        "question": "<ruby>雨<rt>あめ</rt></ruby>が___ ___ので、<ruby>出<rt>で</rt></ruby>かけないほうがいいです。",
+        "question": "<ruby>雨<rt>あめ</rt></ruby>が___ので、<ruby>出<rt>で</rt></ruby>かけないほうがいいです。",
         "choices": [
-          ["降っている", "の"],
-          ["降って", "の"],
-          ["降る", "な"],
-          ["降った", "の"]
+          ["降っているの"],
+          ["降っての"],
+          ["降るな"],
+          ["降ったの"]
         ],
-        "answer": ["降っている", "の"],
+        "answer": ["降っているの"],
         "explanation": "The continuous form (~te iru) is used to indicate that the ongoing rain is the cause for not going out.",
         "translation": "Since it's raining, it's better not to go out."
       },
@@ -6293,14 +6187,14 @@
         "key": "node",
         "grammar": "AのでB",
         "type": "fill-gap",
-        "question": "<ruby>気分<rt>きぶん</rt></ruby>が___ ___ので、お<ruby>先<rt>さき</rt></ruby>に<ruby>失礼<rt>しつれい</rt></ruby>します。",
+        "question": "<ruby>気分<rt>きぶん</rt></ruby>が___ので、お<ruby>先<rt>さき</rt></ruby>に<ruby>失礼<rt>しつれい</rt></ruby>します。",
         "choices": [
-          ["悪い", "の"],
-          ["悪く", "の"],
-          ["悪な", "の"],
-          ["悪だ", "の"]
+          ["悪いの"],
+          ["悪くの"],
+          ["悪なの"],
+          ["悪だの"]
         ],
-        "answer": ["悪い", "の"],
+        "answer": ["悪いの"],
         "explanation": "The i-adjective 'warui' connects to 'node' to politely explain the reason for leaving early.",
         "translation": "Because I'm not feeling well, I'll excuse myself now."
       },
@@ -6308,14 +6202,14 @@
         "key": "node",
         "grammar": "AのでB",
         "type": "fill-gap",
-        "question": "もう___ ___ので、<ruby>帰<rt>かえ</rt></ruby>らなければなりません。",
+        "question": "もう___ので、<ruby>帰<rt>かえ</rt></ruby>らなければなりません。",
         "choices": [
-          ["遅い", "の"],
-          ["遅く", "の"],
-          ["遅な", "の"],
-          ["遅だ", "の"]
+          ["遅いの"],
+          ["遅くの"],
+          ["遅なの"],
+          ["遅だの"]
         ],
-        "answer": ["遅い", "の"],
+        "answer": ["遅いの"],
         "explanation": "The i-adjective 'osoi' (late) is used here to justify the necessity of returning home.",
         "translation": "Since it's already late, I have to go home."
       },
@@ -6705,12 +6599,12 @@
         "type": "fill-gap",
         "question": "この<ruby>町<rt>まち</rt></ruby>の___は、どのくらいですか。",
         "choices": [
-          ["便利さ", ""],
-          ["便利み", ""],
-          ["便利ださ", ""],
-          ["便利さ", "な"]
+          ["便利さ"],
+          ["便利み"],
+          ["便利ださ"],
+          ["便利さな"]
         ],
-        "answer": ["便利さ", ""],
+        "answer": ["便利さ"],
         "explanation": "For Na-adjectives like 'benri', simply add 'sa' to the root.",
         "translation": "What is the degree of convenience of this town?"
       }
@@ -6866,8 +6760,8 @@
         "grammar": "ために",
         "type": "fill-gap",
         "question": "<ruby>将来<rt>しょうらい</rt></ruby>、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>を___ために、<ruby>貯金<rt>ちょきん</rt></ruby>しています。",
-        "choices": ["持つ", "持たなくて", "持たない", "持って"],
-        "answer": "持つ",
+        "choices": ["<ruby>持<rt>も</rt></ruby>つ", "<ruby>持<rt>も</rt></ruby>たなくて", "<ruby>持<rt>も</rt></ruby>たない", "<ruby>持<rt>も</rt></ruby>って"],
+        "answer": "<ruby>持<rt>も</rt></ruby>つ",
         "explanation": "To express a purpose with a volitional verb, use the dictionary form + 'tame ni'.",
         "translation": "I am saving money in order to have my own shop in the future."
       },
@@ -6875,7 +6769,7 @@
         "key": "tameni",
         "grammar": "ために",
         "type": "fill-gap",
-        "question": "<ruby>家族<rt>かぞく</rt></ruby>___ために、一生懸命働いています。",
+        "question": "<ruby>家族<rt>かぞく</rt></ruby>___ために、<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby><ruby>働<rt>はたら</rt></ruby>いています。",
         "choices": ["の", "を", "に", "が"],
         "answer": "の",
         "explanation": "When 'tame ni' follows a noun, you must use the particle 'no' to connect them.",
@@ -6885,7 +6779,7 @@
         "key": "tameni",
         "grammar": "ために",
         "type": "fill-gap",
-        "question": "<ruby>健康<rt>けんこう</rt></ruby>___ために、毎日野菜を食べるようにしています。",
+        "question": "<ruby>健康<rt>けんこう</rt></ruby>___ために、<ruby>毎日<rt>まいにち</rt></ruby><ruby>野菜<rt>やさい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べるようにしています。",
         "choices": ["の", "な", "に", "を"],
         "answer": "の",
         "explanation": "For nouns like 'kenkou' (health), use 'no tame ni' to mean 'for the benefit of'.",
@@ -6895,9 +6789,9 @@
         "key": "tameni",
         "grammar": "ために",
         "type": "fill-gap",
-        "question": "家を___ために、ローンを借りました。",
-        "choices": ["買う", "買い", "買った", "買わない"],
-        "answer": "買う",
+        "question": "<ruby>家<rt>いえ</rt></ruby>を___ために、ローンを<ruby>借<rt>か</rt></ruby>りました。",
+        "choices": ["<ruby>買<rt>か</rt></ruby>う", "<ruby>買<rt>か</rt></ruby>い", "<ruby>買<rt>か</rt></ruby>った", "<ruby>買<rt>か</rt></ruby>わない"],
+        "answer": "<ruby>買<rt>か</rt></ruby>う",
         "explanation": "The dictionary form of the verb 'kau' (to buy) is used to indicate the purpose of taking out a loan.",
         "translation": "I took out a loan in order to buy a house."
       },
@@ -6905,9 +6799,9 @@
         "key": "tameni",
         "grammar": "ために",
         "type": "fill-gap",
-        "question": "<ruby>漢字<rt>かんじ</rt></ruby>を___ために、<ruby>毎日<rt>まいにち</rt></ruby>練習しています。",
-        "choices": ["覚える", "覚え", "覚えた", "覚えに"],
-        "answer": "覚える",
+        "question": "<ruby>漢字<rt>かんじ</rt></ruby>を___ために、<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>しています。",
+        "choices": ["<ruby>覚<rt>おぼ</rt></ruby>える", "<ruby>覚<rt>おぼ</rt></ruby>え", "<ruby>覚<rt>おぼ</rt></ruby>えた", "<ruby>覚<rt>おぼ</rt></ruby>えに"],
+        "answer": "<ruby>覚<rt>おぼ</rt></ruby>える",
         "explanation": "Dictionary form + 'tame ni' indicates the specific goal or objective (memorizing Kanji).",
         "translation": "I practice every day in order to memorize Kanji."
       },
@@ -6917,12 +6811,12 @@
         "type": "fill-gap",
         "question": "<ruby>日本<rt>にほん</rt></ruby>へ___ ___、ビザを___しました。",
         "choices": [
-          ["行く", "ために", "申請"],
-          ["行く", "ように", "申請"],
-          ["行ける", "ために", "申請"],
-          ["行った", "ために", "申請"]
+          ["<ruby>行<rt>い</rt></ruby>く", "ために", "<ruby>申請<rt>しんせい</rt></ruby>"],
+          ["<ruby>行<rt>い</rt></ruby>く", "ように", "<ruby>申請<rt>しんせい</rt></ruby>"],
+          ["<ruby>行<rt>い</rt></ruby>ける", "ために", "<ruby>申請<rt>しんせい</rt></ruby>"],
+          ["<ruby>行<rt>い</rt></ruby>った", "ために", "<ruby>申請<rt>しんせい</rt></ruby>"]
         ],
-        "answer": ["行く", "ために", "申請"],
+        "answer": ["<ruby>行<rt>い</rt></ruby>く", "ために", "<ruby>申請<rt>しんせい</rt></ruby>"],
         "explanation": "For a clear goal like 'going to Japan', the dictionary form + 'tame ni' is used.",
         "translation": "I applied for a visa in order to go to Japan."
       },
@@ -6947,12 +6841,12 @@
         "type": "fill-gap",
         "question": "<ruby>留学<rt>りゅうがく</rt></ruby>___ ___、<ruby>英語<rt>えいご</rt></ruby>を___しています。",
         "choices": [
-          ["する", "ために", "勉強"],
-          ["した", "ために", "勉強"],
-          ["する", "ように", "勉強"],
-          ["して", "ために", "勉強"]
+          ["する", "ために", "<ruby>勉強<rt>べんきょう</rt></ruby>"],
+          ["した", "ために", "<ruby>勉強<rt>べんきょう</rt></ruby>"],
+          ["する", "ように", "<ruby>勉強<rt>べんきょう</rt></ruby>"],
+          ["して", "ために", "<ruby>勉強<rt>べんきょう</rt></ruby>"]
         ],
-        "answer": ["する", "ために", "勉強"],
+        "answer": ["する", "ために", "<ruby>勉強<rt>べんきょう</rt></ruby>"],
         "explanation": "The dictionary form of the verb 'suru' (to do study abroad) plus 'tame ni' shows the purpose of the study.",
         "translation": "I am studying English in order to study abroad."
       },
@@ -6961,8 +6855,8 @@
         "grammar": "(の)に (purpose)",
         "type": "fill-gap",
         "question": "このハサミは、<ruby>花<rt>はな</rt></ruby>を___のに<ruby>使<rt>つか</rt></ruby>います。",
-        "choices": ["切る", "切り", "切って", "切った"],
-        "answer": "切る",
+        "choices": ["<ruby>切<rt>き</rt></ruby>る", "<ruby>切<rt>き</rt></ruby>り", "<ruby>切<rt>き</rt></ruby>って", "<ruby>切<rt>き</rt></ruby>った"],
+        "answer": "<ruby>切<rt>き</rt></ruby>る",
         "explanation": "To express the purpose of a tool, use the dictionary form + 'no ni' followed by verbs like 'tsukaimasu' (to use).",
         "translation": "These scissors are used for cutting flowers."
       },
@@ -6981,8 +6875,8 @@
         "grammar": "(の)に (purpose)",
         "type": "fill-gap",
         "question": "お<ruby>湯<rt>ゆ</rt></ruby>を___のに５<ruby>分<rt>ふん</rt></ruby>かかります。",
-        "choices": ["沸かす", "沸かし", "沸かして", "沸かした"],
-        "answer": "沸かす",
+        "choices": ["<ruby>沸<rt>わ</rt></ruby>かす", "<ruby>沸<rt>わ</rt></ruby>かし", "<ruby>沸<rt>わ</rt></ruby>かして", "<ruby>沸<rt>わ</rt></ruby>かした"],
+        "answer": "<ruby>沸<rt>わ</rt></ruby>かす",
         "explanation": "Dictionary form + 'no ni' is used with expressions of time or money (like 'kakarimasu') to show what is needed for a specific goal.",
         "translation": "It takes five minutes to boil water."
       },
@@ -7000,14 +6894,14 @@
         "key": "noni_purpose",
         "grammar": "(の)に (purpose)",
         "type": "fill-gap",
-        "question": "この<ruby>近<rt>ちか</rt></ruby>くに、<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>___ ___<ruby>店<rt>みせ</rt></ruby>がありますか。",
+        "question": "この<ruby>近<rt>ちか</rt></ruby>くに、<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>___<ruby>店<rt>みせ</rt></ruby>がありますか。",
         "choices": [
-          ["に", "便利な"],
-          ["の", "便利な"],
-          ["に", "便利"],
-          ["の", "便利"]
+          ["に<ruby>便利<rt>べんり</rt></ruby>な"],
+          ["の<ruby>便利<rt>べんり</rt></ruby>な"],
+          ["に<ruby>便利<rt>べんり</rt></ruby>"],
+          ["の<ruby>便利<rt>べんり</rt></ruby>"]
         ],
-        "answer": ["に", "便利な"],
+        "answer": ["に<ruby>便利<rt>べんり</rt></ruby>な"],
         "explanation": "Since 'kaimono' is a noun, 'no' is not needed before 'ni'. 'Benri na' modifies 'mise'.",
         "translation": "Is there a shop nearby that is convenient for shopping?"
       },
@@ -7032,12 +6926,12 @@
         "type": "fill-gap",
         "question": "この<ruby>辞書<rt>じしょ</rt></ruby>は、<ruby>漢字<rt>かんじ</rt></ruby>を___ ___ ___です。",
         "choices": [
-          ["調べる", "のに", "役に立ちます"],
-          ["調べ", "のに", "役に立ちます"],
-          ["調べる", "に", "役に立ちます"],
-          ["調べて", "のに", "役に立ちます"]
+          ["<ruby>調<rt>しら</rt></ruby>べる", "のに", "<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます"],
+          ["<ruby>調<rt>しら</rt></ruby>べ", "のに", "<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます"],
+          ["<ruby>調<rt>しら</rt></ruby>べる", "に", "<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます"],
+          ["<ruby>調<rt>しら</rt></ruby>べて", "のに", "<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます"]
         ],
-        "answer": ["調べる", "のに", "役に立ちます"],
+        "answer": ["<ruby>調<rt>しら</rt></ruby>べる", "のに", "<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます"],
         "explanation": "The phrase 'yaku ni tachimasu' (to be useful) is commonly used with 'no ni' to show in what area something is useful.",
         "translation": "This dictionary is useful for looking up Kanji."
       },
@@ -7047,12 +6941,12 @@
         "type": "fill-gap",
         "question": "<ruby>家<rt>いえ</rt></ruby>を___ ___、３０００<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>いりました。",
         "choices": [
-          ["建てる", "のに"],
-          ["建て", "のに"],
-          ["建てる", "ために"],
-          ["建てて", "のに"]
+          ["<ruby>建<rt>た</rt></ruby>てる", "のに"],
+          ["<ruby>建<rt>た</rt></ruby>て", "のに"],
+          ["<ruby>建<rt>た</rt></ruby>てる", "ために"],
+          ["<ruby>建<rt>た</rt></ruby>てて", "のに"]
         ],
-        "answer": ["建てる", "のに"],
+        "answer": ["<ruby>建<rt>た</rt></ruby>てる", "のに"],
         "explanation": "When stating the cost required for a project or achievement, 'no ni' is the appropriate structure.",
         "translation": "It took (cost) 30 million yen to build the house."
       },
@@ -7071,8 +6965,8 @@
         "grammar": "によって受身形",
         "type": "fill-gap",
         "question": "「<ruby>坊<rt>ぼっ</rt></ruby>ちゃん」は<ruby>夏目漱石<rt>なつめそうせき</rt></ruby>によって___ました。",
-        "choices": ["書かれ", "書き", "書かせ", "書け"],
-        "answer": "書かれ",
+        "choices": ["<ruby>書<rt>か</rt></ruby>かれ", "<ruby>書<rt>か</rt></ruby>き", "<ruby>書<rt>か</rt></ruby>かせ", "<ruby>書<rt>か</rt></ruby>け"],
+        "answer": "<ruby>書<rt>か</rt></ruby>かれ",
         "explanation": "For literary works, the passive form (kakareru) is used with 'ni yotte' to indicate the author.",
         "translation": "'Botchan' was written by Natsume Soseki."
       },
@@ -7080,14 +6974,14 @@
         "key": "niyotte_ukemikei",
         "grammar": "によって受身形",
         "type": "fill-gap",
-        "question": "アメリカはコロンブス___ ___されました。",
+        "question": "<ruby>アメリカ<rt>あめりか</rt></ruby>はコロンブス___ ___されました。",
         "choices": [
-          ["によって", "発見"],
-          ["に", "発見"],
-          ["から", "発見"],
-          ["を", "発見"]
+          ["によって", "<ruby>発見<rt>はっけん</rt></ruby>"],
+          ["に", "<ruby>発見<rt>はっけん</rt></ruby>"],
+          ["から", "<ruby>発見<rt>はっけん</rt></ruby>"],
+          ["を", "<ruby>発見<rt>はっけん</rt></ruby>"]
         ],
-        "answer": ["によって", "発見"],
+        "answer": ["によって", "<ruby>発見<rt>はっけん</rt></ruby>"],
         "explanation": "'Ni yotte' is used for historical discoveries. 'Hakken' (discovery) is combined with 'saremasu'.",
         "translation": "America was discovered by Columbus."
       },
@@ -7097,12 +6991,12 @@
         "type": "fill-gap",
         "question": "この<ruby>歌<rt>うた</rt></ruby>は<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>歌手<rt>かしゅ</rt></ruby>___ ___ ___。",
         "choices": [
-          ["によって", "歌われて", "います"],
-          ["に", "歌って", "います"],
-          ["から", "歌われて", "います"],
-          ["によって", "歌って", "います"]
+          ["によって", "<ruby>歌<rt>うた</rt></ruby>われて", "います"],
+          ["に", "<ruby>歌<rt>うた</rt></ruby>って", "います"],
+          ["から", "<ruby>歌<rt>うた</rt></ruby>われて", "います"],
+          ["によって", "<ruby>歌<rt>うた</rt></ruby>って", "います"]
         ],
-        "answer": ["によって", "歌われて", "います"],
+        "answer": ["によって", "<ruby>歌<rt>うた</rt></ruby>われて", "います"],
         "explanation": "When a song is widely known for being sung by someone specific, 'ni yotte' + passive 'utawarete imasu' is used.",
         "translation": "This song is sung by a famous singer."
       },
@@ -7110,14 +7004,14 @@
         "key": "niyotte_ukemikei",
         "grammar": "によって受身形",
         "type": "fill-gap",
-        "question": "この<ruby>寺<rt>てら</rt></ruby>は４００<ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>に___ ___。",
+        "question": "この<ruby>寺<rt>てら</rt></ruby>は４００<ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>に ___。",
         "choices": [
-          ["建てられました", ""],
-          ["建てました", ""],
-          ["建ててありました", ""],
-          ["建てさせられました", ""]
+          ["<ruby>建<rt>た</rt></ruby>てられました"],
+          ["<ruby>建<rt>た</rt></ruby>てました"],
+          ["<ruby>建<rt>た</rt></ruby>ててありました"],
+          ["<ruby>建<rt>た</rt></ruby>てさせられました"]
         ],
-        "answer": ["建てられました", ""],
+        "answer": ["<ruby>建<rt>た</rt></ruby>てられました"],
         "explanation": "Buildings with historical significance use the passive voice. 'Tateru' becomes 'taterareru'.",
         "translation": "This temple was built 400 years ago."
       },
@@ -7127,12 +7021,12 @@
         "type": "fill-gap",
         "question": "<ruby>法隆寺<rt>ほうりゅうじ</rt></ruby>は<ruby>聖徳太子<rt>しょうとくたいし</rt></ruby>___ ___ました。",
         "choices": [
-          ["によって", "建てられ"],
-          ["に", "建てられ"],
-          ["から", "建て"],
-          ["を", "建て"]
+          ["によって", "<ruby>建<rt>た</rt></ruby>てられ"],
+          ["に", "<ruby>建<rt>た</rt></ruby>てられ"],
+          ["から", "<ruby>建<rt>た</rt></ruby>て"],
+          ["を", "<ruby>建<rt>た</rt></ruby>て"]
         ],
-        "answer": ["によって", "建てられ"],
+        "answer": ["によって", "<ruby>建<rt>た</rt></ruby>てられ"],
         "explanation": "Historical buildings created by specific famous figures take 'ni yotte' plus the passive form of the verb.",
         "translation": "Horyu-ji Temple was built by Prince Shotoku."
       },
@@ -7142,12 +7036,12 @@
         "type": "fill-gap",
         "question": "<ruby>万有引力<rt>ばんゆういんりょく</rt></ruby>の<ruby>法則<rt>ほうそく</rt></ruby>はニュートンによって___ ___。",
         "choices": [
-          ["見つけられました", ""],
-          ["見つけました", ""],
-          ["見つけさせて", ""],
-          ["見つけて", "ありました"]
+          ["<ruby>見<rt>み</rt></ruby>つけられました"],
+          ["<ruby>見<rt>み</rt></ruby>つけました"],
+          ["<ruby>見<rt>み</rt></ruby>つけさせて"],
+          ["<ruby>見<rt>み</rt></ruby>つけて", "ありました"]
         ],
-        "answer": ["見つけられました", ""],
+        "answer": ["<ruby>見<rt>み</rt></ruby>つけられました"],
         "explanation": "Scientific laws or principles discovered by people use 'ni yotte' + 'mitsukerareru' (passive of mitsukeru).",
         "translation": "The law of universal gravitation was discovered by Newton."
       },
@@ -7157,12 +7051,12 @@
         "type": "fill-gap",
         "question": "この<ruby>映画<rt>えいが</rt></ruby>は<ruby>黒澤明<rt>くろさわあきら</rt></ruby>___ ___ ___。",
         "choices": [
-          ["によって", "作られ", "ました"],
-          ["に", "作って", "ありました"],
-          ["によって", "作って", "います"],
-          ["に", "作られ", "ました"]
+          ["によって", "<ruby>作<rt>つく</rt></ruby>られ", "ました"],
+          ["に", "<ruby>作<rt>つく</rt></ruby>って", "ありました"],
+          ["によって", "<ruby>作<rt>つく</rt></ruby>って", "います"],
+          ["に", "<ruby>作<rt>つく</rt></ruby>られ", "ました"]
         ],
-        "answer": ["によって", "作られ", "ました"],
+        "answer": ["によって", "<ruby>作<rt>つく</rt></ruby>られ", "ました"],
         "explanation": "For artistic creations like movies, the creator (director) is marked with 'ni yotte' in a passive sentence.",
         "translation": "This movie was made by Akira Kurosawa."
       },
@@ -7171,8 +7065,8 @@
         "grammar": "～そうです (looks like)",
         "type": "fill-gap",
         "question": "この<ruby>料理<rt>りょうり</rt></ruby>はとても___そうです。",
-        "choices": ["おいし", "おいしい", "おいしくて", "おいしいな"],
-        "answer": "おいし",
+        "choices": ["<ruby>美味<rt>おい</rt></ruby>し", "<ruby>美味<rt>おい</rt></ruby>しい", "<ruby>美味<rt>おい</rt></ruby>しくて", "<ruby>美味<rt>おい</rt></ruby>しいな"],
+        "answer": "<ruby>美味<rt>おい</rt></ruby>し",
         "explanation": "For i-adjectives, remove the final 'i' before adding 'sou desu' to express an impression.",
         "translation": "This dish looks very delicious."
       },
@@ -7180,9 +7074,9 @@
         "key": "sou_desu_looks",
         "grammar": "～そうです (looks like)",
         "type": "fill-gap",
-        "question": "田中さんは___そうですね。何かいいことがあったんですか。",
-        "choices": ["嬉し", "嬉しな", "嬉しい", "嬉しくて"],
-        "answer": "嬉し",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは___そうですね。<ruby>何<rt>なに</rt></ruby>かいいことがあったんですか。",
+        "choices": ["<ruby>嬉<rt>うれ</rt></ruby>し", "<ruby>嬉<rt>うれ</rt></ruby>しな", "<ruby>嬉<rt>うれ</rt></ruby>しい", "<ruby>嬉<rt>うれ</rt></ruby>しくて"],
+        "answer": "<ruby>嬉<rt>うれ</rt></ruby>し",
         "explanation": "To say someone 'looks happy', use the stem of the adjective 'ureshii' (ureshisou).",
         "translation": "Mr. Tanaka looks happy, doesn't he? Did something good happen?"
       },
@@ -7190,9 +7084,9 @@
         "key": "sou_desu_looks",
         "grammar": "～そうです (looks like)",
         "type": "fill-gap",
-        "question": "この<ruby>机<rt>つくえ</rt></ruby>は___そうですから、一人で<ruby>運<rt>はこ</rt></ruby>べません。",
-        "choices": ["丈夫な", "丈夫", "丈夫に", "丈夫で"],
-        "answer": "丈夫",
+        "question": "この<ruby>机<rt>つくえ</rt></ruby>は___そうですから、<ruby>一人<rt>ひとり</rt></ruby>で<ruby>運<rt>はこ</rt></ruby>べません。",
+        "choices": ["<ruby>丈夫<rt>じょうぶ</rt></ruby>な", "<ruby>丈夫<rt>じょうぶ</rt></ruby>", "<ruby>丈夫<rt>じょうぶ</rt></ruby>に", "<ruby>丈夫<rt>じょうぶ</rt></ruby>で"],
+        "answer": "<ruby>丈夫<rt>じょうぶ</rt></ruby>",
         "explanation": "For na-adjectives, use the root of the adjective directly before 'sou desu'.",
         "translation": "This desk looks sturdy, so I can't carry it by myself."
       },
@@ -7200,9 +7094,9 @@
         "key": "sou_desu_looks",
         "grammar": "～そうです (looks like)",
         "type": "fill-gap",
-        "question": "あ、ボタンが___そうです。気をつけてください。",
-        "choices": ["取れ", "取れる", "取れて", "取り"],
-        "answer": "取れ",
+        "question": "あ、ボタンが___そうです。<ruby>気<rt>き</rt></ruby>をつけてください。",
+        "choices": ["<ruby>取<rt>と</rt></ruby>れ", "<ruby>取<rt>と</rt></ruby>れる", "<ruby>取<rt>と</rt></ruby>れて", "<ruby>取<rt>と</rt></ruby>り"],
+        "answer": "<ruby>取<rt>と</rt></ruby>れ",
         "explanation": "To express that something is 'about to happen', use the Masu-stem of the verb before 'sou desu'.",
         "translation": "Oh, your button looks like it's about to come off. Please be careful."
       },
@@ -7210,14 +7104,14 @@
         "key": "sou_desu_looks",
         "grammar": "～そうです (looks like)",
         "type": "fill-gap",
-        "question": "<ruby>空<rt>そら</rt></ruby>が<ruby>暗<rt>くら</rt></ruby>いです。今にも<ruby>雨<rt>あめ</rt></ruby>が___そうです。",
+        "question": "<ruby>空<rt>そら</rt></ruby>が<ruby>暗<rt>くら</rt></ruby>いです。<ruby>今<rt>いま</rt></ruby>にも<ruby>雨<rt>あめ</rt></ruby>が___そうです。",
         "choices": [
-          ["降り", "出し"],
-          ["降る", ""],
-          ["降っ", "て"],
-          ["降り", "て"]
+          ["<ruby>降<rt>ふ</rt></ruby>り"],
+          ["<ruby>降<rt>ふ</rt></ruby>る"],
+          ["<ruby>降<rt>ふ</rt></ruby>って"],
+          ["<ruby>降<rt>ふ</rt></ruby>りて"]
         ],
-        "answer": ["降り", "出し"],
+        "answer": ["<ruby>降<rt>ふ</rt></ruby>り"],
         "explanation": "The Masu-stem of 'furidashimasu' (to start raining) is used to say it looks like it's about to start raining.",
         "translation": "The sky is dark. It looks like it will start raining at any moment."
       },
@@ -7225,14 +7119,14 @@
         "key": "sou_desu_looks",
         "grammar": "～そうです (looks like)",
         "type": "fill-gap",
-        "question": "この本は___そうですね。読んでみたいです。",
+        "question": "この<ruby>本<rt>ほん</rt></ruby>は___そうですね。<ruby>読<rt>よ</rt></ruby>んでみたいです。",
         "choices": [
-          ["面白", "そう"],
-          ["面白い", "そう"],
-          ["面白く", "そう"],
-          ["面白な", "そう"]
+          ["<ruby>面白<rt>おもしろ</rt></ruby>", "そう"],
+          ["<ruby>面白<rt>おもしろ</rt></ruby>い", "そう"],
+          ["<ruby>面白<rt>おもしろ</rt></ruby>く", "そう"],
+          ["<ruby>面白<rt>おもしろ</rt></ruby>な", "そう"]
         ],
-        "answer": ["面白", "そう"],
+        "answer": ["<ruby>面白<rt>おもしろ</rt></ruby>", "そう"],
         "explanation": "The stem of 'omoshiroi' + 'sou desu' indicates the book looks interesting based on its appearance.",
         "translation": "This book looks interesting, doesn't it? I want to try reading it."
       },
@@ -7240,14 +7134,14 @@
         "key": "sou_desu_looks",
         "grammar": "～そうです (looks like)",
         "type": "fill-gap",
-        "question": "荷物が多すぎて、袋が___そうです。",
+        "question": "<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>すぎて、<ruby>袋<rt>ふくろ</rt></ruby>が___そうです。",
         "choices": [
-          ["破れ", "そう"],
-          ["破れる", "そう"],
-          ["破れて", "そう"],
-          ["破れな", "そう"]
+          ["<ruby>破<rt>やぶ</rt></ruby>れ", "そう"],
+          ["<ruby>破<rt>やぶ</rt></ruby>れる", "そう"],
+          ["<ruby>破<rt>やぶ</rt></ruby>れて", "そう"],
+          ["<ruby>破<rt>やぶ</rt></ruby>れな", "そう"]
         ],
-        "answer": ["破れ", "そう"],
+        "answer": ["<ruby>破<rt>やぶ</rt></ruby>れ", "そう"],
         "explanation": "The Masu-stem of 'yabereru' (to tear/break) + 'sou desu' shows the bag is on the verge of breaking.",
         "translation": "There are too many items, so the bag looks like it's about to tear."
       },
@@ -7255,14 +7149,14 @@
         "key": "sou_desu_looks",
         "grammar": "～そうです (looks like)",
         "type": "fill-gap",
-        "question": "彼はとても___そうに、ピアノを___。",
+        "question": "<ruby>彼<rt>かれ</rt></ruby>はとても___そうに、ピアノを___。",
         "choices": [
-          ["上手", "弾いています"],
-          ["上手に", "弾いています"],
-          ["上手な", "弾きます"],
-          ["上手で", "弾きます"]
+          ["<ruby>上手<rt>じょうず</rt></ruby>", "<ruby>弾<rt>ひ</rt></ruby>いています"],
+          ["<ruby>上手<rt>じょうず</rt></ruby>に", "<ruby>弾<rt>ひ</rt></ruby>いています"],
+          ["<ruby>上手<rt>じょうず</rt></ruby>な", "<ruby>弾<rt>ひ</rt></ruby>きます"],
+          ["<ruby>上手<rt>じょうず</rt></ruby>で", "<ruby>弾<rt>ひ</rt></ruby>きます"]
         ],
-        "answer": ["上手", "弾いています"],
+        "answer": ["<ruby>上手<rt>じょうず</rt></ruby>", "<ruby>弾<rt>ひ</rt></ruby>いています"],
         "explanation": "When an adjective + sou is used as an adverb, it becomes 'root + sou ni'. 'Jouzu' is the na-adj root.",
         "translation": "He is playing the piano looking very skillful."
       },
@@ -7271,8 +7165,8 @@
         "grammar": "～すぎます",
         "type": "fill-gap",
         "question": "お<ruby>酒<rt>さけ</rt></ruby>を___すぎて、<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いです。",
-        "choices": ["飲み", "飲む", "飲んで", "飲んだ"],
-        "answer": "飲み",
+        "choices": ["<ruby>飲<rt>の</rt></ruby>み", "<ruby>飲<rt>の</rt></ruby>む", "<ruby>飲<rt>の</rt></ruby>んで", "<ruby>飲<rt>の</rt></ruby>んだ"],
+        "answer": "<ruby>飲<rt>の</rt></ruby>み",
         "explanation": "To express doing an action excessively, attach 'sugiru' to the Masu-stem of the verb (nomimasu -> nomi).",
         "translation": "I drank too much alcohol, and now my head hurts."
       },
@@ -7281,8 +7175,8 @@
         "grammar": "～すぎます",
         "type": "fill-gap",
         "question": "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>には___すぎます。",
-        "choices": ["難し", "難しい", "難しく", "難しくて"],
-        "answer": "難し",
+        "choices": ["<ruby>難<rt>むずか</rt></ruby>し", "<ruby>難<rt>むずか</rt></ruby>しい", "<ruby>難<rt>むずか</rt></ruby>しく", "<ruby>難<rt>むずか</rt></ruby>しくて"],
+        "answer": "<ruby>難<rt>むずか</rt></ruby>し",
         "explanation": "For i-adjectives, remove the final 'i' before adding 'sugimasu'.",
         "translation": "This problem is too difficult for me."
       },
@@ -7290,9 +7184,9 @@
         "key": "sugimasu",
         "grammar": "～すぎます",
         "type": "fill-gap",
-        "question": "昨夜はパソコンを___すぎました。",
-        "choices": ["使い", "使う", "使って", "使った"],
-        "answer": "使い",
+        "question": "<ruby>昨夜<rt>さくや</rt></ruby>はパソコンを___すぎました。",
+        "choices": ["<ruby>使<rt>つか</rt></ruby>い", "<ruby>使<rt>つか</rt></ruby>う", "<ruby>使<rt>つか</rt></ruby>って", "<ruby>使<rt>つか</rt></ruby>った"],
+        "answer": "<ruby>使<rt>つか</rt></ruby>い",
         "explanation": "The Masu-stem of 'tsukaimasu' (to use) is combined with 'sugimashita' to indicate excessive use in the past.",
         "translation": "I used the computer too much last night."
       },
@@ -7301,8 +7195,8 @@
         "grammar": "～すぎます",
         "type": "fill-gap",
         "question": "この<ruby>部屋<rt>へや</rt></ruby>は___すぎて、<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>きません。",
-        "choices": ["静か", "静かな", "静かだ", "静かに"],
-        "answer": "静か",
+        "choices": ["<ruby>静<rt>しず</rt></ruby>か", "<ruby>静<rt>しず</rt></ruby>かな", "<ruby>静<rt>しず</rt></ruby>かだ", "<ruby>静<rt>しず</rt></ruby>かに"],
+        "answer": "<ruby>静<rt>しず</rt></ruby>か",
         "explanation": "For na-adjectives, use the root of the adjective directly before 'sugimasu'.",
         "translation": "This room is too quiet, and I can't settle down."
       },
@@ -7310,14 +7204,14 @@
         "key": "sugimasu",
         "grammar": "～すぎます",
         "type": "fill-gap",
-        "question": "甘いものを___ ___と、体に良くないですよ。",
+        "question": "<ruby>甘<rt>あま</rt></ruby>いものを___ ___と、<ruby>体<rt>からだ</rt></ruby>に<ruby>良<rt>よ</rt></ruby>くないですよ。",
         "choices": [
-          ["食べ", "すぎる"],
-          ["食べる", "すぎる"],
-          ["食べて", "すぎる"],
-          ["食べ", "すぎた"]
+          ["<ruby>食<rt>た</rt></ruby>べ", "すぎる"],
+          ["<ruby>食<rt>た</rt></ruby>べる", "すぎる"],
+          ["<ruby>食<rt>た</rt></ruby>べて", "すぎる"],
+          ["<ruby>食<rt>た</rt></ruby>べ", "すぎた"]
         ],
-        "answer": ["食べ", "すぎる"],
+        "answer": ["<ruby>食<rt>た</rt></ruby>べ", "すぎる"],
         "explanation": "'Tabe' (Masu-stem) + 'sugiru' (plain form) is used here before the conditional 'to'.",
         "translation": "If you eat too many sweets, it's not good for your health."
       },
@@ -7325,14 +7219,14 @@
         "key": "sugimasu",
         "grammar": "～すぎます",
         "type": "fill-gap",
-        "question": "この<ruby>服<rt>ふく</rt></ruby>は私には___ ___。",
+        "question": "この<ruby>服<rt>ふく</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>には___ ___。",
         "choices": [
-          ["大き", "すぎます"],
-          ["大きい", "すぎます"],
-          ["大きく", "すぎます"],
-          ["大き", "すぎた"]
+          ["<ruby>大<rt>おお</rt></ruby>き", "すぎます"],
+          ["<ruby>大<rt>おお</rt></ruby>きい", "すぎます"],
+          ["<ruby>大<rt>おお</rt></ruby>きく", "すぎます"],
+          ["<ruby>大<rt>おお</rt></ruby>き", "すぎた"]
         ],
-        "answer": ["大き", "すぎます"],
+        "answer": ["<ruby>大<rt>おお</rt></ruby>き", "すぎます"],
         "explanation": "The stem of 'ookii' is 'ooki'. Adding 'sugimasu' indicates the size is excessively large.",
         "translation": "These clothes are too big for me."
       },
@@ -7340,14 +7234,14 @@
         "key": "sugimasu",
         "grammar": "～すぎます",
         "type": "fill-gap",
-        "question": "<ruby>昨日<rt>きのう</rt></ruby>は___ ___、どこへも行けませんでした。",
+        "question": "<ruby>昨日<rt>きのう</rt></ruby>は___ ___、どこへも<ruby>行<rt>い</rt></ruby>けませんでした。",
         "choices": [
-          ["忙し", "すぎて"],
-          ["忙しい", "すぎて"],
-          ["忙しく", "すぎて"],
-          ["忙し", "すぎてから"]
+          ["<ruby>忙<rt>いそが</rt></ruby>し", "すぎて"],
+          ["<ruby>忙<rt>いそが</rt></ruby>しい", "すぎて"],
+          ["<ruby>忙<rt>いそが</rt></ruby>しく", "すぎて"],
+          ["<ruby>忙<rt>いそが</rt></ruby>し", "すぎてから"]
         ],
-        "answer": ["忙し", "すぎて"],
+        "answer": ["<ruby>忙<rt>いそが</rt></ruby>し", "すぎて"],
         "explanation": "The te-form of 'sugiru' (sugite) is used here to show the reason for not being able to go anywhere.",
         "translation": "I was too busy yesterday, so I couldn't go anywhere."
       },
@@ -7355,24 +7249,24 @@
         "key": "sugimasu",
         "grammar": "～すぎます",
         "type": "fill-gap",
-        "question": "テレビを___ ___と、目が悪くなりますよ。",
+        "question": "テレビを___ ___と、<ruby>目<rt>め</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなりますよ。",
         "choices": [
-          ["見", "すぎると"],
-          ["見る", "すぎると"],
-          ["見て", "すぎると"],
-          ["見", "すぎた"]
+          ["<ruby>見<rt>み</rt></ruby>", "すぎると"],
+          ["<ruby>見<rt>み</rt></ruby>る", "すぎると"],
+          ["<ruby>見<rt>み</rt></ruby>て", "すぎると"],
+          ["<ruby>見<rt>み</rt></ruby>", "すぎた"]
         ],
-        "answer": ["見", "すぎると"],
+        "answer": ["<ruby>見<rt>み</rt></ruby>", "すぎると"],
         "explanation": "The Masu-stem 'mi' combined with 'sugiru' and the conditional 'to' expresses the consequence of watching too much TV.",
         "translation": "If you watch too much TV, your eyesight will get worse."
       },
-       {
+      {
         "key": "yasui_nikui",
         "grammar": "～やすい / にくい",
         "type": "fill-gap",
         "question": "このペンはとても___やすいです。",
-        "choices": ["書き", "書く", "書いて", "書か"],
-        "answer": "書き",
+        "choices": ["<ruby>書<rt>か</rt></ruby>き", "<ruby>書<rt>か</rt></ruby>く", "<ruby>書<rt>か</rt></ruby>いて", "<ruby>書<rt>か</rt></ruby>か"],
+        "answer": "<ruby>書<rt>か</rt></ruby>き",
         "explanation": "To express that something is easy to do, attach 'yasui' to the Masu-stem of the verb (kakimasu -> kaki).",
         "translation": "This pen is very easy to write with."
       },
@@ -7381,8 +7275,8 @@
         "grammar": "～やすい / にくい",
         "type": "fill-gap",
         "question": "この<ruby>漢字<rt>かんじ</rt></ruby>は<ruby>複雑<rt>ふくざつ</rt></ruby>で___にくいです。",
-        "choices": ["覚え", "覚える", "覚えて", "覚え方"],
-        "answer": "覚え",
+        "choices": ["<ruby>覚<rt>おぼ</rt></ruby>え", "<ruby>覚<rt>おぼ</rt></ruby>える", "<ruby>覚<rt>おぼ</rt></ruby>えて", "<ruby>覚<rt>おぼ</rt></ruby>え<ruby>方<rt>かた</rt></ruby>"],
+        "answer": "<ruby>覚<rt>おぼ</rt></ruby>え",
         "explanation": "To express that something is difficult to do, attach 'nikui' to the Masu-stem of the verb (oboemasu -> oboe).",
         "translation": "This Kanji is complicated and difficult to memorize."
       },
@@ -7390,9 +7284,9 @@
         "key": "yasui_nikui",
         "grammar": "～やすい / にくい",
         "type": "fill-gap",
-        "question": "白い服は___やすいから、気をつけてください。",
-        "choices": ["汚れ", "汚れる", "汚れて", "汚れな"],
-        "answer": "汚れ",
+        "question": "<ruby>白<rt>しろ</rt></ruby>い<ruby>服<rt>ふく</rt></ruby>は___やすいから、<ruby>気<rt>き</rt></ruby>をつけてください。",
+        "choices": ["<ruby>汚<rt>よご</rt></ruby>れ", "<ruby>汚<rt>よご</rt></ruby>れる", "<ruby>汚<rt>よご</rt></ruby>れて", "<ruby>汚<rt>よご</rt></ruby>れな"],
+        "answer": "<ruby>汚<rt>よご</rt></ruby>れ",
         "explanation": "The Masu-stem of 'yogoremasu' (to get dirty) + 'yasui' is used to describe a tendency or susceptibility.",
         "translation": "White clothes get dirty easily, so please be careful."
       },
@@ -7401,8 +7295,8 @@
         "grammar": "～やすい / にくい",
         "type": "fill-gap",
         "question": "あそこの<ruby>店<rt>みせ</rt></ruby>は<ruby>場所<rt>ばしょ</rt></ruby>が___にくいです。",
-        "choices": ["分かり", "分かる", "分かって", "分から"],
-        "answer": "分かり",
+        "choices": ["<ruby>分<rt>わ</rt></ruby>かり", "<ruby>分<rt>わ</rt></ruby>かる", "<ruby>分<rt>わ</rt></ruby>かって", "<ruby>分<rt>わ</rt></ruby>から"],
+        "answer": "<ruby>分<rt>わ</rt></ruby>かり",
         "explanation": "To say a place is hard to find or understand, use the Masu-stem 'wakari' followed by 'nikui'.",
         "translation": "The location of that shop is hard to find (difficult to understand)."
       },
@@ -7412,12 +7306,12 @@
         "type": "fill-gap",
         "question": "この<ruby>靴<rt>くつ</rt></ruby>は___ ___て、いいですね。",
         "choices": [
-          ["歩き", "やすいく"],
-          ["歩く", "やすくて"],
-          ["歩き", "やすくて"],
-          ["歩き", "やすく"]
+          ["<ruby>歩<rt>ある</rt></ruby>き", "やすいく"],
+          ["<ruby>歩<rt>ある</rt></ruby>く", "やすくて"],
+          ["<ruby>歩<rt>ある</rt></ruby>き", "やすくて"],
+          ["<ruby>歩<rt>ある</rt></ruby>き", "やすく"]
         ],
-        "answer": ["歩き", "やすくて"],
+        "answer": ["<ruby>歩<rt>ある</rt></ruby>き", "やすくて"],
         "explanation": "Since 'yasui' conjugates like an i-adjective, the te-form is 'yasukute' to connect it to the next phrase.",
         "translation": "These shoes are easy to walk in, which is great."
       },
@@ -7427,12 +7321,12 @@
         "type": "fill-gap",
         "question": "この<ruby>薬<rt>くすり</rt></ruby>は___ ___、<ruby>子供<rt>こども</rt></ruby>でも___。",
         "choices": [
-          ["飲み", "やすいので", "飲めます"],
-          ["飲む", "やすいので", "飲めます"],
-          ["飲み", "にくいので", "飲みません"],
-          ["飲む", "にくいので", "飲みます"]
+          ["<ruby>飲<rt>の</rt></ruby>み", "やすいので", "<ruby>飲<rt>の</rt></ruby>めます"],
+          ["<ruby>飲<rt>の</rt></ruby>む", "やすいので", "<ruby>飲<rt>の</rt></ruby>めます"],
+          ["<ruby>飲<rt>の</rt></ruby>み", "にくいので", "<ruby>飲<rt>の</rt></ruby>みません"],
+          ["<ruby>飲<rt>の</rt></ruby>む", "にくいので", "<ruby>飲<rt>の</rt></ruby>みます"]
         ],
-        "answer": ["飲み", "やすいので", "飲めます"],
+        "answer": ["<ruby>飲<rt>の</rt></ruby>み", "やすいので", "<ruby>飲<rt>の</rt></ruby>めます"],
         "explanation": "The Masu-stem 'nomi' + 'yasui' (easy to drink) is followed by 'nomemasu' (can drink).",
         "translation": "This medicine is easy to take (drink), so even children can take it."
       },
@@ -7440,14 +7334,14 @@
         "key": "yasui_nikui",
         "grammar": "～やすい / にくい",
         "type": "fill-gap",
-        "question": "ガラスのコップは___ ___から、注意してください。",
+        "question": "ガラスのコップは___ ___から、<ruby>注意<rt>ちゅうい</rt></ruby>してください。",
         "choices": [
-          ["割れ", "やすい"],
-          ["割れる", "やすい"],
-          ["割り", "やすい"],
-          ["割って", "やすい"]
+          ["<ruby>割<rt>わ</rt></ruby>れ", "やすい"],
+          ["<ruby>割<rt>わ</rt></ruby>れる", "やすい"],
+          ["<ruby>割<rt>わ</rt></ruby>り", "やすい"],
+          ["<ruby>割<rt>わ</rt></ruby>って", "やすい"]
         ],
-        "answer": ["割れ", "やすい"],
+        "answer": ["<ruby>割<rt>わ</rt></ruby>れ", "やすい"],
         "explanation": "Using the Masu-stem of the intransitive verb 'waremasu' (to break) indicates a physical property of fragility.",
         "translation": "Glass cups break easily, so please be careful."
       },
@@ -7455,14 +7349,14 @@
         "key": "yasui_nikui",
         "grammar": "～やすい / にくい",
         "type": "fill-gap",
-        "question": "雨の日は道が___ ___ですよ。",
+        "question": "<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>道<rt>みち</rt></ruby>が___ ___ですよ。",
         "choices": [
-          ["滑り", "やすい"],
-          ["滑る", "やすい"],
-          ["滑ら", "ない"],
-          ["滑り", "にくい"]
+          ["<ruby>滑<rt>すべ</rt></ruby>り", "やすい"],
+          ["<ruby>滑<rt>すべ</rt></ruby>る", "やすい"],
+          ["<ruby>滑<rt>すべ</rt></ruby>ら", "ない"],
+          ["<ruby>滑<rt>すべ</rt></ruby>り", "にくい"]
         ],
-        "answer": ["滑り", "やすい"],
+        "answer": ["<ruby>滑<rt>すべ</rt></ruby>り", "やすい"],
         "explanation": "The Masu-stem 'suberi' + 'yasui' describes the dangerous condition of a road being slippery.",
         "translation": "The roads are slippery on rainy days, you know."
       },
@@ -7470,7 +7364,7 @@
         "key": "adj_noun_ni_shimasu",
         "grammar": "Adj / noun (に)します",
         "type": "fill-gap",
-        "question": "A：「飲み物は何にしますか。」 B：「私はコーヒー___します。」",
+        "question": "A：「<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は何にしますか。」 B：「<ruby>私<rt>わたし</rt></ruby>はコーヒー___します。」",
         "choices": ["に", "を", "が", "で"],
         "answer": "に",
         "explanation": "When choosing from a set of options (like a menu), use the particle 'ni' after the noun followed by 'shimasu'.",
@@ -7481,8 +7375,8 @@
         "grammar": "Adj / noun (に)します",
         "type": "fill-gap",
         "question": "<ruby>テレビ<rt>てれび</rt></ruby>の<ruby>音<rt>おと</rt></ruby>を___します。",
-        "choices": ["大きく", "大きい", "大きに", "大きくて"],
-        "answer": "大きく",
+        "choices": ["<ruby>大<rt>おお</rt></ruby>きく", "<ruby>大<rt>おお</rt></ruby>きい", "<ruby>大<rt>おお</rt></ruby>きに", "<ruby>大<rt>おお</rt></ruby>きくて"],
+        "answer": "<ruby>大<rt>おお</rt></ruby>きく",
         "explanation": "To change the state of an i-adjective (to make it louder), change the 'i' to 'ku' before 'shimasu'.",
         "translation": "I will turn up (make louder) the TV volume."
       },
@@ -7490,7 +7384,7 @@
         "key": "adj_noun_ni_shimasu",
         "grammar": "Adj / noun (に)します",
         "type": "fill-gap",
-        "question": "部屋を___してください。",
+        "question": "<ruby>部屋<rt>へや</rt></ruby>を___してください。",
         "choices": ["きれいに", "きれいな", "きれいにだ", "きれいく"],
         "answer": "きれいに",
         "explanation": "For na-adjectives, use the root followed by 'ni' before 'shimasu' to indicate making a change.",
@@ -7501,8 +7395,8 @@
         "grammar": "Adj / noun (に)します",
         "type": "fill-gap",
         "question": "<ruby>髪<rt>かみ</rt></ruby>を___しました。",
-        "choices": ["短く", "短い", "短くに", "短くて"],
-        "answer": "短く",
+        "choices": ["<ruby>短<rt>みじか</rt></ruby>く", "<ruby>短<rt>みじか</rt></ruby>い", "<ruby>短<rt>みじか</rt></ruby>くに", "<ruby>短<rt>みじか</rt></ruby>くて"],
+        "answer": "<ruby>短<rt>みじか</rt></ruby>く",
         "explanation": "The i-adjective 'mijikai' (short) becomes 'mijikaku' when used with 'shimasu' to mean 'to shorten'.",
         "translation": "I cut my hair short (made my hair short)."
       },
@@ -7510,7 +7404,7 @@
         "key": "adj_noun_ni_shimasu",
         "grammar": "Adj / noun (に)します",
         "type": "fill-gap",
-        "question": "会議はあした___します。",
+        "question": "<ruby>会議<rt>かいぎ</rt></ruby>は<ruby>明日<rt>あした</rt></ruby>___します。",
         "choices": ["に", "を", "が", "で"],
         "answer": "に",
         "explanation": "When deciding on a time or day for an appointment, the noun (ashita) is marked with 'ni'.",
@@ -7522,12 +7416,12 @@
         "type": "fill-gap",
         "question": "<ruby>砂糖<rt>さとう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>を___ ___。",
         "choices": [
-          ["半分に", "しました"],
-          ["半分を", "しました"],
-          ["半分", "しました"],
-          ["半分に", "なりました"]
+          ["<ruby>半分<rt>はんぶん</rt></ruby>に", "しました"],
+          ["<ruby>半分<rt>はんぶん</rt></ruby>を", "しました"],
+          ["<ruby>半分<rt>はんぶん</rt></ruby>", "しました"],
+          ["<ruby>半分<rt>はんぶん</rt></ruby>に", "なりました"]
         ],
-        "answer": ["半分に", "しました"],
+        "answer": ["<ruby>半分<rt>はんぶん</rt></ruby>に", "しました"],
         "explanation": "'Hanbun' (half) is a noun; use 'ni shimasu' to express the intentional act of reducing the amount to half.",
         "translation": "I reduced the amount of sugar to half."
       },
@@ -7537,12 +7431,12 @@
         "type": "fill-gap",
         "question": "<ruby>晩<rt>ばん</rt></ruby>ごはんの<ruby>料理<rt>りょうり</rt></ruby>を___ ___ください。",
         "choices": [
-          ["辛く", "しないで"],
-          ["辛い", "しないで"],
-          ["辛くに", "しないで"],
-          ["辛く", "なくて"]
+          ["<ruby>辛<rt>から</rt></ruby>く", "しないで"],
+          ["<ruby>辛<rt>から</rt></ruby>い", "しないで"],
+          ["<ruby>辛<rt>から</rt></ruby>くに", "しないで"],
+          ["<ruby>辛<rt>から</rt></ruby>く", "なくて"]
         ],
-        "answer": ["辛く", "しないで"],
+        "answer": ["<ruby>辛<rt>から</rt></ruby>く", "しないで"],
         "explanation": "To request NOT making a certain change (not making it spicy), use the 'ku' form of the i-adjective + 'shinaide'.",
         "translation": "Please don't make the dinner spicy."
       },
@@ -7552,12 +7446,12 @@
         "type": "fill-gap",
         "question": "<ruby>荷物<rt>にもつ</rt></ruby>を___ ___します。",
         "choices": [
-          ["軽く", "する"],
-          ["軽い", "に"],
-          ["軽く", "を"],
-          ["軽いに", "する"]
+          ["<ruby>軽<rt>かる</rt></ruby>く", "する"],
+          ["<ruby>軽<rt>かる</rt></ruby>い", "に"],
+          ["<ruby>軽<rt>かる</rt></ruby>く", "を"],
+          ["<ruby>軽<rt>かる</rt></ruby>いに", "する"]
         ],
-        "answer": ["軽く", "する"],
+        "answer": ["<ruby>軽<rt>かる</rt></ruby>く", "する"],
         "explanation": "Using the 'ku' form of 'karui' (light) with 'shimasu' expresses the action of making the luggage lighter.",
         "translation": "I will make the luggage lighter."
       },
@@ -7565,9 +7459,9 @@
         "key": "baai",
         "grammar": "場合",
         "type": "fill-gap",
-        "question": "<ruby>火事<rt>かじ</rt></ruby>が___場合は、すぐに１１９<ruby>番<rt>ばん</rt></ruby>をしてください。",
-        "choices": ["起きた", "起きる", "起きて", "起き"],
-        "answer": "起きた",
+        "question": "<ruby>火事<rt>かじ</rt></ruby>が___<ruby>場合<rt>ばあい</rt></ruby>は、すぐに１１９<ruby>番<rt>ばん</rt></ruby>をしてください。",
+        "choices": ["<ruby>起<rt>お</rt></ruby>きた", "<ruby>起<rt>お</rt></ruby>きる", "<ruby>起<rt>お</rt></ruby>きて", "<ruby>起<rt>お</rt></ruby>き"],
+        "answer": "<ruby>起<rt>お</rt></ruby>きた",
         "explanation": "To describe a hypothetical situation that might occur, use the plain past (Ta-form) or dictionary form. 'Okita' (occurred) is common for emergencies.",
         "translation": "In case a fire occurs, please call 119 immediately."
       },
@@ -7575,7 +7469,7 @@
         "key": "baai",
         "grammar": "場合",
         "type": "fill-gap",
-        "question": "<ruby>雨<rt>あめ</rt></ruby>___場合は、<ruby>試合<rt>しあい</rt></ruby>は<ruby>中止<rt>ちゅうし</rt></ruby>です。",
+        "question": "<ruby>雨<rt>あめ</rt></ruby>___<ruby>場合<rt>ばあい</rt></ruby>は、<ruby>試合<rt>しあい</rt></ruby>は<ruby>中止<rt>ちゅうし</rt></ruby>です。",
         "choices": ["の", "な", "だ", "に"],
         "answer": "の",
         "explanation": "When 'baai' follows a noun like 'ame' (rain), you must use the particle 'no' to connect them.",
@@ -7585,9 +7479,9 @@
         "key": "baai",
         "grammar": "場合",
         "type": "fill-gap",
-        "question": "パスポートを___場合は、すぐに<ruby>警察<rt>けいさつ</rt></ruby>へ行ってください。",
-        "choices": ["なくした", "なくす", "なくして", "なくし"],
-        "answer": "なくした",
+        "question": "パスポートを___<ruby>場合<rt>ばあい</rt></ruby>は、すぐに<ruby>警察<rt>けいさつ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ってください。",
+        "choices": ["<ruby>無<rt>な</rt></ruby>くした", "<ruby>無<rt>な</rt></ruby>くす", "<ruby>無<rt>な</rt></ruby>くして", "<ruby>無<rt>な</rt></ruby>くし"],
+        "answer": "<ruby>無<rt>な</rt></ruby>くした",
         "explanation": "The plain past form 'nakushita' is used with 'baai' to describe the condition of having lost something.",
         "translation": "In case you lose your passport, please go to the police station immediately."
       },
@@ -7595,9 +7489,9 @@
         "key": "baai",
         "grammar": "場合",
         "type": "fill-gap",
-        "question": "<ruby>都合<rt>つごう</rt></ruby>が___場合は、教えてください。",
-        "choices": ["悪い", "悪く", "悪な", "悪だ"],
-        "answer": "悪い",
+        "question": "<ruby>都合<rt>つごう</rt></ruby>が___<ruby>場合<rt>ばあい</rt></ruby>は、<ruby>教<rt>おし</rt></ruby>えてください。",
+        "choices": ["<ruby>悪<rt>わる</rt></ruby>い", "<ruby>悪<rt>わる</rt></ruby>く", "<ruby>悪<rt>わる</rt></ruby>な", "<ruby>悪<rt>わる</rt></ruby>だ"],
+        "answer": "<ruby>悪<rt>わる</rt></ruby>い",
         "explanation": "I-adjectives connect directly to 'baai' in their plain dictionary form.",
         "translation": "In case it is inconvenient for you, please let me know."
       },
@@ -7605,14 +7499,14 @@
         "key": "baai",
         "grammar": "場合",
         "type": "fill-gap",
-        "question": "<ruby>操作<rt>そうさ</rt></ruby>が___場合は、このボタンを<ruby>押<rt>お</rt></ruby>してください。",
+        "question": "<ruby>操作<rt>そうさ</rt></ruby>が___<ruby>場合<rt>ばあい</rt></ruby>は、このボタンを<ruby>押<rt>お</rt></ruby>してください。",
         "choices": [
-          ["複雑な", "場合"],
-          ["複雑", "場合"],
-          ["複雑だ", "場合"],
-          ["複雑に", "場合"]
+          ["<ruby>複雑<rt>ふくざつ</rt></ruby>な", "<ruby>場合<rt>ばあい</rt></ruby>"],
+          ["<ruby>複雑<rt>ふくざつ</rt></ruby>", "<ruby>場合<rt>ばあい</rt></ruby>"],
+          ["<ruby>複雑<rt>ふくざつ</rt></ruby>だ", "<ruby>場合<rt>ばあい</rt></ruby>"],
+          ["<ruby>複雑<rt>ふくざつ</rt></ruby>に", "<ruby>場合<rt>ばあい</rt></ruby>"]
         ],
-        "answer": ["複雑な", "場合"],
+        "answer": ["<ruby>複雑<rt>ふくざつ</rt></ruby>な", "<ruby>場合<rt>ばあい</rt></ruby>"],
         "explanation": "For Na-adjectives like 'fukuzatsu' (complicated), you must use 'na' before 'baai'.",
         "translation": "In case the operation is complicated, please press this button."
       },
@@ -7620,14 +7514,14 @@
         "key": "baai",
         "grammar": "場合",
         "type": "fill-gap",
-        "question": "<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>が___ ___は、レジで言ってください。",
+        "question": "<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>が___ ___は、レジで<ruby>言<rt>い</rt></ruby>ってください。",
         "choices": [
-          ["必要な", "場合"],
-          ["必要", "場合"],
-          ["必要だ", "場合"],
-          ["必要に", "場合"]
+          ["<ruby>必要<rt>ひつよう</rt></ruby>な", "<ruby>場合<rt>ばあい</rt></ruby>"],
+          ["<ruby>必要<rt>ひつよう</rt></ruby>", "<ruby>場合<rt>ばあい</rt></ruby>"],
+          ["<ruby>必要<rt>ひつよう</rt></ruby>だ", "<ruby>場合<rt>ばあい</rt></ruby>"],
+          ["<ruby>必要<rt>ひつよう</rt></ruby>に", "<ruby>場合<rt>ばあい</rt></ruby>"]
         ],
-        "answer": ["必要な", "場合"],
+        "answer": ["<ruby>必要<rt>ひつよう</rt></ruby>な", "<ruby>場合<rt>ばあい</rt></ruby>"],
         "explanation": "Since 'hitsuyou' (necessary) is a Na-adjective, 'na' is required to connect it to 'baai'.",
         "translation": "In case you need a receipt, please ask at the register."
       },
@@ -7635,14 +7529,14 @@
         "key": "baai",
         "grammar": "場合",
         "type": "fill-gap",
-        "question": "<ruby>約束<rt>やくそく</rt></ruby>に___ ___は、必ず<ruby>連絡<rt>れんらく</rt></ruby>してください。",
+        "question": "<ruby>約束<rt>やくそく</rt></ruby>に___ ___は、<ruby>必<rt>かなら</rt></ruby>ず<ruby>連絡<rt>れんらく</rt></ruby>してください。",
         "choices": [
-          ["遅れる", "場合"],
-          ["遅れ", "場合"],
-          ["遅れて", "場合"],
-          ["遅れた", "場合"]
+          ["<ruby>遅<rt>おく</rt></ruby>れる", "<ruby>場合<rt>ばあい</rt></ruby>"],
+          ["<ruby>遅<rt>おく</rt></ruby>れ", "<ruby>場合<rt>ばあい</rt></ruby>"],
+          ["<ruby>遅<rt>おく</rt></ruby>れて", "<ruby>場合<rt>ばあい</rt></ruby>"],
+          ["<ruby>遅<rt>おく</rt></ruby>れた", "<ruby>場合<rt>ばあい</rt></ruby>"]
         ],
-        "answer": ["遅れる", "場合"],
+        "answer": ["<ruby>遅<rt>おく</rt></ruby>れる", "<ruby>場合<rt>ばあい</rt></ruby>"],
         "explanation": "The dictionary form 'okureru' is used for a situation that might happen in the future.",
         "translation": "In case you are going to be late for the appointment, please be sure to contact us."
       },
@@ -7652,12 +7546,12 @@
         "type": "fill-gap",
         "question": "<ruby>地震<rt>じしん</rt></ruby>___ ___、エレベーターを___な。",
         "choices": [
-          ["の", "場合", "使う"],
-          ["な", "場合", "使う"],
-          ["に", "場合", "使い"],
-          ["の", "場合", "使え"]
+          ["の", "<ruby>場合<rt>ばあい</rt></ruby>", "<ruby>使<rt>つか</rt></ruby>う"],
+          ["な", "<ruby>場合<rt>ばあい</rt></ruby>", "<ruby>使<rt>つか</rt></ruby>う"],
+          ["に", "<ruby>場合<rt>ばあい</rt></ruby>", "<ruby>使<rt>つか</rt></ruby>い"],
+          ["の", "<ruby>場合<rt>ばあい</rt></ruby>", "<ruby>使<rt>つか</rt></ruby>え"]
         ],
-        "answer": ["の", "場合", "使う"],
+        "answer": ["の", "<ruby>場合<rt>ばあい</rt></ruby>", "<ruby>使<rt>つか</rt></ruby>う"],
         "explanation": "Noun 'jishin' + 'no' + 'baai'. The last part uses the prohibitive form 'tsukau-na' (don't use).",
         "translation": "In case of an earthquake, do not use the elevator."
       },
@@ -7666,8 +7560,8 @@
         "grammar": "のに (despite)",
         "type": "fill-gap",
         "question": "この<ruby>料理<rt>りょうり</rt></ruby>は___のに、あまりおいしくありません。",
-        "choices": ["高い", "高な", "高だ", "高くて"],
-        "answer": "高い",
+        "choices": ["<ruby>高<rt>たか</rt></ruby>い", "<ruby>高<rt>たか</rt></ruby>な", "<ruby>高<rt>たか</rt></ruby>だ", "<ruby>高<rt>たか</rt></ruby>くて"],
+        "answer": "<ruby>高<rt>たか</rt></ruby>い",
         "explanation": "I-adjectives connect directly to 'noni' in their plain dictionary form.",
         "translation": "Although this dish is expensive, it isn't very delicious."
       },
@@ -7676,8 +7570,8 @@
         "grammar": "のに (despite)",
         "type": "fill-gap",
         "question": "<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby>___のに、テストの<ruby>点<rt>てん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>かったです。",
-        "choices": ["勉強した", "勉強する", "勉強して", "勉強し"],
-        "answer": "勉強した",
+        "choices": ["<ruby>勉強<rt>べんきょう</rt></ruby>した", "<ruby>勉強<rt>べんきょう</rt></ruby>する", "<ruby>勉強<rt>べんきょう</rt></ruby>して", "<ruby>勉強<rt>べんきょう</rt></ruby>し"],
+        "answer": "<ruby>勉強<rt>べんきょう</rt></ruby>した",
         "explanation": "The plain past form (Ta-form) is used here to show that despite having studied hard, the result was poor.",
         "translation": "Even though I studied hard, my test score was bad."
       },
@@ -7685,7 +7579,7 @@
         "key": "noni_despite",
         "grammar": "のに (despite)",
         "type": "fill-gap",
-        "question": "今日は<ruby>日曜日<rt>にちようび</rt></ruby>___のに、<ruby>仕事<rt>しごと</rt></ruby>に行かなければなりません。",
+        "question": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>日曜日<rt>にちようび</rt></ruby>___のに、<ruby>仕事<rt>しごと</rt></ruby>に行かなければなりません。",
         "choices": ["な", "だ", "の", "に"],
         "answer": "な",
         "explanation": "When 'noni' follows a noun or a na-adjective in the present affirmative, you must use 'na'.",
@@ -7695,9 +7589,9 @@
         "key": "noni_despite",
         "grammar": "のに (despite)",
         "type": "fill-gap",
-        "question": "薬を___のに、まだ熱が下がりません。",
-        "choices": ["飲んだ", "飲む", "飲んで", "飲まない"],
-        "answer": "飲んだ",
+        "question": "<ruby>薬<rt>くすり</rt></ruby>を___のに、まだ<ruby>熱<rt>ねつ</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がりません。",
+        "choices": ["<ruby>飲<rt>の</rt></ruby>んだ", "<ruby>飲<rt>の</rt></ruby>む", "<ruby>飲<rt>の</rt></ruby>んで", "<ruby>飲<rt>の</rt></ruby>まない"],
+        "answer": "<ruby>飲<rt>の</rt></ruby>んだ",
         "explanation": "Using the plain past form 'nonda' expresses that the expected result (fever going down) didn't happen after taking medicine.",
         "translation": "Despite having taken medicine, my fever still hasn't gone down."
       },
@@ -7705,14 +7599,14 @@
         "key": "noni_despite",
         "grammar": "のに (despite)",
         "type": "fill-gap",
-        "question": "あの人は___ ___のに、いつも元気です。",
+        "question": "あの<ruby>人<rt>ひと</rt></ruby>は___ ___のに、いつも<ruby>元気<rt>げんき</rt></ruby>です。",
         "choices": [
-          ["忙しい", "の"],
-          ["忙しく", "の"],
-          ["忙しな", "の"],
-          ["忙しだ", "の"]
+          ["<ruby>忙<rt>いそが</rt></ruby>しい", "の"],
+          ["<ruby>忙<rt>いそが</rt></ruby>しく", "の"],
+          ["<ruby>忙<rt>いそが</rt></ruby>しな", "の"],
+          ["<ruby>忙<rt>いそが</rt></ruby>しだ", "の"]
         ],
-        "answer": ["忙しい", "の"],
+        "answer": ["<ruby>忙<rt>いそが</rt></ruby>しい", "の"],
         "explanation": "The plain form of the i-adjective 'isogashii' is used to show contrast with being 'genki' (energetic).",
         "translation": "Even though that person is busy, they are always energetic."
       },
@@ -7720,14 +7614,14 @@
         "key": "noni_despite",
         "grammar": "のに (despite)",
         "type": "fill-gap",
-        "question": "<ruby>昨日<rt>きのう</rt></ruby>は___ ___のに、今日はとてもいい天気です。",
+        "question": "<ruby>昨日<rt>きのう</rt></ruby>は___ ___のに、<ruby>今日<rt>きょう</rt></ruby>はとてもいい<ruby>天気<rt>てんき</rt></ruby>です。",
         "choices": [
-          ["雨だった", "の"],
-          ["雨な", "の"],
-          ["雨だ", "の"],
-          ["雨", "の"]
+          ["<ruby>雨<rt>あめ</rt></ruby>だった", "の"],
+          ["<ruby>雨<rt>あめ</rt></ruby>な", "の"],
+          ["<ruby>雨<rt>あめ</rt></ruby>だ", "の"],
+          ["<ruby>雨<rt>あめ</rt></ruby>", "の"]
         ],
-        "answer": ["雨だった", "の"],
+        "answer": ["<ruby>雨<rt>あめ</rt></ruby>だった", "の"],
         "explanation": "To contrast yesterday's state, use the plain past form of the noun (ame datta) before 'noni'.",
         "translation": "Even though it was raining yesterday, the weather is very nice today."
       },
@@ -7735,14 +7629,14 @@
         "key": "noni_despite",
         "grammar": "のに (despite)",
         "type": "fill-gap",
-        "question": "この<ruby>部屋<rt>へや</rt></ruby>は___ ___のに、<ruby>家賃<rt>やちん</rt></ruby>が高いです。",
+        "question": "この<ruby>部屋<rt>へや</rt></ruby>は___ ___なのに、<ruby>家賃<rt>やちん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いです。",
         "choices": [
-          ["不便な", "の"],
-          ["不便", "の"],
-          ["不便だ", "の"],
-          ["不便に", "の"]
+          ["<ruby>不便<rt>ふべん</rt></ruby>な", "の"],
+          ["<ruby>不便<rt>ふべん</rt></ruby>", "の"],
+          ["<ruby>不便<rt>ふべん</rt></ruby>だ", "の"],
+          ["<ruby>不便<rt>ふべん</rt></ruby>に", "の"]
         ],
-        "answer": ["不便な", "の"],
+        "answer": ["<ruby>不便<rt>ふべん</rt></ruby>な", "の"],
         "explanation": "Na-adjectives like 'fuben' (inconvenient) require 'na' before 'noni'.",
         "translation": "Even though this room is inconvenient, the rent is expensive."
       },
@@ -7750,14 +7644,14 @@
         "key": "noni_despite",
         "grammar": "のに (despite)",
         "type": "fill-gap",
-        "question": "何度も___ ___のに、なかなか覚えられません。",
+        "question": "<ruby>何度<rt>なんど</rt></ruby>も___ ___のに、なかなか<ruby>覚<rt>おぼ</rt></ruby>えられません。",
         "choices": [
-          ["練習した", "の"],
-          ["練習する", "の"],
-          ["練習し", "の"],
-          ["練習して", "の"]
+          ["<ruby>練習<rt>れんしゅう</rt></ruby>した", "の"],
+          ["<ruby>練習<rt>れんしゅう</rt></ruby>する", "の"],
+          ["<ruby>練習<rt>れんしゅう</rt></ruby>し", "の"],
+          ["<ruby>練習<rt>れんしゅう</rt></ruby>して", "の"]
         ],
-        "answer": ["練習した", "の"],
+        "answer": ["<ruby>練習<rt>れんしゅう</rt></ruby>した", "の"],
         "explanation": "The plain past form 'renshuu shita' followed by 'noni' emphasizes the frustration of not being able to memorize despite the effort.",
         "translation": "Even though I practiced many times, I just can't memorize it."
       },
@@ -7765,9 +7659,9 @@
         "key": "tokorodesu",
         "grammar": "る / た / ているところです",
         "type": "fill-gap",
-        "question": "A：レポートはもう出しましたか。 B：いいえ、今___ところです。",
-        "choices": ["書いている", "書いた", "書く", "書いて"],
-        "answer": "書いている",
+        "question": "A：レポートはもう<ruby>出<rt>だ</rt></ruby>しましたか。 B：いいえ、<ruby>今<rt>いま</rt></ruby>___ところです。",
+        "choices": ["<ruby>書<rt>か</rt></ruby>いている", "<ruby>書<rt>か</rt></ruby>いた", "<ruby>書<rt>か</rt></ruby>く", "<ruby>書<rt>か</rt></ruby>いて"],
+        "answer": "<ruby>書<rt>か</rt></ruby>いている",
         "explanation": "The '~te iru' form + 'tokoro' shows the action is currently in progress.",
         "translation": "A: Have you submitted the report yet? B: No, I'm in the middle of writing it right now."
       },
@@ -7775,7 +7669,7 @@
         "key": "tokorodesu",
         "grammar": "る / た / ているところです",
         "type": "fill-gap",
-        "question": "これから出かける___ですから、後で連絡します。",
+        "question": "これから<ruby>出<rt>で</rt></ruby>かける___ですから、後で<ruby>連絡<rt>れんらく</rt></ruby>します。",
         "choices": ["ところ", "ばかり", "もの", "こと"],
         "answer": "ところ",
         "explanation": "Dictionary form + 'tokoro' indicates that an action is just about to start.",
@@ -7785,9 +7679,9 @@
         "key": "tokorodesu",
         "grammar": "る / た / ているところです",
         "type": "fill-gap",
-        "question": "たった今、料理を___ところです。一緒に食べましょう。",
-        "choices": ["作った", "作る", "作っている", "作りに"],
-        "answer": "作った",
+        "question": "たった<ruby>今<rt>いま</rt></ruby>、<ruby>料理<rt>りょうり</rt></ruby>を___ところです。一緒に<ruby>食<rt>た</rt></ruby>べましょう。",
+        "choices": ["<ruby>作<rt>つく</rt></ruby>った", "<ruby>作<rt>つく</rt></ruby>る", "<ruby>作<rt>つく</rt></ruby>っている", "<ruby>作<rt>つく</rt></ruby>りに"],
+        "answer": "<ruby>作<rt>つく</rt></ruby>った",
         "explanation": "The plain past (Ta-form) + 'tokoro' shows the action was completed just a moment ago.",
         "translation": "I've just finished cooking. Let's eat together."
       },
@@ -7795,9 +7689,9 @@
         "key": "tokorodesu",
         "grammar": "る / た / ているところです",
         "type": "fill-gap",
-        "question": "今、詳しい理由を___ところですので、少々お待ちください。",
-        "choices": ["聞いている", "聞く", "聞いた", "聞け"],
-        "answer": "聞いている",
+        "question": "<ruby>今<rt>いま</rt></ruby>、<ruby>詳<rt>くわ</rt></ruby>しい<ruby>理由<rt>りゆう</rt></ruby>を___ところですので、<ruby>少々<rt>しょうしょう</rt></ruby>お<ruby>待<rt>ま</rt></ruby>ちください。",
+        "choices": ["<ruby>聞<rt>き</rt></ruby>いている", "<ruby>聞<rt>き</rt></ruby>く", "<ruby>聞<rt>き</rt></ruby>いた", "<ruby>聞<rt>き</rt></ruby>け"],
+        "answer": "<ruby>聞<rt>き</rt></ruby>いている",
         "explanation": "Using '~te iru tokoro' emphasizes that you are currently in the middle of the process of asking/hearing.",
         "translation": "I'm currently asking for the detailed reasons, so please wait a moment."
       },
@@ -7805,14 +7699,14 @@
         "key": "tokorodesu",
         "grammar": "る / た / ているところです",
         "type": "fill-gap",
-        "question": "ちょうど今から説明を___ ___。",
+        "question": "ちょうど<ruby>今<rt>いま</rt></ruby>から<ruby>説明<rt>せつめい</rt></ruby>を___ ___。",
         "choices": [
-          ["始める", "ところです"],
-          ["始めた", "ところです"],
-          ["始めている", "ところです"],
-          ["始めて", "あります"]
+          ["<ruby>始<rt>はじ</rt></ruby>める", "ところです"],
+          ["<ruby>始<rt>はじ</rt></ruby>めた", "ところです"],
+          ["<ruby>始<rt>はじ</rt></ruby>めている", "ところです"],
+          ["<ruby>始<rt>はじ</rt></ruby>めて", "あります"]
         ],
-        "answer": ["始める", "ところです"],
+        "answer": ["<ruby>始<rt>はじ</rt></ruby>める", "ところです"],
         "explanation": "'Ima kara' (from now) confirms the action is at the point of starting.",
         "translation": "I'm just about to start the explanation right now."
       },
@@ -7820,14 +7714,14 @@
         "key": "tokorodesu",
         "grammar": "る / た / ているところです",
         "type": "fill-gap",
-        "question": "ちょうど電車が___ ___ですから、急ぎましょう。",
+        "question": "ちょうど<ruby>電車<rt>でんしゃ</rt></ruby>が___ ___ですから、<ruby>急<rt>いそ</rt></ruby>ぎましょう。",
         "choices": [
-          ["来る", "ところ"],
-          ["来た", "ところ"],
-          ["来ている", "ところ"],
-          ["来て", "いた"]
+          ["<ruby>来<rt>く</rt></ruby>る", "ところ"],
+          ["<ruby>来<rt>き</rt></ruby>た", "ところ"],
+          ["<ruby>来<rt>き</rt></ruby>ている", "ところ"],
+          ["<ruby>来<rt>き</rt></ruby>て", "いた"]
         ],
-        "answer": ["来る", "ところ"],
+        "answer": ["<ruby>来<rt>く</rt></ruby>る", "ところ"],
         "explanation": "Dictionary form + 'tokoro' is used to show the train is on the verge of arriving.",
         "translation": "The train is just about to arrive, so let's hurry."
       },
@@ -7835,14 +7729,14 @@
         "key": "tokorodesu",
         "grammar": "る / た / ているところです",
         "type": "fill-gap",
-        "question": "さっき田中さんが___ ___ですよ。まだ近くにいるはずです。",
+        "question": "さっき<ruby>田中<rt>たなか</rt></ruby>さんが___ ___ですよ。まだ<ruby>近<rt>ちか</rt></ruby>くにいるはずです。",
         "choices": [
-          ["帰った", "ところ"],
-          ["帰る", "ところ"],
-          ["帰っている", "ところ"],
-          ["帰り", "そう"]
+          ["<ruby>帰<rt>かえ</rt></ruby>った", "ところ"],
+          ["<ruby>帰<rt>かえ</rt></ruby>る", "ところ"],
+          ["<ruby>帰<rt>かえ</rt></ruby>っている", "ところ"],
+          ["<ruby>帰<rt>かえ</rt></ruby>り", "そう"]
         ],
-        "answer": ["帰った", "ところ"],
+        "answer": ["<ruby>帰<rt>かえ</rt></ruby>った", "ところ"],
         "explanation": "Ta-form + 'tokoro' indicates he just left, explaining why he should still be nearby.",
         "translation": "Mr. Tanaka just left a moment ago. He should still be close by."
       },
@@ -7850,14 +7744,14 @@
         "key": "tokorodesu",
         "grammar": "る / た / ているところです",
         "type": "fill-gap",
-        "question": "今、チケットを___ ___です。もうすぐ買えます。",
+        "question": "<ruby>今<rt>いま</rt></ruby>、チケットを___ ___です。もうすぐ<ruby>買<rt>か</rt></ruby>えます。",
         "choices": [
-          ["選んでいる", "ところ"],
-          ["選ぶ", "ところ"],
-          ["選んだ", "ところ"],
-          ["選んで", "あります"]
+          ["<ruby>選<rt>えら</rt></ruby>んでいる", "ところ"],
+          ["<ruby>選<rt>えら</rt></ruby>ぶ", "ところ"],
+          ["<ruby>選<rt>えら</rt></ruby>んだ", "ところ"],
+          ["<ruby>選<rt>えら</rt></ruby>んで", "あります"]
         ],
-        "answer": ["選んでいる", "ところ"],
+        "answer": ["<ruby>選<rt>えら</rt></ruby>んでいる", "ところ"],
         "explanation": "Te-iru form shows the ongoing selection process.",
         "translation": "I'm choosing the tickets right now. I'll be able to buy them soon."
       },
@@ -7865,9 +7759,9 @@
         "key": "tabakari",
         "grammar": "～たばかり",
         "type": "fill-gap",
-        "question": "先月、日本に___ばかりなので、まだ日本語が上手じゃありません。",
-        "choices": ["来た", "来る", "来ている", "来"],
-        "answer": "来た",
+        "question": "<ruby>先月<rt>せんげつ</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>に___ばかりなので、まだ<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>じゃありません。",
+        "choices": ["<ruby>来<rt>き</rt></ruby>た", "<ruby>来<rt>く</rt></ruby>る", "<ruby>来<rt>き</rt></ruby>ている", "<ruby>来<rt>く</rt></ruby>"],
+        "answer": "<ruby>来<rt>き</rt></ruby>た",
         "explanation": "To express 'just arrived', use the plain past form (Ta-form) followed by 'bakari'.",
         "translation": "I just came to Japan last month, so my Japanese is not good yet."
       },
@@ -7875,9 +7769,9 @@
         "key": "tabakari",
         "grammar": "～たばかり",
         "type": "fill-gap",
-        "question": "さっきごはんを___ばかりですから、おなかがいっぱいです。",
-        "choices": ["食べた", "食べる", "食べて", "食べたの"],
-        "answer": "食べた",
+        "question": "さっきごはんを___ばかりですから、お<ruby>腹<rt>なか</rt></ruby>がいっぱいです。",
+        "choices": ["<ruby>食<rt>た</rt></ruby>べた", "<ruby>食<rt>た</rt></ruby>べる", "<ruby>食<rt>た</rt></ruby>べて", "<ruby>食<rt>た</rt></ruby>べたの"],
+        "answer": "<ruby>食<rt>た</rt></ruby>べた",
         "explanation": "The Ta-form 'tabeta' + 'bakari' indicates that the action of eating was completed just a moment ago.",
         "translation": "I just ate a moment ago, so I'm full."
       },
@@ -7885,9 +7779,9 @@
         "key": "tabakari",
         "grammar": "～たばかり",
         "type": "fill-gap",
-        "question": "このパソコンは昨日___ばかりなのに、もう壊れてしまいました。",
-        "choices": ["買った", "買う", "買っている", "買いた"],
-        "answer": "買った",
+        "question": "このパソコンは<ruby>昨日<rt>きのう</rt></ruby>___ばかりなのに、もう<ruby>壊<rt>こわ</rt></ruby>れてしまいました。",
+        "choices": ["<ruby>買<rt>か</rt></ruby>った", "<ruby>買<rt>か</rt></ruby>う", "<ruby>買<rt>か</rt></ruby>っている", "<ruby>買<rt>か</rt></ruby>いた"],
+        "answer": "<ruby>買<rt>か</rt></ruby>った",
         "explanation": "Even though a whole day has passed, 'bakari' is used to emphasize that the purchase feels very recent.",
         "translation": "I just bought this computer yesterday, but it's already broken."
       },
@@ -7896,8 +7790,8 @@
         "grammar": "～たばかり",
         "type": "fill-gap",
         "question": "さっき___ばかりのパンはおいしいです。",
-        "choices": ["焼いた", "焼く", "焼いて", "焼き"],
-        "answer": "焼いた",
+        "choices": ["<ruby>焼<rt>や</rt></ruby>いた", "<ruby>焼<rt>や</rt></ruby>く", "<ruby>焼<rt>や</rt></ruby>いて", "<ruby>焼<rt>や</rt></ruby>き"],
+        "answer": "<ruby>焼<rt>や</rt></ruby>いた",
         "explanation": "Using 'yakita bakari' as a modifier for 'pan' describes bread that has just been baked.",
         "translation": "Bread that has just been baked is delicious."
       },
@@ -7905,14 +7799,14 @@
         "key": "tabakari",
         "grammar": "～たばかり",
         "type": "fill-gap",
-        "question": "二人は先週___ ___です。",
+        "question": "<ruby>二人<rt>ふたり</rt></ruby>は<ruby>先週<rt>せんしゅう</rt></ruby>___ ___です。",
         "choices": [
-          ["結婚した", "ばかり"],
-          ["結婚する", "ばかり"],
-          ["結婚して", "ばかり"],
-          ["結婚した", "ところ"]
+          ["<ruby>結婚<rt>けっこん</rt></ruby>した", "ばかり"],
+          ["<ruby>結婚<rt>けっこん</rt></ruby>する", "ばかり"],
+          ["<ruby>結婚<rt>けっこん</rt></ruby>して", "ばかり"],
+          ["<ruby>結婚<rt>けっこん</rt></ruby>した", "ところ"]
         ],
-        "answer": ["結婚した", "ばかり"],
+        "answer": ["<ruby>結婚<rt>けっこん</rt></ruby>した", "ばかり"],
         "explanation": "Ta-form + 'bakari desu' is perfect for social events that happened recently, like getting married last week.",
         "translation": "The two of them just got married last week."
       },
@@ -7920,14 +7814,14 @@
         "key": "tabakari",
         "grammar": "～たばかり",
         "type": "fill-gap",
-        "question": "この家は___ ___なので、とてもきれいです。",
+        "question": "この<ruby>家<rt>いえ</rt></ruby>は___ ___なので、とてもきれいです。",
         "choices": [
-          ["建てた", "ばかり"],
-          ["建てる", "ばかり"],
-          ["建てて", "ばかり"],
-          ["建てた", "ところ"]
+          ["<ruby>建<rt>た</rt></ruby>てた", "ばかり"],
+          ["<ruby>建<rt>た</rt></ruby>てる", "ばかり"],
+          ["<ruby>建<rt>た</rt></ruby>てて", "ばかり"],
+          ["<ruby>建<rt>た</rt></ruby>てた", "ところ"]
         ],
-        "answer": ["建てた", "ばかり"],
+        "answer": ["<ruby>建<rt>た</rt></ruby>てた", "ばかり"],
         "explanation": "'Tateru' (to build) in Ta-form + 'bakari' explains why the house is still very clean/new.",
         "translation": "This house was just built, so it's very beautiful."
       },
@@ -7935,7 +7829,7 @@
         "key": "tabakari",
         "grammar": "～たばかり",
         "type": "fill-gap",
-        "question": "掃除を___ ___なのに、もう汚れてしまいました。",
+        "question": "<ruby>掃除<rt>そうじ</rt></ruby>を___ ___なのに、もう<ruby>汚<rt>よご</rt></ruby>れてしまいました。",
         "choices": [
           ["した", "ばかり"],
           ["する", "ばかり"],
@@ -7950,14 +7844,14 @@
         "key": "tabakari",
         "grammar": "～たばかり",
         "type": "fill-gap",
-        "question": "さっき会社を___ ___ ___、今は電車に乗っています。",
+        "question": "さっき<ruby>会社<rt>かいしゃ</rt></ruby>を___ ___ ___、<ruby>今<rt>いま</rt></ruby>は<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>っています。",
         "choices": [
-          ["出た", "ばかり"],
-          ["出る", "ばかり"],
-          ["出て", "いる"],
-          ["出た", "ところ"]
+          ["<ruby>出<rt>で</rt></ruby>た", "ばかり"],
+          ["<ruby>出<rt>で</rt></ruby>る", "ばかり"],
+          ["<ruby>出<rt>で</rt></ruby>て", "いる"],
+          ["<ruby>出<rt>で</rt></ruby>た", "ところ"]
         ],
-        "answer": ["出た", "ばかり"],
+        "answer": ["<ruby>出<rt>で</rt></ruby>た", "ばかり"],
         "explanation": "Ta-form + 'bakari' shows the person left the office just a short while ago.",
         "translation": "I just left the office a moment ago; I'm on the train now."
       },
@@ -7965,7 +7859,7 @@
         "key": "hazu",
         "grammar": "はず",
         "type": "fill-gap",
-        "question": "田中さんは今日休みですから、家に___はずです。",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>今日<rt>きょう</rt></ruby><ruby>休<rt>やす</rt></ruby>みですから、<ruby>家<rt>いえ</rt></ruby>に___はずです。",
         "choices": ["いる", "います", "いて", "いた"],
         "answer": "いる",
         "explanation": "For verbs, use the dictionary form before 'hazu' to express a logical expectation about a current state.",
@@ -7975,9 +7869,9 @@
         "key": "hazu",
         "grammar": "hazu",
         "type": "fill-gap",
-        "question": "この本は昨日___はずですが、まだ届きません。",
-        "choices": ["着いた", "着く", "着いて", "着き"],
-        "answer": "着いた",
+        "question": "この<ruby>本<rt>ほん</rt></ruby>は<ruby>昨日<rt>きのう</rt></ruby>___はずですが、まだ<ruby>届<rt>とど</rt></ruby>きません。",
+        "choices": ["<ruby>着<rt>つ</rt></ruby>いた", "<ruby>着<rt>つ</rt></ruby>く", "<ruby>着<rt>つ</rt></ruby>いて", "<ruby>着<rt>つ</rt></ruby>き"],
+        "answer": "<ruby>着<rt>つ</rt></ruby>いた",
         "explanation": "Use the plain past form (Ta-form) to express an expectation about something that should have happened already.",
         "translation": "This book was supposed to arrive yesterday, but it hasn't reached me yet."
       },
@@ -7985,9 +7879,9 @@
         "key": "hazu",
         "grammar": "hazu",
         "type": "fill-gap",
-        "question": "彼は日本に５年もいたから、日本語が___はずです。",
-        "choices": ["上手な", "上手だ", "上手に", "上手"],
-        "answer": "上手な",
+        "question": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>に５<ruby>年<rt>ねん</rt></ruby>もいたから、<ruby>日本語<rt>にほんご</rt></ruby>が___はずです。",
+        "choices": ["<ruby>上手<rt>じょうず</rt></ruby>な", "<ruby>上手<rt>じょうず</rt></ruby>だ", "<ruby>上手<rt>じょうず</rt></ruby>に", "<ruby>上手<rt>じょうず</rt></ruby>"],
+        "answer": "<ruby>上手<rt>じょうず</rt></ruby>な",
         "explanation": "For Na-adjectives, you must use 'na' before 'hazu'.",
         "translation": "He was in Japan for five years, so he should be good at Japanese."
       },
@@ -7995,9 +7889,9 @@
         "key": "hazu",
         "grammar": "hazu",
         "type": "fill-gap",
-        "question": "今日は日曜日ですから、銀行は___はずです。",
-        "choices": ["休み", "休みだ", "休みな", "休みで"],
-        "answer": "休み",
+        "question": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>日曜日<rt>にちようび</rt></ruby>ですから、<ruby>銀行<rt>ぎんこう</rt></ruby>は___はずです。",
+        "choices": ["<ruby>休<rt>やす</rt></ruby>み", "<ruby>休<rt>やす</rt></ruby>みだ", "<ruby>休<rt>やす</rt></ruby>みな", "<ruby>休<rt>やす</rt></ruby>みで"],
+        "answer": "<ruby>休<rt>やす</rt></ruby>み",
         "explanation": "When 'hazu' follows a noun, use the particle 'no'. (Note: In this choice set, 'yasumi' functions as the noun base).",
         "translation": "Today is Sunday, so the bank should be closed (on holiday)."
       },
@@ -8005,14 +7899,14 @@
         "key": "hazu",
         "grammar": "hazu",
         "type": "fill-gap",
-        "question": "一生懸命練習したから、あしたの試合は___ ___。",
+        "question": "<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>したから、あしたの<ruby>試合<rt>しあい</rt></ruby>は___ ___。",
         "choices": [
-          ["勝てる", "はずです"],
-          ["勝つ", "はずです"],
-          ["勝て", "はずです"],
-          ["勝った", "はずです"]
+          ["<ruby>勝<rt>か</rt></ruby>てる", "はずです"],
+          ["<ruby>勝<rt>か</rt></ruby>つ", "はずです"],
+          ["<ruby>勝<rt>か</rt></ruby>て", "はずです"],
+          ["<ruby>勝<rt>か</rt></ruby>った", "はずです"]
         ],
-        "answer": ["勝てる", "はずです"],
+        "answer": ["<ruby>勝<rt>か</rt></ruby>てる", "はずです"],
         "explanation": "The potential form 'kateru' (can win) is used to express the logical expectation of being able to win.",
         "translation": "Since we practiced hard, we should be able to win tomorrow's match."
       },
@@ -8020,14 +7914,14 @@
         "key": "hazu",
         "grammar": "hazu",
         "type": "fill-gap",
-        "question": "あの店はいつも客が多いから、___ ___ですよ。",
+        "question": "あの<ruby>店<rt>みせ</rt></ruby>はいつも<ruby>客<rt>きゃく</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから、___ ___ですよ。",
         "choices": [
-          ["おいしい", "はず"],
-          ["おいしくな", "はず"],
-          ["おいしいだ", "はず"],
-          ["おいしいの", "はず"]
+          ["<ruby>美味<rt>おい</rt></ruby>しい", "はず"],
+          ["<ruby>美味<rt>おい</rt></ruby>しくな", "はず"],
+          ["<ruby>美味<rt>おい</rt></ruby>しいだ", "はず"],
+          ["<ruby>美味<rt>おい</rt></ruby>しいの", "はず"]
         ],
-        "answer": ["おいしい", "はず"],
+        "answer": ["<ruby>美味<rt>おい</rt></ruby>しい", "はず"],
         "explanation": "I-adjectives in their plain form connect directly to 'hazu'.",
         "translation": "That shop always has many customers, so it should be delicious."
       },
@@ -8035,14 +7929,14 @@
         "key": "hazu",
         "grammar": "hazu",
         "type": "fill-gap",
-        "question": "会議の時間はもうみんなに___ ___ ___。",
+        "question": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>はもうみんなに___ ___ ___。",
         "choices": [
-          ["伝えた", "はず"],
-          ["伝える", "はず"],
-          ["伝えて", "はず"],
-          ["伝えな", "はず"]
+          ["<ruby>伝<rt>つた</rt></ruby>えた", "はず"],
+          ["<ruby>伝<rt>つた</rt></ruby>える", "はず"],
+          ["<ruby>伝<rt>つた</rt></ruby>えて", "はず"],
+          ["<ruby>伝<rt>つた</rt></ruby>えな", "はず"]
         ],
-        "answer": ["伝えた", "はず"],
+        "answer": ["<ruby>伝<rt>つた</rt></ruby>えた", "はず"],
         "explanation": "The past form 'tsutaeta' indicates the speaker's conviction that the action of informing everyone has already been completed.",
         "translation": "I should have already told everyone the meeting time."
       },
@@ -8050,14 +7944,14 @@
         "key": "hazu",
         "grammar": "hazu",
         "type": "fill-gap",
-        "question": "薬を飲んだから、もう___ ___ですよ。",
+        "question": "<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んだから、もう___ ___ですよ。",
         "choices": [
-          ["大丈夫な", "はず"],
-          ["大丈夫だ", "はず"],
-          ["大丈夫", "はず"],
-          ["大丈夫に", "はず"]
+          ["<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>な", "はず"],
+          ["<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だ", "はず"],
+          ["<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>", "はず"],
+          ["<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>に", "はず"]
         ],
-        "answer": ["大丈夫な", "はず"],
+        "answer": ["<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>な", "はず"],
         "explanation": "Since 'daijoubu' is a Na-adjective, it requires 'na' before 'hazu'.",
         "translation": "I took medicine, so I should be fine now."
       },
@@ -8065,9 +7959,9 @@
         "key": "sou_desu_heard",
         "grammar": "そうです (heard)",
         "type": "fill-gap",
-        "question": "天気予報によると、あしたは雨が___そうです。",
-        "choices": ["降る", "降り", "降って", "降れば"],
-        "answer": "降る",
+        "question": "<ruby>天気予報<rt>てんきよほう</rt></ruby>によると、あしたは<ruby>雨<rt>あめ</rt></ruby>が___そうです。",
+        "choices": ["<ruby>降<rt>ふ</rt></ruby>る", "<ruby>降<rt>ふ</rt></ruby>り", "<ruby>降<rt>ふ</rt></ruby>って", "<ruby>降<rt>ふ</rt></ruby>れば"],
+        "answer": "<ruby>降<rt>ふ</rt></ruby>る",
         "explanation": "To report information you heard (like a weather forecast), use the dictionary form of the verb before 'sou desu'.",
         "translation": "According to the weather forecast, I heard it will rain tomorrow."
       },
@@ -8075,7 +7969,7 @@
         "key": "sou_desu_heard",
         "grammar": "そうです (heard)",
         "type": "fill-gap",
-        "question": "田中さんは来月結婚する___そうです。",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>来月<rt>らいげつ</rt></ruby><ruby>結婚<rt>けっこん</rt></ruby>する___そうです。",
         "choices": ["の", "な", "だ", ""],
         "answer": "",
         "explanation": "Verbs in the plain form connect directly to 'sou desu' when reporting news.",
@@ -8086,8 +7980,8 @@
         "grammar": "そうです (heard)",
         "type": "fill-gap",
         "question": "ニュースによると、あのビルはとても___そうです。",
-        "choices": ["古い", "古な", "古だ", "古"],
-        "answer": "古い",
+        "choices": ["<ruby>古<rt>ふる</rt></ruby>い", "<ruby>古<rt>ふる</rt></ruby>な", "<ruby>古<rt>ふる</rt></ruby>だ", "<ruby>古<rt>ふる</rt></ruby>"],
+        "answer": "<ruby>古<rt>ふる</rt></ruby>い",
         "explanation": "I-adjectives in their plain form connect directly to 'sou desu' for hearsay.",
         "translation": "According to the news, I heard that building is very old."
       },
@@ -8095,7 +7989,7 @@
         "key": "sou_desu_heard",
         "grammar": "そうです (heard)",
         "type": "fill-gap",
-        "question": "あしたは休み___そうです。",
+        "question": "あしたは<ruby>休<rt>やす</rt></ruby>み___そうです。",
         "choices": ["だ", "な", "の", "に"],
         "answer": "だ",
         "explanation": "For nouns in the present affirmative, you must include 'da' before 'sou desu' when reporting hearsay.",
@@ -8105,14 +7999,14 @@
         "key": "sou_desu_heard",
         "grammar": "そうです (heard)",
         "type": "fill-gap",
-        "question": "彼は昔、とても___ ___そうです。",
+        "question": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>昔<rt>むかし</rt></ruby>、とても___ ___そうです。",
         "choices": [
-          ["有名だった", ""],
-          ["有名な", ""],
-          ["有名だ", ""],
-          ["有名に", ""]
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>", "だった"],
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>", "な"],
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>", "だ"],
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>", "に"]
         ],
-        "answer": ["有名だった", ""],
+        "answer": ["<ruby>有名<rt>ゆうめい</rt></ruby>", "だった"],
         "explanation": "To report a past state for a Na-adjective, use the plain past 'datta' before 'sou desu'.",
         "translation": "I heard that he was very famous in the past."
       },
@@ -8120,14 +8014,14 @@
         "key": "sou_desu_heard",
         "grammar": "そうです (heard)",
         "type": "fill-gap",
-        "question": "昨日のパーティーはとても___ ___そうです。",
+        "question": "<ruby>昨日<rt>きのう</rt></ruby>のパーティーはとても___ ___そうです。",
         "choices": [
-          ["にぎやかだった", ""],
-          ["にぎやかな", ""],
-          ["にぎやか", ""],
-          ["にぎやかだ", ""]
+          ["にぎやか", "だった"],
+          ["にぎやか", "な"],
+          ["にぎやか"],
+          ["にぎやか", "だ"]
         ],
-        "answer": ["にぎやかだった", ""],
+        "answer": ["にぎやか", "だった"],
         "explanation": "For hearsay about a past state (Na-adj), use the plain past form 'datta'.",
         "translation": "I heard that yesterday's party was very lively."
       },
@@ -8135,14 +8029,14 @@
         "key": "sou_desu_heard",
         "grammar": "そうです (heard)",
         "type": "fill-gap",
-        "question": "試験はあまり___ ___そうです。安心しました。",
+        "question": "<ruby>試験<rt>しけん</rt></ruby>はあまり ___ そうです。安心しました。",
         "choices": [
-          ["難しくなかった", ""],
-          ["難しいじゃなかった", ""],
-          ["難しくない", ""],
-          ["難しい", ""]
+          ["<ruby>難<rt>むずか</rt></ruby>しくなかった"],
+          ["<ruby>難<rt>むずか</rt></ruby>しいじゃなかった"],
+          ["<ruby>難<rt>むずか</rt></ruby>しくない"],
+          ["<ruby>難<rt>むずか</rt></ruby>しい"]
         ],
-        "answer": ["難しくなかった", ""],
+        "answer": ["<ruby>難<rt>むずか</rt></ruby>しくなかった"],
         "explanation": "To report hearsay about a negative past state of an I-adjective, use the plain past negative 'kunakatta'.",
         "translation": "I heard that the exam wasn't very difficult. I'm relieved."
       },
@@ -8150,14 +8044,14 @@
         "key": "sou_desu_heard",
         "grammar": "そうです (heard)",
         "type": "fill-gap",
-        "question": "あそこのレストランは___ ___そうです。一度行ってみたいです。",
+        "question": "あそこのレストランは ___ そうです。一度行ってみたいです。",
         "choices": [
-          ["有名だ", ""],
-          ["有名", ""],
-          ["有名な", ""],
-          ["有名に", ""]
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>だ"],
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>"],
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>な"],
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>に"]
         ],
-        "answer": ["有名だ", ""],
+        "answer": ["<ruby>有名<rt>ゆうめい</rt></ruby>だ"],
         "explanation": "For Na-adjectives in the present affirmative, add 'da' before 'sou desu' to report hearsay.",
         "translation": "I heard that restaurant is famous. I want to try going there once."
       },
@@ -8165,7 +8059,7 @@
         "key": "youdesu",
         "grammar": "Plain ようです",
         "type": "fill-gap",
-        "question": "<ruby>隣<rt>となり</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>に<ruby>誰<rt>だれ</rt></ruby>か___ようです。声が聞こえます。",
+        "question": "<ruby>隣<rt>となり</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>に<ruby>誰<rt>だれ</rt></ruby>か___ようです。<ruby>声<rt>こえ</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえます。",
         "choices": ["いる", "います", "いた", "いるの"],
         "answer": "いる",
         "explanation": "To deduce a current situation based on evidence (hearing a voice), use the dictionary form of the verb before 'youdesu'.",
@@ -8175,9 +8069,9 @@
         "key": "youdesu",
         "grammar": "Plain ようです",
         "type": "fill-gap",
-        "question": "田中さんは、あしたのパーティーには___ようです。",
-        "choices": ["来ない", "来ません", "来なくて", "来ないだ"],
-        "answer": "来ない",
+        "question": "<ruby>田中<rt>たなか</rt></ruby>さんは、あしたのパーティーには___ようです。",
+        "choices": ["<ruby>来<rt>こ</rt></ruby>ない", "<ruby>来<rt>き</rt></ruby>ません", "<ruby>来<rt>こ</rt></ruby>なくて", "<ruby>来<rt>こ</rt></ruby>ないだ"],
+        "answer": "<ruby>来<rt>こ</rt></ruby>ない",
         "explanation": "The plain negative form (nai-form) is used before 'youdesu' to express a deduction that something won't happen.",
         "translation": "It seems that Mr. Tanaka will not come to tomorrow's party."
       },
@@ -8185,9 +8079,9 @@
         "key": "youdesu",
         "grammar": "Plain ようです",
         "type": "fill-gap",
-        "question": "外はとても___ようです。みんなコートを着ています。",
-        "choices": ["寒い", "寒な", "寒だ", "寒く"],
-        "answer": "寒い",
+        "question": "<ruby>外<rt>そと</rt></ruby>はとても___ようです。みんなコートを<ruby>着<rt>き</rt></ruby>ています。",
+        "choices": ["<ruby>寒<rt>さむ</rt></ruby>い", "<ruby>寒<rt>さむ</rt></ruby>な", "<ruby>寒<rt>さむ</rt></ruby>だ", "<ruby>寒<rt>さむ</rt></ruby>く"],
+        "answer": "<ruby>寒<rt>さむ</rt></ruby>い",
         "explanation": "I-adjectives in their plain form connect directly to 'youdesu' to describe a deduced state.",
         "translation": "It seems to be very cold outside. Everyone is wearing a coat."
       },
@@ -8195,9 +8089,9 @@
         "key": "youdesu",
         "grammar": "Plain ようです",
         "type": "fill-gap",
-        "question": "あの人は日本が___なようです。",
-        "choices": ["好き", "好きだ", "好きに", "好きで"],
-        "answer": "好き",
+        "question": "あの<ruby>人<rt>ひと</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>が___なようです。",
+        "choices": ["<ruby>好<rt>す</rt></ruby>き", "<ruby>好<rt>す</rt></ruby>きだ", "<ruby>好<rt>す</rt></ruby>きに", "<ruby>好<rt>す</rt></ruby>きで"],
+        "answer": "<ruby>好<rt>す</rt></ruby>き",
         "explanation": "For Na-adjectives, you must use 'na' before 'youdesu'.",
         "translation": "It seems that person likes Japan."
       },
@@ -8205,14 +8099,14 @@
         "key": "youdesu",
         "grammar": "Plain ようです",
         "type": "fill-gap",
-        "question": "あそこにパトカーが止まっています。<ruby>事故<rt>じこ</rt></ruby>___ ___ようです。",
+        "question": "あそこにパトカーが<ruby>止<rt>と</rt></ruby>まっています。<ruby>事故<rt>じこ</rt></ruby>___ ___ようです。",
         "choices": [
-          ["の", "あった"],
-          ["が", "あった"],
-          ["の", "ある"],
-          ["な", "あった"]
+          ["の", "<ruby>あった<rt>あった</rt></ruby>"],
+          ["が", "<ruby>あった<rt>あった</rt></ruby>"],
+          ["の", "<ruby>ある<rt>ある</rt></ruby>"],
+          ["な", "<ruby>あった<rt>あった</rt></ruby>"]
         ],
-        "answer": ["の", "あった"],
+        "answer": ["の", "<ruby>あった<rt>あった</rt></ruby>"],
         "explanation": "When 'youdesu' follows a noun directly, use the particle 'no'. However, if describing an event that happened, use 'V-ta + youdesu'. Here, 'atta' (happened) fits best.",
         "translation": "A police car is parked over there. It seems there was an accident."
       },
@@ -8220,14 +8114,14 @@
         "key": "youdesu",
         "grammar": "Plain ようです",
         "type": "fill-gap",
-        "question": "どこかで<ruby>火事<rt>かじ</rt></ruby>が___ ___ようです。煙が見えます。",
+        "question": "どこかで<ruby>火事<rt>かじ</rt></ruby>が___ ___ようです。<ruby>煙<rt>けむり</rt></ruby>が見えます。",
         "choices": [
-          ["あった", "よう"],
-          ["ある", "よう"],
-          ["あって", "よう"],
-          ["あった", "そう"]
+          ["<ruby>あった<rt>あった</rt></ruby>", "よう"],
+          ["<ruby>ある<rt>ある</rt></ruby>", "よう"],
+          ["<ruby>あって<rt>あって</rt></ruby>", "よう"],
+          ["<ruby>あった<rt>あった</rt></ruby>", "そう"]
         ],
-        "answer": ["あった", "よう"],
+        "answer": ["<ruby>あった<rt>あった</rt></ruby>", "よう"],
         "explanation": "Based on the evidence (seeing smoke), the past plain form 'atta' indicates it seems a fire occurred.",
         "translation": "It seems there was a fire somewhere. I can see smoke."
       },
@@ -8235,14 +8129,14 @@
         "key": "youdesu",
         "grammar": "Plain ようです",
         "type": "fill-gap",
-        "question": "この<ruby>問題<rt>もんだい</rt></ruby>は学生には___ ___ようです。",
+        "question": "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>には___ ___ようです。",
         "choices": [
-          ["難しい", "よう"],
-          ["難しな", "よう"],
-          ["難しく", "よう"],
-          ["難しかった", "よう"]
+          ["<ruby>難<rt>むずか</rt></ruby>しい", "よう"],
+          ["<ruby>難<rt>むずか</rt></ruby>しな", "よう"],
+          ["<ruby>難<rt>むずか</rt></ruby>しく", "よう"],
+          ["<ruby>難<rt>むずか</rt></ruby>しかった", "よう"]
         ],
-        "answer": ["難しい", "よう"],
+        "answer": ["<ruby>難<rt>むずか</rt></ruby>しい", "よう"],
         "explanation": "The dictionary form of the i-adjective 'muzukashii' is used to express a deduction about the current situation.",
         "translation": "This problem seems difficult for the students."
       },
@@ -8250,14 +8144,14 @@
         "key": "youdesu",
         "grammar": "Plain ようです",
         "type": "fill-gap",
-        "question": "あの<ruby>店<rt>みせ</rt></ruby>は___ ___ようです。いつも閉まっています。",
+        "question": "あの<ruby>店<rt>みせ</rt></ruby>は___ ___ようです。いつも<ruby>閉<rt>し</rt></ruby>まっています。",
         "choices": [
-          ["有名", "な"],
-          ["有名", "の"],
-          ["有名", "に"],
-          ["有名", "だ"]
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>", "な"],
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>", "の"],
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>", "に"],
+          ["<ruby>有名<rt>ゆうめい</rt></ruby>", "だ"]
         ],
-        "answer": ["有名", "な"],
+        "answer": ["<ruby>有名<rt>ゆうめい</rt></ruby>", "な"],
         "explanation": "Na-adjectives connect to 'youdesu' using 'na'.",
         "translation": "That shop seems famous. It's always closed (e.g., sold out)."
       },
@@ -8276,8 +8170,8 @@
         "grammar": "使役形",
         "type": "fill-gap",
         "question": "<ruby>母<rt>はは</rt></ruby>は<ruby>弟<rt>おとうと</rt></ruby>に<ruby>野菜<rt>やさい</rt></ruby>を___ました。",
-        "choices": ["食べさせ", "食べ", "食べられ", "食べし"],
-        "answer": "食べさせ",
+        "choices": ["<ruby>食<rt>た</rt></ruby>べさせ", "<ruby>食<rt>た</rt></ruby>べ", "<ruby>食<rt>た</rt></ruby>べられ", "<ruby>食<rt>た</rt></ruby>べし"],
+        "answer": "<ruby>食<rt>た</rt></ruby>べさせ",
         "explanation": "For Group 2 verbs like 'taberu', replace 'ru' with 'saseru'.",
         "translation": "My mother made my younger brother eat vegetables."
       },
@@ -8286,8 +8180,8 @@
         "grammar": "使役形",
         "type": "fill-gap",
         "question": "<ruby>部長<rt>ぶちょう</rt></ruby>は<ruby>田中<rt>たなか</rt></ruby>さんを<ruby>出張<rt>しゅっちょう</rt></ruby>に___ました。",
-        "choices": ["行かせ", "行き", "行かれ", "行かさせ"],
-        "answer": "行かせ",
+        "choices": ["<ruby>行<rt>い</rt></ruby>かせ", "<ruby>行<rt>い</rt></ruby>き", "<ruby>行<rt>い</rt></ruby>かれ", "<ruby>行<rt>い</rt></ruby>かさせ"],
+        "answer": "<ruby>行<rt>い</rt></ruby>かせ",
         "explanation": "For Group 1 verbs, change the 'u' sound to 'a' and add 'seru'. 'Iku' becomes 'ikaseru'.",
         "translation": "The department manager sent (made go) Mr. Tanaka on a business trip."
       },
@@ -8295,9 +8189,9 @@
         "key": "shiekikei",
         "grammar": "使役形",
         "type": "fill-gap",
-        "question": "おもしろいことを言って、みんなを___ました。",
-        "choices": ["笑わせ", "笑い", "笑え", "笑わさせ"],
-        "answer": "笑わせ",
+        "question": "おもしろいことを<ruby>言<rt>い</rt></ruby>って、みんなを___ました。",
+        "choices": ["<ruby>笑<rt>わら</rt></ruby>わせ", "<ruby>笑<rt>わら</rt></ruby>い", "<ruby>笑<rt>わら</rt></ruby>え", "<ruby>笑<rt>わら</rt></ruby>わさせ"],
+        "answer": "<ruby>笑<rt>わら</rt></ruby>わせ",
         "explanation": "The causative form is also used for emotional reactions. 'Warau' becomes 'warawaseru' (to make someone laugh).",
         "translation": "I said something funny and made everyone laugh."
       },
@@ -8305,14 +8199,14 @@
         "key": "shiekikei",
         "grammar": "使役形",
         "type": "fill-gap",
-        "question": "父は私を日本に___ ___ました。",
+        "question": "<ruby>父<rt>ちち</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>を<ruby>日本<rt>にほん</rt></ruby>に___ました。",
         "choices": [
-          ["来させ", ""],
-          ["来い", ""],
-          ["来られ", ""],
-          ["来させられ", ""]
+          ["<ruby>来<rt>こ</rt></ruby>させ"],
+          ["<ruby>来<rt>こ</rt></ruby>い"],
+          ["<ruby>来<rt>こ</rt></ruby>られ"],
+          ["<ruby>来<rt>こ</rt></ruby>させられ"]
         ],
-        "answer": ["来させ", ""],
+        "answer": ["<ruby>来<rt>こ</rt></ruby>させ"],
         "explanation": "The causative form of the irregular verb 'kuru' is 'kosaseru'.",
         "translation": "My father made (or let) me come to Japan."
       },
@@ -8320,14 +8214,14 @@
         "key": "shiekikei",
         "grammar": "使役形",
         "type": "fill-gap",
-        "question": "<ruby>社長<rt>しゃちょう</rt></ruby>は山田さん___レポートを___ました。",
+        "question": "<ruby>社長<rt>しゃちょう</rt></ruby>は<ruby>山田<rt>やまだ</rt></ruby>さん___レポートを___ました。",
         "choices": [
-          ["に", "書かせ"],
-          ["を", "書かせ"],
-          ["に", "書かれ"],
-          ["を", "書かれ"]
+          ["に", "<ruby>書<rt>か</rt></ruby>かせ"],
+          ["を", "<ruby>書<rt>か</rt></ruby>かせ"],
+          ["に", "<ruby>書<rt>か</rt></ruby>かれ"],
+          ["を", "<ruby>書<rt>か</rt></ruby>かれ"]
         ],
-        "answer": ["に", "書かせ"],
+        "answer": ["に", "<ruby>書<rt>か</rt></ruby>かせ"],
         "explanation": "In transitive causative sentences, the person who is made to do the action is marked with the particle 'ni'.",
         "translation": "The president made Mr. Yamada write a report."
       },
@@ -8337,12 +8231,12 @@
         "type": "fill-gap",
         "question": "<ruby>医者<rt>いしゃ</rt></ruby>は<ruby>患者<rt>かんじゃ</rt></ruby>___ここに___ました。",
         "choices": [
-          ["を", "座らせ"],
-          ["に", "座り"],
-          ["を", "座り"],
-          ["に", "座れ"]
+          ["を", "<ruby>座<rt>すわ</rt></ruby>らせ"],
+          ["に", "<ruby>座<rt>すわ</rt></ruby>り"],
+          ["を", "<ruby>座<rt>すわ</rt></ruby>り"],
+          ["に", "<ruby>座<rt>すわ</rt></ruby>れ"]
         ],
-        "answer": ["を", "座らせ"],
+        "answer": ["を", "<ruby>座<rt>すわ</rt></ruby>らせ"],
         "explanation": "In intransitive causative sentences (like sitting), the person who is made to do the action is often marked with 'wo'.",
         "translation": "The doctor made the patient sit here."
       },
@@ -8350,14 +8244,14 @@
         "key": "shiekikei",
         "grammar": "使役形",
         "type": "fill-gap",
-        "question": "子供に好きなことを___あげたいです。",
+        "question": "<ruby>子供<rt>こども</rt></ruby>に<ruby>好<rt>す</rt></ruby>きなことを___あげたいです。",
         "choices": [
-          ["させ", ""],
-          ["し", ""],
-          ["させられ", ""],
-          ["しさせ", ""]
+          ["させて"],
+          ["して"],
+          ["させられて"],
+          ["しさせて"]
         ],
-        "answer": ["させ", ""],
+        "answer": ["させて"],
         "explanation": "Causative + 'ageru' expresses 'letting someone do' something as a favor.",
         "translation": "I want to let my children do what they like."
       },
@@ -8366,8 +8260,8 @@
         "grammar": "使役形ていただけませんか",
         "type": "fill-gap",
         "question": "<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いので、<ruby>早<rt>はや</rt></ruby>く___いただけませんか。",
-        "choices": ["帰らせて", "帰って", "帰られて", "帰らさせて"],
-        "answer": "帰らせて",
+        "choices": ["<ruby>帰<rt>かえ</rt></ruby>らせて", "<ruby>帰<rt>かえ</rt></ruby>って", "<ruby>帰<rt>かえ</rt></ruby>られて", "<ruby>帰<rt>かえ</rt></ruby>らさせて"],
+        "answer": "<ruby>帰<rt>かえ</rt></ruby>らせて",
         "explanation": "This is a polite request to be allowed to go home. Use the causative te-form of 'kaeru'.",
         "translation": "I'm not feeling well; could you please let me go home early?"
       },
@@ -8376,8 +8270,8 @@
         "grammar": "使役形ていただけませんか",
         "type": "fill-gap",
         "question": "このパンフレットを___いただけませんか。",
-        "choices": ["持たせて", "持って", "持たれて", "持たさせて"],
-        "answer": "持たせて",
+        "choices": ["<ruby>持<rt>も</rt></ruby>たせて", "<ruby>持<rt>も</rt></ruby>って", "<ruby>持<rt>も</rt></ruby>たれて", "<ruby>持<rt>も</rt></ruby>たさせて"],
+        "answer": "<ruby>持<rt>も</rt></ruby>たせて",
         "explanation": "Causative te-form of 'motsu'. It asks for permission to take/keep the pamphlet.",
         "translation": "Could you please let me have (take) this pamphlet?"
       },
@@ -8405,14 +8299,14 @@
         "key": "shiekikei_te_itadakemasenka",
         "grammar": "使役形ていただけませんか",
         "type": "fill-gap",
-        "question": "手を___ ___いただけませんか。",
+        "question": "<ruby>手<rt>て</rt></ruby>を___いただけませんか。",
         "choices": [
-          ["洗わせて", ""],
-          ["洗って", ""],
-          ["洗われて", ""],
-          ["洗わさせて", ""]
+          ["<ruby>洗<rt>あら</rt></ruby>わせて"],
+          ["<ruby>洗<rt>あら</rt></ruby>って"],
+          ["<ruby>洗<rt>あら</rt></ruby>われて"],
+          ["<ruby>洗<rt>あら</rt></ruby>わさせて"]
         ],
-        "answer": ["洗わせて", ""],
+        "answer": ["<ruby>洗<rt>あら</rt></ruby>わせて"],
         "explanation": "Causative te-form of 'arau'. Asking for permission to wash one's hands.",
         "translation": "Could you please let me wash my hands?"
       },
@@ -8420,14 +8314,14 @@
         "key": "shiekikei_te_itadakemasenka",
         "grammar": "使役形ていただけませんか",
         "type": "fill-gap",
-        "question": "詳しい話を___いただけませんか。",
+        "question": "<ruby>詳<rt>くわ</rt></ruby>しい<ruby>話<rt>はなし</rt></ruby>を___いただけませんか。",
         "choices": [
-          ["聞かせて", ""],
-          ["聞いて", ""],
-          ["聞かれて", ""],
-          ["聞かさせて", ""]
+          ["<ruby>聞<rt>き</rt></ruby>かせて"],
+          ["<ruby>聞<rt>き</rt></ruby>いて"],
+          ["<ruby>聞<rt>き</rt></ruby>かれて"],
+          ["<ruby>聞<rt>き</rt></ruby>かさせて"]
         ],
-        "answer": ["聞かせて", ""],
+        "answer": ["<ruby>聞<rt>き</rt></ruby>かせて"],
         "explanation": "Causative te-form of 'kiku'. It literally means 'Could you let me hear...', used when asking someone to tell you a story/details.",
         "translation": "Could you please tell me (let me hear) the details?"
       },
@@ -8435,14 +8329,14 @@
         "key": "shiekikei_te_itadakemasenka",
         "grammar": "使役形ていただけませんか",
         "type": "fill-gap",
-        "question": "あした、もう一度___いただけませんか。",
+        "question": "<ruby>明日<rt>あした</rt></ruby>、もう<ruby>一度<rt>いちど</rt></ruby>___いただけませんか。",
         "choices": [
-          ["来させて", ""],
-          ["来て", ""],
-          ["来られて", ""],
-          ["来させてられ", ""]
+          ["<ruby>来<rt>こ</rt></ruby>させて"],
+          ["<ruby>来<rt>き</rt></ruby>て"],
+          ["<ruby>来<rt>こ</rt></ruby>られて"],
+          ["<ruby>来<rt>こ</rt></ruby>させてられ"]
         ],
-        "answer": ["来させて", ""],
+        "answer": ["<ruby>来<rt>こ</rt></ruby>させて"],
         "explanation": "Causative te-form of 'kuru'. Asking for permission to visit again.",
         "translation": "Could you please let me come again tomorrow?"
       },
@@ -8452,210 +8346,210 @@
         "type": "fill-gap",
         "question": "この<ruby>仕事<rt>しごと</rt></ruby>を私に___いただけませんか。",
         "choices": [
-          ["させて", ""],
-          ["して", ""],
-          ["せられて", ""],
-          ["しさせて", ""]
+          ["させて"],
+          ["して"],
+          ["せられて"],
+          ["しさせて"]
         ],
-        "answer": ["させて", ""],
+        "answer": ["させて"],
         "explanation": "Causative te-form of 'suru'. Asking for permission to be the one to do the task.",
         "translation": "Could you please let me do this job?"
       },
       {
-        "key": "sonkeigo",
-        "grammar": "尊敬語",
-        "type": "fill-gap",
-        "question": "先生はもうお宅へ___ましたか。",
-        "choices": ["帰られ", "帰らせ", "帰り」、 「帰りられ"],
-        "answer": "帰られ",
-        "explanation": "The passive form (~reru/rareru) can be used as a simple way to show respect to a superior's action.",
-        "translation": "Has the teacher already returned home?"
-      },
-      {
-        "key": "sonkeigo",
-        "grammar": "尊敬語",
-        "type": "fill-gap",
-        "question": "社長は会議室に___。",
-        "choices": ["いらっしゃいます", "まいります", "おります」、 「いたします"],
-        "answer": "いらっしゃいます",
-        "explanation": "'Irasshaimasu' is the special honorific verb for 'iru' (to be), 'iku' (to go), and 'kuru' (to come).",
-        "translation": "The president is in the meeting room."
-      },
-      {
-        "key": "sonkeigo",
-        "grammar": "尊敬語",
-        "type": "fill-gap",
-        "question": "何を___ますか。あ、コーヒーですね。",
-        "choices": ["召し上がり」、 「差し上げ」、 「いただき」、 「食べられ"],
-        "answer": "召し上がり",
-        "explanation": "'Meshiagarimasu' is the special honorific verb for 'taberu' (to eat) and 'nomu' (to drink).",
-        "translation": "What will you eat/drink? Ah, coffee."
-      },
-      {
-        "key": "sonkeigo",
-        "grammar": "尊敬語",
-        "type": "fill-gap",
-        "question": "昨日、先生は何と___ましたか。",
-        "choices": ["おっしゃい」、 「申し」、 「言われ」、 「いたし"],
-        "answer": "おっしゃい",
-        "explanation": "'Osshaimasu' is the special honorific verb for 'iu' (to say).",
-        "translation": "What did the teacher say yesterday?"
-      },
-      {
-        "key": "sonkeigo",
-        "grammar": "尊敬語",
-        "type": "fill-gap",
-        "question": "どうぞこちらにお___ください。",
-        "choices": ["掛け」、 「掛かり」、 「掛ける」、 「掛けられ"],
-        "answer": "掛け",
-        "explanation": "The 'o + masu-stem + kudasai' structure is a very polite way to give instructions to a superior.",
-        "translation": "Please have a seat here."
-      },
-      {
-        "key": "sonkeigo",
-        "grammar": "尊敬語",
-        "type": "fill-gap",
-        "question": "田中様、こちらの資料をご___になりましたか。",
-        "choices": [
-          ["覧", ""],
-          ["見", ""],
-          ["拝見", ""],
-          ["見られ", ""]
-        ],
-        "answer": ["覧", ""],
-        "explanation": "'Go-ran ni narimasu' is the special honorific expression for 'miru' (to see/look).",
-        "translation": "Mr. Tanaka, have you looked at these documents?"
-      },
-      {
-        "key": "sonkeigo",
-        "grammar": "尊敬語",
-        "type": "fill-gap",
-        "question": "先生はテニスを___ますか。",
-        "choices": [
-          ["なさいます", ""],
-          ["いたします", ""],
-          ["されます", ""],
-          ["なられます", ""]
-        ],
-        "answer": ["なさいます", ""],
-        "explanation": "'Nasaimasu' is the special honorific verb for 'suru' (to do).",
-        "translation": "Does the teacher play tennis?"
-      },
-      {
-        "key": "sonkeigo",
-        "grammar": "尊敬語",
-        "type": "fill-gap",
-        "question": "あちらでニュースを___おられますよ。",
-        "choices": [
-          ["見て", ""],
-          ["ご覧になって", ""],
-          ["拝見して", ""],
-          ["見られて", ""]
-        ],
-        "answer": ["ご覧になって", ""],
-        "explanation": "For a superior's continuous action (~te iru), use the honorific 'go-ran ni natte iru/orimasu'.",
-        "translation": "They (a superior) are watching the news over there."
-      },
-      {
-        "key": "kenjougo",
-        "grammar": "謙譲語",
-        "type": "fill-gap",
-        "question": "明日、10時に事務所へ___ます。",
-        "choices": ["まいり」、 「いらっしゃい」、 「おいで」、 「き"],
-        "answer": "まいり",
-        "explanation": "'Mairimasu' is the humble verb for 'iku' (to go) and 'kuru' (to come).",
-        "translation": "I will come to the office at 10 o'clock tomorrow."
-      },
-      {
-        "key": "kenjougo",
-        "grammar": "謙譲語",
-        "type": "fill-gap",
-        "question": "私は田中と___ます。よろしくお願いいたします。",
-        "choices": ["申し」、 「おっしゃい」、 「言い」、 「いたし"],
-        "answer": "申し",
-        "explanation": "'Moushimasu' is the humble verb for 'iu' (to say), used when introducing oneself.",
-        "translation": "My name is Tanaka (I am called Tanaka). Nice to meet you."
-      },
-      {
-        "key": "kenjougo",
-        "grammar": "謙譲語",
-        "type": "fill-gap",
-        "question": "そのお荷物、お___しましょうか。",
-        "choices": ["持ち」、 「持たせ」、 「持ちられ」、 「持って"],
-        "answer": "持ち",
-        "explanation": "The 'o + masu-stem + shimasu' structure is used to humbly offer to do something for someone.",
-        "translation": "Shall I carry those bags for you?"
-      },
-      {
-        "key": "kenjougo",
-        "grammar": "謙譲語",
-        "type": "fill-gap",
-        "question": "先生の書いた本を___ました。",
-        "choices": ["拝見し」、 「ご覧に」、 「見られ」、 「見"],
-        "answer": "拝見し",
-        "explanation": "'Haiken shimasu' is the humble verb for 'miru' (to look/see).",
-        "translation": "I read (looked at) the book that the teacher wrote."
-      },
-      {
-        "key": "kenjougo",
-        "grammar": "謙譲語",
-        "type": "fill-gap",
-        "question": "駅までお___します。",
-        "choices": [
-          ["送り", ""],
-          ["送られ", ""],
-          ["送らさせ", ""],
-          ["送れ", ""]
-        ],
-        "answer": ["送り", ""],
-        "explanation": "'O + masu-stem + shimasu' is used here to humbly offer the favor of driving/seeing someone to the station.",
-        "translation": "I will drive (see) you to the station."
-      },
-      {
-        "key": "kenjougo",
-        "grammar": "謙譲語",
-        "type": "fill-gap",
-        "question": "この資料を___ました。",
-        "choices": [
-          ["いただきました", ""],
-          ["召し上がりました", ""],
-          ["くださいました", ""],
-          ["もらわれました", ""]
-        ],
-        "answer": ["いただきました", ""],
-        "explanation": "'Itadakimasu' is the humble verb for 'morau' (to receive) and 'taberu/nomu'.",
-        "translation": "I received these documents."
-      },
-      {
-        "key": "kenjougo",
-        "grammar": "謙譲語",
-        "type": "fill-gap",
-        "question": "私は今の計画をよく___おります。",
-        "choices": [
-          ["存じて", ""],
-          ["知って", ""],
-          ["ご存じで", ""],
-          ["知られ", ""]
-        ],
-        "answer": ["存じて", ""],
-        "explanation": "'Zonjite orimasu' is the humble version of 'shitte imasu' (to know).",
-        "translation": "I am well aware of the current plan."
-      },
-      {
-        "key": "kenjougo",
-        "grammar": "謙譲語",
-        "type": "fill-gap",
-        "question": "すぐにお茶をお___します。",
-        "choices": [
-          ["入れ", ""],
-          ["入れられ", ""],
-          ["入れさせ", ""],
-          ["いれ", ""]
-        ],
-        "answer": ["入れ", ""],
-        "explanation": "'O-ire shimasu' is a humble way to express the action of making tea for a guest.",
-        "translation": "I will make some tea for you right away."
-      }
+          "key": "sonkeigo",
+          "grammar": "尊敬語",
+          "type": "fill-gap",
+          "question": "<ruby>先生<rt>せんせい</rt></ruby>はもうお<ruby>宅<rt>たく</rt></ruby>へ___ましたか。",
+          "choices": ["<ruby>帰<rt>かえ</rt></ruby>られ", "<ruby>帰<rt>かえ</rt></ruby>らせ", "<ruby>帰<rt>かえ</rt></ruby>り", "<ruby>帰<rt>かえ</rt></ruby>りられ"],
+          "answer": "<ruby>帰<rt>かえ</rt></ruby>られ",
+          "explanation": "The passive form (~reru/rareru) can be used as a simple way to show respect to a superior's action.",
+          "translation": "Has the teacher already returned home?"
+        },
+        {
+          "key": "sonkeigo",
+          "grammar": "尊敬語",
+          "type": "fill-gap",
+          "question": "<ruby>社長<rt>しゃちょう</rt></ruby>は<ruby>会議室<rt>かいぎしつ</rt></ruby>に___。",
+          "choices": ["いらっしゃいます", "まいります", "おります", "いたします"],
+          "answer": "いらっしゃいます",
+          "explanation": "'Irasshaimasu' is the special honorific verb for 'iru' (to be), 'iku' (to go), and 'kuru' (to come).",
+          "translation": "The president is in the meeting room."
+        },
+        {
+          "key": "sonkeigo",
+          "grammar": "尊敬語",
+          "type": "fill-gap",
+          "question": "何を___ますか。あ、コーヒーですね。",
+          "choices": ["<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がり", "<ruby>差<rt>さ</rt></ruby>し<ruby>上<rt>あ</rt></ruby>げ", "いただき", "<ruby>食<rt>た</rt></ruby>べられ"],
+          "answer": "<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がり",
+          "explanation": "'Meshiagarimasu' is the special honorific verb for 'taberu' (to eat) and 'nomu' (to drink).",
+          "translation": "What will you eat/drink? Ah, coffee."
+        },
+        {
+          "key": "sonkeigo",
+          "grammar": "尊敬語",
+          "type": "fill-gap",
+          "question": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>先生<rt>せんせい</rt></ruby>は何と___ましたか。",
+          "choices": ["おっしゃい", "<ruby>申<rt>もう</rt></ruby>し", "<ruby>言<rt>い</rt></ruby>われ", "いたし"],
+          "answer": "おっしゃい",
+          "explanation": "'Osshaimasu' is the special honorific verb for 'iu' (to say).",
+          "translation": "What did the teacher say yesterday?"
+        },
+        {
+          "key": "sonkeigo",
+          "grammar": "尊敬語",
+          "type": "fill-gap",
+          "question": "どうぞこちらにお___ください。",
+          "choices": ["<ruby>掛<rt>か</rt></ruby>け", "<ruby>掛<rt>か</rt></ruby>かり", "<ruby>掛<rt>か</rt></ruby>ける", "<ruby>掛<rt>か</rt></ruby>けられ"],
+          "answer": "<ruby>掛<rt>か</rt></ruby>け",
+          "explanation": "The 'o + masu-stem + kudasai' structure is a very polite way to give instructions to a superior.",
+          "translation": "Please have a seat here."
+        },
+        {
+          "key": "sonkeigo",
+          "grammar": "尊敬語",
+          "type": "fill-gap",
+          "question": "<ruby>田中<rt>たなか</rt></ruby><ruby>様<rt>さま</rt></ruby>、こちらの<ruby>資料<rt>しりょう</rt></ruby>をご___になりましたか。",
+          "choices": [
+            ["<ruby>覧<rt>らん</rt></ruby>"],
+            ["<ruby>見<rt>み</rt></ruby>"],
+            ["<ruby>拝見<rt>はいけん</rt></ruby>"],
+            ["<ruby>見<rt>み</rt></ruby>られ"]
+          ],
+          "answer": ["<ruby>覧<rt>らん</rt></ruby>"],
+          "explanation": "'Go-ran ni narimasu' is the special honorific expression for 'miru' (to see/look).",
+          "translation": "Mr. Tanaka, have you looked at these documents?"
+        },
+        {
+          "key": "sonkeigo",
+          "grammar": "尊敬語",
+          "type": "fill-gap",
+          "question": "<ruby>先生<rt>せんせい</rt></ruby>はテニスを___ますか。",
+          "choices": [
+            ["なさいます"],
+            ["いたします"],
+            ["されます"],
+            ["なられます"]
+          ],
+          "answer": ["なさいます"],
+          "explanation": "'Nasaimasu' is the special honorific verb for 'suru' (to do).",
+          "translation": "Does the teacher play tennis?"
+        },
+        {
+          "key": "sonkeigo",
+          "grammar": "尊敬語",
+          "type": "fill-gap",
+          "question": "あちらでニュースを___おられますよ。",
+          "choices": [
+            ["<ruby>見<rt>み</rt></ruby>て"],
+            ["ご<ruby>覧<rt>らん</rt></ruby>になって"],
+            ["<ruby>拝見<rt>はいけん</rt></ruby>して"],
+            ["<ruby>見<rt>み</rt></ruby>られて"]
+          ],
+          "answer": ["ご<ruby>覧<rt>らん</rt></ruby>になって"],
+          "explanation": "For a superior's continuous action (~te iru), use the honorific 'go-ran ni natte iru/orimasu'.",
+          "translation": "They (a superior) are watching the news over there."
+        },
+        {
+          "key": "kenjougo",
+          "grammar": "謙譲語",
+          "type": "fill-gap",
+          "question": "<ruby>明日<rt>あした</rt></ruby>、10<ruby>時<rt>じ</rt></ruby>に<ruby>事務所<rt>じむしょ</rt></ruby>へ___ます。",
+          "choices": ["まいり", "いらっしゃい", "おいで", "き"],
+          "answer": "まいり",
+          "explanation": "'Mairimasu' is the humble verb for 'iku' (to go) and 'kuru' (to come).",
+          "translation": "I will come to the office at 10 o'clock tomorrow."
+        },
+        {
+          "key": "kenjougo",
+          "grammar": "謙譲語",
+          "type": "fill-gap",
+          "question": "私は<ruby>田中<rt>たなか</rt></ruby>と___ます。よろしくお<ruby>願<rt>ねが</rt></ruby>いいたします。",
+          "choices": ["<ruby>申<rt>もう</rt></ruby>し", "おっしゃい", "<ruby>言<rt>い</rt></ruby>い", "いたし"],
+          "answer": "<ruby>申<rt>もう</rt></ruby>し",
+          "explanation": "'Moushimasu' is the humble verb for 'iu' (to say), used when introducing oneself.",
+          "translation": "My name is Tanaka (I am called Tanaka). Nice to meet you."
+        },
+        {
+          "key": "kenjougo",
+          "grammar": "謙譲語",
+          "type": "fill-gap",
+          "question": "そのお<ruby>荷物<rt>にもつ</rt></ruby>、お___しましょうか。",
+          "choices": ["<ruby>持<rt>も</rt></ruby>ち", "<ruby>持<rt>も</rt></ruby>たせ", "<ruby>持<rt>も</rt></ruby>ちられ", "<ruby>持<rt>も</rt></ruby>って"],
+          "answer": "<ruby>持<rt>も</rt></ruby>ち",
+          "explanation": "The 'o + masu-stem + shimasu' structure is used to humbly offer to do something for someone.",
+          "translation": "Shall I carry those bags for you?"
+        },
+        {
+          "key": "kenjougo",
+          "grammar": "謙譲語",
+          "type": "fill-gap",
+          "question": "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>書<rt>か</rt></ruby>いた<ruby>本<rt>ほん</rt></ruby>を___ました。",
+          "choices": ["<ruby>拝見<rt>はいけん</rt></ruby>し", "ご<ruby>覧<rt>らん</rt></ruby>に", "<ruby>見<rt>み</rt></ruby>られ", "<ruby>見<rt>み</rt></ruby>"],
+          "answer": "<ruby>拝見<rt>はいけん</rt></ruby>し",
+          "explanation": "'Haiken shimasu' is the humble verb for 'miru' (to look/see).",
+          "translation": "I read (looked at) the book that the teacher wrote."
+        },
+        {
+          "key": "kenjougo",
+          "grammar": "謙譲語",
+          "type": "fill-gap",
+          "question": "<ruby>駅<rt>えき</rt></ruby>までお___します。",
+          "choices": [
+            ["<ruby>送<rt>おく</rt></ruby>り"],
+            ["<ruby>送<rt>おく</rt></ruby>られ"],
+            ["<ruby>送<rt>おく</rt></ruby>らさせ"],
+            ["<ruby>送<rt>おく</rt></ruby>れ"]
+          ],
+          "answer": ["<ruby>送<rt>おく</rt></ruby>り"],
+          "explanation": "'O + masu-stem + shimasu' is used here to humbly offer the favor of driving/seeing someone to the station.",
+          "translation": "I will drive (see) you to the station."
+        },
+        {
+          "key": "kenjougo",
+          "grammar": "謙譲語",
+          "type": "fill-gap",
+          "question": "この<ruby>資料<rt>しりょう</rt></ruby>を___ました。",
+          "choices": [
+            ["いただきました"],
+            ["<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がりました"],
+            ["くださいました"],
+            ["もらわれました"]
+          ],
+          "answer": ["いただきました"],
+          "explanation": "'Itadakimasu' is the humble verb for 'morau' (to receive) and 'taberu/nomu'.",
+          "translation": "I received these documents."
+        },
+        {
+          "key": "kenjougo",
+          "grammar": "謙譲語",
+          "type": "fill-gap",
+          "question": "私は今の<ruby>計画<rt>けいかく</rt></ruby>をよく___おります。",
+          "choices": [
+            ["<ruby>存<rt>ぞん</rt></ruby>じて"],
+            ["<ruby>知<rt>し</rt></ruby>って"],
+            ["ご<ruby>存知<rt>ぞんじ</rt></ruby>で"],
+            ["<ruby>知<rt>し</rt></ruby>られ"]
+          ],
+          "answer": ["<ruby>存<rt>ぞん</rt></ruby>じて"],
+          "explanation": "'Zonjite orimasu' is the humble version of 'shitte imasu' (to know).",
+          "translation": "I am well aware of the current plan."
+        },
+        {
+          "key": "kenjougo",
+          "grammar": "謙譲語",
+          "type": "fill-gap",
+          "question": "すぐにお<ruby>茶<rt>ちゃ</rt></ruby>をお___します。",
+          "choices": [
+            ["<ruby>入<rt>い</rt></ruby>れ"],
+            ["<ruby>入<rt>い</rt></ruby>れられ"],
+            ["<ruby>入<rt>い</rt></ruby>れさせ"],
+            ["いれ"]
+          ],
+          "answer": ["<ruby>入<rt>い</rt></ruby>れ"],
+          "explanation": "'O-ire shimasu' is a humble way to express the action of making tea for a guest.",
+          "translation": "I will make some tea for you right away."
+        }
     ]
   },
   "N3":{

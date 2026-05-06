@@ -28873,6 +28873,127 @@
         "polite": { "root": "<ruby>求<rt>もと</rt></ruby>", "middle": "", "ending": "させられませんでした", "full": "求めさせられませんでした", "kana": "もとめさせられませんでした", "full_furigana": "<ruby>求<rt>もと</rt></ruby>めさせられませんでした", "translation": "was not made to seek" }
       }
     }
+  },
+  {
+    "id": "shikarimasu",
+    "verb": "叱ります",
+    "verb_kana": "しかります",
+    "verb_furigana": "<ruby>叱<rt>しか</rt></ruby>ります",
+    "translation": "to scold / to reprimand / to rebuke",
+    "group": 1,
+    "display": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "り" },
+    "forms": {
+      "te": { "label": "-te Form", "order": 1, "grammar": "te-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "って", "full": "叱って", "kana": "しかって", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>って" }
+      },
+      "dictionary": { "label": "Dictionary Form", "order": 0, "grammar": "dictionary-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "る", "full": "叱る", "kana": "しかる", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>る" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "り", "ending": "ます", "full": "叱ります", "kana": "しかります", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>ります", "translation": "scold / to scold" }
+      },
+      "negative": { "label": "Negative", "order": 3, "grammar": "nai-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らない", "full": "叱らない", "kana": "しからない", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らない" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "り", "ending": "ません", "full": "叱りません", "kana": "しかりません", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>りません", "translation": "do not scold" }
+      },
+      "past": { "label": "Past", "order": 2, "grammar": "ta-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "った", "full": "叱った", "kana": "しかった", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>った" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "り", "ending": "ました", "full": "叱りました", "kana": "しかりました", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>りました", "translation": "scolded" }
+      },
+      "past_negative": { "label": "Past Negative", "order": 4, "grammar": "nakatta-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らなかった", "full": "叱らなかった", "kana": "しからなかった", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らなかった" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "り", "ending": "ませんでした", "full": "叱りませんでした", "kana": "しかりませんでした", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>りませんでした", "translation": "did not scold" }
+      },
+      "potential": { "label": "Potential", "order": 5, "grammar": "potential-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れる", "full": "叱れる", "kana": "しかれる", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れる" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れます", "full": "叱れます", "kana": "しかれます", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れます", "translation": "can scold" }
+      },
+      "potential_negative": { "label": "Potential Negative", "order": 6, "grammar": "potential-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れない", "full": "叱れない", "kana": "しかれない", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れない" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れません", "full": "叱れません", "kana": "しかれません", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れません", "translation": "cannot scold" }
+      },
+      "potential_past": { "label": "Potential Past", "order": 7, "grammar": "potential-past",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れた", "full": "叱れた", "kana": "しかれた", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れた" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れました", "full": "叱れました", "kana": "しかれました", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れました", "translation": "could scold" }
+      },
+      "potential_past_negative": { "label": "Potential Past Negative", "order": 8, "grammar": "potential-past-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れなかった", "full": "叱れなかった", "kana": "しかれなかった", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れなかった" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れませんでした", "full": "叱れませんでした", "kana": "しかれませんでした", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れませんでした", "translation": "could not scold" }
+      },
+      "volitional": { "label": "Volitional", "order": 9, "grammar": "volitional-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "ろう", "full": "叱ろう", "kana": "しかろう", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>ろう" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "り", "ending": "ましょう", "full": "叱りましょう", "kana": "しかりましょう", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>りましょう", "translation": "let's scold" }
+      },
+      "volitional_negative": { "label": "Volitional Negative", "order": 10, "grammar": "volitional-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "る", "ending": "まい", "full": "叱るまい", "kana": "しかるまい", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>るまい" }
+      },
+      "imperative": { "label": "Imperative", "order": 11, "grammar": "imperative-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れ", "full": "叱れ", "kana": "しかれ", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れ" }
+      },
+      "prohibitive": { "label": "Prohibitive", "order": 12, "grammar": "prohibitive-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "る", "ending": "な", "full": "叱るな", "kana": "しかるな", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>るな" }
+      },
+      "passive": { "label": "Passive", "order": 13, "grammar": "passive-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "られる", "full": "叱られる", "kana": "しかられる", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>られる" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "られます", "full": "叱られます", "kana": "しかられます", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>られます", "translation": "be scolded" }
+      },
+      "passive_negative": { "label": "Passive Negative", "order": 14, "grammar": "passive-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "られない", "full": "叱られない", "kana": "しかられない", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>られない" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "られません", "full": "叱られません", "kana": "しかられません", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>られません", "translation": "not be scolded" }
+      },
+      "passive_past": { "label": "Passive Past", "order": 15, "grammar": "passive-past",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "られた", "full": "叱られた", "kana": "しかられた", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>られた" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "られました", "full": "叱られました", "kana": "しかられました", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>られました", "translation": "was scolded" }
+      },
+      "passive_past_negative": { "label": "Passive Past Negative", "order": 16, "grammar": "passive-past-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "られなかった", "full": "叱られなかった", "kana": "しかられなかった", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>られなかった" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "られませんでした", "full": "叱られませんでした", "kana": "しかられませんでした", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>られませんでした", "translation": "was not scolded" }
+      },
+      "ba": { "label": "Ba Form (Conditional)", "order": 17, "grammar": "ba-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "れば", "full": "叱れば", "kana": "しかれば", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>れば" }
+      },
+      "ba_negative": { "label": "Ba Negative", "order": 18, "grammar": "ba-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らなければ", "full": "叱らなければ", "kana": "しからなければ", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らなければ" }
+      },
+      "causative": {
+        "label": "Causative", "order": 19, "grammar": "causative-form",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせる", "full": "叱らせる", "kana": "しからせる", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせる" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせます", "full": "叱らせます", "kana": "しからせます", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせます", "translation": "make/let scold" }
+      },
+      "causative_negative": {
+        "label": "Causative Negative", "order": 20, "grammar": "causative-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせない", "full": "叱らせない", "kana": "しからせない", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせない" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせません", "full": "叱らせません", "kana": "しからせません", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせません", "translation": "do not make/let scold" }
+      },
+      "causative_past": {
+        "label": "Causative Past", "order": 21, "grammar": "causative-past",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせた", "full": "叱らせた", "kana": "しからせた", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせた" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせました", "full": "叱らせました", "kana": "しからせました", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせました", "translation": "made/let scold" }
+      },
+      "causative_past_negative": {
+        "label": "Causative Past Negative", "order": 22, "grammar": "causative-past-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせなかった", "full": "叱らせなかった", "kana": "しからせなかった", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせなかった" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせませんでした", "full": "叱らせませんでした", "kana": "しからせませんでした", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせませんでした", "translation": "did not make/let scold" }
+      },
+      "passive_causative": {
+        "label": "Causative Passive", "order": 23, "grammar": "causative-passive",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせられる", "full": "叱らせられる", "kana": "しからせられる", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせられる" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせられます", "full": "叱らせられます", "kana": "しからせられます", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせられます", "translation": "be made to scold" }
+      },
+      "passive_causative_negative": {
+        "label": "Causative Passive Negative", "order": 24, "grammar": "causative-passive-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせられない", "full": "叱らせられない", "kana": "しからせられない", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせられない" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせられません", "full": "叱らせられません", "kana": "しからせられません", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせられません", "translation": "not be made to scold" }
+      },
+      "passive_causative_past": {
+        "label": "Causative Passive Past", "order": 25, "grammar": "causative-passive-past",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせられた", "full": "叱らせられた", "kana": "しからせられた", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせられた" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせられました", "full": "叱らせられました", "kana": "しからせられました", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせられました", "translation": "was made to scold" }
+      },
+      "passive_causative_past_negative": {
+        "label": "Causative Passive Past Negative", "order": 26, "grammar": "causative-passive-past-negative",
+        "plain": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせられなかった", "full": "叱らせられなかった", "kana": "しからせられなかった", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせられなかった" },
+        "polite": { "root": "<ruby>叱<rt>しか</rt></ruby>", "middle": "", "ending": "らせられませんでした", "full": "叱らせられませんでした", "kana": "しからせられませんでした", "full_furigana": "<ruby>叱<rt>しか</rt></ruby>らせられませんでした", "translation": "was not made to scold" }
+      }
+    }
   }
 ]
 

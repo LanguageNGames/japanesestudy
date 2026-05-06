@@ -239,26 +239,26 @@ export default function KanjiGame({ setView, BASE_PATH }) {
           <button className="next-btn" onClick={nextQuestion} disabled={!showAnswer}>
             →
           </button>
+          <div className="extra-info">
+            {/* Extra info shown only after answering */}
+            {showAnswer && questionType !== "translation" && (
+              <div className="translation">
+                <h3>{currentKanji?.translation?.join(", ") || ""}</h3>
+              </div>
+            )}
+            {/* Info Buttons (Examples & Radicals) - only after answering */}
+            {showAnswer && (
+              <div className="info-buttons" style={{ textAlign: "center", margin: "1rem 0" }}>
+                <button onClick={openExamples} className="info-btn">
+                  Example Sentences
+                </button>
+                <button onClick={openRadicals} className="info-btn" style={{ marginLeft: "1rem" }}>
+                  Radicals
+                </button>
+              </div>
+            )}
+          </div>
         </div>
-
-        {/* Extra info shown only after answering */}
-        {showAnswer && questionType !== "translation" && (
-          <div className="translation">
-            <h3>{currentKanji?.translation?.join(", ") || ""}</h3>
-          </div>
-        )}
-
-        {/* Info Buttons (Examples & Radicals) - only after answering */}
-        {showAnswer && (
-          <div className="info-buttons" style={{ textAlign: "center", margin: "1rem 0" }}>
-            <button onClick={openExamples} className="info-btn">
-              Example Sentences
-            </button>
-            <button onClick={openRadicals} className="info-btn" style={{ marginLeft: "1rem" }}>
-              Radicals
-            </button>
-          </div>
-        )}
 
         {/* Answer Choices */}
         <div className="answers">

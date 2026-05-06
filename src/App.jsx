@@ -12,7 +12,7 @@ import ConjugationWheel from "./conjugationWheel.jsx";
 import GrammarSelect from "./grammarSelect.jsx";
 import GrammarFillBlanks from "./grammarFillBlanks.jsx";
 import GrammarOrder from "./grammarOrder.jsx";
-
+import KanjiLearn from "./kanjiLearn.jsx";
 
 export default function App() {
   const [view, setView] = useState({screen: "home"});
@@ -60,8 +60,10 @@ export default function App() {
     localStorage.setItem("step", step);
     setView({ screen: "game" });
   };
-
   const isValidConfig = questionType !== answerType;
+  const canStart = gameMode === "kanji" ? isValidConfig : true;
+
+  
 
   return (
     <>
@@ -72,13 +74,44 @@ export default function App() {
         {view.screen === "home" && (
           <div className="flex-center flex-column">
             <h1>Japanese Quiz</h1>
+
           <div className="main-grid">
+            {/* <h3>Learn</h3>
+            <h3>Practice</h3> */}       {/* I'll implement when I add learning path */}
+            {/* LEARN */}
+            {/* <div className="learn-column">
+              <div className="btn" onClick={() => setView({ screen: "kana" })}>
+              Hiragana & Katakana
+            </div>
+            <div className="btn" onClick={() => setView({ screen: "kanji"})}>
+              Kanji
+            </div>
+
+            <div className="btn" onClick={() => setView({ screen: "vocab"})}>
+              Vocabulary
+            </div>
+
+            <div className="btn" onClick={() => setView({ screen: "grammar"})}>
+              Grammar
+            </div>
+
+            <div className="btn" onClick={() => setView({ screen: "conjugation"})}>
+              Conjugation
+            </div>
+            </div>
+ */}
+            {/* PRACTICE */}
+            {/* <div className="learn-column"> */}       {/* I'll implement when I add learning path */}
             <div className="btn" onClick={() => setView({ screen: "kana" })}>
               Hiragana & Katakana
             </div>
 
+            <div className="btn" onClick={() => setView({ screen: "kanjiLearn"})}>
+              Learn Kanji
+            </div>
+
             <div className="btn" onClick={() => setView({ screen: "kanji"})}>
-              Kanji
+              Practice Kanji
             </div>
 
             <div className="btn" onClick={() => setView({ screen: "vocab"})}>
@@ -96,6 +129,7 @@ export default function App() {
             <div className="btn" onClick={() => setView({ screen: "conjugationWheel"})}>
               Conjugation Wheel
             </div>
+            {/* </div> */}
           </div>
            {/* <a className="btn" href="#">
               High Scores
@@ -215,6 +249,32 @@ export default function App() {
           </div>
         )}
 
+        {/* KANJI LEARN LEVEL */}
+        {view.screen === "kanjiLearn" && (
+          <div className="flex-center flex-column">
+            <h1>Kanji Level</h1>
+            {[5, 4, 3, 2, 1].map((lvl) => (
+              <div
+                key={lvl}
+                className="btn"
+                onClick={() => {
+                  localStorage.setItem("JLPT", lvl);
+                  setTitle(`Choose N${lvl} sublevel`);
+                  loadKanji(lvl);
+                  setGameMode("kanjiLearn");
+                  setView({ screen: "steps" });
+                }}
+              >
+                N{lvl}
+              </div>
+            ))}
+
+            <button className="btn" onClick={() => setView({ screen: "home" })}>
+              Back
+            </button>
+          </div>
+        )}
+
         {/* VOCAB LEVEL */}
         {view.screen === "vocab" && (
           <div className="flex-center flex-column vocab-level">
@@ -260,9 +320,12 @@ export default function App() {
               {steps.map((_, i) => (
                 <div
                   key={i}
-                  className={`btn ${!isValidConfig ? "disabled" : ""}`}
-                  onClick={() => isValidConfig && handleStepClick(i + 1)}
-                  style={{ pointerEvents: isValidConfig ? "auto" : "none", opacity: isValidConfig ? 1 : 0.6 }}
+                  className={`btn ${!canStart ? "disabled" : ""}`}
+                  onClick={() => canStart && handleStepClick(i + 1)}
+                  style={{
+                    pointerEvents: canStart ? "auto" : "none",
+                    opacity: canStart ? 1 : 0.6,
+                  }}
                 >
                   Step {i + 1}
                   <div className="completion-bar">
@@ -277,7 +340,10 @@ export default function App() {
                 setView({ screen: "kanji" });
               } else if (gameMode === "vocab") {
                 setView({ screen: "vocab" });
-              }}}>
+              } else if (gameMode === "kanjiLearn"){
+                setView({ screen: "kanjiLearn" });
+              }
+              }}>
               Back
             </button>
           </div>
@@ -292,9 +358,19 @@ export default function App() {
             onExit={() => setView({ screen: "kana" })}
           />
         )}
+
         {view.screen === "game" && gameMode === "kanji" && (
           <KanjiGame
             key="kanji"
+            setView={setView}
+            BASE_PATH={BASE_PATH}
+            onExit={() => setView({ screen: "home" })}
+          />)}
+
+
+        {view.screen === "game" && gameMode === "kanjiLearn" && (
+          <KanjiLearn
+            key="kanjiLearn"
             setView={setView}
             BASE_PATH={BASE_PATH}
             onExit={() => setView({ screen: "home" })}
