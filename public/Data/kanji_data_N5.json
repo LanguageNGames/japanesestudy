@@ -4,7 +4,7 @@
     {
       "kanji": "山",
       "kunyomi": ["やま"],
-      "onyomi": ["サン", "セン"],
+      "onyomi": ["サン"],
       "pitch_accent": { "やま": "LH" },
       "example_sentences": {
         "やま": [
@@ -45,7 +45,7 @@
     {
       "kanji": "田",
       "kunyomi": ["た"],
-      "onyomi": ["デン", "テン"],
+      "onyomi": ["デン"],
       "pitch_accent": { "た": "H" },
       "example_sentences": {
         "た": [
@@ -67,7 +67,7 @@
     {
       "kanji": "月",
       "kunyomi": ["つき"],
-      "onyomi": ["ゲツ", "ガツ"],
+      "onyomi": ["ゲツ"],
       "pitch_accent": { "つき": "HL" },
       "example_sentences": {
         "つき": [
@@ -88,7 +88,7 @@
     },
     {
       "kanji": "火",
-      "kunyomi": ["ひ", "ほ"],
+      "kunyomi": ["ひ"],
       "onyomi": ["カ"],
       "pitch_accent": { "ひ": "H", "ほ": "H" },
       "example_sentences": {
@@ -157,8 +157,8 @@
     },
     {
       "kanji": "金",
-      "kunyomi": ["かね", "かな"],
-      "onyomi": ["キン", "コン"],
+      "kunyomi": ["かね"],
+      "onyomi": ["キン"],
       "pitch_accent": { "かね": "HL", "かな": "HL" },
       "example_sentences": {
         "かね": [
@@ -182,8 +182,8 @@
     },
     {
       "kanji": "土",
-      "kunyomi": ["つち", "ど"],
-      "onyomi": ["ド", "ト"],
+      "kunyomi": ["つち"],
+      "onyomi": ["ド"],
       "pitch_accent": { "つち": "HL", "ど": "H" },
       "example_sentences": {
         "つち": [
@@ -207,8 +207,8 @@
     },
     {
       "kanji": "日",
-      "kunyomi": ["ひ", "び", "か"],
-      "onyomi": ["ニチ", "ジツ"],
+      "kunyomi": ["ひ"],
+      "onyomi": ["ニチ"],
       "pitch_accent": { "ひ": "H", "び": "H", "か": "H" },
       "example_sentences": {
         "ひ": [
@@ -237,8 +237,8 @@
     "Level 2": [
       {
         "kanji": "一",
-        "kunyomi": ["ひと", "ひと.つ"],
-        "onyomi": ["イチ", "イツ"],
+        "kunyomi": ["ひと.つ"],
+        "onyomi": ["イチ"],
         "pitch_accent": { "ひと": "HL", "ひと.つ": "LHH" },
         "example_sentences": {
           "ひと": [
@@ -261,8 +261,8 @@
       },
       {
         "kanji": "二",
-        "kunyomi": ["ふた", "ふた.つ"],
-        "onyomi": ["ニ", "ジ"],
+        "kunyomi": ["ふた.つ"],
+        "onyomi": ["ニ"],
         "pitch_accent": { "ふた": "HL", "ふた.つ": "LHH" },
         "example_sentences": {
           "ふた": [
@@ -285,7 +285,7 @@
       },
       {
         "kanji": "三",
-        "kunyomi": ["み", "み.つ"],
+        "kunyomi": ["み.つ"],
         "onyomi": ["サン"],
         "pitch_accent": { "み": "H", "み.つ": "LHH" },
         "example_sentences": {
@@ -306,7 +306,7 @@
       },
       {
         "kanji": "四",
-        "kunyomi": ["よ", "よ.つ", "よん"],
+        "kunyomi": ["よ.つ", "よん"],
         "onyomi": ["シ"],
         "pitch_accent": { "よ": "H", "よ.つ": "LHH", "よん": "HL" },
         "example_sentences": {
@@ -330,7 +330,7 @@
       },
       {
         "kanji": "五",
-        "kunyomi": ["いつ", "いつ.つ"],
+        "kunyomi": ["いつ.つ"],
         "onyomi": ["ゴ"],
         "pitch_accent": { "いつ": "HL", "いつ.つ": "LHH" },
         "example_sentences": {
@@ -351,7 +351,7 @@
       },
       {
         "kanji": "六",
-        "kunyomi": ["む", "む.つ", "むい"],
+        "kunyomi": ["む.つ"],
         "onyomi": ["ロク"],
         "pitch_accent": { "む": "H", "む.つ": "LHH", "むい": "HL" },
         "example_sentences": {
@@ -368,14 +368,14 @@
             { "sentence": "六月は雨だ。", "translation": "June is rainy." }
           ]
         },
-        "vocabulary": ["六つ", "六人"],
+        "vocabulary": ["六人"],
         "vocabulary_translation": ["six (things)", "six people"],
         "translation": ["six"],
         "radicals": ["亠", "八"]
       },
       {
         "kanji": "七",
-        "kunyomi": ["なな", "なな.つ"],
+        "kunyomi": ["なな.つ"],
         "onyomi": ["シチ"],
         "pitch_accent": { "なな": "LH", "なな.つ": "LHH" },
         "example_sentences": {
@@ -396,7 +396,7 @@
       },
       {
         "kanji": "八",
-        "kunyomi": ["や", "や.つ", "よう"],
+        "kunyomi": ["や.つ", "よう"],
         "onyomi": ["ハチ"],
         "pitch_accent": { "や": "H", "や.つ": "LHH", "よう": "HL" },
         "example_sentences": {
@@ -420,8 +420,8 @@
       },
       {
         "kanji": "九",
-        "kunyomi": ["ここの", "ここの.つ"],
-        "onyomi": ["キュウ", "ク"],
+        "kunyomi": ["ここの.つ"],
+        "onyomi": ["キュウ"],
         "pitch_accent": { "ここの": "LHH", "ここの.つ": "LHHH" },
         "example_sentences": {
           "ここの": [
@@ -524,7 +524,7 @@
       },
       {
         "kanji": "円",
-        "kunyomi": ["まる", "まる.い"],
+        "kunyomi": ["まる.い"],
         "onyomi": ["エン"],
         "pitch_accent": { "まる": "HL", "まる.い": "LHH" },
         "example_sentences": {
@@ -611,7 +611,7 @@
       },
       {
         "kanji": "中",
-        "kunyomi": ["なか", "あた.る"],
+        "kunyomi": ["なか"],
         "onyomi": ["チュウ", "ジュウ"],
         "pitch_accent": { "なか": "HL", "あた.る": "LHH" },
         "example_sentences": {
@@ -632,7 +632,7 @@
       },
       {
         "kanji": "半",
-        "kunyomi": ["はん", "なか.ば"],
+        "kunyomi": [""],
         "onyomi": ["ハン"],
         "pitch_accent": { "はん": "H", "なか.ば": "LHH" },
         "example_sentences": {
@@ -653,8 +653,8 @@
       },
       {
         "kanji": "分",
-        "kunyomi": ["わ.ける", "わ.かる", "ぶ"],
-        "onyomi": ["ブン", "フン"],
+        "kunyomi": ["わ.かる"],
+        "onyomi": ["フン"],
         "pitch_accent": { "わ.ける": "LHH", "わ.かる": "LHH", "ぶ": "H" },
         "example_sentences": {
           "わ.ける": [
@@ -679,7 +679,7 @@
     "Level 4": [
       {
         "kanji": "人",
-        "kunyomi": ["ひと", "じん"],
+        "kunyomi": ["ひと"],
         "onyomi": ["ジン", "ニン"],
         "pitch_accent": { "ひと": "HL", "じん": "H" },
         "example_sentences": {
@@ -700,8 +700,8 @@
       },
       {
         "kanji": "子",
-        "kunyomi": ["こ", "ね"],
-        "onyomi": ["シ", "ス"],
+        "kunyomi": ["こ"],
+        "onyomi": ["シ"],
         "pitch_accent": { "こ": "H", "ね": "H" },
         "example_sentences": {
           "こ": [
@@ -721,8 +721,8 @@
       },
       {
         "kanji": "女",
-        "kunyomi": ["おんな", "め"],
-        "onyomi": ["ジョ", "ニョ"],
+        "kunyomi": ["おんな"],
+        "onyomi": ["ジョ"],
         "pitch_accent": { "おんな": "LHH", "め": "H" },
         "example_sentences": {
           "おんな": [
@@ -742,7 +742,7 @@
       },
       {
         "kanji": "男",
-        "kunyomi": ["おとこ", "お"],
+        "kunyomi": ["おとこ"],
         "onyomi": ["ダン", "ナン"],
         "pitch_accent": { "おとこ": "LHH", "お": "H" },
         "example_sentences": {
@@ -763,8 +763,8 @@
       },
       {
         "kanji": "目",
-        "kunyomi": ["め", "ま"],
-        "onyomi": ["モク", "ボク"],
+        "kunyomi": ["め"],
+        "onyomi": ["モク"],
         "pitch_accent": { "め": "H", "ま": "H" },
         "example_sentences": {
           "め": [
@@ -785,7 +785,7 @@
       {
         "kanji": "口",
         "kunyomi": ["くち"],
-        "onyomi": ["コウ", "ク"],
+        "onyomi": ["コウ"],
         "pitch_accent": { "くち": "HL" },
         "example_sentences": {
           "くち": [
@@ -806,7 +806,7 @@
       {
         "kanji": "耳",
         "kunyomi": ["みみ"],
-        "onyomi": ["ジ", "ニ"],
+        "onyomi": ["ジ"],
         "pitch_accent": { "みみ": "HL" },
         "example_sentences": {
           "みみ": [
@@ -945,7 +945,7 @@
       },
       {
         "kanji": "生",
-        "kunyomi": ["う.まれる", "い.きる", "なま", "う.む", "は.える", "お.う"],
+        "kunyomi": ["う.まれる", "い.きる", "なま", "う.む", "は.える"],
         "onyomi": ["セイ", "ショウ"],
         "pitch_accent": { "う.まれる": "LHHH", "い.きる": "LHH" },
         "example_sentences": {
@@ -1020,7 +1020,7 @@
       },
       {
         "kanji": "本",
-        "kunyomi": ["ほん", "もと"],
+        "kunyomi": ["もと"],
         "onyomi": ["ホン"],
         "pitch_accent": { "ほん": "HL", "もと": "HL" },
         "example_sentences": {
@@ -1122,7 +1122,7 @@
       {
         "kanji": "外",
         "kunyomi": ["そと", "はず.れる", "はず.す"],
-        "onyomi": ["ガイ", "ゲ"],
+        "onyomi": ["ガイ"],
         "pitch_accent": { "そと": "HL" },
         "example_sentences": {
           "そと": [
@@ -1250,7 +1250,7 @@
       },
       {
         "kanji": "名",
-        "kunyomi": ["な", "めい"],
+        "kunyomi": ["な"],
         "onyomi": ["メイ", "ミョウ"],
         "pitch_accent": { "な": "H", "めい": "HL" },
         "example_sentences": {
@@ -1288,7 +1288,7 @@
       },
       {
         "kanji": "馬",
-        "kunyomi": ["うま", "ま"],
+        "kunyomi": ["うま"],
         "onyomi": ["バ"],
         "pitch_accent": { "うま": "HL" },
         "example_sentences": {

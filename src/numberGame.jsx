@@ -195,16 +195,16 @@ export default function NumberGame({ setView }) {
     const num = getRandomNumber(difficulty);
 
     const correctAnswer =
-    mode === "numberToJP"
+      mode === "numberToJP"
         ? getDisplay(num, displayMode)
         : num;
 
     const wrongNumbers = generateTrickNumbers(num);
 
     let allChoices =
-    mode === "numberToJP"
-        ? [num, ...wrongNumbers.map(n => getDisplay(n, displayMode))]
-        : [num, ...wrongNumbers];
+      mode === "numberToJP"
+        ? [correctAnswer, ...wrongNumbers.map(n => getDisplay(n, displayMode))]
+        : [correctAnswer, ...wrongNumbers];
 
     allChoices = [...new Set(allChoices)]
       .sort(() => Math.random() - 0.5)
@@ -217,9 +217,9 @@ export default function NumberGame({ setView }) {
     setIsAnswered(false);
   }, [difficulty, mode, displayMode]);
 
-    useEffect(() => {
-        if (screen === "game") generateQuestion();
-    }, [screen]);
+  useEffect(() => {
+    if (screen === "game") generateQuestion();
+  }, [generateQuestion, screen]);
 
   useEffect(() => {
     function handleKey(e) {
@@ -233,7 +233,7 @@ export default function NumberGame({ setView }) {
 
     window.addEventListener("keydown", handleKey);
     return () => window.removeEventListener("keydown", handleKey);
-  }, [choices, isAnswered, generateQuestion]);
+  }, [choices, isAnswered]);
 
   function speak(text) {
     const clean = text.replace(/\|/g, "");
@@ -248,7 +248,9 @@ export default function NumberGame({ setView }) {
     setSelectedChoice(choice);
     setIsAnswered(true);
 
-    if (choice === correct) {speak(numberToJapanese(number, "hiragana"));} 
+    if (choice === correct) {
+      speak(numberToJapanese(number, "hiragana"));
+    }
   }
 
   function nextQuestion() {
@@ -285,35 +287,20 @@ export default function NumberGame({ setView }) {
 
         <div className="hud">
           <div className="controls">
-            <button className="btn" 
-            onClick={(e) => {
-                e.currentTarget.blur(); // remove focus, otherwise enter clicks it again
-
-                setMode(m => {
-                    const newMode = m === "numberToJP" ? "jpToNumber" : "numberToJP";
-                    setTimeout(() => generateQuestion(), 0);
-                    return newMode;
-                });
-                }}
-            >
+            <button className="btn" onClick={(e) => {e.currentTarget.blur(); setMode(m => m === "numberToJP" ? "jpToNumber" : "numberToJP")}}>
               Mode: {mode}
             </button>
 
             <button
               className="btn"
-              onClick={(e) => {
-                e.currentTarget.blur(); // remove focus, otherwise enter clicks it again
-
-                setDisplayMode(m => {
-                    const newMode =
-                    m === "hiragana" ? "kanji" :
-                    m === "kanji" ? "romaji" :
-                    "hiragana";
-
-                    setTimeout(() => generateQuestion(), 0);
-                    return newMode;
-              })}
-                }
+              onClick={(e) =>{
+                e.currentTarget.blur();
+                setDisplayMode(m =>
+                  m === "hiragana" ? "kanji" :
+                  m === "kanji" ? "romaji" :
+                  "hiragana"
+                )}
+              }
             >
               Script: {displayMode}
             </button>
