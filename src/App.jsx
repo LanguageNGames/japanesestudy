@@ -13,6 +13,7 @@ import GrammarSelect from "./grammarSelect.jsx";
 import GrammarFillBlanks from "./grammarFillBlanks.jsx";
 import GrammarOrder from "./grammarOrder.jsx";
 import KanjiLearn from "./kanjiLearn.jsx";
+import NumberGame from "./numberGame.jsx";
 
 export default function App() {
   const [view, setView] = useState({screen: "home"});
@@ -106,6 +107,10 @@ export default function App() {
               Hiragana & Katakana
             </div>
 
+            <div className="btn" onClick={() => setView({ screen: "numbers" })}>
+              Practice Numbers
+            </div>
+
             <div className="btn" onClick={() => setView({ screen: "kanjiLearn"})}>
               Learn Kanji
             </div>
@@ -140,6 +145,15 @@ export default function App() {
         {/* KANA */}
         {view.screen === "kana" && (
           <KanaSelect
+            setView={setView}
+            setKanaPool={setKanaPool}
+            setGameMode={setGameMode}
+          />
+        )}
+
+        {/* NUMBERS */}
+        {view.screen === "numbers" && (
+          <NumberGame
             setView={setView}
             setKanaPool={setKanaPool}
             setGameMode={setGameMode}

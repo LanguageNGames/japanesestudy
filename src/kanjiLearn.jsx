@@ -340,7 +340,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     <div className="flex-center flex-column">
       <h1>All Kanji Learned 🎉</h1>
       <button
-        className="btn"
+        className="back-btn"
         onClick={() => {resetSession(); setView({ screen: "home" });}}
       >
         Back
