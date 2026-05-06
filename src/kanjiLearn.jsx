@@ -160,7 +160,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
       setIntroducedCount((prevCount) => {
         const newCount = prevCount + 1;
 
-        if (newCount <= BATCH_SIZE) {
+        if (newCount < BATCH_SIZE) {
           setIsTransitioning(false);
           return newCount;
         } else {
