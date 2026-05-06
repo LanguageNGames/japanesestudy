@@ -13,7 +13,9 @@ import GrammarSelect from "./grammarSelect.jsx";
 import GrammarFillBlanks from "./grammarFillBlanks.jsx";
 import GrammarOrder from "./grammarOrder.jsx";
 import KanjiLearn from "./kanjiLearn.jsx";
+import VocabLearn from "./vocabLearn.jsx"
 import NumberGame from "./numberGame.jsx";
+
 
 export default function App() {
   const [view, setView] = useState({screen: "home"});
@@ -113,6 +115,10 @@ export default function App() {
 
             <div className="btn" onClick={() => setView({ screen: "kanjiLearn"})}>
               Learn Kanji
+            </div>
+
+            <div className="btn" onClick={() => setView({ screen: "vocabLearn"})}>
+              Learn Vocabulary
             </div>
 
             <div className="btn" onClick={() => setView({ screen: "kanji"})}>
@@ -316,6 +322,33 @@ export default function App() {
           </div>
         )}
 
+        {/* VOCAB LEARN LEVEL */}
+        {view.screen === "vocabLearn" && (
+          <div className="flex-center flex-column vocab-level">
+            <h1>Vocabulary Level</h1>
+
+            {[5, 4, 3, 2, 1].map((lvl) => (
+              <div
+                key={lvl}
+                className="btn"
+                onClick={() => {
+                  localStorage.setItem("JLPT", lvl);
+                  setTitle(`Choose N${lvl} sublevel`);
+                  loadVocab(lvl);
+                  setGameMode("vocabLearn");
+                  setView({ screen: "steps" });
+                }}
+              >
+                N{lvl}
+              </div>
+            ))}
+
+            <button className="btn" onClick={() => setView({ screen: "home" })}>
+              Back
+            </button>
+          </div>
+        )}
+
         {/* CONJUGATION */}
         {view.screen === "conjugation" && (
           <ConjugationSelect
@@ -356,8 +389,9 @@ export default function App() {
                 setView({ screen: "vocab" });
               } else if (gameMode === "kanjiLearn"){
                 setView({ screen: "kanjiLearn" });
-              }
-              }}>
+              } else if (gameMode === "vocabLearn"){
+                setView({ screen: "vocabLearn" });
+              }}}>
               Back
             </button>
           </div>
@@ -393,6 +427,14 @@ export default function App() {
         {view.screen === "game" && gameMode === "vocab" && (
           <VocabGame
             key="vocab"
+            setView={setView}
+            BASE_PATH={BASE_PATH}
+            onExit={() => setView({ screen: "home" })}
+          />)}
+
+          {view.screen === "game" && gameMode === "vocabLearn" && (
+          <VocabLearn
+            key="vocabLearn"
             setView={setView}
             BASE_PATH={BASE_PATH}
             onExit={() => setView({ screen: "home" })}

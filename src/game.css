@@ -73,11 +73,15 @@
 
 .next-btn {
   font-size: 4rem;
+  height: 70px;
+  width: 70px;
   padding: 0.5rem 1rem;
   background-color: rgb(243, 210, 128);
   border-radius: 20%;
   box-shadow: 0 0.4rem 1.4rem 0 black;
   cursor: pointer;
+  justify-self: center;
+  align-self: center;
 }
 
 .next-btn:disabled {
