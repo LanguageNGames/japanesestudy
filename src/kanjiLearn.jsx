@@ -113,13 +113,17 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     const queue = queueOverride ?? cycleQueue;
 
     if (!queue || queue.length === 0) {
-      if (kanjiToLearn.length === 0 && reviewPool.length === 0) {
+      const isDone = kanjiToLearn.length === 0 && reviewPool.length === 0;
+
+      if (isDone) {
+        setCurrentKanji(null);
         setMode(MODES.COMPLETE);
       } else {
+        setCurrentKanji(null);
         setMode(MODES.INTRO);
         setIntroducedCount(0);
       }
-      setCurrentKanji(null);
+
       return;
     }
 
@@ -286,7 +290,8 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     );
   }
 
-  if (mode === MODES.QUIZ && currentKanji) {
+  if (mode === MODES.QUIZ) {
+    if (!currentKanji) return null;
     return (
       <div className="flex-center flex-column">
         <div className="grid">
@@ -331,14 +336,15 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     );
   }
 
-  if (mode === MODES.COMPLETE) {
-    return (
-      <div className="flex-center flex-column">
-        <h1>All Kanji Learned 🎉</h1>
-        <button className="btn" onClick={() => {resetSession(); setView({ screen: "home" });}}>Back</button>
-      </div>
-    );
-  }
-
-  return null;
+  return (
+    <div className="flex-center flex-column">
+      <h1>All Kanji Learned 🎉</h1>
+      <button
+        className="btn"
+        onClick={() => {resetSession(); setView({ screen: "home" });}}
+      >
+        Back
+      </button>
+    </div>
+  );
 }
