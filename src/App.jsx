@@ -79,72 +79,57 @@ export default function App() {
             <h1>Japanese Quiz</h1>
 
           <div className="main-grid">
-            {/* <h3>Learn</h3>
-            <h3>Practice</h3> */}       {/* I'll implement when I add learning path */}
+            <h3>Learn</h3>
+            <h3>Practice</h3>
+            <h3>Miscellaneous</h3>
             {/* LEARN */}
-            {/* <div className="learn-column">
-              <div className="btn" onClick={() => setView({ screen: "kana" })}>
-              Hiragana & Katakana
-            </div>
-            <div className="btn" onClick={() => setView({ screen: "kanji"})}>
-              Kanji
-            </div>
-
-            <div className="btn" onClick={() => setView({ screen: "vocab"})}>
-              Vocabulary
-            </div>
-
-            <div className="btn" onClick={() => setView({ screen: "grammar"})}>
-              Grammar
-            </div>
-
-            <div className="btn" onClick={() => setView({ screen: "conjugation"})}>
-              Conjugation
-            </div>
-            </div>
- */}
-            {/* PRACTICE */}
-            {/* <div className="learn-column"> */}       {/* I'll implement when I add learning path */}
-            <div className="btn" onClick={() => setView({ screen: "kana" })}>
-              Hiragana & Katakana
-            </div>
-
-            <div className="btn" onClick={() => setView({ screen: "numbers" })}>
-              Practice Numbers
-            </div>
-
-            <div className="btn" onClick={() => setView({ screen: "kanjiLearn"})}>
+            <div className="learn-column">
+              <div className="btn" onClick={() => setView({ screen: "kanjiLearn"})}>
               Learn Kanji
-            </div>
+              </div>
 
-            <div className="btn" onClick={() => setView({ screen: "vocabLearn"})}>
+              <div className="btn" onClick={() => setView({ screen: "vocabLearn"})}>
               Learn Vocabulary
+              </div>
+
             </div>
 
-            <div className="btn" onClick={() => setView({ screen: "kanji"})}>
-              Practice Kanji
-            </div>
+            {/* PRACTICE */}
+            <div className="learn-column">
+              <div className="btn" onClick={() => setView({ screen: "kana" })}>
+                Hiragana & Katakana
+              </div>
 
-            <div className="btn" onClick={() => setView({ screen: "vocab"})}>
-              Practice Vocabulary
-            </div>
+              <div className="btn" onClick={() => setView({ screen: "numbers" })}>
+                Practice Numbers
+              </div>
 
-            <div className="btn" onClick={() => setView({ screen: "grammar"})}>
-              Grammar
-            </div>
+              <div className="btn" onClick={() => setView({ screen: "kanji"})}>
+                Practice Kanji
+              </div>
 
-            <div className="btn" onClick={() => setView({ screen: "conjugation"})}>
-              Conjugation
-            </div>
+              <div className="btn" onClick={() => setView({ screen: "vocab"})}>
+                Practice Vocabulary
+              </div>
 
-            <div className="btn" onClick={() => setView({ screen: "conjugationWheel"})}>
-              Conjugation Wheel
+              <div className="btn" onClick={() => setView({ screen: "grammar"})}>
+                Grammar
+              </div>
+
+              <div className="btn" onClick={() => setView({ screen: "conjugation"})}>
+                Conjugation
+              </div>
             </div>
-            {/* </div> */}
+            <div className="miscelaneous">
+              <div className="btn" onClick={() => setView({ screen: "conjugationWheel"})}>
+                Conjugation Wheel
+              </div>
+              <div disabled className="btn">
+                High Scores
+              </div>
+            </div>
           </div>
-           {/* <a className="btn" href="#">
-              High Scores
-            </a> */}
+           
         </div>
         )}
 

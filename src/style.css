@@ -131,7 +131,7 @@ a{
     padding-top: 2rem;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     text-align: center;
 }
