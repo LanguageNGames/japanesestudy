@@ -21,7 +21,6 @@
 
 h1 {
     font-size: 5.4rem;
-    color: #56a5eb;
     font-weight: 500;
 }
 
@@ -49,7 +48,7 @@ h3 {
     width: 100%;
     top: 0;
     display: flex;
-    justify-content:left;
+    justify-content:right;
     align-items: center;
 }
 
@@ -176,7 +175,7 @@ a{
 
 
 /* Buttons */
-.btn, .back-btn {
+.btn, .back-btn {    
     font-size: 1.8rem;
     width: 20rem;
     padding: 1rem;
@@ -258,10 +257,12 @@ ruby rt {
 
 /* LEARN */
 .learn-container{
-     background-color: #ddd;
+    background-color: #ddd;
     height: 75vh;
     display: flex;
+    width: 80%;
     flex-direction: column;
+    padding: 3rem;
 }
 
 .kanji-next{

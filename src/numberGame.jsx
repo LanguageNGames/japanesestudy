@@ -218,7 +218,7 @@ export default function NumberGame({ setView }) {
   }, [difficulty, mode, displayMode]);
 
   useEffect(() => {
-    if (screen === "game") generateQuestion();
+    if (screen === "numbers") generateQuestion();
   }, [generateQuestion, screen]);
 
   useEffect(() => {
@@ -262,15 +262,15 @@ export default function NumberGame({ setView }) {
       <div className="flex-column">
         <h2>Select Difficulty</h2>
 
-        <div className="btn" onClick={() => { setDifficulty("easy"); setScreen("game"); }}>
+        <div className="btn" onClick={() => { setDifficulty("easy"); setScreen("numbers"); }}>
           Easy (1–1,000)
         </div>
 
-        <div className="btn" onClick={() => { setDifficulty("medium"); setScreen("game"); }}>
+        <div className="btn" onClick={() => { setDifficulty("medium"); setScreen("numbers"); }}>
           Medium (1–100,000)
         </div>
 
-        <div className="btn" onClick={() => { setDifficulty("hard"); setScreen("game"); }}>
+        <div className="btn" onClick={() => { setDifficulty("hard"); setScreen("numbers"); }}>
           Hard (1–100,000,000)
         </div>
 
@@ -349,7 +349,7 @@ export default function NumberGame({ setView }) {
 
       </div>
 
-      <button className="back-btn" onClick={() => setView({ screen: "home" })}>
+      <button className="back-btn" onClick={() => setScreen("select")}>
         Back
       </button>
     </div>

@@ -324,6 +324,7 @@ export default function VocabLearn({ setView, BASE_PATH }) {
   if (mode === MODES.INTRO && currentIntroVocab) {
     return (
       <div className="learn-container">
+        <h3>N{jlptLevel} Step: {step}</h3>
         <div className="kanji-next">
           <h1
             dangerouslySetInnerHTML={{
@@ -352,7 +353,7 @@ export default function VocabLearn({ setView, BASE_PATH }) {
         </div>
 
         <h2 className="translation">
-          English: {currentIntroVocab.english}
+          {currentIntroVocab.english}
         </h2>
 
         {currentIntroVocab.example && (
@@ -398,9 +399,10 @@ export default function VocabLearn({ setView, BASE_PATH }) {
               →
             </button>
 
-            <button
+            <button 
               className="skip-btn"
               onClick={skipVocab}
+              title="remove from review"
             >
               −
             </button>

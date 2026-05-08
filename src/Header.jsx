@@ -1,10 +1,12 @@
 import setView from "./App.jsx";
 
-function Header() {
-
+export default function Header({ setView }) {
   return (
     <header id="hud">
-        <h1 onClick={() => setView("home")}>Japanese quiz</h1>
+        
+        <div className="btn" onClick={() => setView({ screen: "home"})}>
+              Home
+        </div>
         {/* <div className="hidden-container">            
             <div className="modal" id="example">
                 <div className="modal-header">
@@ -31,4 +33,3 @@ function Header() {
   );
 }
 
-export default Header;

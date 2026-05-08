@@ -222,6 +222,9 @@ export default function KanjiGame({ setView, BASE_PATH }) {
         {/* HUD */}
         <div className="hud">
           <div className="hud-item">
+            <h3>N{jlptLevel} Step: {step}</h3>
+          </div>
+          <div className="hud-item">
             <p className="hud-text">
               Question: {questionCounter} / {totalQuestions}
             </p>
@@ -302,10 +305,10 @@ export default function KanjiGame({ setView, BASE_PATH }) {
           })}
         </div>
       </div>
-
       <button className="back-btn" onClick={() => setView({ screen: "home" })}>
         Back
       </button>
+
 
       {/* Modal */}
       {modalType && (

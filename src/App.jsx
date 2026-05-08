@@ -70,7 +70,7 @@ export default function App() {
 
   return (
     <>
-      <Header />
+      <Header setView={setView}/>
 
       <div className="main-container">
         {/* HOME */}

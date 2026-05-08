@@ -32,6 +32,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
   const step = Number(localStorage.getItem("step"));
 
   const correctAudio = useRef(null);
+  const speechTimeout = useRef(null);
 
   const resetSession = () => {
     setMode(MODES.INTRO);
@@ -72,6 +73,16 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
   }, [BASE_PATH]);
 
   const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5);
+
+  useEffect(() => {
+    return () => {
+      speechSynthesis.cancel();
+
+      if (speechTimeout.current) {
+        clearTimeout(speechTimeout.current);
+      }
+    };
+  }, []);
 
   /* ---------------- QUIZ FUNCTIONS ---------------- */
   const formatReading = (kanji) => {
@@ -117,6 +128,10 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
   }, [kanjiData]);
 
   const nextQuestion = useCallback((queueOverride = null) => {
+    speechSynthesis.cancel();
+    if (speechTimeout.current) {
+      clearTimeout(speechTimeout.current);
+    }
     const queue = queueOverride ?? cycleQueue;
 
     if (!queue || queue.length === 0) {
@@ -197,9 +212,10 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     const correctText = formatReading(currentKanji);
 
     if (isCorrect && correctAudio.current) {
+      
       correctAudio.current.currentTime = 0;
       correctAudio.current.play().catch(() => {});
-      setTimeout(() => {
+      speechTimeout.current = setTimeout(() => {
         if(currentKanji.kunyomi){
           speak(currentKanji.kunyomi[0]);
         }
@@ -207,7 +223,6 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
           speak(currentKanji.onyomi[0])
         }
       }, 500);
-      
     }
 
     const key = currentKanji.kanji;
@@ -278,6 +293,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
   if (mode === MODES.INTRO && currentIntroKanji) {
     return (
       <div className="learn-container">
+        <h3>N{jlptLevel} Step: {step}</h3>
         <div className="kanji-next">
           <h1>Kanji: {currentIntroKanji.kanji}</h1>
           <button
@@ -330,11 +346,14 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     if (!currentKanji) return null;
     return (
       <div className="flex-center flex-column">
+        <div className="hud">
+          <h3>N{jlptLevel} Step: {step}</h3>
+        </div>
         <div className="grid">
           <div className="top-bar">
             <h2 style={{ fontSize: "5rem" }}>{currentKanji.kanji}</h2>
             <button className="next-btn" onClick={() => nextQuestion()}>→</button>
-            <button className="skip-btn" onClick={skipKanji}>−</button>
+            <button className="skip-btn" onClick={skipKanji} title="remove from review">−</button>
           </div>
 
           <div className="extra-info">
