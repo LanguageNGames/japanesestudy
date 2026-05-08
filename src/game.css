@@ -19,21 +19,6 @@
   justify-self: center;
 }
 
-.number-hud {
-  grid-column: 1 / -1;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  grid-column: 1 / -1;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  justify-self: center;
-  justify-items: center;
-}
-
-.sub-hub{
-  display: flex;
-}
 .progress-bar {
   background-color: rgb(0, 110, 255);
   height: 4.4rem;
@@ -68,7 +53,7 @@
 /* TOP BAR */
 .top-bar {
   grid-column: 1 / -1;
-  width: 100%s;
+  width: 100%;
   display: grid;
   grid-template-columns: 7% 86% 7%;
   grid-template-rows: 1fr 1fr;
@@ -725,6 +710,42 @@
   }
 }
 
+/* NUMBER GAME */
+.number-grid{
+  margin-top: 4%;
+  display: grid;
+  gap: 2rem;
+  width: 80%;
+  text-align: center;
+  align-items: first baseline;
+}
 
+.number-hud {
+  grid-column: 1 / -1;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-self: center;
+  justify-items: center;
+}
 
+.number-top-bar{
+  grid-column: 1 / -1;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 7% 86% 7%;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-top-bar h2{
+  background-color: #d9d9d9;
+}
+
+.sub-hub{
+  display: flex;
+  width: auto;
+}
 

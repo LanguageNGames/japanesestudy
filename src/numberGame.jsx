@@ -283,7 +283,7 @@ export default function NumberGame({ setView }) {
 
   return (
     <div className="flex-column">
-      <div className="grid">
+      <div className="number-grid">
 
         <div className="number-hud">
           <div className="sub-hub">
@@ -325,15 +325,15 @@ export default function NumberGame({ setView }) {
               checked={displayMode === "romaji"}
               onChange={(e) => setDisplayMode(e.target.value)}
               />Romaji
-          </label>
-          <button className="btn" onClick={() => speak(numberToJapanese(number, "hiragana"))}>
-              🔊
-          </button>
+            </label>
           </div>
 
         </div>
 
-        <div className="top-bar">
+        <div className="number-top-bar">
+          <button className="audio-btn" onClick={() => speak(numberToJapanese(number, "hiragana"))}>
+              🔊
+          </button>
           <h2>
             {mode === "NumberToJP"
               ? number
