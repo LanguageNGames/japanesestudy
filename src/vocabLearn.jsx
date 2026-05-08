@@ -324,7 +324,7 @@ export default function VocabLearn({ setView, BASE_PATH }) {
   if (mode === MODES.INTRO && currentIntroVocab) {
     return (
       <div className="learn-container">
-        <h3>N{jlptLevel} Step: {step}</h3>
+        <h3>N{jlptLevel} - Step: {step}</h3>
         <div className="kanji-next">
           <h1
             dangerouslySetInnerHTML={{

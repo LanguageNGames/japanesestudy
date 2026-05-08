@@ -222,7 +222,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
         {/* HUD */}
         <div className="hud">
           <div className="hud-item">
-            <h3>N{jlptLevel} Step: {step}</h3>
+            <h3>N{jlptLevel} - Step: {step}</h3>
           </div>
           <div className="hud-item">
             <p className="hud-text">
@@ -350,4 +350,20 @@ export default function KanjiGame({ setView, BASE_PATH }) {
       )}
     </div>
   );
+  
+  return (
+    <div className="flex-center flex-column">
+      <h1>All Kanji Learned 🎉</h1>
+
+      <button
+        className="back-btn"
+        onClick={() => {
+          resetSession();
+          setView({ screen: "home" });
+        }}
+      >
+        Back
+      </button>
+    </div>
+  )
 }

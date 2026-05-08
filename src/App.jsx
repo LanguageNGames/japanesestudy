@@ -26,10 +26,12 @@ export default function App() {
   const [conjugationPool, setConjugationPool] = useState([]);
   const [grammarConfig, setGrammarConfig] = useState({level: null, difficulty: null, grammar: null,});
 
-  // New state for Kanji Game configuration
+  // Kanji Game radio configuration
   const [questionType, setQuestionType] = useState("kanji");
   const [answerType, setAnswerType] = useState("reading");
-  
+  const isValidConfig = questionType !== answerType;
+  const canStart = gameMode === "kanji" ? isValidConfig : true;
+
   const BASE_PATH = import.meta.env.BASE_URL;
   
 
@@ -63,10 +65,6 @@ export default function App() {
     localStorage.setItem("step", step);
     setView({ screen: "game" });
   };
-  const isValidConfig = questionType !== answerType;
-  const canStart = gameMode === "kanji" ? isValidConfig : true;
-
-  
 
   return (
     <>
@@ -156,7 +154,7 @@ export default function App() {
           <div className="flex-center flex-column">
             <h1>Kanji Level</h1>
 
-            {/* === Question & Answer Type Selection === */}
+            {/* Question & Answer Type Selection */}
             <div className="config-section">
                 <label><strong>Question shows:</strong></label>
                 <div className="config-radio">

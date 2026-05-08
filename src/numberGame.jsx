@@ -185,7 +185,7 @@ export default function NumberGame({ setView }) {
   const [choices, setChoices] = useState([]);
   const [correct, setCorrect] = useState(null);
 
-  const [mode, setMode] = useState("jpToNumber");
+  const [mode, setMode] = useState("JPToNumber");
   const [displayMode, setDisplayMode] = useState("hiragana");
 
   const [selectedChoice, setSelectedChoice] = useState(null);
@@ -195,14 +195,14 @@ export default function NumberGame({ setView }) {
     const num = getRandomNumber(difficulty);
 
     const correctAnswer =
-      mode === "numberToJP"
+      mode === "NumberToJP"
         ? getDisplay(num, displayMode)
         : num;
 
     const wrongNumbers = generateTrickNumbers(num);
 
     let allChoices =
-      mode === "numberToJP"
+      mode === "NumberToJP"
         ? [correctAnswer, ...wrongNumbers.map(n => getDisplay(n, displayMode))]
         : [correctAnswer, ...wrongNumbers];
 
@@ -285,44 +285,65 @@ export default function NumberGame({ setView }) {
     <div className="flex-column">
       <div className="grid">
 
-        <div className="hud">
-          <div className="controls">
-            <button className="btn" onClick={(e) => {e.currentTarget.blur(); setMode(m => m === "numberToJP" ? "jpToNumber" : "numberToJP")}}>
-              Mode: {mode}
-            </button>
+        <div className="number-hud">
+          <div className="sub-hub">
+            <p>Mode: </p>
+            <label htmlFor="">
+              <input type="radio" 
+              name="JPToNumber" 
+              value="JPToNumber"
+              checked={mode === "JPToNumber"}
+              onChange={(e) => setMode(e.target.value)}
+              />JP to Number
 
-            <button
-              className="btn"
-              onClick={(e) =>{
-                e.currentTarget.blur();
-                setDisplayMode(m =>
-                  m === "hiragana" ? "kanji" :
-                  m === "kanji" ? "romaji" :
-                  "hiragana"
-                )}
-              }
-            >
-              Script: {displayMode}
-            </button>
-
-            <button className="btn" onClick={() => speak(numberToJapanese(number, "hiragana"))}>
-              🔊
-            </button>
+              <input type="radio" 
+              value="NumberToJP"
+              checked={mode === "NumberToJP"}
+              onChange={(e) => setMode(e.target.value)}
+              />Number to JP
+            </label>
           </div>
 
+          <div className="sub-hub">
+            <p>Choices: </p>
+            <label htmlFor="">
+              <input type="radio" 
+              name="hiragana" 
+              value="hiragana"
+              checked={displayMode === "hiragana"}
+              onChange={(e) => setDisplayMode(e.target.value)}
+              />Hiragana
+
+              <input type="radio" 
+              value="kanji"
+              checked={displayMode === "kanji"}
+              onChange={(e) => setDisplayMode(e.target.value)}
+              />Kanji
+
+              <input type="radio" 
+              value="romaji"
+              checked={displayMode === "romaji"}
+              onChange={(e) => setDisplayMode(e.target.value)}
+              />Romaji
+          </label>
+          <button className="btn" onClick={() => speak(numberToJapanese(number, "hiragana"))}>
+              🔊
+          </button>
+          </div>
+
+        </div>
+
+        <div className="top-bar">
+          <h2>
+            {mode === "NumberToJP"
+              ? number
+              : getDisplay(number, displayMode)}
+          </h2>
           {isAnswered && (
             <button className="next-btn" onClick={nextQuestion}>
               →
             </button>
           )}
-        </div>
-
-        <div className="top-bar">
-          <h2>
-            {mode === "numberToJP"
-              ? number
-              : getDisplay(number, displayMode)}
-          </h2>
         </div>
 
         <div className="answers">
@@ -346,9 +367,7 @@ export default function NumberGame({ setView }) {
             );
           })}
         </div>
-
       </div>
-
       <button className="back-btn" onClick={() => setScreen("select")}>
         Back
       </button>

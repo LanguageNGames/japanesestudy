@@ -347,7 +347,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     return (
       <div className="flex-center flex-column">
         <div className="hud">
-          <h3>N{jlptLevel} Step: {step}</h3>
+          <h3>N{jlptLevel} - Step: {step}</h3>
         </div>
         <div className="grid">
           <div className="top-bar">
@@ -396,7 +396,13 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
       <h1>All Kanji Learned 🎉</h1>
       <button
         className="back-btn"
-        onClick={() => {resetSession(); setView({ screen: "home" });}}
+        onClick={() => {resetSession();}}
+      >
+        Practice again
+      </button>
+      <button
+        className="back-btn"
+        onClick={() => {setView({ screen: "home" });resetSession();}}
       >
         Back
       </button>
