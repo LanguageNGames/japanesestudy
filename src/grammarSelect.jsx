@@ -98,14 +98,13 @@ export default function GrammarSelect({
           {key: "kamoshiremasen", label: "かもしれません"},
           {key: "quantity_de", label: "quantityで"},
           {key: "imperative_prohibitive", label: "命令形 / 禁止形"},
-          {key: "to_itteimashita", label: "と言っていました"},
-          {key: "to_tsutaete_itadakemasenka", label: "と伝えていただけませんか"},
+          {key: "to_itteimashita_tsutaete", label: "と言っていました/伝えていただけませんか"},
+          {key: "to_kaitearimasu", label: "と書いてあります / と読みます"},
         ]
       },
       intermediate: {
         title: "Intermediate N4",
         points: [
-          {key: "to_kaitearimasu", label: "と書いてあります / と読みます"},
           {key: "toiu_imi", label: "という意味 / どういう意味"},
           {key: "toori_ni", label: "とおりに"},
           {key: "atode", label: "後で"},
@@ -124,12 +123,12 @@ export default function GrammarSelect({
           {key: "kadouka", label: "かどうか"},
           {key: "temimasu", label: "てみます"},
           {key: "adj_sa_mi", label: "Adjさ / み"},
+          {key: "give_receive", label: "give / receive"},
         ]
       },
       advanced: {
         title: "Advanced N4",
         points: [
-          {key: "give_receive", label: "give / receive"},
           {key: "tameni", label: "ために"},
           {key: "noni_purpose", label: "(の)に (purpose)"},
           {key: "niyotte_ukemikei", label: "によって受身形"},
@@ -387,7 +386,7 @@ export default function GrammarSelect({
             >
               Fill in the Blank
             </button>
-            <button disabled
+            <button
               className="btn"
               onClick={() => {
                 setGrammarConfig({
