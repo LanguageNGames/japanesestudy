@@ -488,7 +488,7 @@ input {
   margin-top: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .main-container{
         width: 500px;
         overflow: scroll;
@@ -528,4 +528,18 @@ input {
   .kana-columns {
     grid-template-columns: 1fr;
   }
+
+ /* LEARN */ 
+ .learn-container{
+    background-color: #ddd;
+    height: 75vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+
 }

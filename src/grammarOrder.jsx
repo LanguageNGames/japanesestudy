@@ -208,11 +208,11 @@ export default function GrammarOrder({
             </div>
       
 
-      <div className="answers">
+      <div className="grammar-answers">
         {availableChoices.map((choice, index) => (
           <button
             key={`${choice}-${index}`}
-            className="choice-button"
+            className="grammar-choice-btn"
             draggable
             onDragStart={(e) =>
               handleDragStart(e, choice)
