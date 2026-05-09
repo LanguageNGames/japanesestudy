@@ -114,7 +114,6 @@ a{
 }
 
 /* UTILITIES */
-
 .main-container {
     width: 100vw;
     height: 90vh;
@@ -125,6 +124,7 @@ a{
     margin: 5rem auto 0;
     overflow: auto;
 }
+
 
 .main-container > * {
     width: 100%;
@@ -501,6 +501,17 @@ input {
 }
 
 @media (max-width: 800px) {
+.kanna-img{
+    height: 100px;
+    width: 70px;
+}    
+
+.speech-bubble{
+    height: 50px;
+    width: 30px;
+    bottom: 40%;
+    right: 30%;
+}
     .main-container{
         width: 500px;
         overflow: scroll;
@@ -561,7 +572,7 @@ input {
 }
 
 .onyomi h2, .kunyomi h2, .translation{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .skip-btn {

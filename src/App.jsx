@@ -484,7 +484,7 @@ export default function App() {
         
           
       </div>
-      {/* {view.screen === "home" && <Footer/>} */}
+      {view.screen === "home" && <Footer/>}
       <div id="overlay"></div>      
     </>
   );
