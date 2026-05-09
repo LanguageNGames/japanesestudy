@@ -961,4 +961,11 @@
     margin-bottom: 1rem;
 }
 
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
 }
