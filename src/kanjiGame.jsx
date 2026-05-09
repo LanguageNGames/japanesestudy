@@ -251,7 +251,9 @@ export default function KanjiGame({ setView, BASE_PATH }) {
 
         {/* Question Area */}
         <div className="top-bar">
-          <h2 style={{ fontSize: questionType === "kanji" ? "6rem" : "4rem" }}>
+          <h2 style={{
+            fontSize: questionType === "kanji" ? "6rem" : "4rem" 
+            }}>
             {questionDisplay || "Loading..."}
           </h2>
           <button className="next-btn" onClick={nextQuestion} disabled={!showAnswer}>
@@ -304,10 +306,10 @@ export default function KanjiGame({ setView, BASE_PATH }) {
             );
           })}
         </div>
-      </div>
       <button className="back-btn" onClick={() => setView({ screen: "home" })}>
         Back
       </button>
+      </div>
 
 
       {/* Modal */}

@@ -58,6 +58,18 @@ h3 {
     padding: 1rem 2rem 0;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 2rem;
+}
+
+.speech-bubble{
+    position: inherit;
+    bottom: 100px;
+    right: 80px;
+}
+
 .hidden-container{
     display: none;
 }
@@ -541,5 +553,27 @@ input {
     padding: 3rem;
 }
 
+.kanji-next{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    gap: 6rem;
+}
+
+.onyomi h2, .kunyomi h2, .translation{
+    font-size: 3rem;
+}
+
+.skip-btn {
+    margin-top: 2%;
+    margin-right: 3%;
+    grid-column: 3 / 3;
+    background:#aaa;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
 
 }

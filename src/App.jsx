@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "./Header";
+import Footer from "./footer.jsx";
 import "./style.css";
 import "./game.css";
 import KanaSelect from "./kanaSelect.jsx";
@@ -483,7 +484,8 @@ export default function App() {
         
           
       </div>
-      <div id="overlay"></div>
+      {/* {view.screen === "home" && <Footer/>} */}
+      <div id="overlay"></div>      
     </>
   );
 }

@@ -305,7 +305,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
           </button>
         </div>
         <div className="kunyomi">
-          <h2>Japanese reading: </h2>
+          <h2>JP reading: </h2>
           {currentIntroKanji.kunyomi?.length > 0 && (
           currentIntroKanji.kunyomi.map(i => {
             return (
@@ -318,7 +318,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
         </div>
         
         <div className="onyomi">
-          <h2>Chinese reading: </h2>
+          <h2>CH reading: </h2>
           {currentIntroKanji.onyomi?.length > 0 && (
             currentIntroKanji.onyomi.map(i => {
             return (
