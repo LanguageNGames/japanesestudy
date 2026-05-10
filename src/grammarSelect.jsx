@@ -155,7 +155,7 @@ export default function GrammarSelect({
       beginner: {
         title: "Beginner N3",
         points: [
-          { "key": "te_kamaemasenka_itadakemasenka_moraenai", "label": "てかまえませんか/いただけませんか/もらえないでしょうか/いただけないでしょうか" },
+          { "key": "te_kamaemasenka_itadakemasenka_moraenai", "label": "てかまえませんか" },
           { "key": "you_ni_you_na_you_da", "label": "ように、ような、ようだ" },
           { "key": "koto_wa_ga_wo", "label": "～ことは/が/を" },
           { "key": "wo_to_iu", "label": "～を～と言う" },

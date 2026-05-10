@@ -115,12 +115,11 @@ a{
 
 /* UTILITIES */
 .main-container {
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 90vw;
     margin: 5rem auto 0;
     overflow: auto;
 }
@@ -512,45 +511,46 @@ input {
     bottom: 40%;
     right: 30%;
 }
-    .main-container{
-        width: 500px;
-        overflow: scroll;
-    }
+.main-container{
+    width: 100%;
+    overflow: scroll;
+    margin: 5rem 0 0;
+}
 
-    .flex-column {
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        justify-content: flex-start;
-    }
+.flex-column {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
 
-    .flex-center{
-        width: 80%;
-    }
+.flex-center{
+    width: 80%;
+}
 
-    .flex-center input {
-        margin: 0;
-        width: auto;
-    }
+.flex-center input {
+    margin: 0;
+    width: auto;
+}
 
-    .main-grid{
-        padding-top: 2rem;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        text-align: center;
-    }
+.main-grid{
+    padding-top: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
 
-    .main-grid h3{
-        display: none;
-    }
+.main-grid h3{
+    display: none;
+}
 
-  .kana-columns {
-    grid-template-columns: 1fr;
-  }
+.kana-columns {
+grid-template-columns: 1fr;
+}
 
  /* LEARN */ 
  .learn-container{

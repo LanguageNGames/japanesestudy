@@ -9290,9 +9290,1134 @@
   },
 
   "N3": {
-    "beginner": [],
-    "intermediate": [],
-    "advanced": []
+    "beginner": [
+      {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Could you please teach me the meaning of this kanji? (To a teacher)",
+    "sentence": "この <ruby>漢字<rt>かんじ</rt></ruby> ____ <ruby>意味<rt>いみ</rt></ruby> ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["の", "を", "<ruby>教<rt>おし</rt></ruby>えて", "いただけ", "ない", "でしょうか"],
+    "choices": ["の", "を", "に", "<ruby>教<rt>おし</rt></ruby>えて", "もらえ", "いただけ", "ない", "でしょうか", "か"]
+  },
+  {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Could you check this document? (To a boss)",
+    "sentence": "この <ruby>書類<rt>しょるい</rt></ruby> ____ ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "チェック", "して", "いただけ", "ませ", "ん", "か"],
+    "choices": ["を", "に", "して", "もらえ", "いただけ", "ませ", "ん", "か"]
+  },
+  {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Can you lend me your dictionary? (To a friend)",
+    "sentence": "<ruby>辞書<rt>じしょ</rt></ruby> ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "<ruby>貸<rt>か</rt></ruby>して", "もらえ", "ない", "でしょうか"],
+    "choices": ["を", "に", "<ruby>貸<rt>か</rt></ruby>して", "いただけ", "もらえ", "ない", "でしょうか"]
+  },
+  {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Could you please repeat that once more? (To a teacher)",
+    "sentence": "もう <ruby>一度<rt>いちど</rt></ruby> ____ ____ ____ ____ ?",
+    "answer": ["<ruby>言<rt>い</rt></ruby>って", "いただけ", "ない", "でしょうか"],
+    "choices": ["<ruby>言<rt>い</rt></ruby>って", "いただけ", "もらえ", "ない", "でしょうか", "ます"]
+  },
+  {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Can you buy some milk on your way home? (To family)",
+    "sentence": "<ruby>帰<rt>かえ</rt></ruby>りに <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby> ____ ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "<ruby>買<rt>か</rt></ruby>って", "きて", "もらえ", "ませ", "ん", "か"],
+    "choices": ["を", "に", "<ruby>買<rt>か</rt></ruby>って", "きて", "いただけ", "もらえ", "ませ", "ん", "か"]
+  },
+  {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Could you please help me with my work? (To a boss)",
+    "sentence": "<ruby>仕事<rt>しごと</rt></ruby> ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "<ruby>手伝<rt>てつだ</rt></ruby>って", "いただけ", "ませ", "ん", "か"],
+    "choices": ["を", "に", "<ruby>手伝<rt>てつだ</rt></ruby>って", "もらえ", "いただけ", "ませ", "ん", "か"]
+  },
+  {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Could you please write your name here? (Polite)",
+    "sentence": "ここに お<ruby>名前<rt>なまえ</rt></ruby> ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "<ruby>書<rt>か</rt></ruby>いて", "いただけ", "ない", "でしょうか"],
+    "choices": ["を", "に", "<ruby>書<rt>か</rt></ruby>いて", "もらえ", "いただけ", "ない", "でしょうか"]
+  },
+  {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Can you open the window? (To a friend)",
+    "sentence": "<ruby>窓<rt>まど</rt></ruby> ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "<ruby>開<rt>あ</rt></ruby>けて", "もらえ", "ませ", "ん", "か"],
+    "choices": ["を", "に", "<ruby>開<rt>あ</rt></ruby>けて", "いただけ", "もらえ", "ませ", "ん", "か"]
+  },
+  {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Could you please look at this for a moment? (To a teacher)",
+    "sentence": "ちょっと これ ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "<ruby>見<rt>み</rt></ruby>て", "いただけ", "ませ", "ん", "か"],
+    "choices": ["を", "に", "<ruby>見<rt>み</rt></ruby>て", "もらえ", "いただけ", "ませ", "ん", "か"]
+  },
+  {
+    "id": "te_kamaemasenka_itadakemasenka_moraenai",
+    "grammar": "てかまえませんか",
+    "translation": "Can you help me clean the room? (To family)",
+    "sentence": "<ruby>部屋<rt>へや</rt></ruby>の <ruby>掃除<rt>そうじ</rt></ruby> ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "<ruby>手伝<rt>てつだ</rt></ruby>って", "もらえ", "ない", "でしょうか"],
+    "choices": ["を", "に", "<ruby>手伝<rt>てつだ</rt></ruby>って", "いただけ", "もらえ", "ない", "でしょうか"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "This cake looks like a flower.",
+    "sentence": "このケーキ ____ <ruby>花<rt>はな</rt></ruby> ____ ____ ____ 。",
+    "answer": ["は", "の", "よう", "です"],
+    "choices": ["は", "の", "な", "に", "よう", "です"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "I want to be able to speak Japanese like Tanaka-san.",
+    "sentence": "<ruby>田中<rt>たなか</rt></ruby>さん ____ ____ ____ <ruby>日本語<rt>にほんご</rt></ruby>が ____ ____ ____ 。",
+    "answer": ["の", "ように", "上手<rt>じょうず</rt>に", "なり", "たい", "です"],
+    "choices": ["の", "に", "な", "ように", "ような", "上手<rt>じょうず</rt>に", "なり", "たい", "です"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "I want a house like that one.",
+    "sentence": "あんな ____ ____ ____ ____ ____ 。",
+    "answer": ["ような", "<ruby>家<rt>いえ</rt></ruby>", "が", "<ruby>欲<rt>ほ</rt></ruby>しい", "です"],
+    "choices": ["ように", "ような", "よう", "が", "<ruby>家<rt>いえ</rt></ruby>", "<ruby>欲<rt>ほ</rt></ruby>しい", "です"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "It seems that she already left.",
+    "sentence": "<ruby>彼女<rt>かのじょ</rt></ruby>は もう ____ ____ ____ 。",
+    "answer": ["<ruby>帰<rt>かえ</rt></ruby>った", "よう", "です"],
+    "choices": ["<ruby>帰<rt>かえ</rt></ruby>る", "<ruby>帰<rt>かえ</rt></ruby>った", "な", "に", "よう", "です"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "He is swimming like a fish.",
+    "sentence": "<ruby>彼<rt>かれ</rt></ruby>は <ruby>魚<rt>さかな</rt></ruby> ____ ____ ____ ____ ____ 。",
+    "answer": ["の", "ように", "<ruby>泳<rt>およ</rt></ruby>いで", "い", "ます"],
+    "choices": ["の", "に", "な", "ように", "ような", "<ruby>泳<rt>およ</rt></ruby>いで", "い", "ます"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "I've never seen such a beautiful sea like this before.",
+    "sentence": "こんな ____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["きれいな", "<ruby>海<rt>うみ</rt></ruby>", "の", "ような", "<ruby>所<rt>ところ</rt></ruby>", "は", "<ruby>初<rt>はじ</rt></ruby>めて", "です"],
+    "choices": ["きれいな", "に", "の", "ような", "ように", "<ruby>海<rt>うみ</rt></ruby>", "<ruby>所<rt>ところ</rt></ruby>", "は", "<ruby>初<rt>はじ</rt></ruby>めて", "です"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "It seems like a quiet place.",
+    "sentence": "あそこは ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>静<rt>しず</rt></ruby>かな", "ところ", "の", "よう", "です"],
+    "choices": ["<ruby>静<rt>しず</rt></ruby>かな", "ところ", "に", "な", "の", "よう", "です"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "Please don't do something like that.",
+    "sentence": "そんな ____ ____ ____ ____ ____ 。",
+    "answer": ["ような", "こと", "は", "しないで", "ください"],
+    "choices": ["ように", "ような", "よう", "は", "こと", "しないで", "ください"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "I can hear a voice that sounds like a baby.",
+    "sentence": "<ruby>赤<rt>あか</rt></ruby>ちゃん ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["の", "ような", "<ruby>声<rt>こえ</rt></ruby>", "が", "<ruby>聞<rt>き</rt></ruby>こえ", "ます"],
+    "choices": ["の", "に", "な", "ような", "ように", "<ruby>声<rt>こえ</rt></ruby>", "が", "<ruby>聞<rt>き</rt></ruby>こえ", "ます"]
+  },
+  {
+    "id": "you_ni_you_na_you_da",
+    "grammar": "ように、ような、ようだ",
+    "translation": "As I said before, tomorrow is a holiday.",
+    "sentence": "<ruby>前<rt>まえ</rt></ruby>に ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>言<rt>い</rt></ruby>った", "ように", "<ruby>明日<rt>あした</rt></ruby>", "は", "<ruby>休<rt>やす</rt></ruby>み", "です"],
+    "choices": ["<ruby>言<rt>い</rt></ruby>った", "ような", "ように", "に", "<ruby>明日<rt>あした</rt></ruby>", "は", "<ruby>休<rt>やす</rt></ruby>み", "です"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "My hobby is taking photos.",
+    "sentence": "<ruby>私<rt>わたし</rt></ruby>の <ruby>趣味<rt>しゅみ</rt></ruby> ____ <ruby>写真<rt>しゃしん</rt></ruby>を ____ ____ ____ 。",
+    "answer": ["は", "<ruby>撮<rt>と</rt></ruby>る", "こと", "です"],
+    "choices": ["は", "が", "を", "<ruby>撮<rt>と</rt></ruby>る", "こと", "です"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "I can play the piano.",
+    "sentence": "ピアノを ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>弾<rt>ひ</rt></ruby>く", "こと", "が", "でき", "ます"],
+    "choices": ["<ruby>弾<rt>ひ</rt></ruby>く", "こと", "が", "を", "でき", "ます"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "Please don't forget to lock the door.",
+    "sentence": "<ruby>鍵<rt>かぎ</rt></ruby>を ____ ____ ____ ____ 。",
+    "answer": ["<ruby>掛<rt>か</rt></ruby>ける", "のを", "<ruby>忘<rt>わす</rt></ruby>れないで", "ください"],
+    "choices": ["<ruby>掛<rt>か</rt></ruby>ける", "のを", "ことが", "<ruby>忘<rt>わす</rt></ruby>れないで", "ください"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "Have you ever climbed Mt. Fuji?",
+    "sentence": "<ruby>富士山<rt>ふじさん</rt></ruby>に ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["<ruby>登<rt>のぼ</rt></ruby>った", "こと", "が", "あり", "ます", "か"],
+    "choices": ["<ruby>登<rt>のぼ</rt></ruby>った", "<ruby>登<rt>のぼ</rt></ruby>る", "こと", "が", "を", "あり", "ます", "か"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "Eating too much is not good for your health.",
+    "sentence": "<ruby>食<rt>た</rt></ruby>べすぎる ____ ____ ____ ____ 。",
+    "answer": ["こと", "は", "よくない", "です"],
+    "choices": ["こと", "は", "が", "を", "よくない", "です"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "My dream is to travel around the world.",
+    "sentence": "<ruby>夢<rt>ゆめ</rt></ruby>は <ruby>世界中<rt>せかいじゅう</rt></ruby>を ____ ____ ____ 。",
+    "answer": ["<ruby>旅行<rt>りょこう</rt></ruby>する", "こと", "です"],
+    "choices": ["<ruby>旅行<rt>りょこう</rt></ruby>する", "した", "こと", "です", "は"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "Do you enjoy swimming in the sea?",
+    "sentence": "<ruby>海<rt>うみ</rt></ruby>で ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["<ruby>泳<rt>およ</rt></ruby>ぐ", "こと", "は", "<ruby>楽<rt>たの</rt></ruby>しい", "です", "か"],
+    "choices": ["<ruby>泳<rt>およ</rt></ruby>ぐ", "こと", "は", "が", "<ruby>楽<rt>たの</rt></ruby>しい", "です", "か"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "I stopped smoking.",
+    "sentence": "タバコを ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>吸<rt>す</rt></ruby>う", "こと", "を", "<ruby>止<rt>や</rt></ruby>め", "ました"],
+    "choices": ["<ruby>吸<rt>す</rt></ruby>う", "こと", "を", "が", "<ruby>止<rt>や</rt></ruby>め", "ました"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "It is important to study every day.",
+    "sentence": "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby> ____ ____ ____ ____ ____ 。",
+    "answer": ["する", "こと", "は", "<ruby>大切<rt>たいせつ</rt></ruby>", "です"],
+    "choices": ["する", "こと", "は", "が", "<ruby>大切<rt>たいせつ</rt></ruby>", "です"]
+  },
+  {
+    "id": "koto_wa_ga_wo",
+    "grammar": "～ことは/が/を",
+    "translation": "I like listening to music.",
+    "sentence": "<ruby>音楽<rt>おんがく</rt></ruby>を ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>聞<rt>き</rt></ruby>く", "こと", "が", "<ruby>好<rt>す</rt></ruby>き", "です"],
+    "choices": ["<ruby>聞<rt>き</rt></ruby>く", "こと", "が", "を", "<ruby>好<rt>す</rt></ruby>き", "です"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "January 1st is called 'Ganjitsu'.",
+    "sentence": "<ruby>一月一日<rt>いちがつついたち</rt></ruby> ____ 「<ruby>元日<rt>がんじつ</rt></ruby>」 ____ ____ ____ 。",
+    "answer": ["を", "と", "いい", "ます"],
+    "choices": ["を", "は", "と", "いい", "ます", "に"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "Going to a shrine or temple on New Year's is called 'Hatsumode'.",
+    "sentence": "<ruby>正月<rt>しょうがつ</rt></ruby>に <ruby>神社<rt>じんじゃ</rt></ruby>や お<ruby>寺<rt>てら</rt></ruby>に <ruby>行<rt>い</rt></ruby>くこと ____ 「<ruby>初詣<rt>はつもうで</rt></ruby>」 ____ ____ 。",
+    "answer": ["を", "と", "いいます"],
+    "choices": ["を", "は", "と", "いいます", "の"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "In Japan, a long vacation in May is called 'Golden Week'.",
+    "sentence": "<ruby>日本<rt>にほん</rt></ruby>では <ruby>五月<rt>ごがつ</rt></ruby>の <ruby>長<rt>なが</rt></ruby>い <ruby>休<rt>やす</rt></ruby>み ____ 「ゴールデンウィーク」 ____ ____ 。",
+    "answer": ["を", "と", "いいます"],
+    "choices": ["を", "が", "と", "いいます", "は"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "What do you call this flower in Japanese?",
+    "sentence": "この <ruby>花<rt>はな</rt></ruby> ____ <ruby>日本語<rt>にほんご</rt></ruby>で ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "なん", "と", "いい", "ます", "か"],
+    "choices": ["を", "が", "なん", "と", "いい", "ます", "か"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "Giving money to children on New Year's is called 'Otoshidama'.",
+    "sentence": "<ruby>正月<rt>しょうがつ</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>に お<ruby>金<rt>かね</rt></ruby>を あげること ____ 「お<ruby>年玉<rt>としだま</rt></ruby>」 ____ ____ 。",
+    "answer": ["を", "と", "いいます"],
+    "choices": ["を", "は", "と", "いいます", "が"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "What do you call that person?",
+    "sentence": "あの <ruby>人<rt>ひと</rt></ruby> ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["を", "なんて", "と", "いい", "ます", "か"],
+    "choices": ["を", "なんて", "と", "いい", "ます", "か", "は"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "In Japan, a person who lives next door is called neighbour.",
+    "sentence": "<ruby>隣<rt>となり</rt></ruby>の <ruby>部屋<rt>へや</rt></ruby>に <ruby>住<rt>す</rt></ruby>んでいる <ruby>人<rt>ひと</rt></ruby> ____ 「<ruby>隣<rt>となり</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>」 ____ ____ 。",
+    "answer": ["を", "と", "いいます"],
+    "choices": ["を", "は", "と", "いいます", "の"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "They call this green tea.",
+    "sentence": "これ ____ 「<ruby>抹茶<rt>まっちゃ</rt></ruby>」 ____ ____ ____ 。",
+    "answer": ["を", "と", "いい", "ます"],
+    "choices": ["を", "は", "と", "いい", "ます", "が"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "A person who teaches Japanese is called a japanese instructor.",
+    "sentence": "<ruby>日本語<rt>にほんご</rt></ruby>を <ruby>教<rt>おし</rt></ruby>える <ruby>人<rt>ひと</rt></ruby> ____ 「<ruby>日本語教師<rt>にほんごきょうし</rt></ruby>」 ____ ____ 。",
+    "answer": ["を", "と", "いいます"],
+    "choices": ["を", "が", "と", "いいます", "に"]
+  },
+  {
+    "id": "wo_to_iu",
+    "grammar": "～を～と言う",
+    "translation": "The food you eat in the morning is called 'breakfast'.",
+    "sentence": "<ruby>朝<rt>あさ</rt></ruby> <ruby>食<rt>た</rt></ruby>べる <ruby>料理<rt>りょうり</rt></ruby> ____ 「<ruby>朝食<rt>ちょうしょく</rt></ruby>」 ____ ____ 。",
+    "answer": ["を", "と", "いいます"],
+    "choices": ["を", "は", "と", "いいます", "を"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "Do you know a novelist named Natsume Soseki?",
+    "sentence": "<ruby>夏目漱石<rt>なつめそうせき</rt></ruby> ____ ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["という", "<ruby>小説家<rt>しょうせつか</rt></ruby>", "を", "<ruby>知<rt>し</rt></ruby>って", "い", "ます", "か"],
+    "choices": ["という", "のを", "を", "<ruby>小説家<rt>しょうせつか</rt></ruby>", "<ruby>知<rt>し</rt></ruby>って", "い", "ます", "か"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "All Japanese people have heard the story called 'Urashima Taro'.",
+    "sentence": "<ruby>日本人<rt>にほんじん</rt></ruby>は みんな 「<ruby>浦島太郎<rt>うらしまたろう</rt></ruby>」 ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["という", "<ruby>話<rt>はなし</rt></ruby>", "を", "<ruby>聞<rt>き</rt></ruby>いた", "こと", "が", "ある"],
+    "choices": ["という", "のを", "を", "<ruby>話<rt>はなし</rt></ruby>", "<ruby>聞<rt>き</rt></ruby>いた", "こと", "が", "ある"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "I bought a magazine called 'Japanese Culture'.",
+    "sentence": "「<ruby>日本<rt>にほん</rt></ruby>の <ruby>文化<rt>ぶんか</rt></ruby>」 ____ ____ ____ ____ ____ 。",
+    "answer": ["という", "<ruby>雑誌<rt>ざっし</rt></ruby>", "を", "<ruby>買<rt>か</rt></ruby>い", "ました"],
+    "choices": ["という", "と", "を", "<ruby>雑誌<rt>ざっし</rt></ruby>", "<ruby>買<rt>か</rt></ruby>い", "ました"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "I have never been to a place called 'Shiretoko'.",
+    "sentence": "「<ruby>知床<rt>しれとこ</rt></ruby>」 ____ ____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["という", "<ruby>所<rt>ところ</rt></ruby>", "へ", "<ruby>行<rt>い</rt></ruby>った", "こと", "が", "あり", "ませ", "ん"],
+    "choices": ["という", "な", "へ", "<ruby>所<rt>ところ</rt></ruby>", "<ruby>行<rt>い</rt></ruby>った", "こと", "が", "あり", "ませ", "ん"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "A person named Tanaka came to visit.",
+    "sentence": "<ruby>田中<rt>たなか</rt></ruby>さん ____ ____ ____ ____ ____ 。",
+    "answer": ["という", "<ruby>人<rt>ひと</rt></ruby>", "が", "<ruby>来<rt>き</rt></ruby>", "ました"],
+    "choices": ["という", "は", "が", "<ruby>人<rt>ひと</rt></ruby>", "<ruby>来<rt>き</rt></ruby>", "ました"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "There is a drink called 'Matcha' in Japan.",
+    "sentence": "<ruby>日本<rt>にほん</rt></ruby>には 「<ruby>抹茶<rt>まっちゃ</rt></ruby>」 ____ ____ ____ ____ ____ 。",
+    "answer": ["という", "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>", "が", "あり", "ます"],
+    "choices": ["という", "と", "が", "あり", "ます", "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "Have you read the book called 'Kokoro'?",
+    "sentence": "「こころ」 ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["という", "<ruby>本<rt>ほん</rt></ruby>", "を", "<ruby>読<rt>よ</rt></ruby>み", "ました", "か"],
+    "choices": ["という", "のを", "を", "<ruby>本<rt>ほん</rt></ruby>", "<ruby>読<rt>よ</rt></ruby>み", "ました", "か"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "I ate a dish called 'Okonomiyaki' for the first time.",
+    "sentence": "<ruby>始<rt>はじ</rt></ruby>めて 「お<ruby>好<rt>この</rt></ruby>み<ruby>焼<rt>や</rt></ruby>き」 ____ ____ ____ ____ ____ 。",
+    "answer": ["という", "<ruby>料理<rt>りょうり</rt></ruby>", "を", "<ruby>食<rt>た</rt></ruby>べ", "ました"],
+    "choices": ["という", "の", "を", "<ruby>料理<rt>りょうり</rt></ruby>", "<ruby>食<rt>た</rt></ruby>べ", "ました"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "I like a singer named 'Aimer'.",
+    "sentence": "「Aimer」 ____ ____ ____ ____ ____ 。",
+    "answer": ["という", "<ruby>歌手<rt>かしゅ</rt></ruby>", "が", "<ruby>好<rt>す</rt></ruby>き", "です"],
+    "choices": ["という", "は", "が", "<ruby>歌手<rt>かしゅ</rt></ruby>", "<ruby>好<rt>す</rt></ruby>き", "です"]
+  },
+  {
+    "id": "to_iu_noun",
+    "grammar": "～と言う～",
+    "translation": "Do you know a school called 'ABC School'?",
+    "sentence": "「ABCスクール」 ____ ____ ____ ____ ____ ____ ?",
+    "answer": ["という", "<ruby>学校<rt>がっこう</rt></ruby>", "を", "<ruby>知<rt>し</rt></ruby>って", "います", "か"],
+    "choices": ["という", "な", "を", "<ruby>学校<rt>がっこう</rt></ruby>", "<ruby>知<rt>し</rt></ruby>って", "います", "か"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter when I call, he is not at home.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["いつ", "<ruby>電話<rt>でんわ</rt></ruby>", "して", "も", "<ruby>彼<rt>かれ</rt></ruby>", "は", "<ruby>不在<rt>ふざい</rt></ruby>", "です"],
+    "choices": ["いつ", "も", "して", "から", "は", "<ruby>彼<rt>かれ</rt></ruby>", "<ruby>不在<rt>ふざい</rt></ruby>", "<ruby>電話<rt>でんわ</rt></ruby>", "です"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter where I go, I carry my smartphone.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["どこ", "へ", "<ruby>行<rt>い</rt></ruby>って", "も", "スマホ", "を", "<ruby>持<rt>も</rt></ruby>って", "いきます"],
+    "choices": ["どこ", "も", "へ", "に", "<ruby>行<rt>い</rt></ruby>って", "を", "スマホ", "<ruby>持<rt>も</rt></ruby>って", "いきます"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter what I eat, it is delicious.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["何", "を", "<ruby>食<rt>た</rt></ruby>べ", "て", "も", "<ruby>美味<rt>おい</rt></ruby>しい", "です"],
+    "choices": ["何", "を", "て", "も", "でも", "<ruby>食<rt>た</rt></ruby>べ", "<ruby>美味<rt>おい</rt></ruby>しい", "です"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter who asks, I will not tell.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["だれ", "が", "<ruby>聞<rt>き</rt></ruby>いて", "も", "<ruby>教<rt>おし</rt></ruby>え", "ませ", "ん"],
+    "choices": ["だれ", "も", "が", "は", "<ruby>聞<rt>き</rt></ruby>いて", "<ruby>教<rt>おし</rt></ruby>え", "ませ", "ん"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter how much I study, I don't understand kanji.",
+    "sentence": "____ ____ ____ ____ <ruby>漢字<rt>かんじ</rt></ruby> ____ ____ ____ ____ 。",
+    "answer": ["いくら", "<ruby>勉強<rt>べんきょう</rt></ruby>", "して", "も", "が", "わかり", "ませ", "ん"],
+    "choices": ["いくら", "して", "も", "が", "を", "わかり", "ませ", "ん", "<ruby>勉強<rt>べんきょう</rt></ruby>"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter how expensive it is, I want to buy it.",
+    "sentence": "____ ____ ____ ____ ____ ____ 。",
+    "answer": ["いくら", "<ruby>高<rt>たか</rt></ruby>く", "て", "も", "<ruby>買<rt>か</rt></ruby>いたい", "です"],
+    "choices": ["いくら", "て", "も", "<ruby>高<rt>たか</rt></ruby>く", "<ruby>高<rt>たか</rt>い", "<ruby>買<rt>か</rt></ruby>いたい", "です"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter what kind of person says it, it's a lie.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["どんな", "<ruby>人<rt>ひと</rt></ruby>", "が", "<ruby>言<rt>い</rt></ruby>って", "も", "うそ", "です"],
+    "choices": ["どんな", "も", "が", "は", "うそ", "です", "<ruby>人<rt>ひと</rt></ruby>", "<ruby>言<rt>い</rt></ruby>って"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter how much I wait, the bus doesn't come.",
+    "sentence": "____ ____ ____ ____ バス ____ ____ ____ 。",
+    "answer": ["いくら", "<ruby>待<rt>ま</rt></ruby>って", "も", "が", "<ruby>来<rt>こ</rt></ruby>", "ませ", "ん"],
+    "choices": ["いくら", "も", "が", "は", "<ruby>待<rt>ま</rt></ruby>って", "<ruby>来<rt>こ</rt></ruby>", "ませ", "ん"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter which road I take, it's crowded.",
+    "sentence": "どの <ruby>道<rt>みち</rt></ruby> ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["を", "<ruby>通<rt>とお</rt></ruby>って", "も", "<ruby>混<rt>こ</rt></ruby>んで", "い", "ます"],
+    "choices": ["を", "も", "に", "<ruby>通<rt>とお</rt></ruby>って", "い", "ます", "<ruby>混<rt>こ</rt></ruby>んで"]
+  },
+  {
+    "id": "question_te_mo",
+    "grammar": "いつ/どこ/何/だれ/どんなに～ても",
+    "translation": "No matter how hard I try, I can't do it.",
+    "sentence": "____ ____ ____ ____ ____ ____ 。",
+    "answer": ["どんなに", "<ruby>頑張<rt>がんば</rt></ruby>って", "も", "でき", "ませ", "ん"],
+    "choices": ["どんなに", "て", "も", "がんばる", "<ruby>頑張<rt>がんば</rt></ruby>って", "でき", "ませ", "ん"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "This is not a pen, it is a pencil.",
+    "sentence": "これは ペン ____ ____ ____ ____ 。",
+    "answer": ["じゃなくて", "<ruby>鉛筆<rt>えんぴつ</rt></ruby>", "です"],
+    "choices": ["じゃなくて", "ではなくて", "じゃない", "<ruby>鉛筆<rt>えんぴつ</rt></ruby>", "です"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "It wasn't Mr. Tanaka, it was Mr. Sato who came.",
+    "sentence": "<ruby>田中<rt>たなか</rt></ruby>さん ____ <ruby>佐藤<rt>さとう</rt></ruby>さん ____ ____ ____ 。",
+    "answer": ["じゃなくて", "が", "<ruby>来<rt>き</rt></ruby>", "ました"],
+    "choices": ["じゃなくて", "は", "が", "のに", "<ruby>来<rt>き</rt></ruby>", "ました"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "I want to eat meat, not fish.",
+    "sentence": "<ruby>魚<rt>さかな</rt></ruby> ____ <ruby>肉<rt>にく</rt></ruby> ____ ____ ____ ____ 。",
+    "answer": ["じゃなくて", "が", "<ruby>食<rt>た</rt></ruby>べ", "たい", "です"],
+    "choices": ["じゃなくて", "を", "が", "<ruby>食<rt>た</rt></ruby>べ", "たい", "です"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "The exam is not today, it is tomorrow.",
+    "sentence": "<ruby>試験<rt>しけん</rt></ruby>は <ruby>今日<rt>きょう</rt></ruby> ____ ____ ____ ____ 。",
+    "answer": ["じゃなくて", "<ruby>明日<rt>あした</rt></ruby>", "です"],
+    "choices": ["じゃなくて", "なので", "<ruby>明日<rt>あした</rt></ruby>", "です", "から"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "It is not blue, it is a green bag.",
+    "sentence": "<ruby>青<rt>あお</rt></ruby> ____ <ruby>緑<rt>みどり</rt></ruby> ____ <ruby>鞄<rt>かばん</rt></ruby> ____ 。",
+    "answer": ["じゃなくて", "の", "です"],
+    "choices": ["じゃなくて", "の", "な", "です"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "I didn't buy it, I received it from a friend.",
+    "sentence": "<ruby>買<rt>か</rt></ruby>ったん ____ <ruby>友達<rt>ともだち</rt></ruby> ____ ____ ____ 。",
+    "answer": ["じゃなくて", "に", "もらい", "ました"],
+    "choices": ["じゃなくて", "を", "に", "もらい", "ました", "ので"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "My dream is not to be a doctor, it is to be a teacher.",
+    "sentence": "<ruby>夢<rt>ゆめ</rt></ruby>は <ruby>医者<rt>いしゃ</rt></ruby> ____ <ruby>先生<rt>せんせい</rt></ruby> ____ ____ ____ ____ 。",
+    "answer": ["じゃなくて", "に", "なる", "こと", "です"],
+    "choices": ["こと", "じゃなくて", "に", "な", "なる", "です"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "It's not a holiday today, it's a workday.",
+    "sentence": "<ruby>今日<rt>きょう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>み ____ <ruby>仕事<rt>しごと</rt></ruby> ____ ____ ____ 。",
+    "answer": ["じゃなくて", "の", "日", "です"],
+    "choices": ["じゃなくて", "の", "な", "日", "です"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "He is not Japanese, he is Chinese.",
+    "sentence": "<ruby>彼<rt>かれ</rt></ruby>は <ruby>日本人<rt>にほんじん</rt></ruby> ____ <ruby>中国人<rt>ちゅうごくじん</rt></ruby> ____ ____ 。",
+    "answer": ["じゃなくて", "です"],
+    "choices": ["じゃなくて", "です", "だ", "な"]
+  },
+  {
+    "id": "janakute",
+    "grammar": "じゃなくて、～",
+    "translation": "Go by bus, not by taxi.",
+    "sentence": "タクシー ____ バス ____ ____ ____ 。",
+    "answer": ["じゃなくて", "で", "<ruby>行<rt>い</rt></ruby>って", "ください"],
+    "choices": ["じゃなくて", "で", "に", "<ruby>行<rt>い</rt></ruby>って", "ください"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "I have to board a plane. That's why I am in a hurry.",
+    "sentence": "<ruby>飛行機<rt>ひこうき</rt></ruby>に <ruby>乗<rt>の</rt></ruby>らなければなりません。それで ____ ____ ____ ____ 。",
+    "answer": ["<ruby>急<rt>いそ</rt></ruby>いで", "い", "る", "のです"],
+    "choices": ["<ruby>急<rt>いそ</rt></ruby>いで", "い", "る", "のです", "ので", "の"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "He is going to study abroad in Japan. That's why he is studying Japanese.",
+    "sentence": "<ruby>彼<rt>かれ</rt></ruby>は <ruby>日本<rt>にほん</rt></ruby>に <ruby>留学<rt>りゅうがく</rt></ruby>します。それで <ruby>日本語<rt>にほんご</rt></ruby>を ____ ____ ____ ____ 。",
+    "answer": ["<ruby>勉強<rt>べんきょう</rt></ruby>", "して", "い", "るのです"],
+    "choices": ["<ruby>勉強<rt>べんきょう</rt></ruby>", "して", "い", "るのです", "るの", "だ"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "It is not that I hate it, it's just that I don't have money.",
+    "sentence": "<ruby>嫌<rt>きら</rt></ruby>い ____ ____ ____ ____ ____ 、お<ruby>金<rt>かね</rt></ruby>がないんです。",
+    "answer": ["な", "ので", "は", "ない", "のです"],
+    "choices": ["な", "ので", "は", "ない", "のです", "だ", "の"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "I have an exam tomorrow. That's why I'm studying until late.",
+    "sentence": "<ruby>明日<rt>あした</rt></ruby> <ruby>試験<rt>しけん</rt></ruby>が ある ____ 。それで <ruby>遅<rt>おそ</rt></ruby>くまで ____ ____ ____ 。",
+    "answer": ["のです", "<ruby>起<rt>お</rt></ruby>きて", "い", "るのです"],
+    "choices": ["のです", "<ruby>起<rt>お</rt></ruby>きて", "い", "るのです", "る", "の"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "The truth is that I lost my wallet.",
+    "sentence": "実は、<ruby>財布<rt>さいふ</rt></ruby>を ____ ____ ____ 。",
+    "answer": ["<ruby>無<rt>な</rt></ruby>くした", "の", "です"],
+    "choices": ["<ruby>無<rt>な</rt></ruby>くした", "の", "です", "だ", "な"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "It's not that I can't go, it's just that I'm busy.",
+    "sentence": "<ruby>行<rt>い</rt></ruby>けない ____ ____ ____ ____ ____ 、<ruby>忙<rt>いそが</rt></ruby>しいんです。",
+    "answer": ["ので", "は", "ない", "の", "です"],
+    "choices": ["ので", "は", "ない", "の", "です", "な", "だ"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "Why is the road so crowded? It's because there was an accident.",
+    "sentence": "どうして <ruby>道<rt>みち</rt></ruby>が <ruby>混<rt>こ</rt></ruby>んでいるんですか。<ruby>事故<rt>じこ</rt></ruby>が ____ ____ ____ ____ 。",
+    "answer": ["あった", "から", "な", "のです"],
+    "choices": ["あった", "から", "な", "のです", "だ", "の"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "It's not that I forgot, I just haven't done it yet.",
+    "sentence": "<ruby>忘<rt>わす</rt></ruby>れた ____ ____ ____ ____ ____ 、まだ やっていないんです。",
+    "answer": ["ので", "は", "ない", "の", "です"],
+    "choices": ["ので", "は", "ない", "の", "です", "な", "だ"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "Since I don't have time, I'm taking a taxi.",
+    "sentence": "<ruby>時間<rt>じかん</rt></ruby>が ない ____ 。だから タクシーに ____ ____ ____ 。",
+    "answer": ["のです", "<ruby>乗<rt>の</rt></ruby>って", "い", "るのです"],
+    "choices": ["のです", "<ruby>乗<rt>の</rt></ruby>って", "い", "るのです", "る", "だ"]
+  },
+  {
+    "id": "no_da",
+    "grammar": "のだ/のではない",
+    "translation": "Is it because you are cold that you are wearing a coat?",
+    "sentence": "<ruby>寒<rt>さむ</rt></ruby>い ____ コートを ____ ____ ____ ____ ?",
+    "answer": ["のですか", "<ruby>着<rt>き</rt></ruby>て", "い", "る", "のですか"],
+    "choices": ["のですか", "<ruby>着<rt>き</rt></ruby>て", "い", "る", "のですか", "だ"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "Many patrol cars are stopped over there.",
+    "sentence": "あそこに <ruby>パトカー<rt>ぱとかー</rt></ruby>が ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>何台<rt>なんだい</rt></ruby>", "も", "<ruby>止<rt>と</rt></ruby>まって", "い", "ます"],
+    "choices": ["<ruby>何台<rt>なんだい</rt></ruby>", "も", "<ruby>止<rt>と</rt></ruby>まって", "い", "ます", "を"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "Many people gathered in front of the station.",
+    "sentence": "<ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>に <ruby>人<rt>ひと</rt></ruby>が ____ ____ ____ ____ 。",
+    "answer": ["<ruby>何人<rt>なんにん</rt></ruby>", "も", "<ruby>集<rt>あつ</rt></ruby>まり", "ました"],
+    "choices": ["<ruby>何人<rt>なんにん</rt></ruby>", "も", "<ruby>集<rt>あつ</rt></ruby>まり", "ました", "は"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "I have read this book many times.",
+    "sentence": "この <ruby>本<rt>ほん</rt></ruby>を ____ ____ ____ ____ 。",
+    "answer": ["<ruby>何回<rt>なんかい</rt></ruby>", "も", "<ruby>読<rt>よ</rt></ruby>み", "ました"],
+    "choices": ["<ruby>何回<rt>なんかい</rt></ruby>", "も", "<ruby>読<rt>よ</rt></ruby>み", "ました", "が"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "I bought many books at the bookstore.",
+    "sentence": "<ruby>本屋<rt>ほんや</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を ____ ____ ____ ____ 。",
+    "answer": ["<ruby>何冊<rt>なんさつ</rt></ruby>", "も", "<ruby>買<rt>か</rt></ruby>い", "ました"],
+    "choices": ["<ruby>何冊<rt>なんさつ</rt></ruby>", "も", "<ruby>買<rt>か</rt></ruby>い", "ました", "に"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "There are many apples in the box.",
+    "sentence": "<ruby>箱<rt>はこ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に りんごが ____ ____ ____ ____ 。",
+    "answer": ["いくつ", "も", "入って", "います"],
+    "choices": ["いくつ", "も", "入って", "います", "を"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "I wrote many letters to my family.",
+    "sentence": "<ruby>家族<rt>かぞく</rt></ruby>に <ruby>手紙<rt>てがみ</rt></ruby>を ____ ____ ____ 。",
+    "answer": ["<ruby>何枚<rt>なんまい</rt></ruby>", "も", "<ruby>書<rt>か</rt></ruby>きました"],
+    "choices": ["<ruby>何枚<rt>なんまい</rt></ruby>", "も", "<ruby>書<rt>か</rt></ruby>きました", "が"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "I drank many cups of coffee today.",
+    "sentence": "<ruby>今日<rt>きょう</rt></ruby>は コーヒーを ____ ____ ____ 。",
+    "answer": ["<ruby>何杯<rt>なんばい</rt></ruby>", "も", "<ruby>飲<rt>の</rt></ruby>みました"],
+    "choices": ["<ruby>何杯<rt>なんばい</rt></ruby>", "も", "<ruby>飲<rt>の</rt></ruby>みました", "を"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "Many months have already passed.",
+    "sentence": " ____ ____ ____ ____ ____ 。",
+    "answer": ["もう", "<ruby>何ヶ月<rt>なんかげつ</rt></ruby>", "も", "<ruby>過<rt>す</rt></ruby>ぎ", "ました"],
+    "choices": ["<ruby>何ヶ月<rt>なんかげつ</rt></ruby>", "も", "もう", "<ruby>過<rt>す</rt></ruby>ぎ", "ました", "は"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "I took many photos at the park.",
+    "sentence": "  ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>公園<rt>こうえん</rt></ruby>で", "<ruby>写真<rt>しゃしん</rt></ruby>", "を", "<ruby>何枚<rt>なんまい</rt></ruby>", "も", "<ruby>撮<rt>と</rt></ruby>りました"],
+    "choices": ["<ruby>何枚<rt>なんまい</rt></ruby>", "も", "<ruby>撮<rt>と</rt></ruby>りました", "<ruby>写真<rt>しゃしん</rt></ruby>", "<ruby>公園<rt>こうえん</rt></ruby>で", "に"]
+  },
+  {
+    "id": "nan_nin_mo",
+    "grammar": "何人も/何回もetc",
+    "translation": "Many birds are flying in the sky.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>空<rt>そら</rt></ruby>に", "<ruby>鳥<rt>とり</rt></ruby>が", "<ruby>何羽<rt>なんわ</rt></ruby>", "も", "<ruby>飛<rt>と</rt></ruby>んで", "い", "ます"],
+    "choices": ["い", "も", "ます", "<ruby>鳥<rt>とり</rt></ruby>が", "<ruby>飛<rt>と</rt></ruby>んで", "<ruby>何羽<rt>なんわ</rt></ruby>", "を", "<ruby>空<rt>そら</rt></ruby>に"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I changed the curtains, the room became brighter.",
+    "sentence": "____ ____ ____ ____ 、____ ____ ____ ____ ____ 。",
+    "answer": ["カーテン", "を", "<ruby>変<rt>か</rt></ruby>えたら", "<ruby>部屋<rt>へや</rt></ruby>", "が", "<ruby>明<rt>あか</rt></ruby>るく", "なり", "ました"],
+    "choices": ["なり", "<ruby>変<rt>か</rt></ruby>えたら", "ければ", "ました", "が", "<ruby>明<rt>あか</rt></ruby>るく", "カーテン", "を"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I returned home, my cat was not there.",
+    "sentence": "____ ____ ____ ____ 、____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>家<rt>うち</rt></ruby>", "に", "<ruby>帰<rt>かえ</rt></ruby>ったら", "<ruby>猫<rt>ねこ</rt></ruby>", "が", "い", "ませ", "んでした"],
+    "choices": ["が", "い", "んでした", "に", "<ruby>猫<rt>ねこ</rt></ruby>", "れば", "ませ", "<ruby>帰<rt>かえ</rt></ruby>ったら", "<ruby>家<rt>うち</rt></ruby>"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I tried drinking 50-year-old sake, it was delicious.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 、____ ____ 。",
+    "answer": ["50<ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>の", "<ruby>古<rt>ふる</rt></ruby>い", "お<ruby>酒<rt>さけ</rt></ruby>", "を", "<ruby>飲<rt>の</rt></ruby>んで", "みたら", "<ruby>美味<rt>おい</rt></ruby>しかった", "です"],
+    "choices": ["です", "を", "<ruby>美味<rt>おい</rt></ruby>しかった", "50<ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>の", "れば", "みたら", "<ruby>古<rt>ふる</rt></ruby>い", "お<ruby>酒<rt>さけ</rt></ruby>", "<ruby>飲<rt>の</rt></ruby>んで"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I opened the window, a cool breeze came in.",
+    "sentence": "____ ____ ____ ____ 、____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>窓<rt>まど</rt></ruby>", "を", "<ruby>開<rt>あ</rt></ruby>けたら", "<ruby>涼<rt>すず</rt></ruby>しい", "<ruby>風<rt>かぜ</rt></ruby>", "が", "<ruby>入<rt>はい</rt></ruby>って", "き", "ました"],
+    "choices": ["き", "を", "が", "<ruby>窓<rt>まど</rt></ruby>", "<ruby>開<rt>あ</rt></ruby>けたら", "ました", "<ruby>入<rt>はい</rt></ruby>って", "れば", "<ruby>涼<rt>すず</rt></ruby>しい", "<ruby>風<rt>かぜ</rt></ruby>"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I went to the department store, it was closed.",
+    "sentence": "____ ____ ____ ____ 、____ ____ ____ ____ 。",
+    "answer": ["デパート", "へ", "<ruby>行<rt>い</rt></ruby>ったら", "<ruby>閉<rt>し</rt></ruby>まって", "い", "ました"],
+    "choices": ["い", "<ruby>行<rt>い</rt></ruby>ったら", "ました", "へ", "れば", "<ruby>閉<rt>し</rt></ruby>まって", "デパート"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I took the medicine, my headache went away.",
+    "sentence": "____ ____ ____ ____ 、____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>薬<rt>くすり</rt></ruby>", "を", "<ruby>飲<rt>の</rt></ruby>んだら", "<ruby>頭<rt>あたま</rt></ruby>の", "<ruby>痛<rt>いた</rt></ruby>み", "が", "きえ", "ました"],
+    "choices": ["が", "<ruby>痛<rt>いた</rt></ruby>み", "ました", "を", "れば", "きえ", "<ruby>飲<rt>の</rt></ruby>んだら", "<ruby>頭<rt>あたま</rt></ruby>の", "<ruby>薬<rt>くすり</rt></ruby>"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I called Mr. Tanaka, he was out.",
+    "sentence": "____ ____ ____ ____ ____ ____ 、____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>田中<rt>たなか</rt></ruby>さん", "に", "<ruby>電話<rt>でんわ</rt></ruby>", "を", "したら", "<ruby>外出<rt>がいしゅつ</rt></ruby>", "して", "い", "ました"],
+    "choices": ["い", "に", "を", "したら", "れば", "<ruby>田中<rt>たなか</rt></ruby>さん", "ました", "<ruby>電話<rt>でんわ</rt></ruby>", "<ruby>外出<rt>がいしゅつ</rt></ruby>", "して"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I looked outside, it was snowing.",
+    "sentence": "____ ____ ____ ____ 、____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>外<rt>そと</rt></ruby>を", "<ruby>見<rt>み</rt></ruby>たら", "が", "<ruby>雪<rt>ゆき</rt></ruby>が", "<ruby>降<rt>ふ</rt></ruby>って", "い", "ました"],
+    "choices": ["い", "ました", "<ruby>見<rt>み</rt></ruby>たら", "れば", "<ruby>外<rt>そと</rt></ruby>を", "<ruby>降<rt>ふ</rt></ruby>って", "が", "<ruby>雪<rt>ゆき</rt></ruby>が"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I asked the teacher, I understood immediately.",
+    "sentence": "____ ____ ____ 、____ ____ ____ 。",
+    "answer": ["<ruby>先生<rt>せんせい</rt></ruby>に", "<ruby>聞<rt>き</rt></ruby>いたら", "すぐ", "わかり", "ました"],
+    "choices": ["わかり", "ました", "<ruby>聞<rt>き</rt></ruby>いたら", "れば", "すぐ", "<ruby>先生<rt>せんせい</rt></ruby>に"]
+  },
+  {
+    "id": "tara_ta",
+    "grammar": "たら～た",
+    "translation": "When I arrived at the station, the train had already left.",
+    "sentence": "____ ____ ____ 、____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>駅<rt>えき</rt></ruby>に", "ついたら", "<ruby>電車<rt>でんしゃ</rt></ruby>は", "もう", "<ruby>出<rt>で</rt></ruby>て", "しまって", "い", "ました"],
+    "choices": ["もう", "いました", "れば", "ついたら", "<ruby>出<rt>で</rt></ruby>て", "<ruby>駅<rt>えき</rt></ruby>に", "<ruby>電車<rt>でんしゃ</rt></ruby>は", "しまって"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "3K refers to jobs that are dirty, demanding, and dangerous.",
+    "sentence": "____ ____ ____ ____ 、____ 、____ ____ ____ ____ ____ ____ 。",
+    "answer": ["3K", "という", "のは", "<ruby>汚<rt>きたな</rt></ruby>い", "きつい", "<ruby>危険<rt>きけん</rt></ruby>な", "<ruby>仕事<rt>しごと</rt></ruby>", "の", "こと", "だ"],
+    "choices": ["の", "だ", "は", "きつい", "という", "のは", "3K", "<ruby>汚<rt>きたな</rt></ruby>い", "<ruby>危険<rt>きけん</rt></ruby>な", "こと", "<ruby>仕事<rt>しごと</rt></ruby>"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "'No Smoking' means that you must not smoke cigarettes.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["「<ruby>禁煙<rt>きんえん</rt></ruby>」", "という", "のは", "<ruby>煙草<rt>たばこ</rt></ruby>を", "<ruby>吸<rt>す</rt></ruby>って", "は", "いけない", "という", "こと", "です"],
+    "choices": ["こと", "です", "な", "「<ruby>禁煙<rt>きんえん</rt></ruby>」", "は", "<ruby>吸<rt>す</rt></ruby>って", "という", "のは", "いけない", "<ruby>煙草<rt>たばこ</rt></ruby>を", "という"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "PC refers to a personal computer.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["PC", "という", "のは", "パソコン", "の", "こと", "だ"],
+    "choices": ["の", "だ", "に", "PC", "という", "のは", "パソコン", "こと"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "'Closed' means that the store is not open.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["「<ruby>定休日<rt>ていきゅうび</rt></ruby>」", "という", "のは", "<ruby>店<rt>みせ</rt></ruby>が", "<ruby>休<rt>やす</rt></ruby>み", "だ", "という", "こと", "です"],
+    "choices": ["だ", "です", "の", "「<ruby>定休日<rt>ていきゅうび</rt></ruby>」", "という", "のは", "こと", "という", "<ruby>店<rt>みせ</rt></ruby>が", "<ruby>休<rt>やす</rt></ruby>み"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "ATM refers to an automated teller machine.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["ATM", "という", "のは", "<ruby>現金自動預け払い機<rt>げんきんじどうあずけばらいき</rt></ruby>", "の", "こと", "だ"],
+    "choices": ["の", "だ", "は", "ATM", "という", "のは", "<ruby>現金自動預け払い機<rt>げんきんじどうあずけばらいき</rt></ruby>", "こと"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "'Free' means that you don't have to pay money.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["「<ruby>無料<rt>むりょう</rt></ruby>」", "という", "のは", "お<ruby>金<rt>かね</rt></ruby>を", "はらわなくて", "も", "いい", "という", "こと", "です"],
+    "choices": ["です", "に", "も", "という", "のは", "いい", "「<ruby>無料<rt>むりょう</rt></ruby>」", "はらわなくて", "こと", "お<ruby>金<rt>かね</rt></ruby>を", "という"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "The mark '○' refers to the correct answer.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["「○」", "という", "のは", "<ruby>正解<rt>せいかい</rt></ruby>", "の", "こと", "だ"],
+    "choices": ["な", "だ", "の", "「○」", "という", "のは", "こと", "<ruby>正解<rt>せいかい</rt></ruby>"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "'Entrance' refers to the place where you go in.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["「<ruby>入口<rt>いりぐち</rt></ruby>」", "という", "のは", "<ruby>入<rt>はい</rt></ruby>る", "<ruby>場所<rt>ばしょ</rt></ruby>", "の", "こと", "だ"],
+    "choices": ["な", "だ", "の", "「<ruby>入口<rt>いりぐち</rt></ruby>」", "という", "のは", "こと", "<ruby>入<rt>はい</rt></ruby>る", "<ruby>場所<rt>ばしょ</rt></ruby>"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "'One-way' means that you can only go in one direction.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["「<ruby>一方通行<rt>いっぽうつうこう</rt></ruby>」", "という", "のは", "<ruby>一つ<rt>ひとつ</rt></ruby>の", "<ruby>方向<rt>ほうこう</rt></ruby>にしか", "<ruby>行<rt>い</rt></ruby>けない", "という", "こと", "です"],
+    "choices": ["という", "こと", "です", "だ", "な", "「<ruby>一方通行<rt>いっぽうつうこう</rt></ruby>」", "のは", "<ruby>一つ<rt>ひとつ</rt></ruby>の", "<ruby>方向<rt>ほうこう</rt></ruby>にしか", "<ruby>行<rt>い</rt></ruby>けない"]
+  },
+  {
+    "id": "to_iu_no_wa",
+    "grammar": "～というのは～のことだ/ということだ",
+    "translation": "Sakura refers to cherry blossoms.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["「サクラ」", "という", "のは", "<ruby>桜<rt>さくら</rt></ruby>の", "<ruby>花<rt>はな</rt></ruby>", "のこと", "だ"],
+    "choices": ["に", "を", "だ", "「サクラ」", "という", "のは", "<ruby>桜<rt>さくら</rt></ruby>の", "<ruby>花<rt>はな</rt></ruby>", "のこと"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "I warned the students not to eat in the library.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>学生<rt>がくせい</rt></ruby>に", "<ruby>図書館<rt>としょかん</rt></ruby>で", "<ruby>物<rt>もの</rt></ruby>を", "<ruby>食<rt>た</rt></ruby>べない", "ように", "<ruby>注意<rt>ちゅうし</rt></ruby>", "しました"],
+    "choices": ["を", "した", "食べろ", "<ruby>学生<rt>がくせい</rt></ruby>に", "<ruby>図書館<rt>としょかん</rt></ruby>で", "<ruby>物<rt>もの</rt></ruby>を", "<ruby>食<rt>た</rt></ruby>べない", "ように", "<ruby>注意<rt>ちゅうし</rt></ruby>", "しました"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "I was told by the teacher to study more.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>私<rt>わたし</rt></ruby>は", "<ruby>先生<rt>せんせい</rt></ruby>に", "もっと", "<ruby>勉強<rt>べんきょう</rt></ruby>する", "ように", "<ruby>言<rt>い</rt></ruby>わ", "れ", "ました"],
+    "choices": ["を", "しろ", "ました", "<ruby>私<rt>わたし</rt></ruby>は", "<ruby>先生<rt>せんせい</rt></ruby>に", "もっと", "<ruby>勉強<rt>べんきょう</rt></ruby>する", "ように", "<ruby>言<rt>い</rt></ruby>わ", "れ"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "I asked Tanaka-san to bring a map.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>田中<rt>たなか</rt></ruby>さんに", "<ruby>地図<rt>ちず</rt></ruby>を", "<ruby>持<rt>も</rt></ruby>って<ruby>来<rt>く</rt></ruby>る", "ように", "<ruby>頼<rt>たの</rt></ruby>み", "ました"],
+    "choices": ["を", "持ってこい", "ました", "<ruby>田中<rt>たなか</rt></ruby>さんに", "<ruby>地図<rt>ちず</rt></ruby>を", "<ruby>持<rt>も</rt></ruby>って<ruby>来<rt>く</rt></ruby>る", "ように", "<ruby>頼<rt>たの</rt></ruby>み"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "Please tell Yamada-san to come to the office.",
+    "sentence": "____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>山田<rt>やまだ</rt></ruby>さんに", "<ruby>事務所<rt>じむしょ</rt></ruby>へ", "<ruby>来<rt>く</rt></ruby>る", "ように", "<ruby>伝<rt>つた</rt></ruby>えて", "ください"],
+    "choices": ["を", "来い", "ください", "<ruby>山田<rt>やまだ</rt></ruby>さんに", "<ruby>事務所<rt>じむしょ</rt></ruby>へ", "<ruby>来<rt>く</rt></ruby>る", "ように", "<ruby>伝<rt>つた</rt></ruby>えて"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "I was warned by my boss not to be late.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>部長<rt>ぶちょう</rt></ruby>に", "<ruby>遅刻<rt>ちこく</rt></ruby>", "しない", "ように", "<ruby>注意<rt>ちゅうし</rt></ruby>", "さ", "れ", "ました"],
+    "choices": ["するな", "れ", "ました", "<ruby>部長<rt>ぶちょう</rt></ruby>に", "<ruby>遅刻<rt>ちこく</rt></ruby>", "しない", "ように", "<ruby>注意<rt>ちゅうし</rt></ruby>", "さ"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "The doctor told me to take medicine and sleep.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>医者<rt>いしゃ</rt></ruby>に", "<ruby>薬<rt>くすり</rt></ruby>を", "<ruby>飲<rt>の</rt></ruby>んで", "<ruby>寝<rt>ね</rt></ruby>る", "ように", "<ruby>言<rt>い</rt></ruby>わ", "れ", "ました"],
+    "choices": ["を", "れ", "ました", "<ruby>医者<rt>いしゃ</rt></ruby>に", "<ruby>薬<rt>くすり</rt></ruby>を", "<ruby>飲<rt>の</rt></ruby>んで", "<ruby>寝<rt>ね</rt></ruby>る", "ように", "<ruby>言<rt>い</rt></ruby>わ"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "I told the children to go to bed early.",
+    "sentence": "____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>子供<rt>こども</rt></ruby>に", "<ruby>早<rt>はや</rt></ruby>く", "<ruby>寝<rt>ね</rt></ruby>る", "ように", "<ruby>言<rt>い</rt></ruby>い", "ました"],
+    "choices": ["を", "寝ろ", "ました", "<ruby>子供<rt>こども</rt></ruby>に", "<ruby>早<rt>はや</rt></ruby>く", "<ruby>寝<rt>ね</rt></ruby>る", "ように", "<ruby>言<rt>い</rt></ruby>い"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "I was asked by a friend not to tell anyone.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>友達<rt>ともだち</rt></ruby>に", "<ruby>誰<rt>だれ</rt></ruby>にも", "<ruby>言<rt>わ</rt></ruby>わない", "ように", "<ruby>頼<rt>たの</rt></ruby>ま", "れ", "ました"],
+    "choices": ["は", "言うな", "ました", "<ruby>友達<rt>ともだち</rt></ruby>に", "<ruby>誰<rt>だれ</rt></ruby>にも", "<ruby>言<rt>わ</rt></ruby>わない", "ように", "<ruby>頼<rt>たの</rt></ruby>ま", "れ"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "Please tell him not to forget his umbrella.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>彼<rt>かれ</rt></ruby>に", "<ruby>傘<rt>かさ</rt></ruby>を", "<ruby>忘<rt>わす</rt></ruby>れない", "ように", "<ruby>伝<rt>つた</rt></ruby>えて", "ください"],
+    "choices": ["<ruby>彼<rt>かれ</rt></ruby>に", "を", "忘れるな", "<ruby>傘<rt>かさ</rt></ruby>を", "<ruby>忘<rt>わす</rt></ruby>れない", "ように", "<ruby>伝<rt>つた</rt></ruby>えて", "ください"]
+  },
+  {
+    "id": "you_ni_iu",
+    "grammar": "ように言う/注意する/伝える/頼む",
+    "translation": "I was told by my mother to clean my room.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>母<rt>はは</rt></ruby>に", "<ruby>部屋<rt>へや</rt></ruby>を", "<ruby>掃除<rt>そうじ</rt></ruby>する", "ように", "<ruby>言<rt>い</rt></ruby>わ", "れ", "ました"],
+    "choices": ["に", "しろ", "を", "ました", "<ruby>母<rt>はは</rt></ruby>に", "<ruby>部屋<rt>へや</rt></ruby>を", "<ruby>掃除<rt>そうじ</rt></ruby>する", "ように", "<ruby>言<rt>い</rt></ruby>わ", "れ"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "This cake looks like a flower.",
+    "sentence": "____ ____ ____ ____ ____ 。",
+    "answer": ["このケーキ", "は", "<ruby>花<rt>はな</rt></ruby>", "みたい", "です"],
+    "choices": ["に", "な", "です", "このケーキ", "は", "の", "<ruby>花<rt>はな</rt></ruby>", "みたい"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "I want to speak Japanese fluently like Tanaka-san.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>田中<rt>たなか</rt></ruby>さん", "みたい", "に", "ペラペラ", "に", "<ruby>日本語<rt>にほんご</rt></ruby>を", "<ruby>話<rt>はな</rt></ruby>せる", "ように", "なり", "たい"],
+    "choices": ["の", "たい", "なり", "<ruby>田中<rt>たなか</rt></ruby>さん", "みたい", "に", "な", "ペラペラ", "に", "<ruby>日本語<rt>にほんご</rt></ruby>を", "<ruby>話<rt>はな</rt></ruby>せる", "ように"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "I want a house like that one.",
+    "sentence": "____ ____ ____ ____ ____ ____ 。",
+    "answer": ["あんな", "みたいな", "<ruby>家<rt>いえ</rt></ruby>", "が", "<ruby>欲<rt>ほ</rt></ruby>しい", "です"],
+    "choices": ["みたいだ", "です", "あんな", "みたいに", "みたいな", "<ruby>家<rt>いえ</rt></ruby>", "が", "<ruby>欲<rt>ほ</rt></ruby>しい"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "It seems that she already left.",
+    "sentence": "____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>彼女<rt>かのじょ</rt></ruby>は", "もう", "<ruby>帰<rt>かえ</rt></ruby>った", "みたい", "です"],
+    "choices": ["<ruby>帰<rt>かえ</rt></ruby>る", "に", "です", "<ruby>彼女<rt>かのじょ</rt></ruby>は", "もう", "<ruby>帰<rt>かえ</rt></ruby>った", "な", "みたい"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "He is swimming like a fish.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>彼<rt>かれ</rt></ruby>は", "<ruby>魚<rt>さかな</rt></ruby>", "みたい", "に", "<ruby>泳<rt>およ</rt></ruby>いで", "い", "ます"],
+    "choices": ["の", "な", "ます", "<ruby>彼<rt>かれ</rt></ruby>は", "<ruby>魚<rt>さかな</rt></ruby>", "みたい", "に", "<ruby>泳<rt>およ</rt></ruby>いで", "い"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "I've never seen such a beautiful sea like this before.",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["こんな", "きれいな", "<ruby>海<rt>うみ</rt></ruby>", "みたい", "な", "<ruby>所<rt>ところ</rt></ruby>", "は", "<ruby>初<rt>はじ</rt></ruby>めて", "です"],
+    "choices": ["に", "ように", "です", "こんな", "きれいな", "<ruby>海<rt>うみ</rt></ruby>", "みたい", "な", "<ruby>所<rt>ところ</rt></ruby>", "は", "<ruby>初<rt>はじ</rt></ruby>めて"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "It seems like a quiet place.",
+    "sentence": "____ ____ ____ ____ ____ 。",
+    "answer": ["あそこは", "<ruby>静<rt>しず</rt></ruby>かな", "ところ", "みたい", "です"],
+    "choices": ["に", "な", "の", "あそこは", "<ruby>静<rt>しず</rt></ruby>かな", "ところ", "みたい", "です"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "Please don't do something like that.",
+    "sentence": "____ ____ ____ ____ ____ ____ 。",
+    "answer": ["そんな", "みたいな", "こと", "は", "しないで", "ください"],
+    "choices": ["みたいに", "みたい", "ください", "そんな", "みたいな", "こと", "は", "しないで"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "I can hear a voice that sounds like a baby.",
+    "sentence": "____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>赤<rt>あか</rt></ruby>ちゃん", "みたい", "な", "<ruby>声<rt>こえ</rt></ruby>", "が", "<ruby>聞<rt>き</rt></ruby>こえ", "ます"],
+    "choices": ["に", "の", "ます", "<ruby>赤<rt>あか</rt></ruby>ちゃん", "みたい", "な", "<ruby>声<rt>こえ</rt></ruby>", "が", "<ruby>聞<rt>き</rt></ruby>こえ"]
+  },
+  {
+    "id": "mitai",
+    "grammar": "～みたいに/みたいな/みたいだ",
+    "translation": "It's like a dream to be able to meet you.",
+    "sentence": "____ ____ ____ ____ ____ ____ 。",
+    "answer": ["あなたに", "<ruby>会<rt>あ</rt></ruby>えるなんて、", "<ruby>夢<rt>ゆめ</rt></ruby>", "みたい", "です"],
+    "choices": ["の", "に", "な", "あなたに", "<ruby>会<rt>あ</rt></ruby>えるなんて、", "<ruby>夢<rt>ゆめ</rt></ruby>", "みたい", "です"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Could you please let me explain the reason?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>理由<rt>りゆう</rt></ruby>を", "<ruby>説明<rt>せつめい</rt></ruby>", "さ", "せて", "いただけ", "ませ", "ん", "か"],
+    "choices": ["に", "させて", "か", "<ruby>理由<rt>りゆう</rt></ruby>を", "<ruby>説明<rt>せつめい</rt></ruby>", "さ", "せて", "いただけ", "ませ", "ん"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Can you let me use this computer?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["このパソコン", "を", "<ruby>使<rt>つか</rt></ruby>わ", "せて", "もらえ", "ませ", "ん", "か"],
+    "choices": ["に", "させて", "か", "このパソコン", "を", "<ruby>使<rt>つか</rt></ruby>わ", "せて", "もらえ", "ませ", "ん"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Could you please let me introduce myself?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>自己紹介<rt>じこしょうかい</rt></ruby>を", "さ", "せて", "いただけ", "ませ", "ん", "か"],
+    "choices": ["に", "させて", "か", "<ruby>自己紹介<rt>じこしょうかい</rt></ruby>を", "さ", "せて", "いただけ", "ませ", "ん"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Could you please let me go home early?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>早<rt>はや</rt></ruby>く", "<ruby>帰<rt>かえ</rt></ruby>ら", "せて", "いただけ", "ませ", "ん", "か"],
+    "choices": ["させて", "に", "か", "<ruby>早<rt>はや</rt></ruby>く", "<ruby>帰<rt>かえ</rt></ruby>ら", "せて", "いただけ", "ませ", "ん"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Could you please let me see that photo?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["その", "<ruby>写真<rt>しゃしん</rt></ruby>を", "<ruby>見<rt>み</rt></ruby>させて", "いただけ", "ませ", "ん", "か"],
+    "choices": ["に", "<ruby>見<rt>み</rt></ruby>せて", "か", "その", "<ruby>写真<rt>しゃしん</rt></ruby>を", "<ruby>見<rt>み</rt></ruby>させて", "いただけ", "ませ", "ん"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Could you please let me think for a moment?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["ちょっと", "<ruby>考<rt>かんが</rt></ruby>え", "させて", "いただけ", "ませ", "ん", "か"],
+    "choices": ["せて", "に", "か", "ちょっと", "<ruby>考<rt>かんが</rt></ruby>え", "させて", "いただけ", "ませ", "ん"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Can you let me take a photo here?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["ここで", "<ruby>写真<rt>しゃしん</rt></ruby>を", "<ruby>撮<rt>と</rt></ruby>ら", "せて", "もらえ", "ませ", "ん", "か"],
+    "choices": ["に", "させて", "か", "ここで", "<ruby>写真<rt>しゃしん</rt></ruby>を", "<ruby>撮<rt>と</rt></ruby>ら", "せて", "もらえ", "ませ", "ん"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Could you please let me carry your luggage?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["<ruby>荷物<rt>にもつ</rt></ruby>", "を", "<ruby>持<rt>も</rt></ruby>た", "せて", "いただけ", "ませ", "ん", "か"],
+    "choices": ["に", "させて", "か", "<ruby>荷物<rt>にもつ</rt></ruby>", "を", "<ruby>持<rt>も</rt></ruby>た", "せて", "いただけ", "ませ", "ん"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Can you let me try eating this?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["これ", "を", "<ruby>食<rt>た</rt></ruby>べさせて", "もらえ", "ませ", "ん", "か"],
+    "choices": ["に", "いただけ", "か", "これ", "を", "<ruby>食<rt>た</rt></ruby>べさせて", "もらえ", "ませ", "ん"]
+  },
+  {
+    "id": "shieki_moraemasenka",
+    "grammar": "使役形ていただけませんか/もらえませんか",
+    "translation": "Could you please let me sit here?",
+    "sentence": "____ ____ ____ ____ ____ ____ ____ ____ 。",
+    "answer": ["ここに", "<ruby>座<rt>すわ</rt></ruby>ら", "せて", "いただけ", "ませ", "ん", "か"],
+    "choices": ["させて", "に", "か", "ここに", "<ruby>座<rt>すわ</rt></ruby>ら", "せて", "いただけ", "ませ", "ん"]
+  }
+    ],
+    "intermediate": [
+
+    ],
+    "advanced": [
+
+    ]
   },
 
   "N2": {
