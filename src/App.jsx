@@ -6,6 +6,8 @@ import "./game.css";
 import KanaSelect from "./kanaSelect.jsx";
 import KanaGame from "./kanaGame.jsx"
 import KanjiGame from "./kanjiGame.jsx";
+import KanjiLearn from "./kanjiLearn.jsx";
+import KanjiType from "./kanjiType.jsx";
 import VocabGame from "./vocabGame.jsx";
 import ConjugationSelect from "./conjugationSelect.jsx";
 import ConjugationGame from "./conjugationGame.jsx";
@@ -13,7 +15,6 @@ import ConjugationWheel from "./conjugationWheel.jsx";
 import GrammarSelect from "./grammarSelect.jsx";
 import GrammarFillBlanks from "./grammarFillBlanks.jsx";
 import GrammarOrder from "./grammarOrder.jsx";
-import KanjiLearn from "./kanjiLearn.jsx";
 import VocabLearn from "./vocabLearn.jsx"
 import NumberGame from "./numberGame.jsx";
 
@@ -23,6 +24,7 @@ export default function App() {
   const [steps, setSteps] = useState([]);
   const [title, setTitle] = useState("Choose sublevel");
   const [gameMode, setGameMode] = useState(null);
+  const [kanjiMode, setKanjiMode] = useState("multiple");
   const [kanaPool, setKanaPool] = useState([]);
   const [conjugationPool, setConjugationPool] = useState([]);
   const [grammarConfig, setGrammarConfig] = useState({level: null, difficulty: null, grammar: null,});
@@ -64,7 +66,15 @@ export default function App() {
     localStorage.setItem("answerType", answerType);
 
     localStorage.setItem("step", step);
-    setView({ screen: "game" });
+    if (gameMode === "kanji") {
+      setView({
+        screen: kanjiMode === "multiple"
+          ? "kanjiGame"
+          : "kanjiType"
+      });
+    } else {
+      setView({ screen: "game" });
+    }
   };
 
   return (
@@ -225,22 +235,22 @@ export default function App() {
                 </label>
                 </div>
 
-                {/* <label><strong>Game Mode:</strong></label>
+                <label><strong>Game Mode:</strong></label>
                 <div className="config-radio">
                   <label>
-                    <input type="radio" name="gameMode" value="kanjiMultiple"checked={gameMode === "multiple"}
-                      onChange={(e) => setGameMode(e.target.value)}
+                    <input type="radio" name="kanjiMode" value="multiple"　checked={kanjiMode === "multiple"}
+                      onChange={(e) => setKanjiMode(e.target.value)}
                     />
                     Multiple Choice
                   </label>
 
                   <label>
-                    <input type="radio" name="gameMode" value="kanjiTyping" checked={gameMode === "typing"}
-                      onChange={(e) => setGameMode(e.target.value)}
+                    <input type="radio" name="kanjiMode" value="typing" checked={kanjiMode === "typing"}
+                      onChange={(e) => setKanjiMode(e.target.value)}
                     />
                     Typing
                   </label>
-                </div> */}
+                </div>
 
               {!isValidConfig && (
                 <p className="error-msg">Question and Answer types cannot be the same!</p>
@@ -392,10 +402,6 @@ export default function App() {
                 setView({ screen: "kanjiLearn" });
               } else if (gameMode === "vocabLearn"){
                 setView({ screen: "vocabLearn" });
-              } else if (gameMode === "kanjiMultiple"){
-                setView({ screen: "kanjiMultipleChoice" });
-              } else if (gameMode === "kanjiTyping"){
-                setView({ screen: "kanjiType" });
               }}}>
               Back
             </button>
@@ -412,7 +418,7 @@ export default function App() {
           />
         )}
 
-        {view.screen === "game" && gameMode === "kanji" && (
+        {view.screen === "kanjiGame" && (
           <KanjiGame
             key="kanji"
             setView={setView}
@@ -420,6 +426,13 @@ export default function App() {
             onExit={() => setView({ screen: "home" })}
           />)}
 
+        {view.screen === "kanjiType" && (
+          <KanjiType
+            setView={setView}
+            BASE_PATH={BASE_PATH}
+            onExit={() => setView({ screen: "home" })}
+          />
+        )}
 
         {view.screen === "game" && gameMode === "kanjiLearn" && (
           <KanjiLearn

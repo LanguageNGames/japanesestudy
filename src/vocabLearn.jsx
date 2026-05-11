@@ -77,11 +77,18 @@ export default function VocabLearn({ setView, BASE_PATH }) {
   /* ---------------- HELPERS ---------------- */
   const stripRuby = (html) => {
     return html
-      .replace(/<rt>.*?<\/rt>/g, "")
-      .replace(/<\/?ruby>/g, "")
-      .replace(/<[^>]+>/g, "")
-      .replace(/\(.*?\)/g, "")
-      .trim();
+    // Replace ruby blocks with only their reading
+    .replace(/<ruby>(.*?)<rt>(.*?)<\/rt><\/ruby>/g, "$2")
+
+    // Remove any remaining HTML
+    .replace(/<[^>]+>/g, "")
+
+    // Remove romaji in parentheses
+    .replace(/\([^)]*\)/g, "")
+
+    // Clean spaces
+    .replace(/\s+/g, " ")
+    .trim();
   };
 
   function speak(text) {
