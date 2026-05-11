@@ -225,7 +225,7 @@ export default function App() {
                 </label>
                 </div>
 
-                <label><strong>Game Mode:</strong></label>
+                {/* <label><strong>Game Mode:</strong></label>
                 <div className="config-radio">
                   <label>
                     <input type="radio" name="gameMode" value="kanjiMultiple"checked={gameMode === "multiple"}
@@ -240,7 +240,7 @@ export default function App() {
                     />
                     Typing
                   </label>
-                </div>
+                </div> */}
 
               {!isValidConfig && (
                 <p className="error-msg">Question and Answer types cannot be the same!</p>
