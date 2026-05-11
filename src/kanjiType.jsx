@@ -21,6 +21,7 @@ export default function KanjiType({ setView, BASE_PATH }) {
 
   const jlptLevel = localStorage.getItem("JLPT");
   const step = Number(localStorage.getItem("step"));
+  const inputRef = useRef(null);
 
   const correctAudio = useRef(null);
 
@@ -64,6 +65,12 @@ export default function KanjiType({ setView, BASE_PATH }) {
 
     loadKanji();
   }, [BASE_PATH, jlptLevel, step]);
+
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [currentKanji]);
 
   /* =========================
      AUDIO
@@ -169,12 +176,32 @@ export default function KanjiType({ setView, BASE_PATH }) {
     }
 
     if (answerType === "reading") {
+      const normalizeReading = (str) =>
+        kataToHira(str.toLowerCase())
+          .replace(/\./g, "") // remove dots
+          .trim();
+
+      const normalized = normalizeReading(normalizedInput);
+
       const readings = [
         ...currentKanji.kunyomi,
         ...currentKanji.onyomi,
-      ].map((r) => kataToHira(r.toLowerCase()));
+      ].flatMap((r) => {
+        const clean = normalizeReading(r);
 
-      return readings.includes(normalizedInput);
+        // allow both versions:
+        // なな.つ -> ななつ AND なな
+        if (r.includes(".")) {
+          return [
+            clean,
+            normalizeReading(r.split(".")[0]),
+          ];
+        }
+
+        return [clean];
+      });
+
+      return readings.includes(normalized);
     }
 
     return false;
@@ -430,13 +457,12 @@ export default function KanjiType({ setView, BASE_PATH }) {
         </div>
         <div className="typing-input">
         <input
-            type="text"
-            value={input}
-            onChange={(e) =>
-              setInput(e.target.value)
-            }
-            disabled={showAnswer}
-            autoFocus
+          ref={inputRef}
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          disabled={showAnswer}
+          autoFocus
           />
         </div>
         <button
