@@ -361,7 +361,7 @@ export default function KanjiType({ setView, BASE_PATH }) {
         </div>
 
         {/* QUESTION */}
-        <div className="top-bar">
+        <div className="top-bar-typing">
           <h2
             style={{
               fontSize:
