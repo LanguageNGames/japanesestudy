@@ -56,7 +56,6 @@
   width: 100%;
   display: grid;
   grid-template-columns: 7% 86% 7%;
-  grid-template-rows: 1fr 1fr;
   justify-content: center;
   align-items: center;
 }

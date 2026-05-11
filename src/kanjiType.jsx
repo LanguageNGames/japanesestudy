@@ -103,7 +103,7 @@ export default function KanjiType({ setView, BASE_PATH }) {
     if (type === "kanji") return kanjiItem.kanji || "";
 
     if (type === "reading") {
-      return `${kanjiItem.kunyomi.join("・")}\n${kanjiItem.onyomi.join("・")}`;
+      return `${kanjiItem.kunyomi.join("・")}・${kanjiItem.onyomi.join("・")}`;
     }
 
     if (type === "translation") {
@@ -390,20 +390,12 @@ export default function KanjiType({ setView, BASE_PATH }) {
                 ? "Correct!"
                 : "Incorrect"}
             </h3>
-
-            {!isCorrect && (
-                <div>
-                <h3>
-                    Correct answer:
-                </h3>
-                <h3>
+            <h3>
                     {getField(
                     currentKanji,
                     answerType
                     )}
                 </h3>
-                </div>
-            )}
             </div>
         )}
 
