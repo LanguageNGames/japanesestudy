@@ -33,6 +33,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
 
   const correctAudio = useRef(null);
   const speechTimeout = useRef(null);
+  const winWidth = window.innerWidth;
 
   const resetSession = () => {
     setMode(MODES.INTRO);
@@ -305,8 +306,8 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
           </button>
         </div>
         <div className="kunyomi">
-          <h2>JP reading: </h2>
-          {currentIntroKanji.kunyomi?.length > 0 && (
+          <h2>Kun: </h2>
+          {" " + currentIntroKanji.kunyomi?.length > 0 && (
           currentIntroKanji.kunyomi.map(i => {
             return (
               <>
@@ -318,7 +319,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
         </div>
         
         <div className="onyomi">
-          <h2>CH reading: </h2>
+          <h2>On:</h2>
           {currentIntroKanji.onyomi?.length > 0 && (
             currentIntroKanji.onyomi.map(i => {
             return (
@@ -331,7 +332,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
         </div>
 
         <h2 className="translation">
-          English: {currentIntroKanji.translation.join(", ")}
+          Eng: {currentIntroKanji.translation.join(", ")}
         </h2>
         <h3 className="translation">
           Uses: {currentIntroKanji.vocabulary.join(", ")}
@@ -351,7 +352,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
         </div>
         <div className="grid">
           <div className="top-bar">
-            <h2 style={{ fontSize: "5rem" }}>{currentKanji.kanji}</h2>
+            <h2 style={{ fontSize: winWidth > 800 ? "6rem" : "4rem" }}>{currentKanji.kanji}</h2>
             <button className="next-btn" onClick={() => nextQuestion()}>→</button>
             <button className="skip-btn" onClick={skipKanji} title="remove from review">−</button>
           </div>

@@ -103,7 +103,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  margin-bottom: 2rem;
 }
 
 .grammar-answers{
@@ -295,7 +294,6 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(240px, 1fr));
     gap: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 .conjugation-group {
@@ -380,7 +378,6 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 2rem;
 }
 
 .conjugation-wheel h1 {
@@ -958,7 +955,6 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 .correct {

@@ -1942,7 +1942,7 @@
       },
       {
         "kanji": "時",
-        "kunyomi": ["とき", "じ"],
+        "kunyomi": ["とき"],
         "onyomi": ["ジ"],
         "pitch_accent": { "とき": "HL" },
         "example_sentences": {

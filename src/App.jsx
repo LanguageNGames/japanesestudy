@@ -225,6 +225,23 @@ export default function App() {
                 </label>
                 </div>
 
+                <label><strong>Game Mode:</strong></label>
+                <div className="config-radio">
+                  <label>
+                    <input type="radio" name="gameMode" value="kanjiMultiple"checked={gameMode === "multiple"}
+                      onChange={(e) => setGameMode(e.target.value)}
+                    />
+                    Multiple Choice
+                  </label>
+
+                  <label>
+                    <input type="radio" name="gameMode" value="kanjiTyping" checked={gameMode === "typing"}
+                      onChange={(e) => setGameMode(e.target.value)}
+                    />
+                    Typing
+                  </label>
+                </div>
+
               {!isValidConfig && (
                 <p className="error-msg">Question and Answer types cannot be the same!</p>
               )}
@@ -375,6 +392,10 @@ export default function App() {
                 setView({ screen: "kanjiLearn" });
               } else if (gameMode === "vocabLearn"){
                 setView({ screen: "vocabLearn" });
+              } else if (gameMode === "kanjiMultiple"){
+                setView({ screen: "kanjiMultipleChoice" });
+              } else if (gameMode === "kanjiTyping"){
+                setView({ screen: "kanjiType" });
               }}}>
               Back
             </button>

@@ -274,7 +274,7 @@ export default function NumberGame({ setView }) {
           Hard (1–100,000,000)
         </div>
 
-        <button className="back-btn" onClick={() => setView({ screen: "home" })}>
+        <button className="btn" onClick={() => setView({ screen: "home" })}>
           Back
         </button>
       </div>

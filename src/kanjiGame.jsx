@@ -23,6 +23,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
   const jlptLevel = localStorage.getItem("JLPT");
   const step = Number(localStorage.getItem("step"));
   const correctAudio = useRef(null);
+  const winWidth = window.innerWidth;
 
 
   /* EFFECTS */
@@ -141,10 +142,14 @@ export default function KanjiGame({ setView, BASE_PATH }) {
     if (isCorrect && correctAudio.current) {
       setTimeout(() => {
         if(currentKanji.kunyomi){
-          speak(currentKanji.kunyomi[0]);
+          currentKanji.kunyomi.map((e) => {
+            speak(e);
+          })
         }
         if(currentKanji.onyomi){
-          speak(currentKanji.onyomi[0])
+          currentKanji.onyomi.map((e) => {
+            speak(e);
+          })
         }
       }, 500);
       correctAudio.current.pause();
@@ -252,7 +257,8 @@ export default function KanjiGame({ setView, BASE_PATH }) {
         {/* Question Area */}
         <div className="top-bar">
           <h2 style={{
-            fontSize: questionType === "kanji" ? "6rem" : "4rem" 
+            fontSize: winWidth > 800 ? questionType === "kanji" ? "6rem" : "4rem" 
+             : questionType === "kanji" ? "4rem" : "3rem" 
             }}>
             {questionDisplay || "Loading..."}
           </h2>
