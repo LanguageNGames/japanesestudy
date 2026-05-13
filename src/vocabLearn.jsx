@@ -360,7 +360,7 @@ export default function VocabLearn({ setView, BASE_PATH }) {
         </div>
 
         <h2 className="translation">
-          {currentIntroVocab.english}
+          Meaning: {currentIntroVocab.english}
         </h2>
 
         {currentIntroVocab.example && (

@@ -5,7 +5,7 @@ export default function KanaGame({ mode, kanaPool, onExit, BASE_PATH }) {
     const [choices, setChoices] = useState([]);
     const [input, setInput] = useState("");
     const [score, setScore] = useState(0);
-    const [lives, setLives] = useState(3);
+    const [lives, setLives] = useState(4);
     const [feedback, setFeedback] = useState("");
     const [selectedChoice, setSelectedChoice] = useState(null);
     const [isLocked, setIsLocked] = useState(false);
@@ -13,6 +13,7 @@ export default function KanaGame({ mode, kanaPool, onExit, BASE_PATH }) {
     const nextButtonRef = useRef(null);    
     const inputRef = useRef(null);
     const correctSound = useRef(new Audio(`${BASE_PATH}Audio/correct.wav`));
+    const [mistakes, setMistakes] = useState([]);
     
   // 🔁 Get random kana (no repeats)
   const getRandomKana = () => {
@@ -60,19 +61,29 @@ export default function KanaGame({ mode, kanaPool, onExit, BASE_PATH }) {
   }, [kanaPool]);
 
   // 🧠 Handle answer result
-  const handleResult = (isCorrect) => {
-  if (isCorrect) {
+  const handleResult = (isCorrect, wrongAnswer = "") => {
+    if (isCorrect) {
       setScore(prev => prev + 1);
       setFeedback("✅ Correct!");
       correctSound.current.currentTime = 0;
       correctSound.current.play();
-  } else {
+    } else {
       setLives(prev => prev - 1);
       setFeedback(`❌ Correct: ${currentKana.romaji}`);
-  }
 
-  setIsLocked(true);
-  setWaitingNext(true);
+      // Store mistake
+      setMistakes(prev => [
+        ...prev,
+        {
+          kana: currentKana.kana,
+          wrong: wrongAnswer,
+          correct: currentKana.romaji,
+        },
+      ]);
+    }
+
+    setIsLocked(true);
+    setWaitingNext(true);
   };
 
   const handleNext = () => {
@@ -150,37 +161,76 @@ export default function KanaGame({ mode, kanaPool, onExit, BASE_PATH }) {
     if (isLocked) return;
 
     setSelectedChoice(choice.romaji);
-    handleResult(choice.romaji === currentKana.romaji);
+
+    handleResult(
+      choice.romaji === currentKana.romaji,
+      choice.romaji
+    );
   };
 
   // ⌨️ Typing submit
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // If already answered → go next
     if (waitingNext) {
-        handleNext();
-        return;
+      handleNext();
+      return;
     }
 
     if (isLocked) return;
 
-    const isCorrect =
-        input.trim().toLowerCase() === currentKana.romaji;
+    const answer = input.trim().toLowerCase();
 
-    handleResult(isCorrect);
+    const isCorrect =
+      answer === currentKana.romaji;
+
+    handleResult(isCorrect, answer);
   };
 
   // 💀 Game Over
-  if (lives <= 0) {
-    return (
-      <div className="game-container">
-        <h1>Game Over</h1>
-        <h2>Score: {score}</h2>
-        <button className="btn" onClick={onExit}>Back</button>
-      </div>
-    );
-  }
+if (lives <= 0) {
+  return (
+    <div className="game-container">
+      <h1>Game Over</h1>
+
+      <h2>Score: {score}</h2>
+
+      <h3>Mistakes</h3>
+
+      {mistakes.length === 0 ? (
+        <p>No mistakes 🎉</p>
+      ) : (
+        <div className="answers">
+          {mistakes.map((m, index) => (
+            <div
+              key={index}
+              className="mistake-item"
+            >
+              <p>
+                <strong>{m.kana}</strong>
+              </p>
+
+              <p>
+                Your answer: {m.wrong}
+              </p>
+
+              <p>
+                Correct answer: {m.correct}
+              </p>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <button
+        className="btn"
+        onClick={onExit}
+      >
+        Back
+      </button>
+    </div>
+  );
+}
 
   if (!currentKana) return <div>Loading...</div>;
 

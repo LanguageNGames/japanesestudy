@@ -295,7 +295,7 @@ ruby rt {
     display: flex;
     flex-direction: column;
     width: 60%;
-    align-items:center;
+    align-items:left;
     padding: 3rem;
 }
 

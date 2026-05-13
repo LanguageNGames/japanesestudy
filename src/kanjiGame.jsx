@@ -23,6 +23,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
   const jlptLevel = localStorage.getItem("JLPT");
   const step = Number(localStorage.getItem("step"));
   const correctAudio = useRef(null);
+  const [gameCompleted, setGameCompleted] = useState(false);
   const winWidth = window.innerWidth;
 
 
@@ -97,7 +98,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
 
   const nextQuestionInternal = (fullData, currentRemaining) => {
     if (currentRemaining.length === 0) {
-      endGame(questionCounter, correctCount);
+      setGameCompleted(true);
       return;
     }
 
@@ -119,7 +120,7 @@ export default function KanjiGame({ setView, BASE_PATH }) {
 
     setChoices(shuffle([...answers]));
     setCurrentKanji(kanji);
-    setRemainingKanji((prev) => prev.filter((_, i) => i !== randomIndex));
+    setRemainingKanji(currentRemaining.filter((_, i) => i !== randomIndex));
 
     setShowAnswer(false);
     setSelected(null);
@@ -142,14 +143,10 @@ export default function KanjiGame({ setView, BASE_PATH }) {
     if (isCorrect && correctAudio.current) {
       setTimeout(() => {
         if(currentKanji.kunyomi){
-          currentKanji.kunyomi.map((e) => {
-            speak(e);
-          })
+          currentKanji.kunyomi.forEach((e) => {speak(e);});
         }
         if(currentKanji.onyomi){
-          currentKanji.onyomi.map((e) => {
-            speak(e);
-          })
+          currentKanji.onyomi.forEach((e) => {speak(e);})
         }
       }, 500);
       correctAudio.current.pause();
@@ -163,10 +160,14 @@ export default function KanjiGame({ setView, BASE_PATH }) {
     setShowAnswer(true);
   };
 
-  const endGame = (finalQuestions, finalCorrect) => {
-    alert(`Game Over!\n\nScore: ${finalCorrect} / ${finalQuestions}`);
-    // You can improve this later with a proper results screen
-    setView("home");
+  const replayGame = () => {
+    setQuestionCounter(0);
+    setCorrectCount(0);
+    setShowAnswer(false);
+    setSelected(null);
+    setGameCompleted(false);
+
+    nextQuestionInternal(kanjiData, [...kanjiData]);
   };
 
   // Modal handlers
@@ -220,6 +221,69 @@ export default function KanjiGame({ setView, BASE_PATH }) {
 
   // What to show as the "question"
   const questionDisplay = currentKanji ? getField(currentKanji, questionType) : "";
+
+  if (!currentKanji && !gameCompleted) {
+    return <div>Loading...</div>;
+  }
+
+  if (gameCompleted) {
+    return (
+      <div className="flex-center flex-column">
+        <h1>Game Completed 🎉</h1>
+
+        <h2>
+          Score: {correctCount} / {totalQuestions}
+        </h2>
+
+        <h3>
+          Accuracy:{" "}
+          {totalQuestions > 0
+            ? ((correctCount / totalQuestions) * 100).toFixed(2)
+            : "0.00"}
+          %
+        </h3>
+
+        <div
+          style={{
+            display: "flex",
+            gap: "1rem",
+            marginTop: "2rem",
+            flexWrap: "wrap",
+            justifyContent: "center",
+          }}
+        >
+          <button
+            className="btn"
+            onClick={replayGame}
+          >
+            Replay
+          </button>
+
+          <button
+            className="btn"
+            onClick={() =>
+              setView({
+                screen: "kanji",
+              })
+            }
+          >
+            Level Select
+          </button>
+
+          <button
+            className="btn"
+            onClick={() =>
+              setView({
+                screen: "home",
+              })
+            }
+          >
+            Home
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex-center flex-column">
@@ -358,20 +422,4 @@ export default function KanjiGame({ setView, BASE_PATH }) {
       )}
     </div>
   );
-  
-  return (
-    <div className="flex-center flex-column">
-      <h1>All Kanji Learned 🎉</h1>
-
-      <button
-        className="back-btn"
-        onClick={() => {
-          resetSession();
-          setView({ screen: "home" });
-        }}
-      >
-        Back
-      </button>
-    </div>
-  )
 }

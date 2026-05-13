@@ -15,6 +15,7 @@ export default function VocabGame({ setView, BASE_PATH }) {
   const jlptLevel = localStorage.getItem("JLPT");
   const step = Number(localStorage.getItem("step"));
   const correctAudio = useRef(null);
+  const [gameCompleted, setGameCompleted] = useState(false);
 
   // LOAD DATA
    useEffect(() => {
@@ -61,7 +62,6 @@ export default function VocabGame({ setView, BASE_PATH }) {
     loadVocab();
   }, [jlptLevel, step, BASE_PATH]);
 
-
   // AUDIO
   useEffect(() => {
     const audioPath = `${BASE_PATH}Audio/correct.wav`;
@@ -103,6 +103,7 @@ export default function VocabGame({ setView, BASE_PATH }) {
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [handleKeyDown]);
+  
 
   // SHUFFLE HELPER
   const shuffle = (array) => [...array].sort(() => Math.random() - 0.5);
@@ -110,7 +111,7 @@ export default function VocabGame({ setView, BASE_PATH }) {
   // Internal next question logic (to avoid stale closures)
   const nextQuestionInternal = (fullData, currentRemaining) => {
     if (currentRemaining.length === 0) {
-      endGame(questionCounter, correctCount);
+      setGameCompleted(true);
       return;
     }
 
@@ -129,7 +130,7 @@ export default function VocabGame({ setView, BASE_PATH }) {
 
     setChoices(shuffle([...answers]));
     setCurrentVocab(vocab);
-    setRemainingVocab((prev) => prev.filter((_, i) => i !== randomIndex));
+    setRemainingVocab(currentRemaining.filter((_, i) => i !== randomIndex));
 
     setShowAnswer(false);
     setSelected(null);
@@ -177,25 +178,80 @@ export default function VocabGame({ setView, BASE_PATH }) {
   };
 
   // END GAME
-  const endGame = (finalQuestions, finalCorrect) => {
-    const score =
-      finalQuestions > 0
-        ? ((finalCorrect / finalQuestions) * 100).toFixed(2)
-        : "0.00";
+  const replayGame = () => {
+    setQuestionCounter(0);
+    setCorrectCount(0);
+    setShowAnswer(false);
+    setSelected(null);
+    setGameCompleted(false);
 
-    localStorage.setItem(
-      "mostRecentScore",
-      JSON.stringify({
-        score,
-        jlpt: jlptLevel,
-        step,
-      })
-    );
-
-    setView("end");
+    nextQuestionInternal(vocabData, [...vocabData]);
   };
 
   const correctAnswer = currentVocab?.english;
+
+  if (!currentVocab && !gameCompleted) {
+  return <div>Loading...</div>;
+}
+
+if (gameCompleted) {
+  return (
+    <div className="flex-center flex-column">
+      <h1>Game Completed 🎉</h1>
+
+      <h2>
+        Score: {correctCount} / {totalQuestions}
+      </h2>
+
+      <h3>
+        Accuracy:{" "}
+        {totalQuestions > 0
+          ? ((correctCount / totalQuestions) * 100).toFixed(2)
+          : "0.00"}
+        %
+      </h3>
+
+      <div
+        style={{
+          display: "flex",
+          gap: "1rem",
+          marginTop: "2rem",
+          flexWrap: "wrap",
+          justifyContent: "center",
+        }}
+      >
+        <button
+          className="btn"
+          onClick={replayGame}
+        >
+          Replay
+        </button>
+
+        <button
+          className="btn"
+          onClick={() =>
+            setView({
+              screen: "vocab",
+            })
+          }
+        >
+          Level Select
+        </button>
+
+        <button
+          className="btn"
+          onClick={() =>
+            setView({
+              screen: "home",
+            })
+          }
+        >
+          Home
+        </button>
+      </div>
+    </div>
+  );
+}
 
   return (
     <div className="flex-center flex-column">
@@ -275,19 +331,4 @@ export default function VocabGame({ setView, BASE_PATH }) {
       </div>
     </div>
   );
-  return (
-    <div className="flex-center flex-column">
-      <h1>All Vocabulary Learned 🎉</h1>
-
-      <button
-        className="back-btn"
-        onClick={() => {
-          resetSession();
-          setView({ screen: "home" });
-        }}
-      >
-        Back
-      </button>
-    </div>
-  )
 }
