@@ -39,22 +39,48 @@ export default function App() {
   
 
   const loadKanji = async (jlpt) => {
-    try {
-      const res = await fetch(`${BASE_PATH}Data/kanji_data_N${jlpt}.json`);
-      const data = await res.json();
-      const levels = Object.keys(data.levels);
-      setSteps(levels);
-    } catch (err) {
-      console.error(err);
-    }
-  };
+  try {
+    const res = await fetch(`${BASE_PATH}Data/kanji_data_N${jlpt}.json`);
+    const data = await res.json();
+
+    const formattedSteps = Object.entries(data.levels).map(
+      ([levelName, kanjiArray]) => ({
+        name: levelName,
+        type: "kanji",
+        content: kanjiArray
+          .map((k) => k.kanji)
+          .join(" "),
+      })
+    );
+
+    setSteps(formattedSteps);
+  } catch (err) {
+    console.error(err);
+  }
+};
 
   const loadVocab = async (jlpt) => {
     try {
       const res = await fetch(`${BASE_PATH}Data/Vocab_data_N${jlpt}.json`);
       const data = await res.json();
-      const levels = Object.keys(data.units);
-      setSteps(levels);
+
+      const formattedSteps = Object.entries(data.units).map(
+        ([unitName, vocabArray]) => ({
+          name: unitName,
+          type: "vocab",
+          content: vocabArray
+            .map((v) => {
+              const cleanJapanese = v.japanese
+                .replace(/<rt>.*?<\/rt>/g, "")   // remove furigana
+                .replace(/<\/?ruby>/g, "");     // remove ruby tags
+
+              return cleanJapanese;
+            })
+            .join("\n"),
+        })
+      );
+
+      setSteps(formattedSteps);
     } catch (err) {
       console.error(err);
     }
@@ -375,10 +401,10 @@ export default function App() {
             <h1>{title}</h1>
 
             <div className="sub-container">
-              {steps.map((_, i) => (
+              {steps.map((step, i) => (
                 <div
                   key={i}
-                  className={`btn ${!canStart ? "disabled" : ""}`}
+                  className={`btn step-btn ${!canStart ? "disabled" : ""}`}
                   onClick={() => canStart && handleStepClick(i + 1)}
                   style={{
                     pointerEvents: canStart ? "auto" : "none",
@@ -386,6 +412,11 @@ export default function App() {
                   }}
                 >
                   Step {i + 1}
+
+                  <div className={step.type === "kanji" ? "kanji-popup" : "vocab-popup"}>
+                    {step.content}
+                  </div>
+
                   <div className="completion-bar">
                     <div className="completion-bar-fill"></div>
                   </div>
