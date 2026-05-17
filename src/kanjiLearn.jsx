@@ -43,7 +43,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
     setIntroducedCount(0);
     setSeenCount({});
     setCurrentKanji(null);
-    setChoices([{ label: formatReading(kanji), value: kanji.kanji }]);
+    setChoices([]);
     setShowAnswer(false);
     setSelected(null);
   };
@@ -162,10 +162,7 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
 
   /* ---------------- INTRO ---------------- */
   const handleIntroduceNext = useCallback(() => {
-    if (isTransitioning || kanjiToLearn.length === 0) {
-      if (kanjiToLearn.length === 0) setMode(MODES.COMPLETE);
-      return;
-    }
+    if (isTransitioning) return;
 
     setIsTransitioning(true);
 
@@ -178,32 +175,37 @@ export default function KanjiLearn({ setView, BASE_PATH }) {
       const nextKanji = prevToLearn[0];
       const newToLearn = prevToLearn.slice(1);
 
-      setReviewPool((prevReview) => [...prevReview, nextKanji]);
+      setReviewPool((prevReview) => {
+        const updatedReview = [...prevReview, nextKanji];
 
-      setIntroducedCount((prevCount) => {
-        const newCount = prevCount + 1;
+        setIntroducedCount((prevCount) => {
+          const newCount = prevCount + 1;
 
-        if (newCount < BATCH_SIZE) {
-          setIsTransitioning(false);
-          return newCount;
-        } else {
-          // Start quiz
-          setReviewPool((latestReview) => {
-            const queue = shuffle([...latestReview]);
-            setCycleQueue(queue);
-            setMode(MODES.QUIZ);
-            nextQuestion(queue);
+          const shouldStartQuiz =
+            newCount >= BATCH_SIZE || newToLearn.length === 0;
+
+          if (!shouldStartQuiz) {
             setIsTransitioning(false);
-            return latestReview;
-          });
+            return newCount;
+          }
+
+          const queue = shuffle(updatedReview);
+
+          setCycleQueue(queue);
+          setMode(MODES.QUIZ);
+          nextQuestion(queue);
+
+          setIsTransitioning(false);
 
           return 0;
-        }
+        });
+
+        return updatedReview;
       });
 
       return newToLearn;
     });
-  }, [kanjiToLearn.length, BATCH_SIZE, isTransitioning, nextQuestion]);
+  }, [isTransitioning, nextQuestion]);
 
   /* ---------------- ANSWER ---------------- */
   const handleAnswer = useCallback((choice) => {

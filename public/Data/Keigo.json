@@ -1,0 +1,155 @@
+{
+  "verbs": [
+    {
+      "masu_form": "食べます",
+      "masu_reading": "<ruby>食<rt>た</rt></ruby>べます",
+      "plain_form": "食べる",
+      "plain_reading": "<ruby>食<rt>た</rt></ruby>べる",
+      "sonkeigo": "召し上がります",
+      "sonkeigo_reading": "<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がります",
+      "kenjougo": "いただきます",
+      "kenjougo_reading": "いただきます"
+    },
+    {
+      "masu_form": "飲みます",
+      "masu_reading": "<ruby>飲<rt>の</rt></ruby>みます",
+      "plain_form": "飲む",
+      "plain_reading": "<ruby>飲<rt>の</rt></ruby>む",
+      "sonkeigo": "召し上がります",
+      "sonkeigo_reading": "<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がります",
+      "kenjougo": "いただきます",
+      "kenjougo_reading": "いただきます"
+    },
+    {
+      "masu_form": "行きます",
+      "masu_reading": "<ruby>行<rt>い</rt></ruby>きます",
+      "plain_form": "行く",
+      "plain_reading": "<ruby>行<rt>い</rt></ruby>く",
+      "sonkeigo": "いらっしゃいます",
+      "sonkeigo_reading": "いらっしゃいます",
+      "kenjougo": "参ります",
+      "kenjougo_reading": "<ruby>参<rt>まい</rt></ruby>ります"
+    },
+    {
+      "masu_form": "来ます",
+      "masu_reading": "<ruby>来<rt>き</rt></ruby>ます",
+      "plain_form": "来る",
+      "plain_reading": "<ruby>来<rt>く</rt></ruby>る",
+      "sonkeigo": "いらっしゃいます",
+      "sonkeigo_reading": "いらっしゃいます",
+      "kenjougo": "参ります",
+      "kenjougo_reading": "<ruby>参<rt>まい</rt></ruby>ります"
+    },
+    {
+      "masu_form": "します",
+      "masu_reading": "します",
+      "plain_form": "する",
+      "plain_reading": "する",
+      "sonkeigo": "なさいます",
+      "sonkeigo_reading": "なさいます",
+      "kenjougo": "いたします",
+      "kenjougo_reading": "いたします"
+    },
+    {
+      "masu_form": "会います",
+      "masu_reading": "<ruby>会<rt>あ</rt></ruby>います",
+      "plain_form": "会う",
+      "plain_reading": "<ruby>会<rt>あ</rt></ruby>う",
+      "sonkeigo": "お会いになります",
+      "sonkeigo_reading": "お<ruby>会<rt>あ</rt></ruby>いになります",
+      "kenjougo": "お目にかかります",
+      "kenjougo_reading": "お<ruby>目<rt>め</rt></ruby>にかかります"
+    },
+    {
+      "masu_form": "聞きます",
+      "masu_reading": "<ruby>聞<rt>き</rt></ruby>きます",
+      "plain_form": "聞く",
+      "plain_reading": "<ruby>聞<rt>き</rt></ruby>く",
+      "sonkeigo": "お聞きになります",
+      "sonkeigo_reading": "お<ruby>聞<rt>き</rt></ruby>きになります",
+      "kenjougo": "伺います",
+      "kenjougo_reading": "<ruby>伺<rt>うかが</rt></ruby>います"
+    },
+    {
+      "masu_form": "見ます",
+      "masu_reading": "<ruby>見<rt>み</rt></ruby>ます",
+      "plain_form": "見る",
+      "plain_reading": "<ruby>見<rt>み</rt></ruby>る",
+      "sonkeigo": "ご覧になります",
+      "sonkeigo_reading": "ご<ruby>覧<rt>らん</rt></ruby>になります",
+      "kenjougo": "拝見します",
+      "kenjougo_reading": "<ruby>拝見<rt>はいけん</rt></ruby>します"
+    },
+    {
+      "masu_form": "言います",
+      "masu_reading": "<ruby>言<rt>い</rt></ruby>います",
+      "plain_form": "言う",
+      "plain_reading": "<ruby>言<rt>い</rt></ruby>う",
+      "sonkeigo": "おっしゃいます",
+      "sonkeigo_reading": "おっしゃいます",
+      "kenjougo": "申します",
+      "kenjougo_reading": "<ruby>申<rt>もう</rt></ruby>します"
+    },
+    {
+      "masu_form": "書きます",
+      "masu_reading": "<ruby>書<rt>か</rt></ruby>きます",
+      "plain_form": "書く",
+      "plain_reading": "<ruby>書<rt>か</rt></ruby>く",
+      "sonkeigo": "お書きになります",
+      "sonkeigo_reading": "お<ruby>書<rt>か</rt></ruby>きになります",
+      "kenjougo": "お書きします",
+      "kenjougo_reading": "お<ruby>書<rt>か</rt></ruby>きします"
+    },
+    {
+      "masu_form": "あげます",
+      "masu_reading": "あげます",
+      "plain_form": "あげる",
+      "plain_reading": "あげる",
+      "sonkeigo": "おあげになります",
+      "sonkeigo_reading": "おあげになります",
+      "kenjougo": "差し上げます",
+      "kenjougo_reading": "<ruby>差<rt>さ</rt></ruby>し<ruby>上<rt>あ</rt></ruby>げます"
+    },
+    {
+      "masu_form": "もらいます",
+      "masu_reading": "もらいます",
+      "plain_form": "もらう",
+      "plain_reading": "もらう",
+      "sonkeigo": "おもらいになります",
+      "sonkeigo_reading": "おもらいになります",
+      "kenjougo": "いただきます",
+      "kenjougo_reading": "いただきます"
+    },
+    {
+      "masu_form": "くれます",
+      "masu_reading": "くれます",
+      "plain_form": "くれる",
+      "plain_reading": "くれる",
+      "sonkeigo": "くださいます",
+      "sonkeigo_reading": "くださいます",
+      "kenjougo": "差し上げます",
+      "kenjougo_reading": "<ruby>差<rt>さ</rt></ruby>し<ruby>上<rt>あ</rt></ruby>げます"
+    },
+    {
+      "masu_form": "帰ります",
+      "masu_reading": "<ruby>帰<rt>かえ</rt></ruby>ります",
+      "plain_form": "帰る",
+      "plain_reading": "<ruby>帰<rt>かえ</rt></ruby>る",
+      "sonkeigo": "お帰りになります",
+      "sonkeigo_reading": "お<ruby>帰<rt>かえ</rt></ruby>りになります",
+      "kenjougo": "帰ります",
+      "kenjougo_reading": "<ruby>帰<rt>かえ</rt></ruby>ります"
+    },
+    {
+      "masu_form": "話します",
+      "masu_reading": "<ruby>話<rt>はな</rt></ruby>します",
+      "plain_form": "話す",
+      "plain_reading": "<ruby>話<rt>はな</rt></ruby>す",
+      "sonkeigo": "お話しになります",
+      "sonkeigo_reading": "お<ruby>話<rt>はな</rt></ruby>しになります",
+      "kenjougo": "申します",
+      "kenjougo_reading": "<ruby>申<rt>もう</rt></ruby>します"
+    }
+  ],
+  "note": "尊敬語（そんけいご）は相手や第三者を敬う表現です。\n謙譲語（けんじょうご）は自分をへりくだる表現です。\n形式はHTMLの<ruby>タグを使用していますので、ブラウザや対応ビューアーでルビ（ふりがな）が正しく表示されます。"
+}
