@@ -1,12 +1,21 @@
 import setView from "./App.jsx";
+import {useRef} from "react";
 
-export default function Header({ setView }) {
+export default function Header({ setView, loggedIn }) {
   return (
     <header id="hud">
         
-        <div className="btn" onClick={() => setView({ screen: "home"})}>
+        <div className="header-btn" onClick={() => setView({ screen: "home"})}>
               Home
         </div>
+        {/* <a className="header-btn" onClick={() => setView({ screen: "register"})}>
+              Register / Log in
+        </a> */}
+
+
+
+
+
         {/* <div className="hidden-container">            
             <div className="modal" id="example">
                 <div className="modal-header">

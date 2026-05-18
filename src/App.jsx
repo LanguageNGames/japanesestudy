@@ -17,6 +17,8 @@ import GrammarFillBlanks from "./grammarFillBlanks.jsx";
 import GrammarOrder from "./grammarOrder.jsx";
 import VocabLearn from "./vocabLearn.jsx"
 import NumberGame from "./numberGame.jsx";
+import Register from "./Register.jsx";
+
 
 
 export default function App() {
@@ -28,6 +30,7 @@ export default function App() {
   const [kanaPool, setKanaPool] = useState([]);
   const [conjugationPool, setConjugationPool] = useState([]);
   const [grammarConfig, setGrammarConfig] = useState({level: null, difficulty: null, grammar: null,});
+  const [loggedIn, setLoggedIn] = useState("false")
 
   // Kanji Game radio configuration
   const [questionType, setQuestionType] = useState("kanji");
@@ -105,7 +108,7 @@ export default function App() {
 
   return (
     <>
-      <Header setView={setView}/>
+      <Header setView={setView} loggedIn={loggedIn}/>
 
       <div className="main-container">
         {/* HOME */}
@@ -438,6 +441,8 @@ export default function App() {
             </button>
           </div>
         )}
+
+        {view.screen === "register" && <Register/>}
 
         {/* GAME */}
         {view.screen === "kanaGame" && (

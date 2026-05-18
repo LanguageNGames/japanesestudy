@@ -23,6 +23,8 @@ export default function KanjiGame({ setView, BASE_PATH }) {
   const jlptLevel = localStorage.getItem("JLPT");
   const step = Number(localStorage.getItem("step"));
   const correctAudio = useRef(null);
+  const speechQueueRef = useRef([]);
+  const speechTimeoutRef = useRef(null);
   const [gameCompleted, setGameCompleted] = useState(false);
   const winWidth = window.innerWidth;
 
@@ -75,10 +77,36 @@ export default function KanjiGame({ setView, BASE_PATH }) {
 
   function speak(text) {
     const clean = text.replace(/\|/g, "");
+
     const utter = new SpeechSynthesisUtterance(clean);
     utter.lang = "ja-JP";
+
+    speechQueueRef.current.push(utter);
+
+    utter.onend = () => {
+      speechQueueRef.current = speechQueueRef.current.filter(
+        (u) => u !== utter
+      );
+    };
+
     speechSynthesis.speak(utter);
   }
+
+  function stopSpeaking() {
+    speechSynthesis.cancel();
+    speechQueueRef.current = [];
+
+    if (speechTimeoutRef.current) {
+      clearTimeout(speechTimeoutRef.current);
+      speechTimeoutRef.current = null;
+    }
+  }
+
+  useEffect(() => {
+    return () => {
+      stopSpeaking();
+    };
+  }, []);
 
   const shuffle = (array) => [...array].sort(() => Math.random() - 0.5);
 
@@ -97,6 +125,8 @@ export default function KanjiGame({ setView, BASE_PATH }) {
   };
 
   const nextQuestionInternal = (fullData, currentRemaining) => {
+    stopSpeaking();
+
     if (currentRemaining.length === 0) {
       setGameCompleted(true);
       return;
@@ -141,14 +171,18 @@ export default function KanjiGame({ setView, BASE_PATH }) {
     const newQuestionCounter = questionCounter + 1;
 
     if (isCorrect && correctAudio.current) {
-      setTimeout(() => {
-        if(currentKanji.kunyomi){
-          currentKanji.kunyomi.forEach((e) => {speak(e);});
-        }
-        if(currentKanji.onyomi){
-          currentKanji.onyomi.forEach((e) => {speak(e);})
-        }
-      }, 500);
+      speechTimeoutRef.current = setTimeout(() => {
+      const readings = [
+        ...(currentKanji.kunyomi || []),
+        ...(currentKanji.onyomi || []),
+      ];
+
+      if (readings.length > 0) {
+        speak(readings.join("、"));
+      }
+
+      speechTimeoutRef.current = null;
+    }, 500);
       correctAudio.current.pause();
       correctAudio.current.currentTime = 0;
       correctAudio.current.play().catch(() => {});
