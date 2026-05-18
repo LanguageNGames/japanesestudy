@@ -17,7 +17,7 @@ import GrammarFillBlanks from "./grammarFillBlanks.jsx";
 import GrammarOrder from "./grammarOrder.jsx";
 import VocabLearn from "./vocabLearn.jsx"
 import NumberGame from "./numberGame.jsx";
-import Register from "./Register.jsx";
+/* import Register from "./Register.jsx"; */
 
 
 
@@ -442,8 +442,8 @@ export default function App() {
           </div>
         )}
 
-        {view.screen === "register" && <Register/>}
-
+        {/* {view.screen === "register" && <Register/>}
+ */}
         {/* GAME */}
         {view.screen === "kanaGame" && (
           <KanaGame
